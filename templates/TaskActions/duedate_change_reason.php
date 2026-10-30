@@ -7,7 +7,7 @@
 <div class="task_listing setting_wrapper">
     <div class="row">
         <div class="col-lg-8 text-left">
-            <h3 class="noborder">Reasons For Changing Due Date</h3>
+            <h3 class="noborder"><?php echo __('Reasons For Changing Due Date'); ?></h3>
         </div>
         <div class="col-lg-4 d-flex justify-end">
             <div class="search_new_cf">

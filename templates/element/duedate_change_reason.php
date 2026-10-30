@@ -5,8 +5,8 @@
                 <thead>
                     <tr>
                         <th class="th_1"></th>
-                        <th>Reason</th>
-                        <th>Action</th>
+                        <th><?php echo __('Reason'); ?></th>
+                        <th><?php echo __('Action'); ?></th>
                     </tr>
                 </thead>
                 <tbody>

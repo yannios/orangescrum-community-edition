@@ -1293,3 +1293,747 @@ msgstr "Izvezi zadatke u CSV"
 
 msgid "Please double-check(specifically text showing in red color) the below points before importing your Tasks"
 msgstr "Prije uvoza zadataka provjerite sljedeće točke (posebno tekst prikazan crvenom bojom)"
+
+msgid "12 default Task Types listed and the #of Tasks associated with them. You can remove any of them by unchecking the checkbox and save the changes"
+msgstr "Popisano je 12 zadanih vrsta zadataka i broj zadataka povezanih s njima. Bilo koju možete ukloniti tako da poništite kvačicu i spremite promjene"
+
+msgid "Click on the"
+msgstr "Kliknite na"
+
+msgid "and add your new Task Types"
+msgstr "i dodajte nove vrste zadataka"
+
+msgid "Company Level Task Type"
+msgstr "Vrsta zadatka na razini tvrtke"
+
+msgid "Custom Level Task Type"
+msgstr "Prilagođena vrsta zadatka"
+
+msgid "Default Task Type"
+msgstr "Zadana vrsta zadatka"
+
+msgid "Project Level Task Type"
+msgstr "Vrsta zadatka na razini projekta"
+
+msgid "Sorry, You can't uncheck the task type because it has been used as default task type in the list of project(s)"
+msgstr "Nažalost, ne možete poništiti ovu vrstu zadatka jer se koristi kao zadana vrsta u popisu projekata"
+
+msgid "Task Types are independent of Projects, but please create a Project to get started."
+msgstr "Vrste zadataka neovisne su o projektima, ali stvorite projekt da biste započeli."
+
+msgid "Task type can not be updated now. Please try again later."
+msgstr "Vrstu zadatka trenutačno nije moguće ažurirati. Pokušajte ponovno kasnije."
+
+msgid "Task type updated successfully."
+msgstr "Vrsta zadatka uspješno ažurirana."
+
+msgid "Check at least one label"
+msgstr "Odaberite barem jednu oznaku"
+
+msgid "Company Level Labels"
+msgstr "Oznake na razini tvrtke"
+
+msgid "Default Level Labels"
+msgstr "Zadane oznake"
+
+msgid "Label can not update now. Please try again later."
+msgstr "Oznaku trenutačno nije moguće ažurirati. Pokušajte ponovno kasnije."
+
+msgid "Labels are independent of Projects, but please create a Project to get started."
+msgstr "Oznake su neovisne o projektima, ali stvorite projekt da biste započeli."
+
+msgid "New Label"
+msgstr "Nova oznaka"
+
+msgid "No Label found. Create you first label."
+msgstr "Oznaka nije pronađena. Stvorite svoju prvu oznaku."
+
+msgid "Project Labels"
+msgstr "Oznake projekta"
+
+msgid "Sorry, You can't uncheck the Label because it has been used as Label in the list of task(s)"
+msgstr "Nažalost, ne možete poništiti ovu oznaku jer se koristi kao oznaka u popisu zadataka"
+
+msgid "4 default Project Status listed and the #of Projects associated with them."
+msgstr "Popisana su 4 zadana statusa projekta i broj projekata povezanih s njima."
+
+msgid "and add your new Project Status"
+msgstr "i dodajte novi status projekta"
+
+msgid "Company Project Status"
+msgstr "Status projekta na razini tvrtke"
+
+msgid "Custom Project Status"
+msgstr "Prilagođeni status projekta"
+
+msgid "Default Project Status"
+msgstr "Zadani status projekta"
+
+msgid "Linked with"
+msgstr "Povezano s"
+
+msgid "Project Statuses are independent of Projects, please create your first Project Status."
+msgstr "Statusi projekata neovisni su o projektima; stvorite svoj prvi status projekta."
+
+msgid "Project status can not update now. Please try again later."
+msgstr "Status projekta trenutačno nije moguće ažurirati. Pokušajte ponovno kasnije."
+
+msgid "Sorry, You can't uncheck the default project statuses"
+msgstr "Nažalost, ne možete poništiti zadane statuse projekta"
+
+msgid "project(s)"
+msgstr "projekt(a)"
+
+msgid "Custom Project Types"
+msgstr "Prilagođene vrste projekata"
+
+msgid "Project Types are independent of Projects, please create your first Project Type."
+msgstr "Vrste projekata neovisne su o projektima; stvorite svoju prvu vrstu projekta."
+
+msgid "Project type can not update now. Please try again later."
+msgstr "Vrstu projekta trenutačno nije moguće ažurirati. Pokušajte ponovno kasnije."
+
+msgid "Sorry, You can't uncheck the project type because it has been used in the list of project(s)"
+msgstr "Nažalost, ne možete poništiti ovu vrstu projekta jer se koristi u popisu projekata"
+
+msgid "Actions"
+msgstr "Radnje"
+
+msgid "Cc"
+msgstr "Cc"
+
+msgid "Choose Type"
+msgstr "Odaberite vrstu"
+
+msgid "Conditions"
+msgstr "Uvjeti"
+
+msgid "Is equal to"
+msgstr "Jednako je"
+
+msgid "Is not equal to"
+msgstr "Nije jednako"
+
+msgid "Select Action"
+msgstr "Odaberite radnju"
+
+msgid "Select Condition"
+msgstr "Odaberite uvjet"
+
+msgid "Select Value"
+msgstr "Odaberite vrijednost"
+
+msgid "Select cc email"
+msgstr "Odaberite Cc e-poštu"
+
+msgid "Select to email"
+msgstr "Odaberite e-poštu primatelja"
+
+msgid "Workflow Name"
+msgstr "Naziv tijeka rada"
+
+msgid "Workflow automation settings"
+msgstr "Postavke automatizacije tijeka rada"
+
+msgid "message"
+msgstr "poruka"
+
+msgid "# Status"
+msgstr "# Status"
+
+msgid "Are you sure you want to delete the Workflow?"
+msgstr "Sigurno želite izbrisati tijek rada?"
+
+msgid "Master Status Workflow"
+msgstr "Glavni statusni tijek rada"
+
+msgid "NA"
+msgstr "N/D"
+
+msgid "No workflow found."
+msgstr "Tijek rada nije pronađen."
+
+msgid "Please enter status workflow name"
+msgstr "Unesite naziv statusnog tijeka rada"
+
+msgid "Project Status Workflow"
+msgstr "Statusni tijek rada projekta"
+
+msgid "No workflow found!"
+msgstr "Tijek rada nije pronađen!"
+
+msgid "Workflow Automation"
+msgstr "Automatizacija tijeka rada"
+
+msgid "Are you sure you want to delete the Status?"
+msgstr "Sigurno želite izbrisati status?"
+
+msgid "Assign existing user(s)"
+msgstr "Dodijeli postojeće korisnike"
+
+msgid "Choose at least one user."
+msgstr "Odaberite barem jednog korisnika."
+
+msgid "Choose user(s) to assign to this project"
+msgstr "Odaberite korisnike za dodjelu ovom projektu"
+
+msgid "Current assigned user(s)"
+msgstr "Trenutačno dodijeljeni korisnici"
+
+msgid "Find User"
+msgstr "Pronađi korisnika"
+
+msgid "Invite new user(s)"
+msgstr "Pozovi nove korisnike"
+
+msgid "No more users left to assign."
+msgstr "Nema više korisnika za dodjelu."
+
+msgid "Add Customer"
+msgstr "Dodaj kupca"
+
+msgid "Address"
+msgstr "Adresa"
+
+msgid "Currency"
+msgstr "Valuta"
+
+msgid "Inactive"
+msgstr "Neaktivno"
+
+msgid "Manage Customers"
+msgstr "Upravljanje kupcima"
+
+msgid "No records"
+msgstr "Nema zapisa"
+
+msgid "Organization"
+msgstr "Organizacija"
+
+msgid "Add All"
+msgstr "Dodaj sve"
+
+msgid "Available Menu Items"
+msgstr "Dostavne stavke izbornika"
+
+msgid "Collapse All"
+msgstr "Sažmi sve"
+
+msgid "Customize Left Menu"
+msgstr "Prilagodi lijevi izbornik"
+
+msgid "Expand All"
+msgstr "Proširi sve"
+
+msgid "Menu Settings"
+msgstr "Postavke izbornika"
+
+msgid "Remove All"
+msgstr "Ukloni sve"
+
+msgid "Board"
+msgstr "Ploča"
+
+msgid "User(s) in this Project"
+msgstr "Korisnici u ovom projektu"
+
+msgid "Project(s) of this User"
+msgstr "Projekti ovog korisnika"
+
+msgid "No roles found"
+msgstr "Uloge nisu pronađene"
+
+msgid "Progress (%)"
+msgstr "Napredak (%)"
+
+msgid "Status Name"
+msgstr "Naziv statusa"
+
+msgid "No Clients"
+msgstr "Nema kupaca"
+
+msgid "Sorry, No Clients"
+msgstr "Nažalost, nema kupaca"
+
+msgid "No Project Managers"
+msgstr "Nema voditelja projekata"
+
+msgid "Sorry, No Project Managers"
+msgstr "Nažalost, nema voditelja projekata"
+
+msgid "No Project Status"
+msgstr "Nema statusa projekta"
+
+msgid "Sorry, No Project Status"
+msgstr "Nažalost, nema statusa projekta"
+
+msgid "No Project Type"
+msgstr "Nema vrste projekta"
+
+msgid "Sorry, No Project Type"
+msgstr "Nažalost, nema vrste projekta"
+
+msgid "Email Notification"
+msgstr "Obavijest e-poštom"
+
+msgid "No match found"
+msgstr "Nema rezultata"
+
+msgid "Reasons"
+msgstr "Razlozi"
+
+msgid "Add me here"
+msgstr "Dodaj me ovdje"
+
+msgid "Create New Project"
+msgstr "Stvori novi projekt"
+
+msgid "Hours"
+msgstr "Sati"
+
+msgid "N/A"
+msgstr "N/D"
+
+msgid "No activity"
+msgstr "Nema aktivnosti"
+
+msgid "On Hold"
+msgstr "Na čekanju"
+
+msgid "Oops! You are not a member of the project. Please add yourself as a member of this project."
+msgstr "Ups! Niste član ovog projekta. Dodajte sebe kao člana ovog projekta."
+
+msgid "Oops! You are not authorized to do this operation. Please contact your Admin/Owner"
+msgstr "Ups! Nemate ovlasti za ovu radnju. Obratite se administratoru ili vlasniku."
+
+msgid "Program"
+msgstr "Program"
+
+msgid "Remove me from here"
+msgstr "Ukloni me odavde"
+
+msgid "Stack"
+msgstr "Skup"
+
+msgid "Storage"
+msgstr "Pohrana"
+
+msgid "User(s)"
+msgstr "Korisnik(e)"
+
+msgid "Code"
+msgstr "Kod"
+
+msgid "Members"
+msgstr "Članovi"
+
+msgid "No Projects Found"
+msgstr "Projekti nisu pronađeni"
+
+msgid "Budget"
+msgstr "Proračun"
+
+msgid "Choose Priority"
+msgstr "Odaberite prioritet"
+
+msgid "Client's name"
+msgstr "Naziv kupca"
+
+msgid "Cost Appr"
+msgstr "Procjena troška"
+
+msgid "Day"
+msgstr "Dan"
+
+msgid "Default Assign To"
+msgstr "Zadano dodijeljeno"
+
+msgid "Default Rate"
+msgstr "Zadana cijena"
+
+msgid "Describe your project"
+msgstr "Opišite svoj projekt"
+
+msgid "Max Tolerance%"
+msgstr "Maks. tolerancija %"
+
+msgid "Min Tolerance%"
+msgstr "Min. tolerancija %"
+
+msgid "Other"
+msgstr "Ostalo"
+
+msgid "Select Task Type"
+msgstr "Odaberite vrstu zadatka"
+
+msgid "Select workflow"
+msgstr "Odaberite tijek rada"
+
+msgid "Select workflow for bug"
+msgstr "Odaberite tijek rada za greške"
+
+msgid "Short name for your project"
+msgstr "Kratki naziv projekta"
+
+msgid "Specify client's email id"
+msgstr "Unesite e-poštu kupca"
+
+msgid "Specify your project name"
+msgstr "Unesite naziv projekta"
+
+msgid "hh"
+msgstr "hh"
+
+msgid "Estimation Statistic"
+msgstr "Statistika procjena"
+
+msgid "Original Time Estimate"
+msgstr "Izvorna procjena vremena"
+
+msgid "Story Points"
+msgstr "Bodovi priče"
+
+msgid "Task Count"
+msgstr "Broj zadataka"
+
+msgid "Task can be estimated when in the Backlog to get an idea of how much work is being committed to in a sprint."
+msgstr "Zadatak se može procijeniti u zaostatku kako bi se dobila slika o količini posla preuzetog u sprintu."
+
+msgid "Assign these tasks to others or left them unassigned"
+msgstr "Dodijelite ove zadatke drugima ili ih ostavite nedodijeljene"
+
+msgid "Leave unassigned"
+msgstr "Ostavi nedodijeljeno"
+
+msgid "has open tasks."
+msgstr "ima otvorene zadatke."
+
+msgid "0 - Not Billable"
+msgstr "0 – nije naplativo"
+
+msgid "1 - Billable"
+msgstr "1 – naplativo"
+
+msgid "All the Tasks will be posted to the selected Project"
+msgstr "Svi će zadaci biti dodani u odabrani projekt"
+
+msgid "Blank Title"
+msgstr "Prazan naslov"
+
+msgid "Choose a project to Import Task"
+msgstr "Odaberite projekt za uvoz zadataka"
+
+msgid "Continue"
+msgstr "Nastavi"
+
+msgid "Could not check the file. Please try again."
+msgstr "Datoteku nije bilo moguće provjeriti. Pokušajte ponovno."
+
+msgid "Current status of the Task (NEW, IN PROGRESS, RESOLVED, CLOSED) or the custom task status name"
+msgstr "Trenutačni status zadatka (NEW, IN PROGRESS, RESOLVED, CLOSED) ili naziv prilagođenog statusa"
+
+msgid "Description of the task"
+msgstr "Opis zadatka"
+
+msgid "Download the sample file"
+msgstr "Preuzmite primjer datoteke"
+
+msgid "Due date of Task (mm-dd-yyyy)"
+msgstr "Rok zadatka (mm-dd-yyyy)"
+
+msgid "Edit each task and update the task type"
+msgstr "Uredite svaki zadatak i ažurirajte vrstu zadatka"
+
+msgid "Email ID of Task Assigned To"
+msgstr "E-pošta korisnika kojem je zadatak dodijeljen"
+
+msgid "Email ID of The Who Created The Task"
+msgstr "E-pošta korisnika koji je stvorio zadatak"
+
+msgid "Estimated Hour"
+msgstr "Procijenjeni sati"
+
+msgid "Export task group to CSV"
+msgstr "Izvezi grupu zadataka u CSV"
+
+msgid "Find a Project"
+msgstr "Pronađi projekt"
+
+msgid "Go to the"
+msgstr "Idite na"
+
+msgid "If"
+msgstr "Ako"
+
+msgid "If you want to change the task type(s) then please follow the below steps"
+msgstr "Ako želite promijeniti vrste zadataka, slijedite korake u nastavku"
+
+msgid "Invalid start time or end time or break time or spent hour"
+msgstr "Neispravno početno vrijeme, završno vrijeme, vrijeme pauze ili potrošeni sati"
+
+msgid "Is Billable is treated as whether the Time Log is billable one or not. The input will be either 0 or 1"
+msgstr "Naplativo označava je li zapis vremena naplativ. Unos je 0 ili 1"
+
+msgid "Left blank the columns having no entry"
+msgstr "Ostavite praznima stupce bez unosa"
+
+msgid "NOTE"
+msgstr "NAPOMENA"
+
+msgid "Please select atleast one checkbox to export the task group tasks to csv"
+msgstr "Odaberite barem jednu kvačicu za izvoz zadataka grupe u CSV"
+
+msgid "Please upload a valid csv file"
+msgstr "Učitajte ispravnu CSV datoteku"
+
+msgid "Priority (high, medium, low)"
+msgstr "Prioritet (visok, srednji, nizak)"
+
+msgid "Project Name is mandatory when all project is selected"
+msgstr "Naziv projekta je obavezan kad je odabrano sve projekte"
+
+msgid "Project(s) can't Imported"
+msgstr "Projekt(e) nije moguće uvesti"
+
+msgid "Sl"
+msgstr "Br."
+
+msgid "Start Time & End Time"
+msgstr "Početno i završno vrijeme"
+
+msgid "Start Time, End Time and Break Time will be treated as time log for the individual task"
+msgstr "Početno vrijeme, završno vrijeme i vrijeme pauze tretiraju se kao zapis vremena pojedinog zadatka"
+
+msgid "Start date of Task (mm-dd-yyyy)"
+msgstr "Početni datum zadatka (mm-dd-yyyy)"
+
+msgid "Successfully imported"
+msgstr "Uspješno uvezeno"
+
+msgid "Task type (Bug, Development, Enhancement, RnD, QA, Unit Testing, Maintenance, Release, Updates, Idea, Others)"
+msgstr "Vrsta zadatka (Bug, Development, Enhancement, RnD, QA, Unit Testing, Maintenance, Release, Updates, Idea, Others)"
+
+msgid "There is no project name column in the CSV"
+msgstr "U CSV datoteci nema stupca s nazivom projekta"
+
+msgid "Total data"
+msgstr "Ukupno podataka"
+
+msgid "Unknown Assigned To Email ID (User must be associated with the project)"
+msgstr "Nepoznata e-pošta korisnika kojem se zadatak dodjeljuje (korisnik mora biti povezan s projektom)"
+
+msgid "Unknown Create By Email ID (User must be associated with the project)"
+msgstr "Nepoznata e-pošta stvaratelja (korisnik mora biti povezan s projektom)"
+
+msgid "Upload the valid CSV file with your Tasks"
+msgstr "Učitajte ispravnu CSV datoteku sa svojim zadacima"
+
+msgid "We can upload more one project if we select All project from project dropdown"
+msgstr "Možete uvesti više projekata ako u padajućem izborniku odaberete opciju Svi projekti"
+
+msgid "We found some non existence task type(s)/blank  spaces"
+msgstr "Pronašli smo nepostojeće vrste zadataka ili prazna mjesta"
+
+msgid "We have found"
+msgstr "Pronašli smo"
+
+msgid "We have replaced those task type(s) with"
+msgstr "Te smo vrste zadataka zamijenili s"
+
+msgid "You have chosen"
+msgstr "Odabrali ste"
+
+msgid "and check with our sample file"
+msgstr "i usporedite s našom primjer datotekom"
+
+msgid "are showing in red color then project does not exits in your application, it will be created as new project"
+msgstr "prikazani crvenom bojom, projekt ne postoji u vašoj aplikaciji i bit će stvoren kao novi projekt"
+
+msgid "hh:mm format only"
+msgstr "samo format hh:mm"
+
+msgid "hh:mmam/pm format only, Ex. 10:45am/10:45pm - no space between time and meridian"
+msgstr "samo format hh:mmam/pm, npr. 10:45am/10:45pm – bez razmaka između vremena i oznake"
+
+msgid "max characters limit is 240"
+msgstr "maksimalna duljina je 240 znakova"
+
+msgid "must be a valid email address of an existing/invited user in Orangescrum"
+msgstr "mora biti ispravna e-pošta postojećeg ili pozvanog korisnika u Orangescrumu"
+
+msgid "or"
+msgstr "ili"
+
+msgid "project to import task, but you are trying to import task(s) for project(s) other than selected project. Please choose (all) option from the project drop down menu to import multiple project(s) task(s) at a time"
+msgstr "projekt za uvoz zadataka, ali pokušavate uvesti zadatke za druge projekte. Odaberite opciju (svi) u padajućem izborniku projekata za istodobni uvoz zadataka više projekata"
+
+msgid "section and add"
+msgstr "odjeljak i dodajte"
+
+msgid "should be"
+msgstr "treba biti"
+
+msgid "tasks having character length more than 240."
+msgstr "zadataka s duljinom većom od 240 znakova."
+
+msgid "All the Logs will be posted to the selected Project"
+msgstr "Svi će zapisi biti dodani u odabrani projekt"
+
+msgid "Blank Project Name"
+msgstr "Prazan naziv projekta"
+
+msgid "Can not create new tasks and import time log here. For this go to import task  section"
+msgstr "Ovdje nije moguće stvarati nove zadatke i uvoziti evidenciju vremena. Za to idite u odjeljak za uvoz zadataka"
+
+msgid "Can only import time logs for existing tasks"
+msgstr "Moguće je uvoziti zapise vremena samo za postojeće zadatke"
+
+msgid "Can provide either Hours or set of (Start Time, End Time & Break Time)"
+msgstr "Možete unijeti sate ili skup (početno vrijeme, završno vrijeme i vrijeme pauze)"
+
+msgid "Data showing in"
+msgstr "Podaci prikazani u"
+
+msgid "Date of Time Log (mm/dd/yyyy)"
+msgstr "Datum zapisa vremena (mm/dd/yyyy)"
+
+msgid "Either Hours or set of (Start Time, End Time & Break Time) is compulsory"
+msgstr "Sati ili skup (početno vrijeme, završno vrijeme i vrijeme pauze) je obavezan"
+
+msgid "End Time"
+msgstr "Završno vrijeme"
+
+msgid "Ex. Project name in"
+msgstr "Npr. naziv projekta u"
+
+msgid "Hours will be treated as the total hours spent on the task."
+msgstr "Sati se tretiraju kao ukupni sati utrošeni na zadatak."
+
+msgid "Invalid Date"
+msgstr "Neispravan datum"
+
+msgid "Invalid data is not going to be imported. Please validate your data and upload again"
+msgstr "Neispravni podaci neće biti uvezeni. Provjerite podatke i učitajte ponovno"
+
+msgid "No am/pm is required here"
+msgstr "Ovdje nije potrebna oznaka am/pm"
+
+msgid "Non mandatory fields left blank having no entry"
+msgstr "Neobavezna polja bez unosa ostavite praznima"
+
+msgid "Please double-check the below points before importing your Time Logs"
+msgstr "Prije uvoza zapisa vremena pažljivo provjerite sljedeće točke"
+
+msgid "Please strictly follow the below guideline while importing time log"
+msgstr "Prilikom uvoza zapisa vremena strogo se pridržavajte smjernica u nastavku"
+
+msgid "Please upload a valid csv file<br/>"
+msgstr "Učitajte ispravnu CSV datoteku<br/>"
+
+msgid "Please validate your data twice before importing to Orangescrum"
+msgstr "Provjerite podatke dvaput prije uvoza u Orangescrum"
+
+msgid "Start Time"
+msgstr "Početno vrijeme"
+
+msgid "Start Time/End Time"
+msgstr "Početno/završno vrijeme"
+
+msgid "Task Number"
+msgstr "Broj zadatka"
+
+msgid "Time Log(s) Imported"
+msgstr "Zapisi vremena uvezeni"
+
+msgid "Time Logs to Import"
+msgstr "Zapisi vremena za uvoz"
+
+msgid "Upload the valid CSV file with your Time Log"
+msgstr "Učitajte ispravnu CSV datoteku sa svojim zapisima vremena"
+
+msgid "color is invalid data"
+msgstr "boja označava neispravne podatke"
+
+msgid "format only"
+msgstr "samo format"
+
+msgid "means, invalid project"
+msgstr "znači neispravan projekt"
+
+msgid "red"
+msgstr "crveno"
+
+msgid "API Token"
+msgstr "API token"
+
+msgid "Email address associated with your JIRA account"
+msgstr "E-pošta povezana s vašim JIRA računom"
+
+msgid "Ensure you have the necessary permissions in JIRA to access the projects and issues you want to import"
+msgstr "Provjerite imate li u JIRA-i potrebne ovlasti za pristup projektima i stavkama koje želite uvesti"
+
+msgid "Enter your JIRA API token, login email, password, and account URL"
+msgstr "Unesite svoj JIRA API token, e-poštu za prijavu, lozinku i URL računa"
+
+msgid "JIRA Account URL"
+msgstr "URL JIRA računa"
+
+msgid "JIRA Import Details"
+msgstr "Detalji uvoza iz JIRA-e"
+
+msgid "JIRA Login Email"
+msgstr "E-pošta za prijavu u JIRA-u"
+
+msgid "JIRA Login Email Address"
+msgstr "E-pošta za prijavu u JIRA-u"
+
+msgid "Make sure to keep your JIRA credentials secure and do not share them with others"
+msgstr "Čuvajte svoje JIRA podatke za prijavu i ne dijelite ih s drugima"
+
+msgid "Please"
+msgstr "Molimo"
+
+msgid "Project Limit Exceeded"
+msgstr "Prekoračeno ograničenje projekata"
+
+msgid "Review the data before confirming the import"
+msgstr "Pregledajte podatke prije potvrde uvoza"
+
+msgid "The imported JIRA issues will be converted to tasks in the selected project"
+msgstr "Uvezene JIRA stavke bit će pretvorene u zadatke u odabranom projektu"
+
+msgid "The system will connect to your JIRA account and retrieve available projects and issues"
+msgstr "Sustav će se povezati s vašim JIRA računom i dohvatiti dostupne projekte i stavke"
+
+msgid "URL of your JIRA instance (e.g., https://your-domain.atlassian.net)"
+msgstr "URL vaše JIRA instance (npr. https://your-domain.atlassian.net)"
+
+msgid "Upgrade"
+msgstr "Nadogradi"
+
+msgid "You will be able to select which JIRA projects and issues to import"
+msgstr "Moći ćete odabrati koje JIRA projekte i stavke želite uvesti"
+
+msgid "Your JIRA API token"
+msgstr "Vaš JIRA API token"
+
+msgid "Your JIRA account password"
+msgstr "Lozinka vašeg JIRA računa"
+
+msgid "Your JIRA password"
+msgstr "Vaša JIRA lozinka"
+
+msgid "e.g. NzM2MjM4MDotYWRtaW4tMTIzNDU2Nzg5"
+msgstr "npr. NzM2MjM4MDotYWRtaW4tMTIzNDU2Nzg5"
+
+msgid "e.g. https://your-domain.atlassian.net"
+msgstr "npr. https://your-domain.atlassian.net"
+
+msgid "e.g. user@example.com"
+msgstr "npr. korisnik@primjer.com"
+
+msgid "Reasons For Changing Due Date"
+msgstr "Razlozi za promjenu roka"
+
+msgid "Reason"
+msgstr "Razlog"
