@@ -792,3 +792,504 @@ msgstr "Dodaj korisnike"
 
 msgid "No user(s) available."
 msgstr "Nema dostupnih korisnika."
+
+msgid "Edit Due Date"
+msgstr "Uredi rok"
+
+msgid "Updated Date"
+msgstr "Datum ažuriranja"
+
+msgid "Activities"
+msgstr "Aktivnosti"
+
+msgid "List View"
+msgstr "Popis"
+
+msgid "Last Month"
+msgstr "Prošli mjesec"
+
+msgid "Last 365 days"
+msgstr "Zadnjih 365 dana"
+
+msgid "List"
+msgstr "Popis"
+
+msgid "Apply Filters"
+msgstr "Primijeni filtre"
+
+msgid "Overview"
+msgstr "Pregled"
+
+msgid "Estimated Hours"
+msgstr "Procijenjeni sati"
+
+msgid "Break Time"
+msgstr "Vrijeme pauze"
+
+msgid "Project name"
+msgstr "Naziv projekta"
+
+msgid "Created by"
+msgstr "Stvorio"
+
+msgid "Added time log"
+msgstr "Dodan zapis vremena"
+
+msgid "Updated time log"
+msgstr "Ažuriran zapis vremena"
+
+msgid "Increase from Last Month"
+msgstr "Povećanje u odnosu na prošli mjesec"
+
+msgid "On Track"
+msgstr "Po planu"
+
+msgid "Select User"
+msgstr "Odaberi korisnika"
+
+msgid "Assign to"
+msgstr "Dodijeli"
+
+msgid "Time"
+msgstr "Vrijeme"
+
+msgid "Non-Billable"
+msgstr "Nenaplativo"
+
+msgid "Overdue Task"
+msgstr "Zadatak s prekoračenim rokom"
+
+msgid "All Activities"
+msgstr "Sve aktivnosti"
+
+msgid "View All"
+msgstr "Prikaži sve"
+
+msgid "Checklist"
+msgstr "Popis provjere"
+
+msgid "Show more"
+msgstr "Prikaži više"
+
+msgid "File Name"
+msgstr "Naziv datoteke"
+
+msgid "Copy Checklist"
+msgstr "Kopiraj popis provjere"
+
+msgid "Remove from Task Group"
+msgstr "Ukloni iz grupe zadataka"
+
+msgid "Show/Hide"
+msgstr "Prikaži/sakrij"
+
+msgid "Original Due Date"
+msgstr "Izvorni rok"
+
+msgid "Move to project"
+msgstr "Premjesti u projekt"
+
+msgid "Copy to Project"
+msgstr "Kopiraj u projekt"
+
+msgid "Manual Time Entry"
+msgstr "Ručni unos vremena"
+
+msgid "Help"
+msgstr "Pomoć"
+
+msgid "Last Updated"
+msgstr "Zadnje ažuriranje"
+
+msgid "Complete"
+msgstr "Dovrši"
+
+msgid "Create New Status"
+msgstr "Stvori novi status"
+
+msgid "Resource"
+msgstr "Resurs"
+
+msgid "Guest"
+msgstr "Gost"
+
+msgid "Loading projects"
+msgstr "Učitavanje projekata"
+
+msgid "Is Billable"
+msgstr "Je li naplativo"
+
+msgid "Loading..."
+msgstr "Učitavanje..."
+
+msgid "Industry"
+msgstr "Djelatnost"
+
+msgid "Show password"
+msgstr "Prikaži lozinku"
+
+msgid "New Task Type"
+msgstr "Nova vrsta zadatka"
+
+msgid "Logged Hours"
+msgstr "Odrađeni sati"
+
+msgid "Monday"
+msgstr "Ponedjeljak"
+
+msgid "Tuesday"
+msgstr "Utorak"
+
+msgid "Wednesday"
+msgstr "Srijeda"
+
+msgid "Thursday"
+msgstr "Četvrtak"
+
+msgid "Friday"
+msgstr "Petak"
+
+msgid "Saturday"
+msgstr "Subota"
+
+msgid "Sunday"
+msgstr "Nedjelja"
+
+msgid "Overdue task"
+msgstr "Zadatak s prekoračenim rokom"
+
+msgid "Work in Progress"
+msgstr "Rad u tijeku"
+
+msgid "Failed to assign user to the project."
+msgstr "Dodjeljivanje korisnika projektu nije uspjelo."
+
+msgid "Default Status Workflow"
+msgstr "Zadani statusni tijek rada"
+
+msgid "Unable to connect to the database server."
+msgstr "Nije moguće povezati se na poslužitelj baze podataka."
+
+msgid "today"
+msgstr "danas"
+
+msgid "Last entry"
+msgstr "Zadnji unos"
+
+msgid "Project short name"
+msgstr "Kratki naziv projekta"
+
+msgid "Error creating project"
+msgstr "Greška pri stvaranju projekta"
+
+msgid "Saved views are not available on this page."
+msgstr "Spremljeni prikazi nisu dostupni na ovoj stranici."
+
+msgid "User not found"
+msgstr "Korisnik nije pronađen"
+
+msgid "User not found."
+msgstr "Korisnik nije pronađen."
+
+msgid "Re-assigned"
+msgstr "Ponovno dodijeljeno"
+
+msgid "Status Type"
+msgstr "Vrsta statusa"
+
+msgid "Color"
+msgstr "Boja"
+
+msgid "Please enter status name"
+msgstr "Unesite naziv statusa"
+
+msgid "Total Task"
+msgstr "Ukupno zadataka"
+
+msgid "Delayed"
+msgstr "Odgodeno"
+
+msgid "At Risk"
+msgstr "U riziku"
+
+msgid "Already in this Project"
+msgstr "Već u ovom projektu"
+
+msgid "Select Task"
+msgstr "Odaberi zadatak"
+
+msgid "Custom range"
+msgstr "Prilagođeni raspon"
+
+msgid "day(s)"
+msgstr "dan(a)"
+
+msgid "Overall Progress"
+msgstr "Ukupni napredak"
+
+msgid "View more"
+msgstr "Prikaži više"
+
+msgid "Sprint"
+msgstr "Sprint"
+
+msgid "Project Start Date"
+msgstr "Početni datum projekta"
+
+msgid "Task type"
+msgstr "Vrsta zadatka"
+
+msgid "No summary available."
+msgstr "Sažetak nije dostupan."
+
+msgid "Search Results for"
+msgstr "Rezultati pretrage za"
+
+msgid "Move to Task Group/Sprint"
+msgstr "Premjesti u grupu zadataka/sprint"
+
+msgid "Below tasks are parent task of this Subtask"
+msgstr "Sljedeći zadaci su nadređeni ovom podzadatku"
+
+msgid "Show/Hide Columns"
+msgstr "Prikaži/sakrij stupce"
+
+msgid "Show/Hide All"
+msgstr "Prikaži/sakrij sve"
+
+msgid "Overdue Tasks"
+msgstr "Zadaci s prekoračenim rokom"
+
+msgid "Assign task(s) to user"
+msgstr "Dodijeli zadatke korisniku"
+
+msgid "Reminders"
+msgstr "Podsjetnici"
+
+msgid "Subtasks"
+msgstr "Podzadaci"
+
+msgid "Story"
+msgstr "Priča"
+
+msgid "No Tasks found"
+msgstr "Zadataka nije pronađeno"
+
+msgid "Break"
+msgstr "Pauza"
+
+msgid "Done? Click here to skip"
+msgstr "Završili ste? Kliknite ovdje za preskakanje"
+
+msgid "Getting Started"
+msgstr "Prvi koraci"
+
+msgid "Attachments"
+msgstr "Privitci"
+
+msgid "Kanban"
+msgstr "Kanban"
+
+msgid "Assign Task"
+msgstr "Dodijeli zadatak"
+
+msgid "Edit Task Group"
+msgstr "Uredi grupu zadataka"
+
+msgid "tasks are closed"
+msgstr "zadataka je zatvoreno"
+
+msgid "Create New Task"
+msgstr "Stvori novi zadatak"
+
+msgid "Enter Task Title"
+msgstr "Unesite naslov zadatka"
+
+msgid "My Works"
+msgstr "Moji radovi"
+
+msgid "No tasks found"
+msgstr "Zadataka nije pronađeno"
+
+msgid "Add New User"
+msgstr "Dodaj novog korisnika"
+
+msgid "Okay"
+msgstr "U redu"
+
+msgid "Subtask View"
+msgstr "Prikaz podzadataka"
+
+msgid "Are you sure you want to enable"
+msgstr "Sigurno želite omogućiti"
+
+msgid "Enable"
+msgstr "Omogući"
+
+msgid "Revoke Moderator"
+msgstr "Oduzmi moderatorska prava"
+
+msgid "Are you sure you want to disable"
+msgstr "Sigurno želite onemogućiti"
+
+msgid "Disable"
+msgstr "Onemogući"
+
+msgid "Are you sure you want to mark"
+msgstr "Sigurno želite označiti"
+
+msgid "Mark Client"
+msgstr "Označi kao klijenta"
+
+msgid "Revoke Client"
+msgstr "Oduzmi pristup klijenta"
+
+msgid "Revoke Admin"
+msgstr "Oduzmi administratorska prava"
+
+msgid "Grant Admin"
+msgstr "Dodijeli administratorska prava"
+
+msgid "Reset Password"
+msgstr "Resetiraj lozinku"
+
+msgid "Disabled"
+msgstr "Onemogućeno"
+
+msgid "Invalid CSV file"
+msgstr "Neispravna CSV datoteka"
+
+msgid "Please import a valid CSV file"
+msgstr "Uvezite ispravnu CSV datoteku"
+
+msgid "Below columns will be exported"
+msgstr "Sljedeći će se stupci izvoziti"
+
+msgid "Export as CSV"
+msgstr "Izvezi kao CSV"
+
+msgid "Upload File"
+msgstr "Učitaj datoteku"
+
+msgid "Preview Data"
+msgstr "Pregled podataka"
+
+msgid "Confirm & Import"
+msgstr "Potvrdi i uvezi"
+
+msgid "Input CSV file"
+msgstr "Ulazna CSV datoteka"
+
+msgid "Valid data"
+msgstr "Ispravni podaci"
+
+msgid "Invalid input. Please try again."
+msgstr "Neispravan unos. Pokušajte ponovno."
+
+msgid "Invalid request."
+msgstr "Neispravan zahtjev."
+
+msgid "click upload"
+msgstr "kliknite za učitavanje"
+
+msgid "Export Tasks to CSV"
+msgstr "Izvezi zadatke u CSV"
+
+msgid "Invalid time format"
+msgstr "Neispravan format vremena"
+
+msgid "Browse"
+msgstr "Pregledaj"
+
+msgid "Upload your CSV file"
+msgstr "Učitajte svoju CSV datoteku"
+
+msgid "rows maximum size"
+msgstr "redaka maksimalna veličina"
+
+msgid "CSV File"
+msgstr "CSV datoteka"
+
+msgid "to see what you can import"
+msgstr "da vidite što možete uvesti"
+
+msgid "First system will prompt a preview of all the data in the file"
+msgstr "Sustav će prvo prikazati pregled svih podataka iz datoteke"
+
+msgid "In preview you can validate your data"
+msgstr "U pregledu možete provjeriti svoje podatke"
+
+msgid "Confirm the data in the preview and Import them to the system"
+msgstr "Potvrdite podatke u pregledu i uvezite ih u sustav"
+
+msgid "Tasks to Import"
+msgstr "Zadaci za uvoz"
+
+msgid "Invalid Due Date"
+msgstr "Neispravan rok"
+
+msgid "Invalid or Misspelled Status"
+msgstr "Neispravan ili pogrešno upisan status"
+
+msgid "Invalid or Misspelled Type"
+msgstr "Neispravna ili pogrešno upisana vrsta"
+
+msgid "Invalid Estimated Hour"
+msgstr "Neispravni procijenjeni sati"
+
+msgid "Limit the task title to 240 at max, otherwise it will be truncated after upload."
+msgstr "Ograničite naslov zadatka na najviše 240 znakova, inače će se nakon učitavanja skratiti."
+
+msgid "Task(s) Imported into project"
+msgstr "Zadataci uvezeni u projekt"
+
+msgid "Pick a valid date."
+msgstr "Odaberite ispravan datum."
+
+msgid "Sorry! invalid input. Please try again."
+msgstr "Isprike! Neispravan unos. Pokušajte ponovno."
+
+msgid "A file with this name was already uploaded. Continue and replace it?"
+msgstr "Datoteka s tim nazivom već je učitana. Nastaviti i zamijeniti je?"
+
+msgid "Invalid operation on this project."
+msgstr "Neispravna operacija na ovom projektu."
+
+msgid "Please split the file and upload again."
+msgstr "Podijelite datoteku i učitajte ponovno."
+
+msgid "Your file contains more than 500 rows."
+msgstr "Vaša datoteka sadrži više od 500 redaka."
+
+msgid "Please upload a file with size less then 2MB"
+msgstr "Učitajte datoteku manju od 2 MB"
+
+msgid "Require atleast Task Title column to import the Tasks"
+msgstr "Za uvoz zadataka potreban je barem stupac Naslov zadatka"
+
+msgid "Export CSV"
+msgstr "Izvezi CSV"
+
+msgid "Please select at least one column"
+msgstr "Odaberite barem jedan stupac"
+
+msgid "Drag and drop files to upload"
+msgstr "Povucite i ispustite datoteke za učitavanje"
+
+msgid "Uploaded by"
+msgstr "Učitao"
+
+msgid "Preview Images"
+msgstr "Pregled slika"
+
+msgid "Import Task"
+msgstr "Uvoz zadataka"
+
+msgid "Import Time Log"
+msgstr "Uvoz evidencije vremena"
+
+msgid "Export Task To CSV"
+msgstr "Izvezi zadatke u CSV"
+
+msgid "Please double-check(specifically text showing in red color) the below points before importing your Tasks"
+msgstr "Prije uvoza zadataka provjerite sljedeće točke (posebno tekst prikazan crvenom bojom)"
