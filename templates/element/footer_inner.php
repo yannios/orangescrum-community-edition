@@ -366,12 +366,17 @@ if (
 
 <?php
 $gtLang = h(\Cake\I18n\I18n::getLocale());
+/* The gettext catalog is a static file under webroot/Languages. The old link
+   went through a Languages controller that does not exist in this build, so
+   every request 404'd and JS strings stayed English for all languages. Point
+   at the file directly and only emit the tag when the catalog is present. */
+$gtCatalog = WWW_ROOT . 'Languages' . DS . $os_locale . '.json';
 ?>
 <?php /* English is the source language — no catalog exists for it. AppController
 sets 'en' (not 'eng'), so match both to avoid requesting a 404ing en.json. */ ?>
-<?php if (!in_array($os_locale, ['eng', 'en'], true)): ?>
+<?php if (!in_array($os_locale, ['eng', 'en'], true) && is_file($gtCatalog)): ?>
     <link
-        href="<?= $this->Url->build(['controller' => 'Languages', 'action' => 'index', $os_locale . '.json', '?' => ['v' => ASSET_RELEASE]], ['fullBase' => true]); ?>"
+        href="<?= $this->Url->build('/Languages/' . $os_locale . '.json', ['fullBase' => true, '?' => ['v' => ASSET_RELEASE]]); ?>"
         lang="<?= $gtLang; ?>" rel="gettext" type="application/json" />
 <?php endif; ?>
 
