@@ -411,3 +411,384 @@ msgstr "Developer API"
 
 msgid "Outlook"
 msgstr "Outlook"
+
+msgid "Loading"
+msgstr "Učitavanje"
+
+msgid "New"
+msgstr "Novo"
+
+msgid "In Progress"
+msgstr "U tijeku"
+
+msgid "Due Date"
+msgstr "Rok"
+
+msgid "Closed"
+msgstr "Zatvoreno"
+
+msgid "Updated"
+msgstr "Ažurirano"
+
+msgid "Resolve"
+msgstr "Riješi"
+
+msgid "None"
+msgstr "Nema"
+
+msgid "Resolved"
+msgstr "Riješeno"
+
+msgid "Time Entry"
+msgstr "Unos vremena"
+
+msgid "High"
+msgstr "Visok"
+
+msgid "Created"
+msgstr "Stvoreno"
+
+msgid "Low"
+msgstr "Nizak"
+
+msgid "Medium"
+msgstr "Srednji"
+
+msgid "Re-open"
+msgstr "Ponovno otvori"
+
+msgid "Project Name"
+msgstr "Naziv projekta"
+
+msgid "Task Group"
+msgstr "Grupa zadataka"
+
+msgid "Start Date"
+msgstr "Početni datum"
+
+msgid "Billable"
+msgstr "Naplativo"
+
+msgid "Archived"
+msgstr "Arhivirano"
+
+msgid "Custom Date"
+msgstr "Prilagođeni datum"
+
+msgid "Assigned to"
+msgstr "Dodijeljeno"
+
+msgid "Task Title"
+msgstr "Naslov zadatka"
+
+msgid "Modified"
+msgstr "Izmijenjeno"
+
+msgid "Default Task Group"
+msgstr "Zadana grupa zadataka"
+
+msgid "Remove"
+msgstr "Ukloni"
+
+msgid "Create Subtask"
+msgstr "Stvori podzadatak"
+
+msgid "Reply"
+msgstr "Odgovori"
+
+msgid "Recurring Task"
+msgstr "Ponavljajući zadatak"
+
+msgid "Copy"
+msgstr "Kopiraj"
+
+msgid "Move to Project"
+msgstr "Premjesti u projekt"
+
+msgid "Parents"
+msgstr "Nadređeni"
+
+msgid "Dependents"
+msgstr "Zavisni"
+
+msgid "Tomorrow"
+msgstr "Sutra"
+
+msgid "Note"
+msgstr "Napomena"
+
+msgid "Create Task"
+msgstr "Stvori zadatak"
+
+msgid "Start Timer"
+msgstr "Pokreni brojač vremena"
+
+msgid "No Due Date"
+msgstr "Bez roka"
+
+msgid "Assign Project"
+msgstr "Dodijeli projekt"
+
+msgid "Remove Project"
+msgstr "Ukloni projekt"
+
+msgid "These tasks are waiting on this task"
+msgstr "Ovi zadaci čekaju na ovaj zadatak"
+
+msgid "Task can't start. Waiting on these task to be completed"
+msgstr "Zadatak ne može početi. Čeka se završetak ovih zadataka"
+
+msgid "Assign To"
+msgstr "Dodijeli"
+
+msgid "Last"
+msgstr "Posljednji"
+
+msgid "Invited"
+msgstr "Pozvan"
+
+msgid "already exists"
+msgstr "već postoji"
+
+msgid "Changed the status of the task to"
+msgstr "Promijenjen status zadatka u"
+
+msgid "Dependant tasks are not closed."
+msgstr "Zavisni zadaci nisu zatvoreni."
+
+msgid "Create another"
+msgstr "Stvori još jedan"
+
+msgid "more"
+msgstr "više"
+
+msgid "Next Monday"
+msgstr "Sljedeći ponedjeljak"
+
+msgid "This Friday"
+msgstr "Ovaj petak"
+
+msgid "Custom"
+msgstr "Prilagođeno"
+
+msgid "Unassigned"
+msgstr "Nedodijeljeno"
+
+msgid "Preview"
+msgstr "Pregled"
+
+msgid "First"
+msgstr "Prvi"
+
+msgid "Prev"
+msgstr "Prethodna"
+
+msgid "Assign Role"
+msgstr "Dodijeli ulogu"
+
+msgid "The Orangescrum Team"
+msgstr "Orangescrum tim"
+
+msgid "Task(s)"
+msgstr "Zadatak(ci)"
+
+msgid "Started"
+msgstr "Započeto"
+
+msgid "Project Manager"
+msgstr "Voditelj projekta"
+
+msgid "Restore"
+msgstr "Vrati"
+
+msgid "Urgent"
+msgstr "Hitno"
+
+msgid "Est. Hours"
+msgstr "Proc. sati"
+
+msgid "Move to Task Group"
+msgstr "Premjesti u grupu zadataka"
+
+msgid "Create Project"
+msgstr "Stvori projekt"
+
+msgid "Date Not Set"
+msgstr "Datum nije postavljen"
+
+msgid "Resend"
+msgstr "Ponovno pošalji"
+
+msgid "Last Activity"
+msgstr "Zadnja aktivnost"
+
+msgid "Owner"
+msgstr "Vlasnik"
+
+msgid "Admin"
+msgstr "Administrator"
+
+msgid "Thanks & Regards"
+msgstr "Lijep pozdrav"
+
+msgid "mandatory"
+msgstr "obavezno"
+
+msgid "hide"
+msgstr "sakrij"
+
+msgid "Select Project"
+msgstr "Odaberi projekt"
+
+msgid "To"
+msgstr "Za"
+
+msgid "Total task"
+msgstr "Ukupno zadataka"
+
+msgid "Create Task Group"
+msgstr "Stvori grupu zadataka"
+
+msgid "This Quarter"
+msgstr "Ovaj kvartal"
+
+msgid "This Year"
+msgstr "Ova godina"
+
+msgid "Last Week"
+msgstr "Prošli tjedan"
+
+msgid "Last Quarter"
+msgstr "Prošli kvartal"
+
+msgid "Last Year"
+msgstr "Prošla godina"
+
+msgid "Replied"
+msgstr "Odgovoreno"
+
+msgid "Task#"
+msgstr "Zadatak br."
+
+msgid "Convert To Parent"
+msgstr "Pretvori u nadređeni"
+
+msgid "Convert To Subtask"
+msgstr "Pretvori u podzadatak"
+
+msgid "Reload"
+msgstr "Osvježi"
+
+msgid "Assigned To"
+msgstr "Dodijeljeno"
+
+msgid "Spent Hours"
+msgstr "Potrošeni sati"
+
+msgid "Preview Image"
+msgstr "Pregled slike"
+
+msgid "Reset Filters"
+msgstr "Resetiraj filtre"
+
+msgid "From Date"
+msgstr "Od datuma"
+
+msgid "To Date"
+msgstr "Do datuma"
+
+msgid "Created By"
+msgstr "Stvorio"
+
+msgid "Created Date"
+msgstr "Datum stvaranja"
+
+msgid "End Date"
+msgstr "Datum završetka"
+
+msgid "No activity yet"
+msgstr "Još nema aktivnosti"
+
+msgid "Logged"
+msgstr "Zabilježeno"
+
+msgid "Upload Summary"
+msgstr "Sažetak učitavanja"
+
+msgid "rows"
+msgstr "redaka"
+
+msgid "Not Complete"
+msgstr "Nije dovršeno"
+
+msgid "Add User"
+msgstr "Dodaj korisnika"
+
+msgid "Remove User"
+msgstr "Ukloni korisnika"
+
+msgid "Task re-assigned to"
+msgstr "Zadatak ponovno dodijeljen"
+
+msgid "Nobody"
+msgstr "Nitko"
+
+msgid "Updated priority to"
+msgstr "Ažuriran prioritet u"
+
+msgid "Task Status"
+msgstr "Status zadatka"
+
+msgid "Project Description"
+msgstr "Opis projekta"
+
+msgid "Comments"
+msgstr "Komentari"
+
+msgid "% Completion"
+msgstr "% dovršenosti"
+
+msgid "Remove Task"
+msgstr "Ukloni zadatak"
+
+msgid "Mark as Completed"
+msgstr "Označi kao dovršeno"
+
+msgid "You can enter time as 1.5(that mean 1 hour and 30 minutes)"
+msgstr "Možete unijeti vrijeme kao 1.5 (to znači 1 sat i 30 minuta)"
+
+msgid "Role & Permissions"
+msgstr "Uloge i dozvole"
+
+msgid "Default Roles"
+msgstr "Zadane uloge"
+
+msgid "Roles"
+msgstr "Uloge"
+
+msgid "No Role"
+msgstr "Bez uloge"
+
+msgid "No User"
+msgstr "Bez korisnika"
+
+msgid "No Role Groups and no roles found"
+msgstr "Nisu pronađene grupe uloga niti uloge"
+
+msgid "You have modified actions, reloading the page will reset all changes"
+msgstr "Izmijenili ste akcije; ponovno učitavanje stranice poništit će sve promjene"
+
+msgid "Sl.No"
+msgstr "Br."
+
+msgid "User Name"
+msgstr "Korisničko ime"
+
+msgid "User Email"
+msgstr "E-pošta korisnika"
+
+msgid "Add Users"
+msgstr "Dodaj korisnike"
+
+msgid "No user(s) available."
+msgstr "Nema dostupnih korisnika."
