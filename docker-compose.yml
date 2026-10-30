@@ -39,6 +39,14 @@ services:
       # Set to false to remove the in-app upgrade/add-on pages entirely.
       SHOW_UPGRADE_CTA: ${SHOW_UPGRADE_CTA:-true}
     volumes:
+      # Live-preview bind mounts: source edited on the host is what the
+      # container runs. vendor/, tmp/, logs/ and config/ stay image/volume-owned.
+      - ./src:/var/www/html/src
+      - ./templates:/var/www/html/templates
+      - ./plugins:/var/www/html/plugins
+      - ./resources:/var/www/html/resources
+      - ./frontend:/var/www/html/frontend
+      - ./webroot:/var/www/html/webroot
       - orangescrum-app-files:/var/www/html/webroot/files
       - orangescrum-app-config:/var/www/html/config
     depends_on:
