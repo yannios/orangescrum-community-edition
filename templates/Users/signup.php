@@ -75,10 +75,10 @@
                     style="height: 40px; width: auto;" />
             </a>
 
-            <h1 class="brand-h1">Simplify work.<br><span>Deliver</span> results.</h1>
+            <h1 class="brand-h1"><?= __('Simplify work.') ?><br><span><?= __('Deliver') ?></span> <?= __('results.') ?></h1>
             <p class="brand-p">
-                All-in-one project management for teams that want to stay organized, productive, and ahead of the
-                deadline.
+                <?= __('All-in-one project management for teams that want to stay organized, productive, and ahead of the
+                deadline.') ?>
             </p>
 
             <div class="feature-list">
@@ -86,16 +86,16 @@
                     <div class="check-icon"><span class="glyphicon glyphicon-ok"></span></div>
                     <div>
                         <strong style="display: block; font-size: 15px;">Plan & Track</strong>
-                        <span style="color: var(--slate-500); font-size: 13px; font-weight: 500;">Interactive Gantt
-                            charts and Kanban boards.</span>
+                        <span style="color: var(--slate-500); font-size: 13px; font-weight: 500;"><?= __('Interactive Gantt
+                            charts and Kanban boards.') ?></span>
                     </div>
                 </div>
                 <div class="feature-item">
                     <div class="check-icon"><span class="glyphicon glyphicon-ok"></span></div>
                     <div>
-                        <strong style="display: block; font-size: 15px;">Manage Resources</strong>
-                        <span style="color: var(--slate-500); font-size: 13px; font-weight: 500;">Optimize team
-                            utilization and workload.</span>
+                        <strong style="display: block; font-size: 15px;"><?= __('Manage Resources') ?></strong>
+                        <span style="color: var(--slate-500); font-size: 13px; font-weight: 500;"><?= __('Optimize team
+                            utilization and workload.') ?></span>
                     </div>
                 </div>
             </div>
@@ -107,8 +107,8 @@
         <div class="form-container">
             <section id="step-account" class="step-section active">
                 <div class="form-header">
-                    <h2>Get Started Now</h2>
-                    <p>Set up your self-hosted project management in 60 seconds.</p>
+                    <h2><?= __('Get Started Now') ?></h2>
+                    <p><?= __('Set up your self-hosted project management in 60 seconds.') ?></p>
                 </div>
 
                 <div class="invalid-msg" style="text-align: center; margin-bottom: 15px;">
@@ -118,16 +118,16 @@
                 <div id="signupsuccess" style="text-align:center;width:100%;display:none;">
                     <img src="<?php echo HTTP_ROOT; ?>img/inbox.png" title="Inbox(1)" alt="Inbox(1)" />
                     <h3 style="text-align:center;color:#FF7E00;font-size:24px;padding-top:10px;">
-                        Account Created Successfully!</h3>
+                        <?= __('Account Created Successfully!') ?></h3>
                     <div style="text-align:center;color:#333333;padding-top:10px;font-size:16px;">
-                        Redirecting you to your tasks...
+                        <?= __('Redirecting you to your tasks...') ?>
                     </div>
                 </div>
 
                 <?php echo $this->Form->create(null, array('id' => 'signupForm', 'onsubmit' => 'return validateForm()')); ?>
 
                 <div class="form-group field_wrapper">
-                    <label>Full Name</label>
+                    <label><?= __('Full Name') ?></label>
                     <?php echo $this->Form->text('name', [
                         'class' => 'form-control',
                         'placeholder' => 'Your full name',
@@ -140,7 +140,7 @@
                 </div>
 
                 <div class="form-group field_wrapper">
-                    <label>Company Name <span style="color:#ef4444;">*</span></label>
+                    <label><?= __('Company Name') ?> <span style="color:#ef4444;">*</span></label>
                     <?php echo $this->Form->text('company', [
                         'class' => 'form-control',
                         'placeholder' => 'Your company or team name',
@@ -153,7 +153,7 @@
                 </div>
 
                 <div class="form-group field_wrapper">
-                    <label>Business Email <span style="color:#ef4444;">*</span></label>
+                    <label><?= __('Business Email') ?> <span style="color:#ef4444;">*</span></label>
                     <?php echo $this->Form->text('email', [
                         'class' => 'form-control',
                         'placeholder' => 'name@companydomain.com',
@@ -166,7 +166,7 @@
                 </div>
 
                 <div class="form-group field_wrapper">
-                    <label>Password <span style="color:#ef4444;">*</span></label>
+                    <label><?= __('Password') ?> <span style="color:#ef4444;">*</span></label>
                     <div class="password-wrapper">
                         <?php echo $this->Form->password('password', [
                             'class' => 'form-control',
@@ -205,8 +205,8 @@
 
                 <div id="donot_refresh" style="display:none;text-align:center;margin-top:20px;padding:15px;color:#666;">
                     <div style="margin-bottom:10px;">
-                        Just a moment... we're setting up your account.<br />
-                        Please don't refresh or close this page.
+                        <?= __('Just a moment... we\'re setting up your account.') ?><br />
+                        <?= __('Please don\'t refresh or close this page.') ?>
                     </div>
                 </div>
 
@@ -288,7 +288,7 @@
         };
 
         $.ajax({
-            url: "<?= $this->Url->build(['controller' => 'Users', 'action' => 'registerUser']) ?>",
+            url: " 13 ",
             type: 'POST',
             data: formData,
             dataType: 'json',
@@ -300,7 +300,7 @@
                     $('#signupsuccess').show();
                     $('#donot_refresh').hide();
                     setTimeout(function () {
-                        window.location.href = "<?= $this->Url->build(['controller' => 'TaskViews', 'action' => 'index']) ?>";
+                        window.location.href = " 14 ";
                     }, 1500);
                 } else {
                     $('#donot_refresh').hide();

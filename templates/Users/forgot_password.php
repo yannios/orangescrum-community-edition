@@ -155,19 +155,19 @@ echo $this->Html->css(['pswd-strength/pass-strength'], ['block' => 'css-block-fi
             </a>
             
             <?php if ($chkemail == "11" && $passemail == "10"): ?>
-                <h1 class="brand-h1">Reset your<br><span>Password</span></h1>
+                <h1 class="brand-h1"><?= __('Reset your') ?><br><span><?= __('Password') ?></span></h1>
                 <p class="brand-p">
-                    Don't worry, it happens to everyone. Enter your email address and we'll send you a link to reset your password.
+                    <?= __('Don\'t worry, it happens to everyone. Enter your email address and we\'ll send you a link to reset your password.') ?>
                 </p>
             <?php elseif ($passemail == "12"): ?>
-                <h1 class="brand-h1">Create new<br><span>Password</span></h1>
+                <h1 class="brand-h1"><?= __('Create new') ?><br><span><?= __('Password') ?></span></h1>
                 <p class="brand-p">
-                    Choose a strong password that you haven't used before. Make it memorable but secure.
+                    <?= __('Choose a strong password that you haven\'t used before. Make it memorable but secure.') ?>
                 </p>
             <?php else: ?>
-                <h1 class="brand-h1">Password<br><span>Updated!</span></h1>
+                <h1 class="brand-h1"><?= __('Password') ?><br><span><?= __('Updated!') ?></span></h1>
                 <p class="brand-p">
-                    Your password has been successfully changed. You can now sign in with your new password.
+                    <?= __('Your password has been successfully changed. You can now sign in with your new password.') ?>
                 </p>
             <?php endif; ?>
 
@@ -178,7 +178,7 @@ echo $this->Html->css(['pswd-strength/pass-strength'], ['block' => 'css-block-fi
                     </div>
                     <div>
                         <strong>Secure & Protected</strong>
-                        <span>Your account security is our top priority</span>
+                        <span><?= __('Your account security is our top priority') ?></span>
                     </div>
                 </div>
                 <div class="feature-item">
@@ -186,8 +186,8 @@ echo $this->Html->css(['pswd-strength/pass-strength'], ['block' => 'css-block-fi
                         <span class="glyphicon glyphicon-ok"></span>
                     </div>
                     <div>
-                        <strong>Quick Recovery</strong>
-                        <span>Get back to work in just a few clicks</span>
+                        <strong><?= __('Quick Recovery') ?></strong>
+                        <span><?= __('Get back to work in just a few clicks') ?></span>
                     </div>
                 </div>
             </div>
@@ -202,8 +202,8 @@ echo $this->Html->css(['pswd-strength/pass-strength'], ['block' => 'css-block-fi
                 <!-- Request Password Reset Form -->
                 <section id="step-account" class="step-section active">
                     <div class="form-header">
-                        <h2>Forgot Password?</h2>
-                        <p>No problem! Enter your email and we'll send you reset instructions</p>
+                        <h2><?= __('Forgot Password?') ?></h2>
+                        <p><?= __('No problem! Enter your email and we\'ll send you reset instructions') ?></p>
                     </div>
 
                     <div class="invalid-msg" style="text-align: center; margin-bottom: 15px;">
@@ -213,7 +213,7 @@ echo $this->Html->css(['pswd-strength/pass-strength'], ['block' => 'css-block-fi
                     <?php echo $this->Form->create(null, ['url' => ['action' => 'forgotPassword'], 'id' => 'forgotPasswordForm']); ?>
                     
                     <div class="form-group field_wrapper">
-                        <label for="txt_email" class="control-label">Email Address</label>
+                        <label for="txt_email" class="control-label"><?= __('Email Address') ?></label>
                         <?= $this->Form->control('email', [
                             'id' => 'txt_email',
                             'type' => 'email',
@@ -248,9 +248,9 @@ echo $this->Html->css(['pswd-strength/pass-strength'], ['block' => 'css-block-fi
 
                     <div class="login-footer">
                         <p>
-                            Remember your password? 
+                            <?= __('Remember your password?') ?> 
                             <a href="<?= $this->Url->build(['controller' => 'Users', 'action' => 'login']) ?>">
-                                Sign in
+                                <?= __('Sign in') ?>
                             </a>
                         </p>
                     </div>
@@ -260,8 +260,8 @@ echo $this->Html->css(['pswd-strength/pass-strength'], ['block' => 'css-block-fi
                     <!-- Reset Password Form -->
                 <section id="step-account" class="step-section active">
                     <div class="form-header">
-                        <h2>Create New Password</h2>
-                        <p>Enter a strong password that you haven't used before</p>
+                        <h2><?= __('Create New Password') ?></h2>
+                        <p><?= __('Enter a strong password that you haven\'t used before') ?></p>
                     </div>
 
                     <div id="err_pass" class="error-msg" style="display:none;"></div>
@@ -269,12 +269,12 @@ echo $this->Html->css(['pswd-strength/pass-strength'], ['block' => 'css-block-fi
                     <?php echo $this->Form->create(null, ['url' => ['action' => 'forgotPassword'], 'id' => 'forgotpassForm']); ?>
                     
                     <div class="form-group field_wrapper">
-                        <label for="password" class="control-label">New Password</label>
+                        <label for="password" class="control-label"><?= __('New Password') ?></label>
                         <div id="myPassword"></div>
                     </div>
 
                     <div class="form-group field_wrapper">
-                        <label for="repass" class="control-label">Re-type Password</label>
+                        <label for="repass" class="control-label"><?= __('Re-type Password') ?></label>
                         <div class="password-wrapper">
                             <?= $this->Form->control('repass', [
                                 'type' => 'password',
@@ -298,7 +298,7 @@ echo $this->Html->css(['pswd-strength/pass-strength'], ['block' => 'css-block-fi
 
                     <div id="savpass">
                         <button type="button" value="Submit" name="submit_pwd" class="btn btn-submit" onclick="validatepass();">
-                            Reset Password
+                            <?= __('Reset Password') ?>
                         </button>
                     </div>
 
@@ -309,7 +309,7 @@ echo $this->Html->css(['pswd-strength/pass-strength'], ['block' => 'css-block-fi
                     <div class="login-footer">
                         <p>
                             <a href="<?= $this->Url->build(['controller' => 'Users', 'action' => 'login']) ?>">
-                                Back to Sign In
+                                <?= __('Back to Sign In') ?>
                             </a>
                         </p>
                     </div>
@@ -326,17 +326,17 @@ echo $this->Html->css(['pswd-strength/pass-strength'], ['block' => 'css-block-fi
                         </div>
                         
                         <h2 style="font-size: 28px; font-weight: 800; margin-bottom: 15px; color: #0f172a;">
-                            Password Changed!
+                            <?= __('Password Changed!') ?>
                         </h2>
                         
                         <p style="font-size: 16px; color: var(--slate-600); margin-bottom: 30px;">
-                            Your password has been successfully updated. You can now sign in with your new credentials.
+                            <?= __('Your password has been successfully updated. You can now sign in with your new credentials.') ?>
                         </p>
 
                         <a href="<?= $this->Url->build(['controller' => 'Users', 'action' => 'login']) ?>" 
                            class="btn btn-submit"
                            style="display: inline-block; text-decoration: none;">
-                            Sign In Now
+                            <?= __('Sign In Now') ?>
                         </a>
                     </div>
                 </section>

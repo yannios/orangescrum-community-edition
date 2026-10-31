@@ -127,7 +127,7 @@
                         <?php echo __('Create Project'); ?></a>
                 </div>
                 <a href="javascript:jsVoid()" id="loaderprj" style="text-decoration:none;cursor:wait;display:none;">
-                    Loading...<img src="<?php echo HTTP_IMAGES; ?>images/del.gif" width="16" height="16" alt="loading..."
+                    <?= __('Loading...') ?><img src="<?php echo HTTP_IMAGES; ?>images/del.gif" width="16" height="16" alt="loading..."
                         title="loading..." />
                 </a>
             <?php } ?>

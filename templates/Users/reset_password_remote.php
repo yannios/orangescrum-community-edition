@@ -14,9 +14,9 @@
                 <img src="<?= $this->Url->webroot('img/header/os-white-logo.svg') ?>" alt="Orangescrum" style="height: 40px; width: auto;" />
             </a>
             
-            <h1 class="brand-h1">Create new<br><span>Password</span></h1>
+            <h1 class="brand-h1"><?= __('Create new') ?><br><span><?= __('Password') ?></span></h1>
             <p class="brand-p">
-                Choose a strong password that you haven't used before. Make it memorable but secure.
+                <?= __('Choose a strong password that you haven\'t used before. Make it memorable but secure.') ?>
             </p>
 
             <div class="feature-list">
@@ -26,7 +26,7 @@
                     </div>
                     <div>
                         <strong>Secure & Protected</strong>
-                        <span>Your account security is our top priority</span>
+                        <span><?= __('Your account security is our top priority') ?></span>
                     </div>
                 </div>
                 <div class="feature-item">
@@ -34,8 +34,8 @@
                         <span class="glyphicon glyphicon-ok"></span>
                     </div>
                     <div>
-                        <strong>Quick Recovery</strong>
-                        <span>Get back to work in just a few clicks</span>
+                        <strong><?= __('Quick Recovery') ?></strong>
+                        <span><?= __('Get back to work in just a few clicks') ?></span>
                     </div>
                 </div>
             </div>
@@ -51,8 +51,8 @@
                 <!-- Security Questions Verification Form -->
                 <section id="step-security" class="step-section active">
                     <div class="form-header">
-                        <h2>Verify Your Identity</h2>
-                        <p>Please answer your security questions to verify your identity</p>
+                        <h2><?= __('Verify Your Identity') ?></h2>
+                        <p><?= __('Please answer your security questions to verify your identity') ?></p>
                     </div>
 
                     <div class="invalid-msg" style="text-align: center; margin-bottom: 15px;">
@@ -88,14 +88,14 @@
                     
                     <div>
                         <button type="submit" class="btn btn-submit">
-                            Verify Answers
+                            <?= __('Verify Answers') ?>
                         </button>
                     </div>
 
                     <div class="login-footer">
                         <p>
                             <a href="<?= $this->Url->build(['controller' => 'Users', 'action' => 'login']) ?>">
-                                Back to Sign In
+                                <?= __('Back to Sign In') ?>
                             </a>
                         </p>
                     </div>
@@ -107,8 +107,8 @@
                 <!-- Reset Password Form -->
                 <section id="step-account" class="step-section active">
                     <div class="form-header">
-                        <h2>Create New Password</h2>
-                        <p>Enter a strong password that you haven't used before</p>
+                        <h2><?= __('Create New Password') ?></h2>
+                        <p><?= __('Enter a strong password that you haven\'t used before') ?></p>
                     </div>
 
                     <div class="invalid-msg" style="text-align: center; margin-bottom: 15px;">
@@ -123,7 +123,7 @@
                     ]); ?>
                 
                 <div class="form-group field_wrapper">
-                    <label for="password" class="control-label">New Password</label>
+                    <label for="password" class="control-label"><?= __('New Password') ?></label>
                     <div class="password-wrapper">
                         <?php echo $this->Form->control('password', [
                             'type' => 'password',
@@ -144,7 +144,7 @@
                 </div>
 
                 <div class="form-group field_wrapper">
-                    <label for="confirm_password" class="control-label">Re-type Password</label>
+                    <label for="confirm_password" class="control-label"><?= __('Re-type Password') ?></label>
                     <div class="password-wrapper">
                         <?php echo $this->Form->control('confirm_password', [
                             'type' => 'password',
@@ -171,14 +171,14 @@
                             value="Submit"
                             name="submit_pwd"
                             class="btn btn-submit">
-                        Reset Password
+                        <?= __('Reset Password') ?>
                     </button>
                 </div>
 
                 <div class="login-footer">
                     <p>
                         <a href="<?= $this->Url->build(['controller' => 'Users', 'action' => 'login']) ?>">
-                            Back to Sign In
+                            <?= __('Back to Sign In') ?>
                         </a>
                     </p>
                 </div>

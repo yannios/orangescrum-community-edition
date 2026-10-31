@@ -6,10 +6,10 @@
                     <th>
                         <div class="fl checkbox"><label><input type="checkbox" class="chkbx_cur" id="checkAllprojects" /></label></div>
                     </th>
-                    <th style="width:65%;">Name</th>
-                    <th>Short Name</th>
+                    <th style="width:65%;"><?= __('Name') ?></th>
+                    <th><?= __('Short Name') ?></th>
                     <?php if (!$is_invite_user) { ?>
-                        <th>Email Notification</th>
+                        <th><?= __('Email Notification') ?></th>
                     <?php } ?>
                 </tr>
             </thead>
@@ -73,7 +73,7 @@
     <input type="hidden" id="is_prj" value="1" />
     <input type="hidden" id="total_projects" value="<?php echo $count; ?>" />
 <?php } else { ?>
-    <center class="fnt_clr_rd">No project(s) assigned</center>
+    <center class="fnt_clr_rd"><?= __('No project(s) assigned') ?></center>
     <input type="hidden" id="is_prj" value="0" />
 <?php } ?>
 <input type="hidden" id="usrid" name="usrid" value="<?php echo $userid; ?>" />

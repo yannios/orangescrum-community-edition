@@ -16,12 +16,12 @@
                 // Show password
                 passwordField.attr('type', 'text');
                 icon.removeClass('glyphicon-eye-open').addClass('glyphicon-eye-close');
-                $(this).attr('aria-label', 'Hide password');
+                $(this).attr('aria-label', '<?= __('Hide password') ?>');
             } else {
                 // Hide password
                 passwordField.attr('type', 'password');
                 icon.removeClass('glyphicon-eye-close').addClass('glyphicon-eye-open');
-                $(this).attr('aria-label', 'Show password');
+                $(this).attr('aria-label', '<?= __('Show password') ?>');
             }
         });
 
@@ -31,7 +31,7 @@
         });
     });
 </script>
-<?php $this->assign('title', 'Sign In'); ?>
+<?php $this->assign('title', __('Sign In')); ?>
 <div class="app-container" style="display: none;">
     <!-- Left Panel: Brand Experience -->
     <div class="brand-side">
@@ -40,9 +40,9 @@
                 <img src="<?= $this->Url->webroot('img/header/os-white-logo.svg') ?>" alt="Orangescrum" style="height: 40px; width: auto;" />
             </a>
             
-            <h1 class="brand-h1">Orangescrum<br><span>Open Source Community Edition</span></h1>
+            <h1 class="brand-h1">Orangescrum<br><span><?= __('Open Source Community Edition') ?></span></h1>
             <p class="brand-p">
-                Self-hosted project and task management you fully own — free software under the AGPL, with no user, project or storage limits.
+                <?= __('Self-hosted project and task management you fully own — free software under the AGPL, with no user, project or storage limits.') ?>
             </p>
 
             <div class="feature-list">
@@ -51,8 +51,8 @@
                         <span class="glyphicon glyphicon-ok"></span>
                     </div>
                     <div>
-                        <strong>Own Your Data</strong>
-                        <span>Runs entirely on your own server — nothing phones home</span>
+                        <strong><?= __('Own Your Data') ?></strong>
+                        <span><?= __('Runs entirely on your own server — nothing phones home') ?></span>
                     </div>
                 </div>
                 <div class="feature-item">
@@ -60,8 +60,8 @@
                         <span class="glyphicon glyphicon-ok"></span>
                     </div>
                     <div>
-                        <strong>No Limits, No Licence Keys</strong>
-                        <span>Unlimited users and projects, free under the AGPL</span>
+                        <strong><?= __('No Limits, No Licence Keys') ?></strong>
+                        <span><?= __('Unlimited users and projects, free under the AGPL') ?></span>
                     </div>
                 </div>
                 <div class="feature-item">
@@ -69,8 +69,8 @@
                         <span class="glyphicon glyphicon-ok"></span>
                     </div>
                     <div>
-                        <strong>Tasks, Projects &amp; Workflows</strong>
-                        <span>Plan work, track progress and ship with your team</span>
+                        <strong><?= __('Tasks, Projects & Workflows') ?></strong>
+                        <span><?= __('Plan work, track progress and ship with your team') ?></span>
                     </div>
                 </div>
             </div>
@@ -82,8 +82,8 @@
         <div class="form-container">
             <section id="step-account" class="step-section active">
                 <div class="form-header">
-                    <h2>Sign In</h2>
-                    <p>Enter your credentials to access your workspace</p>
+                    <h2><?= __('Sign In') ?></h2>
+                    <p><?= __('Enter your credentials to access your workspace') ?></p>
                 </div>
                 <?php if (defined('EDITION_NAME')) { ?>
                     <div class="edition-tag" style="text-align:center; margin-bottom:15px; font-size:12px; color:#80868b; letter-spacing:.3px;">
@@ -99,7 +99,7 @@
                 <?php echo $this->Form->create(null, ['id' => 'UserLogin', 'url' => ['controller' => 'Users', 'action' => 'login'], 'autocomplete' => 'off']); ?>
                 
                 <div class="form-group field_wrapper">
-                    <label for="txt_UserId" class="control-label">Email Address</label>
+                    <label for="txt_UserId" class="control-label"><?= __('Email Address') ?></label>
                     <?= $this->Form->control('email', [
                         'type' => 'email',
                         'required' => true,
@@ -112,18 +112,18 @@
                 </div>
 
                 <div class="form-group field_wrapper">
-                    <label for="txt_Password" class="control-label">Password</label>
+                    <label for="txt_Password" class="control-label"><?= __('Password') ?></label>
                     <div class="password-wrapper">
                         <?= $this->Form->control('password', [
                             'type' => 'password',
                             'required' => true,
                             'class' => 'form-control',
-                            'placeholder' => 'Enter your password',
+                            'placeholder' => __('Enter your password'),
                             'id' => 'txt_Password',
                             'autocomplete' => 'off',
                             'label' => false
                         ]) ?>
-                        <button type="button" class="eye-toggle" id="pass-toggle" aria-label="Show password">
+                        <button type="button" class="eye-toggle" id="pass-toggle" aria-label="<?= __('Show password') ?>">
                             <span class="glyphicon glyphicon-eye-open"></span>
                         </button>
                     </div>
@@ -138,7 +138,7 @@
 
                 <div class="login-footer" style="margin-top:15px; text-align:center;">
                     <a href="<?= $this->Url->build(['controller' => 'Users', 'action' => 'forgotPassword']) ?>">
-                        Forgot password?
+                        <?= __('Forgot password?') ?>
                     </a>
                 </div>
 

@@ -2037,3 +2037,663 @@ msgstr "Razlozi za promjenu roka"
 
 msgid "Reason"
 msgstr "Razlog"
+
+msgid "Open Source Community Edition"
+msgstr "Izdanje otvorenog koda"
+
+msgid "Self-hosted project and task management you fully own — free software under the AGPL, with no user, project or storage limits."
+msgstr "Upravljanje projektima i zadacima na vlastitom poslužitelju — slobodan softver pod licencom AGPL, bez ograničenja broja korisnika, projekata i pohrane."
+
+msgid "Own Your Data"
+msgstr "Vaši podaci ostaju vaši"
+
+msgid "Runs entirely on your own server — nothing phones home"
+msgstr "Radi isključivo na vašem poslužitelju — ništa ne šalje podatke van"
+
+msgid "No Limits, No Licence Keys"
+msgstr "Bez ograničenja, bez licencnih ključeva"
+
+msgid "Unlimited users and projects, free under the AGPL"
+msgstr "Neograničen broj korisnika i projekata, besplatno pod licencom AGPL"
+
+msgid "Tasks, Projects & Workflows"
+msgstr "Zadaci, projekti i tijekovi rada"
+
+msgid "Plan work, track progress and ship with your team"
+msgstr "Planirajte posao, pratite napredak i isporučujte zajedno s timom"
+
+msgid "Enter your credentials to access your workspace"
+msgstr "Unesite svoje podatke za pristup radnom prostoru"
+
+msgid "Email Address"
+msgstr "Adresa e-pošte"
+
+msgid "Enter your password"
+msgstr "Unesite svoju lozinku"
+
+msgid "Forgot password?"
+msgstr "Zaboravili ste lozinku?"
+
+msgid "Hide password"
+msgstr "Sakrij lozinku"
+
+msgid "Back to Sign In"
+msgstr "Natrag na prijavu"
+
+msgid "Sign In Now"
+msgstr "Prijavite se sada"
+
+msgid "Sign in"
+msgstr "Prijava"
+
+msgid "Remember your password?"
+msgstr "Sjećate se lozinke?"
+
+msgid "Reset your"
+msgstr "Ponovno postavite svoju"
+
+msgid "Create New Password"
+msgstr "Stvorite novu lozinku"
+
+msgid "Create new"
+msgstr "Stvorite novu"
+
+msgid "New Password"
+msgstr "Nova lozinka"
+
+msgid "Re-type Password"
+msgstr "Ponovno upišite lozinku"
+
+msgid "Enter a strong password that you haven't used before"
+msgstr "Unesite jaku lozinku koju dosad niste koristili"
+
+msgid "Get back to work in just a few clicks"
+msgstr "Vratite se poslu u samo nekoliko klikova"
+
+msgid "No problem! Enter your email and we'll send you reset instructions"
+msgstr "Nema problema! Unesite svoju e-poštu i poslat ćemo vam upute za ponovno postavljanje"
+
+msgid "Password Changed!"
+msgstr "Lozinka promijenjena!"
+
+msgid "Updated!"
+msgstr "Ažurirano!"
+
+msgid "Quick Recovery"
+msgstr "Brzi oporavak"
+
+msgid "Secure & Protected"
+msgstr "Sigurno i zaštićeno"
+
+msgid "Your account security is our top priority"
+msgstr "Sigurnost vašeg računa nam je najvažnija"
+
+msgid "Please answer your security questions to verify your identity"
+msgstr "Odgovorite na sigurnosna pitanja kako bismo potvrdili vaš identitet"
+
+msgid "Verify Answers"
+msgstr "Potvrdi odgovore"
+
+msgid "Verify Your Identity"
+msgstr "Potvrdite svoj identitet"
+
+msgid "Account Created Successfully!"
+msgstr "Račun je uspješno stvoren!"
+
+msgid "Business Email"
+msgstr "Poslovna e-pošta"
+
+msgid "Full Name"
+msgstr "Puno ime"
+
+msgid "Company Name"
+msgstr "Naziv tvrtke"
+
+msgid "Get Started Now"
+msgstr "Započnite sada"
+
+msgid "Just a moment... we're setting up your account."
+msgstr "Samo trenutak... postavljamo vaš račun."
+
+msgid "Manage Resources"
+msgstr "Upravljajte resursima"
+
+msgid "Plan & Track"
+msgstr "Planirajte i pratite"
+
+msgid "Deliver"
+msgstr "Isporučite"
+
+msgid "Please don't refresh or close this page."
+msgstr "Molimo ne osvježavajte i ne zatvarajte ovu stranicu."
+
+msgid "Redirecting you to your tasks..."
+msgstr "Preusmjeravamo vas na vaše zadatke..."
+
+msgid "Set up your self-hosted project management in 60 seconds."
+msgstr "Postavite svoje upravljanje projektima u 60 sekundi."
+
+msgid "Simplify work."
+msgstr "Pojednostavite posao."
+
+msgid "Already have an account?"
+msgstr "Već imate račun?"
+
+msgid "Accept invitation"
+msgstr "Prihvati pozivnicu"
+
+msgid "Getting Started with Orangescrum"
+msgstr "Prvi koraci s Orangescrumom"
+
+msgid "Welcome to"
+msgstr "Dobro došli u"
+
+msgid "Let's get started on"
+msgstr "Krenimo s radom na"
+
+msgid "Need Help?"
+msgstr "Treba vam pomoć?"
+
+msgid "Click here!"
+msgstr "Kliknite ovdje!"
+
+msgid "Skip"
+msgstr "Preskoči"
+
+msgid "Desktop Notification"
+msgstr "Obavijest na radnoj površini"
+
+msgid "Respond via Email"
+msgstr "Odgovorite e-poštom"
+
+msgid "Add up your team members to the project while creating."
+msgstr "Dodajte članove tima u projekt odmah pri stvaranju."
+
+msgid "Alternately, you can add team members to a project in 'Manage Projects' section."
+msgstr "Članove tima možete dodati i u odjeljku 'Upravljanje projektima'."
+
+msgid "Assign projects to your team members while inviting them."
+msgstr "Dodijelite projekte članovima tima prilikom pozivanja."
+
+msgid "Customize your Email report settings."
+msgstr "Prilagodite postavke izvješća e-poštom."
+
+msgid "Enter a title, put due date or set priority and create a task under a project."
+msgstr "Unesite naslov, odredite rok ili prioritet i stvorite zadatak unutar projekta."
+
+msgid "Invitees need to set up their account using link provided in the email."
+msgstr "Pozvane osobe moraju postaviti svoj račun putem poveznice iz e-poruke."
+
+msgid "Name your project suitably, choose short name accordingly."
+msgstr "Nazovite projekt prikladno i odaberite odgovarajući kratki naziv."
+
+msgid "Respond on a task even on-the-go from your mobile via Email."
+msgstr "Odgovarajte na zadatke i u pokretu, putem e-pošte s mobilnog uređaja."
+
+msgid "Select projects and set your daily update settings."
+msgstr "Odaberite projekte i postavite dnevne obavijesti."
+
+msgid "Send invitation to team member (separate by comma for multi Email IDs)"
+msgstr "Pošaljite pozivnicu članu tima (više adresa odvojite zarezom)"
+
+msgid "You can also Import a bunch of tasks from a .CSV file under a project."
+msgstr "Zadatke možete uvesti i iz .CSV datoteke unutar projekta."
+
+msgid "You can categorize your Task using the Task Types."
+msgstr "Zadatke možete razvrstati pomoću vrsta zadataka."
+
+msgid "Your Email response will be posted on Orangescrum against that task."
+msgstr "Vaš odgovor e-poštom bit će objavljen uz taj zadatak u Orangescrumu."
+
+msgid "List Users"
+msgstr "Popis korisnika"
+
+msgid "Not assigned Project(s)"
+msgstr "Nedodijeljeni projekti"
+
+msgid "Assigned Project(s)"
+msgstr "Dodijeljeni projekti"
+
+msgid "No project(s) assigned"
+msgstr "Nema dodijeljenih projekata"
+
+msgid "Remove Password Login"
+msgstr "Ukloni prijavu lozinkom"
+
+msgid "Set Password"
+msgstr "Postavi lozinku"
+
+msgid "Enter your current password"
+msgstr "Unesite trenutačnu lozinku"
+
+msgid "Current Password"
+msgstr "Trenutačna lozinka"
+
+msgid "Enter a strong password"
+msgstr "Unesite jaku lozinku"
+
+msgid "Between 8-30 characters"
+msgstr "Između 8 i 30 znakova"
+
+msgid "Confirm your password"
+msgstr "Potvrdite svoju lozinku"
+
+msgid "Orangescrum"
+msgstr "Orangescrum"
+
+msgid "Don't worry, it happens to everyone. Enter your email address and we'll send you a link to reset your password."
+msgstr "Ne brinite, događa se svima. Unesite svoju adresu e-pošte i poslat ćemo vam poveznicu za ponovno postavljanje lozinke."
+
+msgid "Choose a strong password that you haven't used before. Make it memorable but secure."
+msgstr "Odaberite jaku lozinku koju dosad niste koristili. Neka bude lako pamtljiva, ali sigurna."
+
+msgid "Your password has been successfully changed. You can now sign in with your new password."
+msgstr "Vaša lozinka je uspješno promijenjena. Sada se možete prijaviti novom lozinkom."
+
+msgid "Forgot Password?"
+msgstr "Zaboravili ste lozinku?"
+
+msgid "Your password has been successfully updated. You can now sign in with your new credentials."
+msgstr "Vaša lozinka je uspješno ažurirana. Sada se možete prijaviti novim podacima."
+
+msgid "Join your team and start managing projects efficiently. Stay organized, productive, and in control."
+msgstr "Pridružite se svom timu i počnite učinkovito upravljati projektima. Ostanite organizirani, produktivni i u kontroli."
+
+msgid "Real-time Collaboration"
+msgstr "Suradnja u realnom vremenu"
+
+msgid "Work seamlessly with your team in real-time"
+msgstr "Radite neprekidno sa svojim timom u realnom vremenu"
+
+msgid "Track Progress Effortlessly"
+msgstr "Pratite napredak bez napora"
+
+msgid "Monitor tasks, milestones, and project health"
+msgstr "Pratite zadatke, miljokaze i stanje projekta"
+
+msgid "Set Your Password"
+msgstr "Postavite svoju lozinku"
+
+msgid "You've been invited to join"
+msgstr "Pozvani ste da se pridružite"
+
+msgid "Email:"
+msgstr "E-pošta:"
+
+msgid "Use Google Account"
+msgstr "Koristi Google račun"
+
+msgid "Redirecting..."
+msgstr "Preusmjeravanje..."
+
+msgid "If you are not redirected,"
+msgstr "Ako niste preusmjereni,"
+
+msgid "Set a new password for"
+msgstr "Postavite novu lozinku za"
+
+msgid "and change your email address"
+msgstr "i promijenite svoju adresu e-pošte"
+
+msgid "results."
+msgstr "rezultati."
+
+msgid "All-in-one project management for teams that want to stay organized, productive, and ahead of the\n                deadline."
+msgstr "Sve-na-jednom-mjestu upravljanje projektima za timove koji žele ostati organizirani, produktivni i ispred rokova."
+
+msgid "Interactive Gantt\n                            charts and Kanban boards."
+msgstr "Interaktivni Ganttovi dijagrami i Kanban ploče."
+
+msgid "Optimize team\n                            utilization and workload."
+msgstr "Optimizirajte iskorištenost i opterećenje tima."
+
+msgid "Just a moment"
+msgstr "Samo trenutak"
+
+msgid "We're setting up your account. Please do not refresh or close this page."
+msgstr "Postavljamo vaš račun. Molimo ne osvježavajte i ne zatvarajte ovu stranicu."
+
+msgid "Redirecting to your workspace..."
+msgstr "Preusmjeravanje u vaš radni prostor..."
+
+msgid "No project(s) available"
+msgstr "Nema dostupnih projekata"
+
+msgid "Please save your changes before leaving this page."
+msgstr "Spremite promjene prije napuštanja ove stranice."
+
+msgid "Password Expired"
+msgstr "Lozinka je istekla"
+
+msgid "Your password has expired according to your company's password policy. Please change your password to continue."
+msgstr "Vaša lozinka je istekla prema pravilima vaše tvrtke. Promijenite lozinku za nastavak."
+
+msgid "You signed up using Google OAuth. You can set a password to enable traditional login alongside Google login."
+msgstr "Registrirali ste se putem Google OAuth-a. Možete postaviti lozinku za klasičnu prijavu uz Google prijavu."
+
+msgid "You have both Google OAuth and password login enabled. Changing your password will not affect your Google login."
+msgstr "Imate omogućene i Google OAuth i prijavu lozinkom. Promjena lozinke neće utjecati na Google prijavu."
+
+msgid "Since you have Google OAuth enabled, you can remove your password and rely solely on Google login."
+msgstr "Budući da imate omogućen Google OAuth, možete ukloniti lozinku i koristiti samo Google prijavu."
+
+msgid "Are you sure you want to remove your password? You will only be able to login using Google OAuth."
+msgstr "Sigurno želite ukloniti svoju lozinku? Nakon toga moći ćete se prijavljivati samo putem Google OAuth-a."
+
+msgid "Remove Password"
+msgstr "Ukloni lozinku"
+
+msgid "Confirm Password"
+msgstr "Potvrdi lozinku"
+
+msgid "Show task types on Task page"
+msgstr "Prikaži vrste zadataka na stranici zadataka"
+
+msgid "Task Detail Custom Fields View"
+msgstr "Prikaz prilagođenih polja zadatka"
+
+msgid "Tab view"
+msgstr "Prikaz kartica"
+
+msgid "Side view"
+msgstr "Bočni prikaz"
+
+msgid "Please Select a Task view."
+msgstr "Odaberite prikaz zadataka."
+
+msgid "Please Select a Time Log view."
+msgstr "Odaberite prikaz evidencije vremena."
+
+msgid "Please Select a Project view."
+msgstr "Odaberite prikaz projekta."
+
+msgid "Send me Email Notification"
+msgstr "Šalji mi obavijesti e-poštom"
+
+msgid "All New Task"
+msgstr "Svi novi zadaci"
+
+msgid "Send me All New Task emails"
+msgstr "Šalji mi e-poštu o svim novim zadacima"
+
+msgid "Send me New Task email, only when I am selected to get the email"
+msgstr "Šalji mi e-poštu o novim zadacima samo kad sam odabran kao primatelj"
+
+msgid "All Task Reply & Comment"
+msgstr "Svi odgovori i komentari zadataka"
+
+msgid "Send me All Reply emails"
+msgstr "Šalji mi e-poštu o svim odgovorima"
+
+msgid "Send me Reply email, only when I am selected to get the email"
+msgstr "Šalji mi e-poštu o odgovorima samo kad sam odabran kao primatelj"
+
+msgid "All Task Status Change"
+msgstr "Sve promjene statusa zadataka"
+
+msgid "Send me All Status Update emails"
+msgstr "Šalji mi e-poštu o svim promjenama statusa"
+
+msgid "Send me Status Update email, only when I am selected to get the email"
+msgstr "Šalji mi e-poštu o promjenama statusa samo kad sam odabran kao primatelj"
+
+msgid "Send me Email Reports"
+msgstr "Šalji mi izvješća e-poštom"
+
+msgid "Weekly Usage"
+msgstr "Tjedna iskorištenost"
+
+msgid "Daily"
+msgstr "Dnevno"
+
+msgid "Task Due (daily)"
+msgstr "Rok zadatka (dnevno)"
+
+msgid "Daily Update Report"
+msgstr "Dnevno izvješće"
+
+msgid "Send me Email"
+msgstr "Šalji mi e-poštu"
+
+msgid "Hour"
+msgstr "Sat"
+
+msgid "Min"
+msgstr "Min"
+
+msgid "Management Reports"
+msgstr "Upravljačka izvješća"
+
+msgid "Send Project Estimation Vs Actual"
+msgstr "Pošalji procjenu projekta prema stvarnom stanju"
+
+msgid "Notify Frequency"
+msgstr "Učestalost obavijesti"
+
+msgid "Choose a day for sending notification"
+msgstr "Odaberite dan za slanje obavijesti"
+
+msgid "Notify To"
+msgstr "Obavijesti"
+
+msgid "Send Reset Link"
+msgstr "Pošalji poveznicu za ponovno postavljanje"
+
+msgid "Custom Task Type"
+msgstr "Prilagođena vrsta zadatka"
+
+msgid "Complete Setup"
+msgstr "Dovrši postavljanje"
+
+msgid "Worked in progress"
+msgstr "Rad u tijeku"
+
+msgid "Done"
+msgstr "Gotovo"
+
+msgid "Invitation resend"
+msgstr "Ponovno slanje pozivnice"
+
+msgid "Add New Client"
+msgstr "Dodaj novog klijenta"
+
+msgid "Password must be at least 8 characters long."
+msgstr "Lozinka mora sadržavati najmanje 8 znakova."
+
+msgid "Passwords do not match."
+msgstr "Lozinke se ne podudaraju."
+
+msgid "Password has been updated."
+msgstr "Lozinka je ažurirana."
+
+msgid "Failed to reset password."
+msgstr "Ponovno postavljanje lozinke nije uspjelo."
+
+msgid "The user can log in with this password immediately."
+msgstr "Korisnik se može odmah prijaviti s ovom lozinkom."
+
+msgid "Enter new password"
+msgstr "Unesite novu lozinku"
+
+msgid "Re-enter new password"
+msgstr "Ponovno unesite novu lozinku"
+
+msgid "Must be at least 8 characters long."
+msgstr "Mora sadržavati najmanje 8 znakova."
+
+msgid "Orangescrum URL"
+msgstr "URL Orangescruma"
+
+msgid "Website"
+msgstr "Web-stranica"
+
+msgid "Contact Number"
+msgstr "Kontakt broj"
+
+msgid "Logo"
+msgstr "Logotip"
+
+msgid "Choose Company Logo"
+msgstr "Odaberite logotip tvrtke"
+
+msgid "Skills"
+msgstr "Vještine"
+
+msgid "All Projects"
+msgstr "Svi projekti"
+
+msgid "No projects available"
+msgstr "Nema dostupnih projekata"
+
+msgid "Create Free Account"
+msgstr "Stvori besplatni račun"
+
+msgid "Edit User"
+msgstr "Uredi korisnika"
+
+msgid "Delete User"
+msgstr "Izbriši korisnika"
+
+msgid "New User"
+msgstr "Novi korisnik"
+
+msgid "Uniq Id"
+msgstr "Jedinstveni ID"
+
+msgid "Btprofile Id"
+msgstr "Btprofile ID"
+
+msgid "Credit Cardtoken"
+msgstr "Token kartice"
+
+msgid "Card Number"
+msgstr "Broj kartice"
+
+msgid "Expiry Date"
+msgstr "Datum isteka"
+
+msgid "Update Email"
+msgstr "Ažuriraj e-poštu"
+
+msgid "Update Random"
+msgstr "Ažuriraj nasumično"
+
+msgid "Photo"
+msgstr "Fotografija"
+
+msgid "Photo Reset"
+msgstr "Poništi fotografiju"
+
+msgid "Query String"
+msgstr "Upitni niz"
+
+msgid "Google Id"
+msgstr "Google ID"
+
+msgid "Ip"
+msgstr "IP"
+
+msgid "Sig"
+msgstr "Potpis"
+
+msgid "Verify String"
+msgstr "Provjeri tekst"
+
+msgid "Phone"
+msgstr "Telefon"
+
+msgid "Linkedin Id"
+msgstr "LinkedIn ID"
+
+msgid "Id"
+msgstr "ID"
+
+msgid "Is Beta"
+msgstr "Je beta"
+
+msgid "Istype"
+msgstr "Je vrsta"
+
+msgid "Isactive"
+msgstr "Je aktivan"
+
+msgid "Timezone Id"
+msgstr "ID vremenske zone"
+
+msgid "Isemail"
+msgstr "Je e-pošta"
+
+msgid "Is Agree"
+msgstr "Je suglasan"
+
+msgid "Usersub Type"
+msgstr "Vrsta pretplate"
+
+msgid "Est Billing Amount"
+msgstr "Proc. iznos naplate"
+
+msgid "Desk Notify"
+msgstr "Obavijest na radnoj površini"
+
+msgid "Active Dashboard Tab"
+msgstr "Aktivna kartica nadzorne ploče"
+
+msgid "Is Moderator"
+msgstr "Je moderator"
+
+msgid "Show Default Inner"
+msgstr "Prikaži zadano unutarnje"
+
+msgid "Updated By"
+msgstr "Ažurirao"
+
+msgid "Is Online"
+msgstr "Je online"
+
+msgid "Is Dst"
+msgstr "Je ljetno vrijeme"
+
+msgid "Language Id"
+msgstr "ID jezika"
+
+msgid "Is Agree Tosp"
+msgstr "Prihvatio uvjete"
+
+msgid "Is Receive Update"
+msgstr "Prima ažuriranja"
+
+msgid "Outer Signup"
+msgstr "Vanjski upis"
+
+msgid "Is Dummy"
+msgstr "Je probni"
+
+msgid "Keep Hover Effect"
+msgstr "Zadrži efekt prelaska mišem"
+
+msgid "Is Zapaction"
+msgstr "Je Zap radnja"
+
+msgid "Dt Created"
+msgstr "Datum stvaranja"
+
+msgid "Dt Updated"
+msgstr "Datum ažuriranja"
+
+msgid "Dt Last Login"
+msgstr "Zadnja prijava"
+
+msgid "Dt Last Logout"
+msgstr "Zadnja odjava"
+
+msgid "Gaccess Token"
+msgstr "Gaccess token"
+
+msgid "One Tap Token"
+msgstr "Token jednog klika"
+
+msgid "mothly"
+msgstr "mjesečno"
+
+msgid "click here"
+msgstr "kliknite ovdje"
