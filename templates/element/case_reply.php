@@ -97,7 +97,7 @@ shRplyEdt = 1;
                 <div class="fl attachment_wrap">
                     <div class="glyph attachment"></div>
                     <span>
-                                <span class="attach_cnt"><%= len%> <% if(len > 1){ %> Files <% }else{ %> File<% } %></span>
+                                <span class="attach_cnt"><%= len%> <% if(len > 1){ %> <?= __('Files') ?> <% }else{ %> <?= __('File') ?><% } %></span>
                             </span>
                 </div>
                 <div class="cb"></div>
@@ -211,7 +211,7 @@ shRplyEdt = 1;
         <div class="dms-comment-chip" style="display:inline-flex;align-items:center;gap:6px;margin:4px 6px 0 0;padding:4px 10px;border:1px solid #e5e7eb;border-radius:14px;background:#f9fafb;font-size:12px;">
             <span>📄</span>
             <a href="<%= dmsUrl %>" target="_blank" style="color:#2d6dc4;text-decoration:none;"><%= dmsTitle %></a>
-            <span style="padding:1px 6px;border-radius:8px;background:#dcfce7;color:#15803D;font-size:10px;">DMS</span>
+            <span style="padding:1px 6px;border-radius:8px;background:#dcfce7;color:#15803D;font-size:10px;"><?= __('DMS') ?></span>
         </div>
         <% } %>
         </div>

@@ -129,19 +129,19 @@
 										<% var caseFlag="";
 											if(caseLegend != 1 && caseTypeId != 10){ caseFlag=9; }
 											if(getdata.isactive == 1){ %>
-												<li onclick="setNewCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + caseUniqId + '\'' %>,0,<%= '\'sub\'' %>);" id="new<%= caseAutoId %>" style=" <% if(caseFlag == "9"){ %>display:block<% } else { %>display:none<% } %>">
+												<li onclick="setNewCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + caseUniqId + '\'' %>,0,<%= '\'sub\'' %>);" id="new<%= caseAutoId %>" style=" <% if(caseFlag == "9"){ %><?= __('display:block') ?><% } else { %><?= __('display:none') ?><% } %>">
 													<a href="javascript:void(0);"><i class="material-icons">&#xE166;</i><?php echo __('New'); ?></a>
                             </li>
                             <% } %>
 											<% if((caseLegend != 2 && caseLegend != 4) && caseTypeId!= 10) { caseFlag=1; }
 											if(getdata.isactive == 1) { %>
-												<li onclick="startCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + caseUniqId + '\'' %>,0, <%= '\'sub\'' %>);" id="start<%= caseAutoId %>" style=" <% if(caseFlag == "1"){ %>display:block<% } else { %>display:none<% } %>">
+												<li onclick="startCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + caseUniqId + '\'' %>,0, <%= '\'sub\'' %>);" id="start<%= caseAutoId %>" style=" <% if(caseFlag == "1"){ %><?= __('display:block') ?><% } else { %><?= __('display:none') ?><% } %>">
 													<a href="javascript:void(0);"><i class="material-icons">&#xE039;</i><% if(caseLegend == 1){ %><?php echo __('Start'); ?><% }else{ %><?php echo __('In Progress'); ?><% } %></a>
                             </li>
                             <% } %>
 											<% if((caseLegend != 5) && caseTypeId!= 10) { caseFlag=2; }
 											if(getdata.isactive == 1){ %>
-											<li onclick="caseResolve(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + caseUniqId + '\'' %>,0, <%= '\'sub\'' %>);" id="resolve<%= caseAutoId %>" style=" <% if(caseFlag == 2){ %> display:block <% } else { %> display:none <% } %>">
+											<li onclick="caseResolve(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + caseUniqId + '\'' %>,0, <%= '\'sub\'' %>);" id="resolve<%= caseAutoId %>" style=" <% if(caseFlag == 2){ %> <?= __('display:block') ?> <% } else { %> <?= __('display:none') ?> <% } %>">
 												<a href="javascript:void(0);"><i class="material-icons">&#xE889;</i><?php echo __('Resolve'); ?></a>
 											</li>
 											<% }
@@ -149,7 +149,7 @@
 											if(getdata.isactive == 1){ %>
 											<% if(isAllowed('Status change except Close',projectUniqid)){ %>
 												<input type="hidden" value="<%= caseParenTUID%>" id="closecase_id<%= caseAutoId%>" />
-												<li onclick="setCloseCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + caseUniqId + '\'' %>,0,<%= '\'sub\'' %>);" id="close<%= caseAutoId %>" style=" <% if(caseFlag == 5) { %>display:block <% } else { %>display:none<% } %>">
+												<li onclick="setCloseCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + caseUniqId + '\'' %>,0,<%= '\'sub\'' %>);" id="close<%= caseAutoId %>" style=" <% if(caseFlag == 5) { %><?= __('display:block') ?> <% } else { %><?= __('display:none') ?><% } %>">
 													<a href="javascript:void(0);"><i class="material-icons">&#xE876;</i><?php echo __('Close'); ?></a>
 												</li>
 											<% } %>

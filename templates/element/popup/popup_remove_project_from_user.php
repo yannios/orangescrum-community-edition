@@ -24,7 +24,7 @@
                 </div>
                 <div class="col-lg-5">
                     <div class="form-group label-floating" id="remprjsrch" style="display:none;">
-                        <label class="control-label" for="rmprjname">Search project</label>
+                        <label class="control-label" for="rmprjname"><?= __('Search project') ?></label>
                         <?php echo $this->Form->text('name', ['class' => 'form-control ', 'id' => 'rmprjname', 'maxlength' => '100', 'onkeyup' => "searchListWithInt('searchprojrem',600)", 'placeholder' => '', 'escape' => false]); ?>
                     </div>
                 </div>

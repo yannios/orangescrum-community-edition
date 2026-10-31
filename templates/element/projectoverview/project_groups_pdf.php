@@ -1,6 +1,6 @@
 <div class="task_group_catagory">
     <?php if (empty($res_out)) { ?>
-        <div class="data_not_avail">No Data Available</div>
+        <div class="data_not_avail"><?= __('No Data Available') ?></div>
     <?php } ?>
     <?php #pr($all_mil_names_epty);
     ?>

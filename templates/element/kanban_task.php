@@ -208,7 +208,7 @@ var rel_arr = new Array();
         /*if(taskallkey=='newTask'){tasktype=_('New');}else if(taskallkey=='inprogressTask'){tasktype=_('In Progress');}else if(taskallkey=='resolvedTask'){tasktype=_('Resolved')}else if(taskallkey=='closedTask'){tasktype=_('Closed')};*/
         if(!morecontent){
         %>
-        <div class="col-lg-3 kanban-child <% if(mlstId){ %>tsms-autoheight<%}else{%>ts-autoheight<%}%> kanban-<%= clscnt++ %>" id="<%= taskallkey %>">
+        <div class="col-lg-3 kanban-child <% if(mlstId){ %><?= __('tsms-autoheight') ?><%}else{%><?= __('ts-autoheight') ?><%}%> <?= __('kanban-') ?><%= clscnt++ %>" id="<%= taskallkey %>">
             <div class="kanban_cnt_det">
                 <div class="kanban_top_cnt kbhead kbhead_<%= taskallkey %>" <% if(tasktype_colr != ''){ %>style="background-color:#<%=tasktype_colr%>" <% }else if(tasktype_colr_cls == "closedTask"){ %> style="background-color:#72CA8D" <% }else if(tasktype_colr_cls == "resolvedTask"){ %>style="background-color:#FAB858" <% }else if(tasktype_colr_cls == "inprogressTask"){ %> style="background-color:#6BA8DE"<% }else if(tasktype_colr_cls == "newTask"){ %>style="background-color:#F08E83" <% } %>>
                 <input type="hidden" name="pages" class="kanban_page_count" value="1" />
@@ -228,7 +228,7 @@ var rel_arr = new Array();
                     <div class="form-group label-floating">
                         <label class="control-label" for="add_task_fld"><?php echo __('Enter Task Title');?></label>
                         <% if(mlstId && mlstId!="0"){ %>
-                        <input data-mid="<%= mlstId %>" data-custom-type="<%= proj_with_custom_sts %>" class="inline_qktask<%= mlstId %> in_qt_kanban form-control add_task_fld add_task_fld_kbn custom_task_entry_<%= proj_with_custom_sts %>" type="text" onkeypress="calltoquicktask(<%= mlstId %>,<%= '\'tg\'' %>,event);" id="inline_qktask_sts_tg"/>
+                        <input data-mid="<%= mlstId %>" data-custom-type="<%= proj_with_custom_sts %>" class="inline_qktask<%= mlstId %> <?= __('in_qt_kanban form-control add_task_fld add_task_fld_kbn custom_task_entry_') ?><%= proj_with_custom_sts %>" type="text" onkeypress="calltoquicktask(<%= mlstId %>,<%= '\'tg\'' %>,event);" id="inline_qktask_sts_tg"/>
                         <% }else{ %>
                         <input data-custom-type="<%= proj_with_custom_sts %>" class="inline_qktask in_qt_kanban_status form-control add_task_fld add_task_fld_kbn custom_task_entry_<%= proj_with_custom_sts %>" id="inline_qktask_sts" type="text" />
                         <% } %>
@@ -313,7 +313,7 @@ var rel_arr = new Array();
                 projectName =	getdata.Easycase.pjname;
                 projectUniqid = getdata.Easycase.pjUniqid;
                 } %>
-                <div class="kb_task_det item-<%= caseAutoId %> prioo-bdr-<%= easycase.getPriority(casePriority) %> kbtask_div" title="<% if(getTotRepCnt && getTotRepCnt!=0) { %><?php echo __('Updated');?><% } else { %><?php echo __('Created');?><% } %> <?php echo __('by');?> <%= getdata.Easycase.usrShortName %> <% if(getdata.Easycase.updtedCapDt.indexOf('Today')==-1 && getdata.Easycase.updtedCapDt.indexOf('Y\'day')==-1) { %><?php echo __('on');?><% } %> <%= getdata.Easycase.updtedCapDt %> " data-is-parent="<% if(rel_arr.length && rel_arr.indexOf(caseAutoId) != -1){ %>1<% } %>" data-task-id="<%= caseUniqId %>" data-seq-id = "<%= caseSeqId %>" data-proj-id="<%= projectUniqid%>">
+                <div class="kb_task_det item-<%= caseAutoId %> <?= __('prioo-bdr-') ?><%= easycase.getPriority(casePriority) %> kbtask_div" title="<% if(getTotRepCnt && getTotRepCnt!=0) { %><?php echo __('Updated');?><% } else { %><?php echo __('Created');?><% } %> <?php echo __('by');?> <%= getdata.Easycase.usrShortName %> <% if(getdata.Easycase.updtedCapDt.indexOf('Today')==-1 && getdata.Easycase.updtedCapDt.indexOf('Y\'day')==-1) { %><?php echo __('on');?><% } %> <%= getdata.Easycase.updtedCapDt %> " data-is-parent="<% if(rel_arr.length && rel_arr.indexOf(caseAutoId) != -1){ %>1<% } %>" data-task-id="<%= caseUniqId %>" data-seq-id = "<%= caseSeqId %>" data-proj-id="<%= projectUniqid%>">
                     <span class="prio_<%= easycase.getPriority(casePriority) %> prio_lmh prio_kanban" rel="tooltip" title="<?php echo __('Priority');?>: <%=  easycase.getPriority(casePriority) %>"></span>
                     <div class="top_title_type">
                         <h6  id="titlehtml<%= count %>" data-task="<%= caseUniqId %>" class="case-title case_sub_task <% if(getdata.Easycase.type_id!=10 && getdata.Easycase.legend==3) { %>line_through<% } %> case_title_<%= caseAutoId %>">
@@ -353,26 +353,26 @@ var rel_arr = new Array();
 							  <% var caseFlag="";
                                 if(caseLegend != 1 && caseTypeId != 10){ caseFlag=9; }
                                 if(getdata.Easycase.isactive == 1){ %>
-                                <li onclick="setNewCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + caseUniqId + '\'' %>);" id="new<%= caseAutoId %>" style=" <% if(caseFlag == "9"){ %>display:block<% } else { %>display:none<% } %>">
+                                <li onclick="setNewCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + caseUniqId + '\'' %>);" id="new<%= caseAutoId %>" style=" <% if(caseFlag == "9"){ %><?= __('display:block') ?><% } else { %><?= __('display:none') ?><% } %>">
                                     <a href="javascript:void(0);"><i class="material-icons">&#xE166;</i><?php echo __('New');?></a>
                             </li>
                             <% }
                                 if((caseLegend != 2 && caseLegend != 4) && caseTypeId!= 10) { caseFlag=1; }
                                 if(getdata.Easycase.isactive == 1) { %>
-                                <li onclick="startCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + caseUniqId + '\'' %>);" id="start<%= caseAutoId %>" style=" <% if(caseFlag == "1"){ %>display:block<% } else { %>display:none<% } %>">
+                                <li onclick="startCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + caseUniqId + '\'' %>);" id="start<%= caseAutoId %>" style=" <% if(caseFlag == "1"){ %><?= __('display:block') ?><% } else { %><?= __('display:none') ?><% } %>">
                                         <a href="javascript:void(0);"><i class="material-icons">&#xE039;</i><% if(caseLegend == 1){ %><?php echo __('Start');?><% }else{ %><?php echo __('In Progress');?><% } %></a>
                             </li>
                             <% }
                                 if((caseLegend != 5) && caseTypeId!= 10) { caseFlag=2; }
                                 if(getdata.Easycase.isactive == 1){ %>
-                                <li onclick="caseResolve(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + caseUniqId + '\'' %>);" id="resolve<%= caseAutoId %>" style=" <% if(caseFlag == 2){ %> display:block <% } else { %> display:none <% } %>">
+                                <li onclick="caseResolve(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + caseUniqId + '\'' %>);" id="resolve<%= caseAutoId %>" style=" <% if(caseFlag == 2){ %> <?= __('display:block') ?> <% } else { %> <?= __('display:none') ?> <% } %>">
                                         <a href="javascript:void(0);"><i class="material-icons">&#xE889;</i><?php echo __('Resolve');?></a>
                                 </li>
                                 <% }
                                 if((caseLegend != 3) && caseTypeId != 10) { caseFlag=5; }
                                 if(getdata.Easycase.isactive == 1){ %>
                                 <% if(isAllowed("Status change except Close",projectUniqid)){ %>
-                                <li onclick="setCloseCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + caseUniqId + '\'' %>);" id="close<%= caseAutoId %>" style=" <% if(caseFlag == 5) { %>display:block <% } else { %>display:none<% } %>">
+                                <li onclick="setCloseCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + caseUniqId + '\'' %>);" id="close<%= caseAutoId %>" style=" <% if(caseFlag == 5) { %><?= __('display:block') ?> <% } else { %><?= __('display:none') ?><% } %>">
                                         <a href="javascript:void(0);"><i class="material-icons">&#xE876;</i><?php echo __('Close');?></a>
                                 </li>
                                 <% } %>
@@ -393,7 +393,7 @@ var rel_arr = new Array();
 								<% if(caseParenId){ %>
 										  <?php if($this->Format->isAllowed('Change Other Details of Task',$roleAccess)){ ?>
                                               <% if(isEpicTask(getdata.Easycase.type_id , getdata.Easycase.original_epic_id, getdata.Easycase.actual_dt)){ %>
-                                              <li onclick="convertToParentTask(<%= '\''+ caseAutoId+'\'' %>);" id="convertToTask<%= caseAutoId %>" style=" <% if(showQuickActiononList){ %>display:block <% } else { %>display:none<% } %>">
+                                              <li onclick="convertToParentTask(<%= '\''+ caseAutoId+'\'' %>);" id="convertToTask<%= caseAutoId %>" style=" <% if(showQuickActiononList){ %><?= __('display:block') ?> <% } else { %><?= __('display:none') ?><% } %>">
                                               <a href="javascript:void(0);"><i class="material-icons">&#xE15A;</i><?php echo __('Convert To Parent');?></a>
                                         </li>
                                               <% } %>
@@ -404,7 +404,7 @@ var rel_arr = new Array();
 									 <%	if((getdata.Easycase.sub_sub_task==null) || (getdata.Easycase.sub_sub_task =="") || (getdata.Easycase.sub_sub_task ==0)){  %>
 										  <?php if($this->Format->isAllowed('Change Other Details of Task',$roleAccess)){ ?>
                                               <% if(isEpicTask(getdata.Easycase.type_id , getdata.Easycase.original_epic_id, getdata.Easycase.actual_dt)){ %>
-                                              <li onclick="convertToSubTask(<%= '\''+ caseAutoId+'\',\''+projId+'\',\''+caseNo+'\'' %>);" id="convertToSubTask<%= caseAutoId %>" style=" <% if(showQuickActiononList){ %>display:block <% } else { %>display:none<% } %>">
+                                              <li onclick="convertToSubTask(<%= '\''+ caseAutoId+'\',\''+projId+'\',\''+caseNo+'\'' %>);" id="convertToSubTask<%= caseAutoId %>" style=" <% if(showQuickActiononList){ %><?= __('display:block') ?> <% } else { %><?= __('display:none') ?><% } %>">
                                               <a href="javascript:void(0);"><i class="material-icons">&#xE15A;</i><?php echo __('Convert To Subtask');?></a>
                                         </li>
                                               <% } %>
@@ -444,8 +444,8 @@ var rel_arr = new Array();
                                 if(getdata.Easycase.isactive == 1){ %>
                                 <% if(isAllowed('Reply on Task',projectUniqid)){ %>
                                 <li id="bk_act_reply<%= count %>" data-task="<%= caseUniqId %>" onclick="replyFromKanban(this);">
-                                        <a href="javascript:void(0);" id="reopen<%= caseAutoId %>" style="<% if(caseFlag == 7){ %>display:block <% } else { %>display:none<% } %>"><i class="material-icons">&#xE898;</i><?php echo __('Re-open');?></a>
-                                        <a href="javascript:void(0);" id="reply<%= caseAutoId %>" style="<% if(caseFlag == 8){ %>display:block <% } else { %>display:none<% } %>"><i class="material-icons">&#xE15E;</i><?php echo __('Reply');?></a>
+                                        <a href="javascript:void(0);" id="reopen<%= caseAutoId %>" style="<% if(caseFlag == 7){ %><?= __('display:block') ?> <% } else { %><?= __('display:none') ?><% } %>"><i class="material-icons">&#xE898;</i><?php echo __('Re-open');?></a>
+                                        <a href="javascript:void(0);" id="reply<%= caseAutoId %>" style="<% if(caseFlag == 8){ %><?= __('display:block') ?> <% } else { %><?= __('display:none') ?><% } %>"><i class="material-icons">&#xE15E;</i><?php echo __('Reply');?></a>
                                 </li>
                             <% } %>
                                 <% }
@@ -453,11 +453,11 @@ var rel_arr = new Array();
                                 if(showQuickActiononList == 1 || isAllowed('Edit All Task',projectUniqid)){ %>
                                 <% if((isAllowed('Edit Task',projectUniqid) && showQuickActiononListEdit) || isAllowed('Edit All Task',projectUniqid)){ %>
                                     <% if(getdata.Easycase.type_id == getdata.Easycase.original_epic_id){ %>
-                                    <li onclick="editepic(<%= '\''+ caseUniqId+'\',\''+projectUniqid+'\',\''+htmlspecialchars(projectName)+'\'' %>);" id="edit<%= caseAutoId %>" style=" <% if(caseFlag == 3){ %>display:block <% } else { %>display:none<% } %>">
+                                    <li onclick="editepic(<%= '\''+ caseUniqId+'\',\''+projectUniqid+'\',\''+htmlspecialchars(projectName)+'\'' %>);" id="edit<%= caseAutoId %>" style=" <% if(caseFlag == 3){ %><?= __('display:block') ?> <% } else { %><?= __('display:none') ?><% } %>">
                                         <a href="javascript:void(0);"><i class="material-icons">&#xE254;</i><?php echo __('Edit');?></a>
                                 </li>
                             <% }else{ %>
-                                <li onclick="editask(<%= '\''+ caseUniqId+'\',\''+projectUniqid+'\',\''+htmlspecialchars(projectName)+'\'' %>);" id="edit<%= caseAutoId %>" style=" <% if(caseFlag == 3){ %>display:block <% } else { %>display:none<% } %>">
+                                <li onclick="editask(<%= '\''+ caseUniqId+'\',\''+projectUniqid+'\',\''+htmlspecialchars(projectName)+'\'' %>);" id="edit<%= caseAutoId %>" style=" <% if(caseFlag == 3){ %><?= __('display:block') ?> <% } else { %><?= __('display:none') ?><% } %>">
                                         <a href="javascript:void(0);"><i class="material-icons">&#xE254;</i><?php echo __('Edit');?></a>
                                 </li>
                             <% } %>
@@ -477,7 +477,7 @@ var rel_arr = new Array();
                                 if((caseLegend == 1 || caseLegend == 2 || caseLegend == 4) && caseTypeId!= 10) { caseFlag=2; }
                                 if(getdata.Easycase.isactive == 1){ %>
                                 <% if(isAllowed('Move to Milestone',projectUniqid)){ %>
-                                <li onclick="moveTask(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'\'' %>,<%= '\'' + projId + '\'' %>);" id="moveTask<%= caseAutoId %>" style=" <% if(caseFlag == 2){ %> display:block <% } else { %> display:block <% } %>">
+                                <li onclick="moveTask(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'\'' %>,<%= '\'' + projId + '\'' %>);" id="moveTask<%= caseAutoId %>" style=" <% if(caseFlag == 2){ %> <?= __('display:block') ?> <% } else { %> <?= __('display:block') ?> <% } %>">
                                         <a href="javascript:void(0);"><i class="material-icons">&#xE89F;</i><?php echo __('Move to Task Group');?></a>
                                 </li>
                                 <% } %>
@@ -487,7 +487,7 @@ var rel_arr = new Array();
                                 caseFlag = "remove";
                                 %>
                                <% if(isAllowed('Change Other Details of Task',projectUniqid)){ %>
-                                <li onclick="removeThisCase(<%= '\'' + count + '\'' %>,<%= '\'' + getdata.Easycase.Emid + '\'' %>, <%= '\'' + caseAutoId + '\'' %>, <%= '\'' + getdata.Easycase.Em_milestone_id + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + caseUserId + '\'' %>);" id="rmv<%= caseAutoId %>" style="<% if(caseFlag == "remove"){ %>display:block<% } else { %>display:none<% } %>">
+                                <li onclick="removeThisCase(<%= '\'' + count + '\'' %>,<%= '\'' + getdata.Easycase.Emid + '\'' %>, <%= '\'' + caseAutoId + '\'' %>, <%= '\'' + getdata.Easycase.Em_milestone_id + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + caseUserId + '\'' %>);" id="rmv<%= caseAutoId %>" style="<% if(caseFlag == "remove"){ %><?= __('display:block') ?><% } else { %><?= __('display:none') ?><% } %>">
                                         <a href="javascript:void(0);"><i class="material-icons">&#xE15C;</i><?php echo __('Remove Task');?></a>
                             </li>
                             <% } %>
@@ -497,7 +497,7 @@ var rel_arr = new Array();
                                 if(SES_TYPE == 1 || SES_TYPE == 2 || ((caseLegend == 1 || caseLegend == 2 || caseLegend == 4) && ( SES_ID == caseUserId)) || isAllowed('Archive All Task',projectUniqid)) { caseFlag = "archive"; }
                                 if(getdata.Easycase.isactive == 1){ %>
                                <% if(isAllowed('Archive Task',projectUniqid) || isAllowed('Archive All Task',projectUniqid)){ %>
-                                <li onclick="archiveCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + projId + '\'' %>, <%= '\'t_' + caseUniqId + '\'' %>);" id="arch<%= caseAutoId %>" style="<% if(caseFlag == "archive"){ %>display:block<% } else { %>display:none<% } %>">
+                                <li onclick="archiveCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + projId + '\'' %>, <%= '\'t_' + caseUniqId + '\'' %>);" id="arch<%= caseAutoId %>" style="<% if(caseFlag == "archive"){ %><?= __('display:block') ?><% } else { %><?= __('display:none') ?><% } %>">
                                         <a href="javascript:void(0);"><i class="material-icons">&#xE149;</i><?php echo __('Archive');?></a>
                             </li>
                             <% } %>
@@ -505,7 +505,7 @@ var rel_arr = new Array();
                                 if(SES_TYPE == 1 || SES_TYPE == 2 || (caseLegend == 1  && SES_ID == caseUserId) || isAllowed('Delete All Task',projectUniqid) ) { caseFlag = "delete"; }
                                 if(getdata.Easycase.isactive == 1){ %>
                                 <% if(isAllowed('Delete Task',projectUniqid) || isAllowed('Delete All Task',projectUniqid)){ %>
-                                  <li onclick="deleteCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + projId + '\'' %>, <%= '\'t_' + caseUniqId + '\'' %>, <%= '\'' + getdata.Easycase.is_recurring + '\'' %>);" id="arch<%= caseAutoId %>" style="<% if(caseFlag == "delete"){ %>display:block<% } else { %>display:none<% } %>">
+                                  <li onclick="deleteCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + projId + '\'' %>, <%= '\'t_' + caseUniqId + '\'' %>, <%= '\'' + getdata.Easycase.is_recurring + '\'' %>);" id="arch<%= caseAutoId %>" style="<% if(caseFlag == "delete"){ %><?= __('display:block') ?><% } else { %><?= __('display:none') ?><% } %>">
                                       <a href="javascript:void(0);"><i class="material-icons">&#xE872;</i><?php echo __('Delete');?></a>
                             </li>
                             <% } %>
@@ -530,7 +530,7 @@ var rel_arr = new Array();
                             <span class="task_parent_block" id="task_parent_block_<%= getdata.Easycase.uniq_id %>">
                                 <div rel="" title="<?php echo __('Parents');?>" onclick="showParents(<%= '\'' + getdata.Easycase.id + '\'' %>,<%= '\'' + getdata.Easycase.uniq_id + '\'' %>,<%= '\'' + getdata.Easycase.children + '\'' %>);" class=" task_title_icons_parents fl"></div>
                                 <div class="dropdown dropup1 open1 showParents">
-                                    <ul class="dropdown-menu  bottom_dropdown-caret" style="<% if(getdata.Easycase.depends && getdata.Easycase.depends != ''){ %>left:-30px;<%}else{%>left:-50px;<%}%>">
+                                    <ul class="dropdown-menu  bottom_dropdown-caret" style="<% if(getdata.Easycase.depends && getdata.Easycase.depends != ''){ %><?= __('left:-30px;') ?><%}else{%><?= __('left:-50px;') ?><%}%>">
                                         <li class="pop_arrow_new"></li>
                                         <li class="task_parent_msg" style=""><?php echo __("These tasks are waiting on this task.");?></li>
                                         <li>

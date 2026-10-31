@@ -95,7 +95,7 @@
                              if(isactive == 1){ %> 
                                 <% if(showQuickActiononList || isAllowed("Edit All Task",projectUniqid)){ %> 
                                     <% if((isAllowed("Edit Task",projectUniqid) && showQuickActiononListEdit) || isAllowed("Edit All Task",projectUniqid)){ %> 
-                                    <li onclick="editask(<%= '\''+ caseUniqId+'\',\''+projectUniqid+'\',\''+htmlspecialchars(projectName)+'\'' %>);" id="edit<%= caseAutoId %>" style=" <% if(showQuickActiononList || isAllowed('Edit All Task',projectUniqid) || (isAllowed('Edit Task',projectUniqid) && showQuickActiononListEdit) ){ %>display:block <% } else { %>display:none<% } %>">
+                                    <li onclick="editask(<%= '\''+ caseUniqId+'\',\''+projectUniqid+'\',\''+htmlspecialchars(projectName)+'\'' %>);" id="edit<%= caseAutoId %>" style=" <% if(showQuickActiononList || isAllowed('Edit All Task',projectUniqid) || (isAllowed('Edit Task',projectUniqid) && showQuickActiononListEdit) ){ %><?= __('display:block') ?> <% } else { %><?= __('display:none') ?><% } %>">
                                     <a href="javascript:void(0);"><i class="material-icons">&#xE254;</i><?php echo __('Edit');?></a>
                                     </li> 
                                     <% } %>  
@@ -104,26 +104,26 @@
                               <% var caseFlag="";
                               if(caseDet.Easycase.legend != 1 && caseDet.Easycase.type_id != 10){ caseFlag=9; }
                               if(caseDet.Easycase.isactive == 1){ %>
-                                <li onclick="setNewCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseDet.Easycase.case_no + '\'' %>, <%= '\'' + caseDet.Easycase.uniq_id + '\'' %>);" id="new<%= caseAutoId %>" style=" <% if(caseFlag == "9"){ %>display:block<% } else { %>display:none<% } %>">
+                                <li onclick="setNewCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseDet.Easycase.case_no + '\'' %>, <%= '\'' + caseDet.Easycase.uniq_id + '\'' %>);" id="new<%= caseAutoId %>" style=" <% if(caseFlag == "9"){ %><?= __('display:block') ?><% } else { %><?= __('display:none') ?><% } %>">
                                     <a href="javascript:void(0);"><i class="material-icons">&#xE166;</i><?php echo __('New');?></a>
                                 </li>
                               <% }
                               if((caseDet.Easycase.legend != 2 && caseDet.Easycase.legend != 4) && caseDet.Easycase.type_id!= 10) { caseFlag=1; }
                                                   if(caseDet.Easycase.isactive == 1) { %>
-                                <li onclick="startCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseDet.Easycase.case_no + '\'' %>, <%= '\'' + caseDet.Easycase.uniq_id + '\'' %>);" id="start<%= caseAutoId %>" style=" <% if(caseFlag == "1"){ %>display:block<% } else { %>display:none<% } %>">
+                                <li onclick="startCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseDet.Easycase.case_no + '\'' %>, <%= '\'' + caseDet.Easycase.uniq_id + '\'' %>);" id="start<%= caseAutoId %>" style=" <% if(caseFlag == "1"){ %><?= __('display:block') ?><% } else { %><?= __('display:none') ?><% } %>">
                                     <a href="javascript:void(0);"><i class="material-icons">&#xE039;</i><% if(caseDet.Easycase.legend == 1){ %><?php echo __('Start');?><% }else{ %><?php echo __('In Progress');?><% } %></a>
                                 </li>
                               <% }
                               if((caseDet.Easycase.legend != 5) && caseDet.Easycase.type_id!= 10) { caseFlag=2; }
                               if(caseDet.Easycase.isactive == 1){ %>
-                                <li onclick="caseResolve(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseDet.Easycase.case_no + '\'' %>, <%= '\'' + caseDet.Easycase.uniq_id + '\'' %>);" id="resolve<%= caseAutoId %>" style=" <% if(caseFlag == 2){ %> display:block <% } else { %> display:none <% } %>">
+                                <li onclick="caseResolve(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseDet.Easycase.case_no + '\'' %>, <%= '\'' + caseDet.Easycase.uniq_id + '\'' %>);" id="resolve<%= caseAutoId %>" style=" <% if(caseFlag == 2){ %> <?= __('display:block') ?> <% } else { %> <?= __('display:none') ?> <% } %>">
                                     <a href="javascript:void(0);"><i class="material-icons">&#xE889;</i><?php echo __('Resolve');?></a>
                                 </li>
                               <% }
                               if((caseDet.Easycase.legend != 3) && caseDet.Easycase.type_id != 10) { caseFlag=5; }
                               if(caseDet.Easycase.isactive == 1){ %>
                                 <% if(isAllowed("Status change except Close",caseDet.Easycase.pjUniqid)){ %>
-                                <li onclick="setCloseCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseDet.Easycase.case_no + '\'' %>, <%= '\'' + caseDet.Easycase.uniq_id + '\'' %>);" id="close<%= caseAutoId %>" style=" <% if(caseFlag == 5) { %>display:block <% } else { %>display:none<% } %>">
+                                <li onclick="setCloseCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseDet.Easycase.case_no + '\'' %>, <%= '\'' + caseDet.Easycase.uniq_id + '\'' %>);" id="close<%= caseAutoId %>" style=" <% if(caseFlag == 5) { %><?= __('display:block') ?> <% } else { %><?= __('display:none') ?><% } %>">
                                     <a href="javascript:void(0);"><i class="material-icons">&#xE876;</i><?php echo __('Close');?></a>
                                 </li>
                                 <% } %>  
@@ -143,7 +143,7 @@
                       <% } %>
 					  <%	if(caseDet.Easycase.sub_sub_task == 0){  %>
 										  <?php if($this->Format->isAllowed('Change Other Details of Task',$roleAccess)){ ?>
-                                        <li onclick="convertToSubTask(<%= '\''+ caseAutoId+'\',\''+projId+'\',\''+caseNo+'\'' %>);" id="convertToSubTask<%= caseAutoId %>" style=" <% if(showQuickActiononList){ %>display:block <% } else { %>display:none<% } %>">
+                                        <li onclick="convertToSubTask(<%= '\''+ caseAutoId+'\',\''+projId+'\',\''+caseNo+'\'' %>);" id="convertToSubTask<%= caseAutoId %>" style=" <% if(showQuickActiononList){ %><?= __('display:block') ?> <% } else { %><?= __('display:none') ?><% } %>">
                                               <a href="javascript:void(0);"><i class="material-icons">&#xE15A;</i><?php echo __('Convert To Subtask');?></a>
                                         </li>
                                       <?php } ?>
@@ -173,9 +173,9 @@
                       if(isactive == 1){ %>
                          <% if(isAllowed("Reply on Task",projectUniqid)){ %> 
                             <li id="subact_replys<%= count %>" data-task="<%= caseUniqId %>" page-refer-val="Task Group List Pages">
-                                <a href="javascript:void(0);" id="reopen<%= caseAutoId %>" style="<% if(caseFlag == 7){ %>display:block <% } else { %>display:none<% } %>"><div class="act_icon act_reply_task fl" title="<?php echo __('Re-open');?>"></div><i class="material-icons">&#xE898;</i> <?php echo __('Re-open');?></a>
+                                <a href="javascript:void(0);" id="reopen<%= caseAutoId %>" style="<% if(caseFlag == 7){ %><?= __('display:block') ?> <% } else { %><?= __('display:none') ?><% } %>"><div class="act_icon act_reply_task fl" title="<?php echo __('Re-open');?>"></div><i class="material-icons">&#xE898;</i> <?php echo __('Re-open');?></a>
 
-                                <a href="javascript:void(0);" id="reply<%= caseAutoId %>" style="<% if(caseFlag == 8){ %>display:block <% } else { %>display:none<% } %>">
+                                <a href="javascript:void(0);" id="reply<%= caseAutoId %>" style="<% if(caseFlag == 8){ %><?= __('display:block') ?> <% } else { %><?= __('display:none') ?><% } %>">
                                     <i class="material-icons">&#xE15E;</i><?php echo __('Reply');?></a>
                             </li>
                         <% } %>
@@ -183,7 +183,7 @@
                     <% if( SES_ID == caseUserId) { caseFlag=3; }
                     if(isactive == 1){ %>
                             <% if(isAllowed("Change Other Details of Task",projectUniqid)){ %> 
-                            <li onclick="copytask(<%= '\''+ caseUniqId+'\',\''+ caseAutoId+'\',\''+caseNo+'\',\''+projId+'\',\''+htmlspecialchars(projectName)+'\'' %>);" id="copy<%= caseAutoId %>" style=" <% if(showQuickActiononList){ %>display:block <% } else { %>display:none<% } %>">
+                            <li onclick="copytask(<%= '\''+ caseUniqId+'\',\''+ caseAutoId+'\',\''+caseNo+'\',\''+projId+'\',\''+htmlspecialchars(projectName)+'\'' %>);" id="copy<%= caseAutoId %>" style=" <% if(showQuickActiononList){ %><?= __('display:block') ?> <% } else { %><?= __('display:none') ?><% } %>">
                             <a href="javascript:void(0);"><i class="material-icons">&#xE14D;</i><?php echo __('Copy');?></a>
                             </li> 
                             <% } %>
@@ -200,7 +200,7 @@
                         <% } %>
                        <% if(isactive == 1){ %>
                          <% if(isAllowed("Move to Milestone",projectUniqid)){ %> 
-                        <li onclick="moveTask( <%= '\'' + caseAutoId + '\'' %> , <%= '\'' + caseNo + '\'' %> , <%= '\'\'' %> , <%= '\'' + projId + '\'' %> );" id="moveTask<%= caseAutoId %>" style=" <% if(caseFlag == 2){ %> display:block <% } else { %> display:block <% } %>">
+                        <li onclick="moveTask( <%= '\'' + caseAutoId + '\'' %> , <%= '\'' + caseNo + '\'' %> , <%= '\'\'' %> , <%= '\'' + projId + '\'' %> );" id="moveTask<%= caseAutoId %>" style=" <% if(caseFlag == 2){ %> <?= __('display:block') ?> <% } else { %> <?= __('display:block') ?> <% } %>">
                             <a href="javascript:void(0);"><i class="material-icons">&#xE89F;</i><?php echo __('Move to Task Group');?></a>
                         </li>
                         <% } %>
@@ -208,7 +208,7 @@
 						<% if(SES_TYPE == 1 || SES_TYPE == 2 || (SES_ID == caseUserId) || isAllowed("Archive All Task",projectUniqid)) { caseFlag = "archive"; }
                         if(isactive == 1){ %>
                         <% if(isAllowed("Archive Task",projectUniqid) || isAllowed("Archive All Task",projectUniqid)){ %>
-                        <li onclick="archiveCase( <%= '\'' + caseAutoId + '\'' %> , <%= '\'' + caseNo + '\'' %> , <%= '\'' + projId + '\'' %> , <%= '\'t_' + caseUniqId + '\'' %> );" id="arch<%= caseAutoId %>" style="<% if(caseFlag == "archive"){ %>display:block<% } else { %>display:none<% } %>">
+                        <li onclick="archiveCase( <%= '\'' + caseAutoId + '\'' %> , <%= '\'' + caseNo + '\'' %> , <%= '\'' + projId + '\'' %> , <%= '\'t_' + caseUniqId + '\'' %> );" id="arch<%= caseAutoId %>" style="<% if(caseFlag == "archive"){ %><?= __('display:block') ?><% } else { %><?= __('display:none') ?><% } %>">
                             <a href="javascript:void(0);"><i class="material-icons">&#xE149;</i><?php echo __('Archive');?></a>
                         </li>
                         <% } %>
@@ -216,7 +216,7 @@
 						<%	if(SES_TYPE == 1 || SES_TYPE == 2 || (SES_ID == caseUserId) || isAllowed("Delete All Task",projectUniqid)) { caseFlag = "delete"; }
                         if(isactive == 1){ %>
                         <% if(isAllowed("Delete Task",projectUniqid) || isAllowed("Delete All Task",projectUniqid)){ %>
-                        <li onclick="deleteCase( <%= '\'' + caseAutoId + '\'' %> , <%= '\'' + caseNo + '\'' %> , <%= '\'' + projId + '\'' %> , <%= '\'t_' + caseUniqId + '\'' %> , <%= '\'' + is_recurring + '\'' %>);" id="arch<%= caseAutoId %>" style="<% if(caseFlag == "delete"){ %>display:block<% } else { %>display:none<% } %>">
+                        <li onclick="deleteCase( <%= '\'' + caseAutoId + '\'' %> , <%= '\'' + caseNo + '\'' %> , <%= '\'' + projId + '\'' %> , <%= '\'t_' + caseUniqId + '\'' %> , <%= '\'' + is_recurring + '\'' %>);" id="arch<%= caseAutoId %>" style="<% if(caseFlag == "delete"){ %><?= __('display:block') ?><% } else { %><?= __('display:none') ?><% } %>">
                             <a href="javascript:void(0);"><i class="material-icons">&#xE872;</i><?php echo __('Delete');?></a>
                         </li>
                         <% } %>						
@@ -272,7 +272,7 @@
                   <div class="ttl_listing" data-task-id="<%= caseDet.Easycase.uniq_id %>">
                   <a href="javascript:void(0);" class="titlehtml" data-task="<%= caseDet.Easycase.uniq_id %>">
                      <span class="case-title_<%= caseAutoId %> case_sub_task <% if(caseDet.Easycase.type_id!=10 && (caseDet.Easycase.legend == caseDet.max_custom_status || caseDet.Easycase.custom_status_id == caseDet.max_custom_status)) { %>closed_tsk<% } %>">
-                        <span class="max_width_tsk_title ellipsis-view <% if(caseDet.Easycase.legend == 5){%>resolve_tsk<% } %> case_title wrapword task_title_ipad <% if(caseDet.Easycase.title && caseDet.Easycase.title.length>100){%>overme<% }%> " title="<%= formatText(ucfirst(caseDet.Easycase.title)) %>  ">
+                        <span class="max_width_tsk_title ellipsis-view <% if(caseDet.Easycase.legend == 5){%>resolve_tsk<% } %> <?= __('case_title wrapword task_title_ipad') ?> <% if(caseDet.Easycase.title && caseDet.Easycase.title.length>100){%>overme<% }%> " title="<%= formatText(ucfirst(caseDet.Easycase.title)) %>  ">
                            <%= formatText(ucfirst(caseDet.Easycase.title)) %>
                         </span>
                      </span>

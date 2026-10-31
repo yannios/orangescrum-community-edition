@@ -161,9 +161,9 @@
                                 <p><%= project_milestones[k]['title'] %></p>
                             </div>
                             <div class="time_date_ontask">
-                                <p>Est Hrs: <span><%= project_milestones[k]['estimated_hours']%></span></p>
-                                <p>Start Date: <span><%= project_milestones[k]['start_date']%></span></p>
-                                <p>Due Date: <span><%= project_milestones[k]['end_date']%></span></p>
+                                <p><?= __('Est Hrs:') ?> <span><%= project_milestones[k]['estimated_hours']%></span></p>
+                                <p><?= __('Start Date:') ?> <span><%= project_milestones[k]['start_date']%></span></p>
+                                <p><?= __('Due Date:') ?> <span><%= project_milestones[k]['end_date']%></span></p>
                             </div>
                         </a>
                     </div>

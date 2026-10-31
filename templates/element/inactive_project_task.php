@@ -129,7 +129,7 @@ var check_ids_array = typeof getCookie('PREOPENED_TASK_GROUP_IDS') != 'undefined
                             %>
                             <% if(GrpBy != 'milestone'){ %>
                             <a class="sorttitle" href="javascript:void(0);" title="<?php echo __('Title'); ?>" onclick="inactiveAjaxSorting(<%= '\'title\', ' + caseCount + ', this,'+orderTtl %>);">
-                                Title<span class="sorting_arw"><% if(typeof csTtl != 'undefined' && csTtl != "") { %>
+                                <?= __('Title') ?><span class="sorting_arw"><% if(typeof csTtl != 'undefined' && csTtl != "") { %>
                                     <% if(csTtl == 'asc'){ %>
                                     <i class="material-icons tsk_asc">&#xE5CE;</i>
                                     <% }else{ %>
@@ -140,7 +140,7 @@ var check_ids_array = typeof getCookie('PREOPENED_TASK_GROUP_IDS') != 'undefined
                                     <% } %></span>
                             </a>
                             <% }else{ %>
-                            Title
+                            <?= __('Title') ?>
                             <% } %>
                         </th>
                         <th></th>
@@ -155,7 +155,7 @@ var check_ids_array = typeof getCookie('PREOPENED_TASK_GROUP_IDS') != 'undefined
                             %>
                             <% if(1 || GrpBy != 'milestone'){ %>
                             <a class="sortcaseAt" href="javascript:void(0);" title="<?php echo __('Assigned to'); ?>" onclick="inactiveAjaxSorting(<%= '\'caseAt\', ' + caseCount + ', this,'+orderAtSrt %>);">
-                                Assigned to
+                                <?= __('Assigned to') ?>
                                 <span class="sorting_arw"><% if(typeof csAtSrt != 'undefined' && csAtSrt != "") { %>
                                     <% if(csAtSrt == 'asc'){ %>
                                     <i class="material-icons tsk_asc">&#xE5CE;</i>
@@ -167,7 +167,7 @@ var check_ids_array = typeof getCookie('PREOPENED_TASK_GROUP_IDS') != 'undefined
                                     <% } %></span>
                             </a>
                             <% }else{ %>
-                            <div class="fl">Assigned to</div>
+                            <div class="fl"><?= __('Assigned to') ?></div>
                             <% } %>
                         </th>
                         <% 
@@ -180,7 +180,7 @@ var check_ids_array = typeof getCookie('PREOPENED_TASK_GROUP_IDS') != 'undefined
                             %>
                         <th class="width_priority text-center">
                             <a class="sortprioroty" href="javascript:void(0);" title="<?php echo __('Priority'); ?>" onclick="inactiveAjaxSorting(<%= '\'priority\', ' + caseCount + ', this,'+orderPriSrt %>);">
-                                Priority
+                                <?= __('Priority') ?>
                                 <span class="sorting_arw"><% if(typeof csPriSrt != 'undefined' && csPriSrt != "") { %>
                                     <% if(csPriSrt == 'asc'){ %>
                                     <i class="material-icons tsk_asc">&#xE5CE;</i>
@@ -202,7 +202,7 @@ var check_ids_array = typeof getCookie('PREOPENED_TASK_GROUP_IDS') != 'undefined
                             %>
                         <th class="width_update text-center">
                             <a class="sortupdated" href="javascript:void(0);" title="<?php echo __('Updated'); ?>" onclick="inactiveAjaxSorting(<%= '\'updated\', ' + caseCount + ', this,'+orderUpdatSrt %>);">
-                                Updated<span class="sorting_arw"><% if(typeof csUpdatSrt != 'undefined' && csUpdatSrt != "") { %>
+                                <?= __('Updated') ?><span class="sorting_arw"><% if(typeof csUpdatSrt != 'undefined' && csUpdatSrt != "") { %>
                                     <% if(csUpdatSrt == 'asc'){ %>
                                     <i class="material-icons tsk_asc">&#xE5CE;</i>
                                     <% }else{ %>
@@ -214,7 +214,7 @@ var check_ids_array = typeof getCookie('PREOPENED_TASK_GROUP_IDS') != 'undefined
                             </a>
                         </th>
                         <th class="width_status text-center">
-                            Status
+                            <?= __('Status') ?>
                         </th>
                         <% 
                             if(typeof csDuDt != 'undefined' && csDuDt != ""){
@@ -226,7 +226,7 @@ var check_ids_array = typeof getCookie('PREOPENED_TASK_GROUP_IDS') != 'undefined
                             %>
                         <th class="tsk_due_dt">
                             <a class="sortduedate" href="javascript:void(0);" title="<?php echo __('Due Date'); ?>" onclick="inactiveAjaxSorting(<%= '\'duedate\', ' + caseCount + ', this,'+orderDuDt %>);">
-                                Due Date
+                                <?= __('Due Date') ?>
                                 <span class="sorting_arw"><% if(typeof csDuDt != 'undefined' && csDuDt != "") { %>
                                     <% if(csDuDt == 'asc'){ %>
                                     <i class="material-icons tsk_asc">&#xE5CE;</i>
@@ -245,7 +245,7 @@ var check_ids_array = typeof getCookie('PREOPENED_TASK_GROUP_IDS') != 'undefined
                         <td colspan="3">
                             <div class="form-group label-floating">
                                 <div class="input-group">
-                                    <label class="control-label" for="addon3a">Task Title</label>
+                                    <label class="control-label" for="addon3a"><?= __('Task Title') ?></label>
                                     <input class="form-control" type="text" id="inline_qktask" onblur="blurqktask();">
                                     <span class="input-group-btn">
                                         <button type="button" class="btn btn-fab btn-fab-mini quick-send-icon" onclick="AddQuickTask(); " title="<?php echo __('Post Task'); ?>">
@@ -380,7 +380,7 @@ var check_ids_array = typeof getCookie('PREOPENED_TASK_GROUP_IDS') != 'undefined
                         <td class="relative list-cont-td">
                             <a href="javascript:void(0);" class="ttl_listing">
                                 <span id="inactivetitlehtml<%= count %>" data-task="<%= caseUniqId %>" class="case-title <% if(getdata.Easycase.type_id!=10 && getdata.Easycase.legend==3) { %>closed_tsk<% } %> case_title_<%= caseAutoId %>">
-                                    <span class="max_width_tsk_title ellipsis-view <% if(caseLegend == 5){%>resolve_tsk<% } %> case_title wrapword task_title_ipad <% if(caseTitle.length>40){%>overme<% }%> " title="<%= formatText(ucfirst(caseTitle)) %>  ">
+                                    <span class="max_width_tsk_title ellipsis-view <% if(caseLegend == 5){%>resolve_tsk<% } %> <?= __('case_title wrapword task_title_ipad') ?> <% if(caseTitle.length>40){%>overme<% }%> " title="<%= formatText(ucfirst(caseTitle)) %>  ">
                                         <%= formatText(ucfirst(caseTitle)) %>
                                     </span>
                                 </span>
@@ -392,7 +392,7 @@ var check_ids_array = typeof getCookie('PREOPENED_TASK_GROUP_IDS') != 'undefined
                                     <div class="dropdown dropup fl1 open1 showParents">
                                         <ul class="dropdown-menu  bottom_dropdown-caret" style="left: -11px; padding:5px; cursor:default; min-width:250px; max-width:500px;">
                                             <li class="pop_arrow_new"></li>
-                                            <li class="task_parent_msg" style="">These tasks are waiting on this task.</li>
+                                            <li class="task_parent_msg" style=""><?= __('These tasks are waiting on this task.') ?></li>
                                             <li>
                                                 <ul class="task_parent_items" id="task_parent_<%= caseUniqId %>" style="">
                                                     <li style="text-align:center;" class="loader"><img src="<?php echo HTTP_ROOT; ?>img/images/loader1.gif"></li>
@@ -408,7 +408,7 @@ var check_ids_array = typeof getCookie('PREOPENED_TASK_GROUP_IDS') != 'undefined
                                     <div class="dropdown dropup fl1 open1 showDependents">
                                         <ul class="dropdown-menu  bottom_dropdown-caret" style="left: -11px; padding:5px; cursor:default; min-width:250px; max-width:500px;">
                                             <li class="pop_arrow_new"></li>
-                                            <li class="task_dependent_msg" style="">Task can't start. Waiting on these task to be completed.</li>
+                                            <li class="task_dependent_msg" style=""><?= __('Task can\'t start. Waiting on these task to be completed.') ?></li>
                                             <li>
                                                 <ul class="task_dependent_items" id="task_dependent_<%= caseUniqId %>" style="">
                                                     <li style="text-align:center;" class="loader"><img src="<?php echo HTTP_ROOT; ?>img/images/loader1.gif"></li>
@@ -420,7 +420,7 @@ var check_ids_array = typeof getCookie('PREOPENED_TASK_GROUP_IDS') != 'undefined
                                 <% } %>
                             </div>
                             <div class="list-td-hover-cont">
-                                <span class="created-txt"><% if(getTotRep && getTotRep!=0) { %>Updated<% } else { %>Created<% } %> by <%= getdata.Easycase.usrShortName %> <% if(getdata.Easycase.updtedCapDt.indexOf('Today')==-1 && getdata.Easycase.updtedCapDt.indexOf('Y\'day')==-1) { %>on<% } %> <%= getdata.Easycase.updtedCapDt %></span>
+                                <span class="created-txt"><% if(getTotRep && getTotRep!=0) { %><?= __('Updated') ?><% } else { %><?= __('Created') ?><% } %> by <%= getdata.Easycase.usrShortName %> <% if(getdata.Easycase.updtedCapDt.indexOf('Today')==-1 && getdata.Easycase.updtedCapDt.indexOf('Y\'day')==-1) { %>on<% } %> <%= getdata.Easycase.updtedCapDt %></span>
                                 <span class="list-devlop-txt">
                                     <a href="javascript:void(0)">
                                         <i class="material-icons tag_fl">&#xE54E;</i>
@@ -443,7 +443,7 @@ var check_ids_array = typeof getCookie('PREOPENED_TASK_GROUP_IDS') != 'undefined
                                 <i class="glyphicon glyphicon-paperclip"></i>
                             </a>
                             <% if(getTotRep && getTotRep!=0) { %><%= getTotRep %><% } %>
-                            <a href="javascript:void(0)" id="<%= count %>" style="<% if(!getTotRep || getTotRep==0) { %>display:none<% } %>">
+                            <a href="javascript:void(0)" id="<%= count %>" style="<% if(!getTotRep || getTotRep==0) { %><?= __('display:none') ?><% } %>">
                                 <i class="material-icons">&#xE0B9;</i>
                             </a>
                         </td>
@@ -464,7 +464,7 @@ var check_ids_array = typeof getCookie('PREOPENED_TASK_GROUP_IDS') != 'undefined
                             <% } %>
                         </td>
                         <% } %>
-                        <td class="text-center <% if(getdata.Easycase.csTdTyp[1] != 'Update'){ %>task_priority csm-pad-prior-td<% }else{ %>csm-pad12-prior-td<% } %>">
+                        <td class="text-center <% if(getdata.Easycase.csTdTyp[1] != 'Update'){ %><?= __('task_priority csm-pad-prior-td') ?><% }else{ %><?= __('csm-pad12-prior-td') ?><% } %>">
                             <% var csLgndRep = getdata.Easycase.legend; %>
                             <% if(getdata.Easycase.csTdTyp[1] == 'Update'){ %>
                             <span class="prio_high prio_lmh prio_gen" rel="tooltip" title="Priority:high"></span>
@@ -486,7 +486,7 @@ var check_ids_array = typeof getCookie('PREOPENED_TASK_GROUP_IDS') != 'undefined
                         <td>
                             <span id="csStsRep<%= count %>" class="">
                                 <% if(isactive==0){ %>
-                                <div class="label new" style="background-color: olive">Archived</div>
+                                <div class="label new" style="background-color: olive"><?= __('Archived') ?></div>
                                 <%}else if(groupby =='' || groupby !='status'){%>
                                 <%= easycase.getStatus(getdata.Easycase.type_id, getdata.Easycase.legend) %>
                                 <% } %>
@@ -523,31 +523,31 @@ var check_ids_array = typeof getCookie('PREOPENED_TASK_GROUP_IDS') != 'undefined
 
                             <% if(case_type == 'cases' || case_type == ''){
 				if(filterenabled){%>
-                            No Tasks
+                            <?= __('No Tasks') ?>
                             <% }else{ %>
                             <?php echo $this->element('no_data', array('nodata_name' => 'inacttasklist', 'case_type' => '')); ?>
                             <% } %>
                             <% }else if(case_type == 'assigntome'){
 				if(filterenabled){ %>
-                            No tasks for me
+                            <?= __('No tasks for me') ?>
                             <% }else{ %>
                             <?php echo $this->element('no_data', array('nodata_name' => 'inacttasklist', 'case_type' => 'assigntome')); ?>
                             <% } %>
                             <% }else if(case_type == 'overdue'){
 				if(filterenabled){ %>
-                            No tasks as overdue
+                            <?= __('No tasks as overdue') ?>
                             <% }else{ %>
                             <?php echo $this->element('no_data', array('nodata_name' => 'inacttasklist', 'case_type' => 'overdue')); ?>
                             <% } %>
                             <% }else if(case_type == 'delegateto'){
 				if(filterenabled){ %>
-                            No tasks delegated
+                            <?= __('No tasks delegated') ?>
                             <% }else{ %>
                             <?php echo $this->element('no_data', array('nodata_name' => 'inacttasklist', 'case_type' => 'delegateto')); ?>
                             <% } %>
                             <% }else if(case_type == 'highpriority'){
 				if(filterenabled){ %>
-                            No high priority tasks
+                            <?= __('No high priority tasks') ?>
                             <% }else{ %>
                             <?php echo $this->element('no_data', array('nodata_name' => 'inacttasklist', 'case_type' => 'highpriority')); ?>
                             <% } %>
@@ -682,7 +682,7 @@ var check_ids_array = typeof getCookie('PREOPENED_TASK_GROUP_IDS') != 'undefined
                             %>
                             <% if(1 || GrpBy != 'milestone'){ %>
                             <a class="sortcaseAt" href="javascript:void(0);" title="<?php echo __('Assigned to'); ?>" onclick="inactiveAjaxSorting(<%= '\'caseAt\', ' + caseCount + ', this,'+orderAtSrt %>);">
-                                Assigned to
+                                <?= __('Assigned to') ?>
                                 <span class="sorting_arw"><% if(typeof csAtSrt != 'undefined' && csAtSrt != "") { %>
                                     <% if(csAtSrt == 'asc'){ %>
                                     <i class="material-icons tsk_asc">&#xE5CE;</i>
@@ -875,7 +875,7 @@ var check_ids_array = typeof getCookie('PREOPENED_TASK_GROUP_IDS') != 'undefined
                                                     </button>
                                                 </span>
                                             </div>
-                                            <p class="n_cnt_grpt_<%= all_milesto_names[mkey]['id'] %> <% if(all_milesto_names[mkey]['isactive'] != 1){ %>taskCompleted<% } %>">(<span id="miviewspan_<%= all_milesto_names[mkey]['id'] %>">0</span>)</p>
+                                            <p class="n_cnt_grpt_<%= all_milesto_names[mkey]['id'] %> <% if(all_milesto_names[mkey]['isactive'] != 1){ %><?= __('taskCompleted') ?><% } %>">(<span id="miviewspan_<%= all_milesto_names[mkey]['id'] %>">0</span>)</p>
                                         </div>
                                     </div>
                                 </div>
@@ -1031,7 +1031,7 @@ var check_ids_array = typeof getCookie('PREOPENED_TASK_GROUP_IDS') != 'undefined
                                          %>
                                 <div class="fl accord_cnt_txt">
                                     <div class="fl __hold" onclick="collapse_by_title('<%= mile_id %>',<%= mile_project_id %>);" style="font-weight:normal">
-                                        <a class="miview_a <% if(mile_isactive != 1){ %> taskCompleted<% } %>" id="miview_<%= mile_id %>" href="javascript:void(0);">
+                                        <a class="miview_a <% if(mile_isactive != 1){ %> <?= __('taskCompleted') ?><% } %>" id="miview_<%= mile_id %>" href="javascript:void(0);">
                                             <%= mile_title %>
                                         </a>
                                         <div class="form-group edit_task_group pr label-floating" id="miviewtxtdv_<%= mile_id %>" style="display:none;">
@@ -1043,7 +1043,7 @@ var check_ids_array = typeof getCookie('PREOPENED_TASK_GROUP_IDS') != 'undefined
                                                 </button>
                                             </span>
                                         </div>
-                                        <p class="n_cnt_grpt_<%= mile_id %> <% if(mile_isactive != 1){ %> taskCompleted<% } %>">(<span id="miviewspan_<%= mile_id %>">0</span>)</p>
+                                        <p class="n_cnt_grpt_<%= mile_id %> <% if(mile_isactive != 1){ %> <?= __('taskCompleted') ?><% } %>">(<span id="miviewspan_<%= mile_id %>">0</span>)</p>
                                     </div>
                                 </div>
                             </div>
@@ -1109,25 +1109,25 @@ var check_ids_array = typeof getCookie('PREOPENED_TASK_GROUP_IDS') != 'undefined
                             <% var caseFlag="";
 					if(caseLegend != 1 && caseTypeId != 10){ caseFlag=9; }
                                         if(getdata.Easycase.isactive == 1){ %>
-                            <li onclick="setNewCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + caseUniqId + '\'' %>);" id="new<%= caseAutoId %>" style=" <% if(caseFlag == "9"){ %>display:block<% } else { %>display:none<% } %>">
+                            <li onclick="setNewCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + caseUniqId + '\'' %>);" id="new<%= caseAutoId %>" style=" <% if(caseFlag == "9"){ %><?= __('display:block') ?><% } else { %><?= __('display:none') ?><% } %>">
                                 <a href="javascript:void(0);"><i class="material-icons">&#xE166;</i><?php echo __('New'); ?></a>
                             </li>
                             <% }
                                         if((caseLegend != 2 && caseLegend != 4) && caseTypeId!= 10) { caseFlag=1; }
                                                             if(getdata.Easycase.isactive == 1) { %>
-                            <li onclick="startCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + caseUniqId + '\'' %>);" id="start<%= caseAutoId %>" style=" <% if(caseFlag == "1"){ %>display:block<% } else { %>display:none<% } %>">
+                            <li onclick="startCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + caseUniqId + '\'' %>);" id="start<%= caseAutoId %>" style=" <% if(caseFlag == "1"){ %><?= __('display:block') ?><% } else { %><?= __('display:none') ?><% } %>">
                                 <a href="javascript:void(0);"><i class="material-icons">&#xE039;</i><% if(caseLegend == 1){ %><?php echo __('Start'); ?><% }else{ %><?php echo __('In Progress'); ?><% } %></a>
                             </li>
                             <% }
                                         if(caseLegend != 5 && caseTypeId!= 10) { caseFlag=2; }
                                         if(getdata.Easycase.isactive == 1){ %>
-                            <li onclick="caseResolve(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + caseUniqId + '\'' %>);" id="resolve<%= caseAutoId %>" style=" <% if(caseFlag == 2){ %> display:block <% } else { %> display:none <% } %>">
+                            <li onclick="caseResolve(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + caseUniqId + '\'' %>);" id="resolve<%= caseAutoId %>" style=" <% if(caseFlag == 2){ %> <?= __('display:block') ?> <% } else { %> <?= __('display:none') ?> <% } %>">
                                 <a href="javascript:void(0);"><i class="material-icons">&#xE889;</i><?php echo __('Resolve'); ?></a>
                             </li>
                             <% }
                                         if(caseLegend != 3 && caseTypeId != 10) { caseFlag=5; }
                                         if(getdata.Easycase.isactive == 1){ %>
-                            <li onclick="setCloseCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + caseUniqId + '\'' %>);" id="close<%= caseAutoId %>" style=" <% if(caseFlag == 5) { %>display:block <% } else { %>display:none<% } %>">
+                            <li onclick="setCloseCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + caseUniqId + '\'' %>);" id="close<%= caseAutoId %>" style=" <% if(caseFlag == 5) { %><?= __('display:block') ?> <% } else { %><?= __('display:none') ?><% } %>">
                                 <a href="javascript:void(0);"><i class="material-icons">&#xE876;</i><?php echo __('Close'); ?></a>
                             </li>
                             <% } %>
@@ -1143,18 +1143,18 @@ var check_ids_array = typeof getCookie('PREOPENED_TASK_GROUP_IDS') != 'undefined
                             <% if(caseLegend == 3) { caseFlag= 7; } else { caseFlag= 8; }
                                                             if(getdata.Easycase.isactive == 1){ %>
                             <li id="act_reply<%= count %>" data-task="<%= caseUniqId %>" page-refer-val="Task Group Hierarchy Page">
-                                <a href="javascript:void(0);" id="reopen<%= caseAutoId %>" style="<% if(caseFlag == 7){ %>display:block <% } else { %>display:none<% } %>">
+                                <a href="javascript:void(0);" id="reopen<%= caseAutoId %>" style="<% if(caseFlag == 7){ %><?= __('display:block') ?> <% } else { %><?= __('display:none') ?><% } %>">
                                     <div class="act_icon act_reply_task fl" title="<?php echo __('Re-open'); ?>"></div><i class="material-icons">&#xE898;</i> <?php echo __('Re-open'); ?>
                                 </a>
-                                <a href="javascript:void(0);" id="reply<%= caseAutoId %>" style="<% if(caseFlag == 8){ %>display:block <% } else { %>display:none<% } %>"><i class="material-icons">&#xE15E;</i><?php echo __('Reply'); ?></a>
+                                <a href="javascript:void(0);" id="reply<%= caseAutoId %>" style="<% if(caseFlag == 8){ %><?= __('display:block') ?> <% } else { %><?= __('display:none') ?><% } %>"><i class="material-icons">&#xE15E;</i><?php echo __('Reply'); ?></a>
                             </li>
                             <% }
 					if( SES_ID == caseUserId) { caseFlag=3; }
 					if(getdata.Easycase.isactive == 1){ %>
-                            <li onclick="editask(<%= '\''+ caseUniqId+'\',\''+projectUniqid+'\',\''+htmlspecialchars(projectName)+'\'' %>);" id="edit<%= caseAutoId %>" style=" <% if(showQuickActiononList){ %>display:block <% } else { %>display:none<% } %>">
+                            <li onclick="editask(<%= '\''+ caseUniqId+'\',\''+projectUniqid+'\',\''+htmlspecialchars(projectName)+'\'' %>);" id="edit<%= caseAutoId %>" style=" <% if(showQuickActiononList){ %><?= __('display:block') ?> <% } else { %><?= __('display:none') ?><% } %>">
                                 <a href="javascript:void(0);"><i class="material-icons">&#xE254;</i><?php echo __('Edit'); ?></a>
                             </li>
-                            <li onclick="copytask(<%= '\''+ caseUniqId+'\',\''+ caseAutoId+'\',\''+caseNo+'\',\''+projId+'\',\''+htmlspecialchars(projectName)+'\'' %>);" id="copy<%= caseAutoId %>" style=" <% if(showQuickActiononList){ %>display:block <% } else { %>display:none<% } %>">
+                            <li onclick="copytask(<%= '\''+ caseUniqId+'\',\''+ caseAutoId+'\',\''+caseNo+'\',\''+projId+'\',\''+htmlspecialchars(projectName)+'\'' %>);" id="copy<%= caseAutoId %>" style=" <% if(showQuickActiononList){ %><?= __('display:block') ?> <% } else { %><?= __('display:none') ?><% } %>">
                                 <a href="javascript:void(0);"><i class="material-icons">&#xE14D;</i><?php echo __('Copy'); ?></a>
                             </li>
                             <% }
@@ -1175,12 +1175,12 @@ var check_ids_array = typeof getCookie('PREOPENED_TASK_GROUP_IDS') != 'undefined
                             <% } %>
                             <% }
 					if(getdata.Easycase.isactive == 1){ %>
-                            <li onclick="moveTask(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'\'' %>,<%= '\'' + projId + '\'' %>);" id="moveTask<%= caseAutoId %>" style=" <% if(caseFlag == 2){ %> display:block <% } else { %> display:block <% } %>">
+                            <li onclick="moveTask(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'\'' %>,<%= '\'' + projId + '\'' %>);" id="moveTask<%= caseAutoId %>" style=" <% if(caseFlag == 2){ %> <?= __('display:block') ?> <% } else { %> <?= __('display:block') ?> <% } %>">
                                 <a href="javascript:void(0);"><i class="material-icons">&#xE89F;</i><?php echo __('Move to Task Group'); ?></a>
                             </li>
                             <% } %>
                             <% if(getdata.Easycase.milestone_id){ %>
-                            <li onclick="removeTask(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'\'' %>,<%= '\'' + projId + '\'' %>);" id="moveTask<%= caseAutoId %>" style=" <% if(caseFlag == 2){ %> display:block <% } else { %> display:none <% } %>">
+                            <li onclick="removeTask(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'\'' %>,<%= '\'' + projId + '\'' %>);" id="moveTask<%= caseAutoId %>" style=" <% if(caseFlag == 2){ %> <?= __('display:block') ?> <% } else { %> <?= __('display:none') ?> <% } %>">
                                 <a href="javascript:void(0);"><i class="material-icons">&#xE15C;</i><?php echo __('Remove from Task Group'); ?></a>
                             </li>
                             <% } %>
@@ -1188,7 +1188,7 @@ var check_ids_array = typeof getCookie('PREOPENED_TASK_GROUP_IDS') != 'undefined
                             <% if(getdata.Easycase.isactive == 1){
                                                             if(caseMenuFilters == "milestone" && (SES_TYPE == 1 || SES_TYPE == 2 || SES_ID == getdata.Easycase.Em_user_id)) {
                                                             caseFlag = "remove";%>
-                            <li onclick="removeThisCase(<%= '\'' + count + '\'' %>,<%= '\'' + getdata.Easycase.Emid + '\'' %>, <%= '\'' + caseAutoId + '\'' %>, <%= '\'' + getdata.Easycase.Em_milestone_id + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + caseUserId + '\'' %>);" id="rmv<%= caseAutoId %>" style="<% if(caseFlag == "remove"){ %>display:block<% } else { %>display:none<% } %>">
+                            <li onclick="removeThisCase(<%= '\'' + count + '\'' %>,<%= '\'' + getdata.Easycase.Emid + '\'' %>, <%= '\'' + caseAutoId + '\'' %>, <%= '\'' + getdata.Easycase.Em_milestone_id + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + caseUserId + '\'' %>);" id="rmv<%= caseAutoId %>" style="<% if(caseFlag == "remove"){ %><?= __('display:block') ?><% } else { %><?= __('display:none') ?><% } %>">
                                 <a href="javascript:void(0);"><i class="material-icons">&#xE15C;</i><?php echo __('Remove Task'); ?></a>
                             </li>
                             <%
@@ -1196,13 +1196,13 @@ var check_ids_array = typeof getCookie('PREOPENED_TASK_GROUP_IDS') != 'undefined
 					}
 					if(SES_TYPE == 1 || SES_TYPE == 2 || (SES_ID == caseUserId)) { caseFlag = "archive"; }
 					if(getdata.Easycase.isactive == 1){ %>
-                            <li onclick="archiveCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + projId + '\'' %>, <%= '\'t_' + caseUniqId + '\'' %>);" id="arch<%= caseAutoId %>" style="<% if(caseFlag == "archive"){ %>display:block<% } else { %>display:none<% } %>">
+                            <li onclick="archiveCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + projId + '\'' %>, <%= '\'t_' + caseUniqId + '\'' %>);" id="arch<%= caseAutoId %>" style="<% if(caseFlag == "archive"){ %><?= __('display:block') ?><% } else { %><?= __('display:none') ?><% } %>">
                                 <a href="javascript:void(0);"><i class="material-icons">&#xE149;</i><?php echo __('Archive'); ?></a>
                             </li>
                             <% }
 					if(SES_TYPE == 1 || SES_TYPE == 2 || (SES_ID == caseUserId)) { caseFlag = "delete"; }
 					if(getdata.Easycase.isactive == 1){ %>
-                            <li onclick="deleteCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + projId + '\'' %>, <%= '\'t_' + caseUniqId + '\'' %>, <%= '\'' + getdata.Easycase.is_recurring + '\'' %>);" id="arch<%= caseAutoId %>" style="<% if(caseFlag == "delete"){ %>display:block<% } else { %>display:none<% } %>">
+                            <li onclick="deleteCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + projId + '\'' %>, <%= '\'t_' + caseUniqId + '\'' %>, <%= '\'' + getdata.Easycase.is_recurring + '\'' %>);" id="arch<%= caseAutoId %>" style="<% if(caseFlag == "delete"){ %><?= __('display:block') ?><% } else { %><?= __('display:none') ?><% } %>">
                                 <a href="javascript:void(0);"><i class="material-icons">&#xE872;</i><?php echo __('Delete'); ?></a>
                             </li>
                             <% } %>
@@ -1216,7 +1216,7 @@ var check_ids_array = typeof getCookie('PREOPENED_TASK_GROUP_IDS') != 'undefined
                 <div class="title-dependancy-all">
                     <a href="javascript:void(0);" class="ttl_listing">
                         <span id="inactivetitlehtml<%= count %>" data-task="<%= caseUniqId %>" class="case-title case_sub_task <% if(getdata.Easycase.type_id!=10 && getdata.Easycase.legend==3) { %>closed_tsk<% } %> case_title_<%= caseAutoId %>">
-                            <span class="max_width_tsk_title ellipsis-view <% if(caseLegend == 5){%>resolve_tsk<% } %> case_title wrapword task_title_ipad <% if(caseTitle.length>40){%>overme<% }%> " title="<%= formatText(ucfirst(caseTitle)) %>  ">
+                            <span class="max_width_tsk_title ellipsis-view <% if(caseLegend == 5){%>resolve_tsk<% } %> <?= __('case_title wrapword task_title_ipad') ?> <% if(caseTitle.length>40){%>overme<% }%> " title="<%= formatText(ucfirst(caseTitle)) %>  ">
                                 #<%=getdata.Easycase.case_no%>: <%= formatText(ucfirst(caseTitle)) %>
                             </span>
                         </span>
@@ -1282,7 +1282,7 @@ var check_ids_array = typeof getCookie('PREOPENED_TASK_GROUP_IDS') != 'undefined
                     <i class="glyphicon glyphicon-paperclip"></i>
                 </a>
                 <% if(getTotRep && getTotRep!=0) { %><%= getTotRep %><% } %>
-                <a href="javascript:void(0)" id="<%= count %>" style="<% if(!getTotRep || getTotRep==0) { %>display:none<% } %>">
+                <a href="javascript:void(0)" id="<%= count %>" style="<% if(!getTotRep || getTotRep==0) { %><?= __('display:none') ?><% } %>">
                     <i class="material-icons">&#xE0B9;</i>
                 </a>
             </td>
@@ -1303,7 +1303,7 @@ var check_ids_array = typeof getCookie('PREOPENED_TASK_GROUP_IDS') != 'undefined
                 <% } %>
             </td>
             <% } %>
-            <td class="text-center <% if(getdata.Easycase.csTdTyp[1] != 'Update'){ %>task_priority csm-pad-prior-td<% }else{ %>csm-pad12-prior-td<% } %>">
+            <td class="text-center <% if(getdata.Easycase.csTdTyp[1] != 'Update'){ %><?= __('task_priority csm-pad-prior-td') ?><% }else{ %><?= __('csm-pad12-prior-td') ?><% } %>">
                 <% var csLgndRep = getdata.Easycase.legend; %>
                 <% if(getdata.Easycase.csTdTyp[1] == 'Update'){ %>
                 <span class="prio_high prio_lmh prio_gen" rel="tooltip" title="<?php echo __('Priority'); ?>:<?php echo __('high'); ?>"></span>

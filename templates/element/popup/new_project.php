@@ -462,7 +462,7 @@ use Cake\Core\Configure;
                                                     <?php echo $this->Text->truncate(h((string)($usr['User']['name'] ?? '')), 16, ['ellipsis' => '...', 'exact' => true]); ?>
                                                 </span>
                                                 <?php if ($usr['CompanyUser']['user_type'] == 1) { ?>
-                                                    <small class="green-txt">(owner)</small>
+                                                    <small class="green-txt"><?= __('(owner)') ?></small>
                                                 <?php } elseif ($usr['CompanyUser']['user_type'] == 3) { ?>
                                                         <small class="green-txt">(<?php echo __('You'); ?>)</small>
                                                 <?php } else { ?>

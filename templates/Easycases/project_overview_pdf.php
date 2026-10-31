@@ -109,20 +109,20 @@
         <table style="width:100%;">
             <tr>
                 <td style="width:49%; vertical-align: top;">
-                    <h5>Project Name: <strong style="color:#666;"><?php print $proj['Project']['name']; ?></strong>
+                    <h5><?= __('Project Name:') ?> <strong style="color:#666;"><?php print $proj['Project']['name']; ?></strong>
                         <?php if ($proj['Project']['priority'] == 2) { ?>
                             <span style="display: inline-block;margin-top: -5px;" class="prio_low prio_lmh prio_gen_prj prio-drop-icon proj_ov_priority"></span>
-                            <span style="font-size:14px; color:#666;">Low</span>
+                            <span style="font-size:14px; color:#666;"><?= __('Low') ?></span>
                         <?php } else if ($proj['Project']['priority'] == 1) { ?>
                             <span style="display: inline-block;margin-top: -5px;" class="prio_medium prio_lmh prio_gen_prj prio-drop-icon proj_ov_priority"></span>
-                            <span style="font-size:14px; color:#666;">Medium</span>
+                            <span style="font-size:14px; color:#666;"><?= __('Medium') ?></span>
                         <?php } else { ?>
                             <span style="display: inline-block;margin-top: -5px;" class="prio_high prio_lmh prio_gen_prj prio-drop-icon proj_ov_priority"></span>
-                            <span style="font-size:14px; color:#666;">High</span>
+                            <span style="font-size:14px; color:#666;"><?= __('High') ?></span>
                         <?php } ?>
 
                     </h5>
-                    <p>Overall Progress: <strong><?php echo round($project_progress) ?>%</strong></p>
+                    <p><?= __('Overall Progress:') ?> <strong><?php echo round($project_progress) ?>%</strong></p>
                 </td>
                 <td style="width:49%; vertical-align: top; text-align: right;">
                     <?php $ps = json_decode($project_status['json_data'], true); ?>
@@ -133,10 +133,10 @@
                                     <a><?php echo __('All Task'); ?> (<span id="ov_tsk_entry_cnt"><?php echo $ps['total']; ?></span>)</a>
                                 </li>
                                 <li class="t_entry">
-                                    <a>Time Entry (<span id="ov_tim_entry_cnt">0</span>)</a>
+                                    <a><?= __('Time Entry (') ?><span id="ov_tim_entry_cnt">0</span>)</a>
                                 </li>
                                 <li class="activity_icon">
-                                    <a>All Activities (<span id="ov_atvt_entry_cnt"><?php echo $total; ?></span>)</a>
+                                    <a><?= __('All Activities (') ?><span id="ov_atvt_entry_cnt"><?php echo $total; ?></span>)</a>
                                 </li>
                             </ul>
                         </div>
@@ -467,7 +467,7 @@
                     },
                     tooltip: {
                         formatter: function() {
-                            return '<b>' + this.point.name + '</b>: ' + this.y;
+                            return '<b><?= __('\' + this.point.name + \'') ?></b>: ' + this.y;
                         }
                     },
                     series: [{

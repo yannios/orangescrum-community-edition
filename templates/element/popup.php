@@ -367,7 +367,7 @@
                     <div class="modal-header">
                         <button type="button" class="close close-icon" data-dismiss="modal" onclick="closePopup();"><i
                                 class="material-icons">&#xE14C;</i></button>
-                        <h4 id="header_mvprj">Assign Project</h4>
+                        <h4 id="header_mvprj"><?= __('Assign Project') ?></h4>
                     </div>
                     <div id="rs_assign_project_content" style="display: block;">
                     </div>
@@ -937,11 +937,11 @@
                                 <div class="radio radio-primary">
                                     <select name="language" id="notify_lang_pop" class="form-control"
                                         onchange="saveDefaultLanguage();" placeholder="<?php echo __('Language'); ?>">
-                                        <option <?php if ($Session->read('Config.language') == 'eng') { ?> selected <?php } ?> value="eng">English</option>
-                                        <option <?php if ($Session->read('Config.language') == 'spa') { ?> selected <?php } ?> value="spa">Spanish</option>
-                                        <option <?php if ($Session->read('Config.language') == 'por') { ?> selected <?php } ?> value="por">Portuguese</option>
-                                        <option <?php if ($Session->read('Config.language') == 'deu') { ?> selected <?php } ?> value="deu">German</option>
-                                        <option <?php if ($Session->read('Config.language') == 'fra') { ?> selected <?php } ?> value="fra">French</option>
+                                        <option <?php if ($Session->read('Config.language') == 'eng') { ?> selected <?php } ?> value="eng"><?= __('English') ?></option>
+                                        <option <?php if ($Session->read('Config.language') == 'spa') { ?> selected <?php } ?> value="spa"><?= __('Spanish') ?></option>
+                                        <option <?php if ($Session->read('Config.language') == 'por') { ?> selected <?php } ?> value="por"><?= __('Portuguese') ?></option>
+                                        <option <?php if ($Session->read('Config.language') == 'deu') { ?> selected <?php } ?> value="deu"><?= __('German') ?></option>
+                                        <option <?php if ($Session->read('Config.language') == 'fra') { ?> selected <?php } ?> value="fra"><?= __('French') ?></option>
                                     </select>
                                 </div>
                             </div>
@@ -1082,7 +1082,7 @@
                                 <img src="<?php echo HTTP_IMAGES; ?>Azure/one-drive-icon.png" alt="OneDrive"
                                     title="OneDrive" width="27" height="18" />
                             </center>
-                            <P>OneDrive</p>
+                            <P><?= __('OneDrive') ?></p>
                         </div>
                         <button type="button" class="close close-icon" data-dismiss="modal" onclick="closePopup();"><i
                                 class="material-icons">&#xE14C;</i></button>
@@ -1486,7 +1486,7 @@
     <!-- Add users from Project popup starts -->
     <div class="add_prj_usr cmn_popup" style="display: none;">
         <div class="popup_title pad-10">
-            <div class="hdr-cnt fl">Add User </div>
+            <div class="hdr-cnt fl"><?= __('Add User') ?> </div>
             <div class="fl"><img src="<?php echo HTTP_IMAGES; ?>html5/icons/icon_breadcrumbs.png"></div>
             <div id="header_prj_usr_add" class="fnt-nrml fl prj_hd_title" style="margin-left: 10px;"></div>
 

@@ -1079,7 +1079,7 @@
                                     <input type="hidden" id="proj_notes_id" value="0" />
                                     <div class="fr mtop30">
                                         <span class="cancel-link">
-                                            <button type="button" id="cancel_note_btn" class="btn btn-default btn_hover_link cmn_size" onclick="cancelProjNote();">Cancel</button>&nbsp;&nbsp;
+                                            <button type="button" id="cancel_note_btn" class="btn btn-default btn_hover_link cmn_size" onclick="cancelProjNote();"><?= __('Cancel') ?></button>&nbsp;&nbsp;
                                         </span>
                                         <a href="javascript:void(0);" class="btn btn_cmn_efect cmn_bg btn-info cmn_size" onclick="saveProjectNote();" id="save_note_btn"><?php echo __('Save Note'); ?></a>
                                         <span id="ldr_pnote" style="display:none;">
@@ -1461,7 +1461,7 @@
                     $(".attach-close").remove();
 
                     $(".sub_tasks_tbl").find('.titlehtml').each(function() {
-                        $(this).closest('.max_width_tltsk_title').html('<p>' + $(this).text() + '</p>');
+                        $(this).closest('.max_width_tltsk_title').html('<p><?= __('\' + $(this).text() + \'') ?></p>');
                         $(this).remove();
                     });
 
@@ -1616,7 +1616,7 @@ $json_data = "{name:'" . $legend[0] . '<br>' . $project_progress . "',y:" . $pro
             recurring_files_overview();
             $(".overview_wrapper").find('li').each(function() {
                 var atext = $(this).find('a').html();
-                $(this).html("<span>" + atext + "</span>");
+                $(this).html("<span><?= __('" + atext + "') ?></span>");
             });
 
         <?php } ?>
@@ -1675,7 +1675,7 @@ $json_data = "{name:'" . $legend[0] . '<br>' . $project_progress . "',y:" . $pro
         } else {
             $("#project_groups").find('th').each(function() {
                 $txt = $(this).text();
-                $(this).html("<p>" + $txt + "</p>");
+                $(this).html("<p><?= __('" + $txt + "') ?></p>");
             });
             return;
         }
@@ -1689,7 +1689,7 @@ $json_data = "{name:'" . $legend[0] . '<br>' . $project_progress . "',y:" . $pro
         } else {
             $("#to_dos").find('a').each(function() {
                 $txt = $(this).text();
-                $(this).closest('td').html("<p>" + $txt + "</p>");
+                $(this).closest('td').html("<p><?= __('" + $txt + "') ?></p>");
             });
             return;
         }

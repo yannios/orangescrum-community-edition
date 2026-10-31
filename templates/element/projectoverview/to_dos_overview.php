@@ -121,7 +121,7 @@
             </tr>
             </tbody>
         </table>
-        <div class="data_not_avail">No Data Available</div>
+        <div class="data_not_avail"><?= __('No Data Available') ?></div>
     </div>
 <?php } ?>
 

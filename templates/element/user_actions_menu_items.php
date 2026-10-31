@@ -176,7 +176,7 @@ $_editId = 'edit-exist-usr' . ($idSuffix ? '-' . $idSuffix : '') . $menuUser['id
                 <?php if ($menuUser['is_moderator']) { ?>
                     <a class="icon-moderator icon-remove-modrt" href="javascript:void(0);" data-usr-id="<?php echo $menuUser['id']; ?>" data-usr-name="<?php echo $menuUser['name']; ?>" data-type="0" onclick="grantOrRemoveModerator(this);"><i class="material-icons">&#xE8F1;</i> <?php echo __('Revoke Moderator'); ?></a>
                 <?php } else { ?>
-                    <a class="icon-moderator icon-add-modrt" href="javascript:void(0);" data-usr-id="<?php echo $menuUser['id']; ?>" data-usr-name="<?php echo $menuUser['name']; ?>" data-type="1" onclick="grantOrRemoveModerator(this);"><i class="material-icons">&#xE8E9;</i> Grant Moderator</a>
+                    <a class="icon-moderator icon-add-modrt" href="javascript:void(0);" data-usr-id="<?php echo $menuUser['id']; ?>" data-usr-name="<?php echo $menuUser['name']; ?>" data-type="1" onclick="grantOrRemoveModerator(this);"><i class="material-icons">&#xE8E9;</i> <?= __('Grant Moderator') ?></a>
                 <?php } ?>
             </li>
         <?php } ?>

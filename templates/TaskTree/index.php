@@ -25,13 +25,13 @@ $dirAttribute = $isRTL ? 'rtl' : 'ltr';
                 </div>
                 <div class="toolbar-right">
                     <v-btn size="small" variant="text" @click="expandAll" :title="'<?php echo __('Expand All'); ?>'">
-                        <v-icon start>mdi-arrow-expand-vertical</v-icon>
+                        <v-icon start><?= __('mdi-arrow-expand-vertical') ?></v-icon>
                     </v-btn>
                     <v-btn size="small" variant="text" @click="collapseAll" :title="'<?php echo __('Collapse All'); ?>'">
-                        <v-icon start>mdi-arrow-collapse-vertical</v-icon>
+                        <v-icon start><?= __('mdi-arrow-collapse-vertical') ?></v-icon>
                     </v-btn>
                     <v-btn size="small" variant="text" @click="reloadTasks" :title="'<?php echo __('Reload'); ?>'">
-                        <v-icon start>mdi-refresh</v-icon>
+                        <v-icon start><?= __('mdi-refresh') ?></v-icon>
                     </v-btn>
                 </div>
             </div>
@@ -45,7 +45,7 @@ $dirAttribute = $isRTL ? 'rtl' : 'ltr';
 
                 <!-- No Tasks Message -->
                 <div v-else-if="!loading && treeItems.length === 0" class="no-tasks-container">
-                    <v-icon size="48" color="grey">mdi-clipboard-text-outline</v-icon>
+                    <v-icon size="48" color="grey"><?= __('mdi-clipboard-text-outline') ?></v-icon>
                     <div class="no-tasks-text"><?php echo __('No tasks found'); ?></div>
                 </div>
 

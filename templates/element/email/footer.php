@@ -17,11 +17,11 @@ $facebookUrl ??= $baseUrl . '/img/fb.png';
             <table border="0" cellspacing="0" cellpadding="0" width="100%">
                 <tr>
                     <td align="center" style="padding-bottom:10px;">
-                        <a style="color:#1565C0; font-size:12px; font-weight:500; text-decoration:none; padding:0 8px;" href="https://blog.orangescrum.com/">Blog</a>
+                        <a style="color:#1565C0; font-size:12px; font-weight:500; text-decoration:none; padding:0 8px;" href="https://blog.orangescrum.com/"><?= __('Blog') ?></a>
                         <span style="color:#D1D5DB;">|</span>
-                        <a style="color:#1565C0; font-size:12px; font-weight:500; text-decoration:none; padding:0 8px;" href="https://www.orangescrum.com/help">Help</a>
+                        <a style="color:#1565C0; font-size:12px; font-weight:500; text-decoration:none; padding:0 8px;" href="https://www.orangescrum.com/help"><?= __('Help') ?></a>
                         <span style="color:#D1D5DB;">|</span>
-                        <a style="color:#1565C0; font-size:12px; font-weight:500; text-decoration:none; padding:0 8px;" href="https://www.orangescrum.com/about-us">About Us</a>
+                        <a style="color:#1565C0; font-size:12px; font-weight:500; text-decoration:none; padding:0 8px;" href="https://www.orangescrum.com/about-us"><?= __('About Us') ?></a>
                     </td>
                 </tr>
                 <tr>
@@ -37,7 +37,7 @@ $facebookUrl ??= $baseUrl . '/img/fb.png';
                 <tr>
                     <td align="center" style="padding-bottom:8px; font-size:11px; line-height:1.5; color:#6B7280;">
                         &copy; <?php echo date('Y'); ?> Orangescrum. All rights reserved.<br>
-                        2059 Camden Ave. #118, San Jose, CA 95124, USA
+                        <?= __('2059 Camden Ave. #118, San Jose, CA 95124, USA') ?>
                     </td>
                 </tr>
                 <tr>

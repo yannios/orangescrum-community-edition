@@ -33,7 +33,7 @@
                     <div class="checkbox">
                         <label>
                             <input type="checkbox" id="move_assignee" name="move_assignee">
-                           <span class="conform_msg">Do you want to move the assignee along with the task?</span>
+                           <span class="conform_msg"><?= __('Do you want to move the assignee along with the task?') ?></span>
                         </label>
                     </div>
                 </div>

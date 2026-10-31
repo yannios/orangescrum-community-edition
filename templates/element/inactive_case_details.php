@@ -123,7 +123,7 @@ var params = parseUrlHash(urlHash);
                                         <div class="progress-bar progress-bar-info" style="width: <%= progress %>%"></div>
                                         <div class="cb"></div>
                                     </div>
-                                    <div id="tskprgrs" class="cmn_h_det_arrow tsk_prgrss drop_percnt fr <% if(csLgndRep != 5 && csLgndRep != 3 && user_can_change ==1){ %>dropdown option-toggle<% } %>">
+                                    <div id="tskprgrs" class="cmn_h_det_arrow tsk_prgrss drop_percnt fr <% if(csLgndRep != 5 && csLgndRep != 3 && user_can_change ==1){ %><?= __('dropdown option-toggle') ?><% } %>">
                                         <div class="opt1" id="opt19">
                                             <div class="text-right task_prog_percent" id="completed_task<%= csAtId %>">
                                                 <span><%= progress %>%</span>
@@ -392,7 +392,7 @@ var params = parseUrlHash(urlHash);
                                     <% if(total > 10){ %>
                                     <div class="col-lg-8 col-sm-8 text-right">
                                         <div class="fr view_rem">
-                                            <a id="morereply<%= csAtId %>" style="<% if(cntdta > 10) { %>display:none<% } %>;" class="orange_btn" href="javascript:void(0);" onclick="showHideMoreReply(<%= '\''+csAtId+'\',\'more\'' %>)">
+                                            <a id="morereply<%= csAtId %>" style="<% if(cntdta > 10) { %><?= __('display:none') ?><% } %>;" class="orange_btn" href="javascript:void(0);" onclick="showHideMoreReply(<%= '\''+csAtId+'\',\'more\'' %>)">
                                                 <% remaining = total-10; %>
                                                 <?php echo __('View remaining'); ?> <%= remaining %> <?php echo __('thread'); ?><% if(remaining > 1) {%><?php echo __('s'); ?><% } %>
                                             </a>
@@ -436,7 +436,7 @@ var params = parseUrlHash(urlHash);
                                     <?php echo $this->element('case_timelog'); ?>
                                     <% }else{ %>
                                     <div class="tlog_top_cnt">
-                                        <div class="time-log-header timelog-table timelog-table-head <% if(SHOWTIMELOG !='No' && pagename == 'taskdetails'){ %>detail_timelog_header<% } %>" style="<% if(SHOWTIMELOG !='No' && pagename == 'taskdetails'){ %>display:none;<% } %>">
+                                        <div class="time-log-header timelog-table timelog-table-head <% if(SHOWTIMELOG !='No' && pagename == 'taskdetails'){ %>detail_timelog_header<% } %>" style="<% if(SHOWTIMELOG !='No' && pagename == 'taskdetails'){ %><?= __('display:none;') ?><% } %>">
                                             <a class="<%=logtimes.page%> anchor log-more-time fr" onclick="startTimer(<%= '\'' + logtimes.task_id + '\'' %>,<%= '\'' + escape(htmlspecialchars(logtimes.task_title,3)) + '\'' %>,<%= '\'' + logtimes.task_uniqId + '\'' %>,<%= '\'' + logtimes.project_uniqId + '\'' %>,<%= '\'' + escape(logtimes.project_name) + '\'' %>)"><i class="material-icons">&#xE425;</i><?php echo __('Start Timer'); ?></a>
                                             <a class="<%=logtimes.page%> anchor log-more-time fr" onclick="createlog(<%= logtimes.task_id %>,'<%= escape(htmlspecialchars(logtimes.task_title))%>')"><i class="material-icons">&#xE192;</i><?php echo __('Time Entry'); ?></a>
                                             <div class="clearfix"></div>

@@ -308,7 +308,7 @@
                 </div>
                 <div class="cb"></div>
                 <div class="form-group form-group-lg label-floating">
-                    <label class="control-label tskdesc-lbl log-time-label" for="tskdesc">Add a note</label>
+                    <label class="control-label tskdesc-lbl log-time-label" for="tskdesc"><?= __('Add a note') ?></label>
                     <textarea class="form-control expand hideoverflow" data-dynamic-opts=true rows="2" cols="" style="" name="description" id="tskdesc" placeholder=""></textarea>
                 </div>
                 <div class="modal-footer">
@@ -788,7 +788,7 @@
             $ul = $(this);
             var total_br_min = calulate_break_minute($ul);
             var total_sp_min = calulate_spend_minute($ul);
-            //console.log(total_sp_min+' < '+total_br_min+' >> '+(total_sp_min<total_br_min));
+            //console.log(total_sp_min+' < '+total_br_min+' >> <?= __('\'+(total_sp_min') ?><total_br_min));
             if(total_sp_min<total_br_min){
                 $ul.find('.totalbreak').focus();
                 invalidduration = true;
@@ -973,13 +973,13 @@
     function updateusers(projname){
         if (rsrch == "") {
             $('.resource-select').find('.dropdownjs').find('ul').html('');
-            var usrhtml = "<option value=''>" + _('Select User') + "</option>";
-            if (SES_TYPE < 3) {
+            var usrhtml = "<option value=''><?= __('" + _(\'Select User\') + "') ?></option><?= __('";
+            if (SES_TYPE') ?> < 3) {
                 $.each(PUSERS, function(key, val) {
                     $.each(val, function(k1, v1) {
                         var usrid = v1['User']['id'];
                         var selected = '';
-                        usrhtml += "<option value='" + usrid + "' " + selected + ">" + v1['User']['name'] + "</option>";
+                        usrhtml += "<option value='" + usrid + "' " + selected + "><?= __('" + v1[\'User\'][\'name\'] + "') ?></option>";
                     });
                 });
             } else if (SES_TYPE == 3) {
@@ -988,7 +988,7 @@
                         var usrid = v1['User']['id'];
                         var selected = '';
                         if (usrid == SES_ID) {
-                            usrhtml += "<option value='" + usrid + "' " + selected + ">" + v1['User']['name'] + "</option>";
+                            usrhtml += "<option value='" + usrid + "' " + selected + "><?= __('" + v1[\'User\'][\'name\'] + "') ?></option>";
                         }
                     });
                 });
@@ -1213,20 +1213,20 @@
         $('#strttime'+cntr).on('changeTime', function() {
             //$('#endtime'+cntr).timepicker('option', 'minTime', $('#strttime'+cntr).val());
         });
-        var usrhtml = "";//<option value=''>Select User</option>
+        var usrhtml = "";//<option value=''><?= __('Select User') ?></option>
         if(rsrch == ""){
             if(SES_TYPE < 3){
                 /* $.each(PUSERS, function (key, val) {
                      $.each(val, function (k1, v1) {
                  var usrid = v1['User']['id'];
                          var selected = (usrid===SES_ID)?"selected='selected'":"";
-                         usrhtml += "<option value='" + usrid + "' " + selected + ">" + v1['User']['name'] + "</option>";
+                         usrhtml += "<option value='" + usrid + "' " + selected + "><?= __('" + v1[\'User\'][\'name\'] + "') ?></option>";
              });
                      }); */
                 $.each(TLUSER, function (k1, v1) {
                     var usrid = v1['User']['id'];
                     var selected = (usrid===SES_ID)?"selected='selected'":"";
-                    usrhtml += "<option value='" + usrid + "' " + selected + ">" + v1['User']['name'] + " " + v1['User']['last_name'] + "</option>";
+                    usrhtml += "<option value='" + usrid + "' " + selected + "><?= __('" + v1[\'User\'][\'name\'] + " " + v1[\'User\'][\'last_name\'] + "') ?></option>";
                 });
             }else if(SES_TYPE == 3){
                 /*
@@ -1235,7 +1235,7 @@
                         var usrid = v1['User']['id'];
                         var selected = (usrid===SES_ID)?"selected='selected'":"";
                         if(usrid == SES_ID){
-                            usrhtml += "<option value='" + usrid + "' " + selected + ">" + v1['User']['name'] + "</option>";
+                            usrhtml += "<option value='" + usrid + "' " + selected + "><?= __('" + v1[\'User\'][\'name\'] + "') ?></option>";
                         }
                     });
                 }); */
@@ -1243,7 +1243,7 @@
                     var usrid = v1['User']['id'];
                     var selected = (usrid===SES_ID)?"selected='selected'":"";
                     if(usrid == SES_ID){
-                        usrhtml += "<option value='" + usrid + "' " + selected + ">" + v1['User']['name'] + " " + v1['User']['last_name'] + "</option>";
+                        usrhtml += "<option value='" + usrid + "' " + selected + "><?= __('" + v1[\'User\'][\'name\'] + " " + v1[\'User\'][\'last_name\'] + "') ?></option>";
                     }
                 });
             }
@@ -1302,7 +1302,7 @@
         var sp_hr = Math.floor(spend_duration/60);
         var sp_min = Math.floor(spend_duration%60);
         /*if final spent is greater than zero then it will place the value else will make it empty*/
-        var final_sp = parseInt(sp_hr)>0 || parseInt(sp_min) > 0 ? parseInt(sp_hr)+':'+(sp_min<10?"0":"")+sp_min : '0:00';
+        var final_sp = parseInt(sp_hr)>0 || parseInt(sp_min) > <?= __('0 ? parseInt(sp_hr)+\':\'+(sp_min') ?><10?"0":"")+sp_min : '0:00';
 
         if($('#skip_timeDuration').is(":not(:checked)")){
             if(total_sp_min<total_br_min){

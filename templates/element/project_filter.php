@@ -418,7 +418,7 @@ $selectedProjectManager = isset($_GET['project_manager']) ? $_GET['project_manag
                 $('#DefectViewSpan').html(response);
             },
             error: function() {
-                $('#DefectViewSpan').html('<div class="text-danger">' + _('Failed to load data. Please try again.') + '</div>');
+                $('#DefectViewSpan').html('<div class="text-danger"><?= __('\' + _(\'Failed to load data. Please try again.\') + \'') ?></div>');
             }
         });
     }

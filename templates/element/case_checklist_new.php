@@ -5,7 +5,7 @@
 <div class="sec_title d-flex tog" data-cmnt_id ="chklst_sec">
     <div class="heading_title">
         <span class="sec_icon checklist_icon"></span>
-        <h3>Checklist</h3>
+        <h3><?= __('Checklist') ?></h3>
     </div>
     <div class="icon_collapse " ></div>
 

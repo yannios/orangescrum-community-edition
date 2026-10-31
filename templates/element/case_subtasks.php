@@ -4,7 +4,7 @@
 	<?php echo __('Subtasks'); ?>
 	</a>
 	</h4>
-	<div class="fr tl-msg-btn subtask_holder_div" style="<% if(csLgndRep == 3 || is_active ==0){ %>display:none<% } %>">		
+	<div class="fr tl-msg-btn subtask_holder_div" style="<% if(csLgndRep == 3 || is_active ==0){ %><?= __('display:none') ?><% } %>">		
 		<!--<a class="anchor other_page_subtask" rel="tooltip" title="<?php echo __('Create Subtask'); ?>" onclick="subTask(<%= '\'' + csAtId + '\'' %>, <%= '\'' + csNoRep + '\'' %>, <%= '\'' + csProjIdRep + '\'' %>);">
 			<i style="font-weight: bold;" class="material-icons">&#xE145;</i>
 		</a>-->
@@ -131,19 +131,19 @@
 									  <% var caseFlag="";
 										if(caseLegend != 1 && caseTypeId != 10){ caseFlag=9; }
 										if(getdata.isactive == 1){ %>
-											<li onclick="setNewCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + caseUniqId + '\'' %>,0,<%= '\'sub\'' %>);" id="new<%= caseAutoId %>" style=" <% if(caseFlag == "9"){ %>display:block<% } else { %>display:none<% } %>">
+											<li onclick="setNewCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + caseUniqId + '\'' %>,0,<%= '\'sub\'' %>);" id="new<%= caseAutoId %>" style=" <% if(caseFlag == "9"){ %><?= __('display:block') ?><% } else { %><?= __('display:none') ?><% } %>">
 												<a href="javascript:void(0);"><i class="material-icons">&#xE166;</i><?php echo __('New'); ?></a>
 											</li>
 										<% } %>
 										<% if((caseLegend != 2 && caseLegend != 4) && caseTypeId!= 10) { caseFlag=1; }
 										if(getdata.isactive == 1) { %>
-											<li onclick="startCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + caseUniqId + '\'' %>,0, <%= '\'sub\'' %>);" id="start<%= caseAutoId %>" style=" <% if(caseFlag == "1"){ %>display:block<% } else { %>display:none<% } %>">
+											<li onclick="startCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + caseUniqId + '\'' %>,0, <%= '\'sub\'' %>);" id="start<%= caseAutoId %>" style=" <% if(caseFlag == "1"){ %><?= __('display:block') ?><% } else { %><?= __('display:none') ?><% } %>">
 												<a href="javascript:void(0);"><i class="material-icons">&#xE039;</i><% if(caseLegend == 1){ %><?php echo __('Start'); ?><% }else{ %><?php echo __('In Progress'); ?><% } %></a>
 											</li>
 										<% } %>
 										<% if((caseLegend != 5) && caseTypeId!= 10) { caseFlag=2; }
 										if(getdata.isactive == 1){ %>
-										<li onclick="caseResolve(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + caseUniqId + '\'' %>,0, <%= '\'sub\'' %>);" id="resolve<%= caseAutoId %>" style=" <% if(caseFlag == 2){ %> display:block <% } else { %> display:none <% } %>">
+										<li onclick="caseResolve(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + caseUniqId + '\'' %>,0, <%= '\'sub\'' %>);" id="resolve<%= caseAutoId %>" style=" <% if(caseFlag == 2){ %> <?= __('display:block') ?> <% } else { %> <?= __('display:none') ?> <% } %>">
 											<a href="javascript:void(0);"><i class="material-icons">&#xE889;</i><?php echo __('Resolve'); ?></a>
 										</li>
 										<% }
@@ -151,7 +151,7 @@
 										if(getdata.isactive == 1){ %>
 										<% if(isAllowed('Status change except Close',projectUniqid)){ %>
 										    <input type="hidden" value="<%= caseParenTUID%>" id="closecase_id<%= caseAutoId%>" />
-											<li onclick="setCloseCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + caseUniqId + '\'' %>,0,<%= '\'sub\'' %>);" id="close<%= caseAutoId %>" style=" <% if(caseFlag == 5) { %>display:block <% } else { %>display:none<% } %>">
+											<li onclick="setCloseCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + caseUniqId + '\'' %>,0,<%= '\'sub\'' %>);" id="close<%= caseAutoId %>" style=" <% if(caseFlag == 5) { %><?= __('display:block') ?> <% } else { %><?= __('display:none') ?><% } %>">
 												<a href="javascript:void(0);"><i class="material-icons">&#xE876;</i><?php echo __('Close'); ?></a>
 											</li>
 										<% } %>
@@ -174,7 +174,7 @@
 										if(SES_TYPE == 1 || SES_TYPE == 2 || (SES_ID == caseUserId) || isAllowed('Delete All Task',projectUniqid)) { caseFlag = "delete"; }
 										if(getdata.isactive == 1){ %>
 										<% if(isAllowed('Delete Task',projectUniqid) || isAllowed('Delete All Task',projectUniqid)){ %>
-											<li onclick="deleteCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + projId + '\'' %>, <%= '\'t_' + caseUniqId + '\'' %>, 0, <%= '\'sub\'' %>);" id="delete<%= caseAutoId %>" style="<% if(caseFlag == "delete"){ %>display:block<% } else { %>display:none<% } %>">
+											<li onclick="deleteCase(<%= '\'' + caseAutoId + '\'' %>, <%= '\'' + caseNo + '\'' %>, <%= '\'' + projId + '\'' %>, <%= '\'t_' + caseUniqId + '\'' %>, 0, <%= '\'sub\'' %>);" id="delete<%= caseAutoId %>" style="<% if(caseFlag == "delete"){ %><?= __('display:block') ?><% } else { %><?= __('display:none') ?><% } %>">
 												<a href="javascript:void(0);"><i class="material-icons">&#xE872;</i><?php echo __('Delete'); ?></a>
 											</li>
 										<% } %>

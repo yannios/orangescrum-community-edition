@@ -3,7 +3,7 @@
 		<div class="heading_title">
 			<span class="sec_icon comment_icon"></span>
 			<h3 id="tour_taskdetail_comment">
-				Comment
+				<?= __('Comment') ?>
 				<div class="counter_badge" id="cmnt_count">
 					<%= cmnt_count[0]['total'] %>
 				</div>
@@ -309,7 +309,7 @@
 						<div class="ml-auto">
 							<div class="d-flex">
 								<div class="view_rem">
-									<a id="morereply<%= csAtId %>" style="<% if(cntdta > 10) { %>display:none<% } %>;"
+									<a id="morereply<%= csAtId %>" style="<% if(cntdta > 10) { %><?= __('display:none') ?><% } %>;"
 										class="cmn_outline_cta" href="javascript:void(0);"
 										onclick="showHideMoreReply(<%= '\''+csAtId+'\',\'more\'' %>)">
 										<% remaining=total-10; %>

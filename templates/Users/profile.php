@@ -191,8 +191,8 @@
             <div class="mtop30">
                 <div class="select_field_wrapper up_select_control">
                     <select name="data[User][time_format]" id="timeformat_id" class="select form-control floating-label" placeholder="<?php echo __('Time Format'); ?>" data-dynamic-opts=true>
-                        <option <?php if ($userdata['time_format'] == '12') { ?> selected <?php } ?> value="12">12 Hour Format</option>
-                        <option <?php if ($userdata['time_format'] == '24') { ?> selected <?php } ?> value="24">24 Hour Format</option>
+                        <option <?php if ($userdata['time_format'] == '12') { ?> selected <?php } ?> value="12"><?= __('12 Hour Format') ?></option>
+                        <option <?php if ($userdata['time_format'] == '24') { ?> selected <?php } ?> value="24"><?= __('24 Hour Format') ?></option>
                     </select>
                 </div>
             </div>
@@ -205,7 +205,7 @@
             <!--                    </div>-->
             <!--                </div>-->
             <!--            </div>-->
-            <label class="mtop10 mbtn">Enter Skills</label>
+            <label class="mtop10 mbtn"><?= __('Enter Skills') ?></label>
             <div class="skillContainer">
 				<?php if(empty($skillCount)){?>
 					<div class="multiselect_formgroup rowTemplate" id="new_skill_div_0">
@@ -479,7 +479,7 @@
                                 $(".skills")
                                     .find('option[value="' + name + '"]')
                                     .remove();
-                                $(".skills").append("<option value='" + res.id + "' selected>" + name + "</option>");
+                                $(".skills").append("<option value='" + res.id + "' selected><?= __('" + name + "') ?></option>");
                                 $('.skills option[value="' + res.id + '"]').prop("selected", true);
                                 $(".skills").trigger("change");
                             } else if (res.status == "error") {

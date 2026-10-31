@@ -153,7 +153,7 @@ if($project_status['extra'] == 'overview'){
                         precsson = 2;
                     if (this.point.percentage >= 10)
                         precsson = 4;
-                    return '<b>' + this.point.name + '</b>: ' + parseFloat((this.point.percentage).toPrecision(precsson)) + ' %';
+                    return '<b><?= __('\' + this.point.name + \'') ?></b>: ' + parseFloat((this.point.percentage).toPrecision(precsson)) + ' %';
                 }
             },
             plotOptions: {

@@ -134,7 +134,7 @@ $currentWeekOfMonth = $this->Format->weekOfMonth(strtotime(date('Y-m-d')));
                                     </span>
                                 </div>
                                 <div id="yearly_details" class="recur-pattern-details" style="display:none">
-                                    <span>Recur every <input type="text" id="yearly_interval" style="width:100px" name="yearly_interval" value="1" /> <?php echo __('year(s)'); ?></span>
+                                    <span><?= __('Recur every') ?> <input type="text" id="yearly_interval" style="width:100px" name="yearly_interval" value="1" /> <?php echo __('year(s)'); ?></span>
                                     <span><input type="radio" name="yearly_check" id="yearly_on" value="on_date" /> <?php echo __('on'); ?>:
                                         <select id="months" style="width:100px" name="yearly_month">
                                             <option value="1" <?php echo $currentMonth == 1 ? "selected='selected'" : ""; ?>><?php echo __('January'); ?></option>

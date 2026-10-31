@@ -277,7 +277,7 @@
                             if (($("#imgName1-popup").val() != '' || $("#exst_photo-popup").val() != '') && typeof imgN != 'undefined') {
                                 $('#pimg_' + $('#edit-user-id-popup').val()).html(img);
                             } else {
-                                $('#pimg_' + $('#edit-user-id-popup').val()).html('<span class="name_txt">' + $('#profile_name-popup').val().charAt(0) + '</span>');
+                                $('#pimg_' + $('#edit-user-id-popup').val()).html('<span class="name_txt"><?= __('\' + $(\'#profile_name-popup\').val().charAt(0) + \'') ?></span>');
                             }
 
                             var userId = $('#edit-user-id-popup').val();
@@ -364,7 +364,7 @@
                 $("#exst_photo-popup").val('');
                 $('#IMG-DIV').html('<div id="defaultUserImg-popup" class="fl"><img width="100" height="100" src="' + HTTP_ROOT + 'files/photos/user.png" onClick="openProfilePopup(\'popup\')" id="profphoto-popup"></div>\n\
                             <div id="uploadImgLnk-popup" class="fl mtop20 editDeleteImg-popup"><a href="javascript:void(0);" onClick="openProfilePopup(\'popup\')" ><?php echo __('Choose Profile Image'); ?></a></div><div class="cb"></div><input type="hidden" id="imgName1-popup" name="data[User][photo]" />');
-                $('#pimg_' + $('#edit-user-id-popup').val()).html('<span class="name_txt">' + $('#profile_name-popup').val().charAt(0) + '</span>');
+                $('#pimg_' + $('#edit-user-id-popup').val()).html('<span class="name_txt"><?= __('\' + $(\'#profile_name-popup\').val().charAt(0) + \'') ?></span>');
 
             });
         }

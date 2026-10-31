@@ -9150,3 +9150,534 @@ msgstr "korisnici uspješno uklonjeni"
 
 msgid "users have"
 msgstr "korisnici su"
+
+msgid "Fixes to the first-run experience: registration, the dashboard and every task view now load cleanly for a brand-new account."
+msgstr "Ispravke prvog pokretanja: registracija, nadzorna ploča i svi prikazi zadataka sada se ispravno učitavaju na novom računu."
+
+msgid "Orangescrum is now available as an open-source, self-hosted Community Edition under the AGPL-3.0 licence — no user, project or storage limits, and no commercial licence key."
+msgstr "Orangescrum je sada dostupan kao Community Edition otvorenog koda za vlastiti poslužitelj pod licencom AGPL-3.0 — bez ograničenja broja korisnika, projekata i pohrane te bez komercijalnog licencnog ključa."
+
+msgid "do not have a value for the story point field. Any change after the start of the sprint will be treated as scope change"
+msgstr "nemaju vrijednost polja bodova priče. Svaka promjena nakon početka sprinta smatrat će se promjenom opsega"
+
+msgid "feature reordering is possible within a single project. You are seeing all project"
+msgstr "promjena redoslijeda značajki moguća je unutar jednog projekta. Prikazujete sve projekte"
+
+msgid "feature status change is possible within a single project. You are seeing all project"
+msgstr "promjena statusa značajke moguća je unutar jednog projekta. Prikazujete sve projekte"
+
+msgid "tasks will be included in this sprint"
+msgstr "zadataka bit će uključeno u ovaj sprint"
+
+msgid "we will get back to you as soon as possible or find your answer at our"
+msgstr "javiti ćemo vam se što prije ili potražite odgovor na našoj"
+
+msgid "will be deleted permanently."
+msgstr "bit će trajno izbrisano."
+
+msgid "will be deleted, are you sure you want to continue?"
+msgstr "bit će izbrisano. Sigurno želite nastaviti?"
+
+msgid "with a subject - CANCEL SUBSCRIPTION"
+msgstr "s naslovom – CANCEL SUBSCRIPTION"
+
+msgid "with roles"
+msgstr "s ulogama"
+
+msgid "working days"
+msgstr "radnih dana"
+
+msgid "{0} added successfully."
+msgstr "{0} uspješno dodano."
+
+msgid "{0} minutes"
+msgstr "{0} minuta"
+
+msgid "{0} updated successfully."
+msgstr "{0} uspješno ažurirano."
+
+msgid "day(s) from today"
+msgstr "dan(a) od danas"
+
+msgid "week(s) on"
+msgstr "tjedan(a) od"
+
+msgid "day"
+msgstr "dan"
+
+msgid "days"
+msgstr "dana"
+
+msgid "hour"
+msgstr "sat"
+
+msgid "min"
+msgstr "min"
+
+msgid "month"
+msgstr "mjesec"
+
+msgid "week"
+msgstr "tjedan"
+
+msgid "year"
+msgstr "godina"
+
+msgid "sec"
+msgstr "sek"
+
+msgid "hr"
+msgstr "sat"
+
+msgid "hrs"
+msgstr "sati"
+
+msgid "decade"
+msgstr "desetljeće"
+
+msgid "ago"
+msgstr "prije"
+
+msgid "hour ago"
+msgstr "prije sat vremena"
+
+msgid "hours ago"
+msgstr "prije nekoliko sati"
+
+msgid "min ago"
+msgstr "prije minutu"
+
+msgid "mins ago"
+msgstr "prije nekoliko minuta"
+
+msgid "added successfully"
+msgstr "uspješno dodano"
+
+msgid "resolved"
+msgstr "riješeno"
+
+msgid "start"
+msgstr "početak"
+
+msgid "to go"
+msgstr "do kraja"
+
+msgid "unassigned"
+msgstr "nedodijeljeno"
+
+msgid "completed"
+msgstr "dovršeno"
+
+msgid "closed"
+msgstr "zatvoreno"
+
+msgid "committed"
+msgstr "preuzeto"
+
+msgid "complete"
+msgstr "dovrši"
+
+msgid "create"
+msgstr "stvori"
+
+msgid "created"
+msgstr "stvoreno"
+
+msgid "epic"
+msgstr "ep"
+
+msgid "task"
+msgstr "zadatak"
+
+msgid "tasks"
+msgstr "zadaci"
+
+msgid "will be"
+msgstr "bit će"
+
+msgid "will be assigned to"
+msgstr "bit će dodijeljeno"
+
+msgid "will be changed to"
+msgstr "bit će promijenjeno u"
+
+msgid "added you to project"
+msgstr "dodao vas je u projekt"
+
+msgid "records"
+msgstr "zapisa"
+
+msgid "12 Hour Format"
+msgstr "12-satni format"
+
+msgid "24 Hour Format"
+msgstr "24-satni format"
+
+msgid "A database error occurred while processing your request. Please try again or contact support if the issue persists."
+msgstr "Došlo je do greške u bazi podataka pri obradi zahtjeva. Pokušajte ponovno ili se obratite podršci ako se problem nastavi."
+
+msgid "About Us"
+msgstr "O nama"
+
+msgid "Add a note"
+msgstr "Dodaj napomenu"
+
+msgid "All Activities ("
+msgstr "Sve aktivnosti ("
+
+msgid "App URL"
+msgstr "URL aplikacije"
+
+msgid "Assign task to a team member, attach files from Google Drive or Dropbox while creating a task."
+msgstr "Dodijelite zadatak članu tima i priložite datoteke s Google Drivea ili Dropboxa dok stvarate zadatak."
+
+msgid "Auth Required"
+msgstr "Potrebna autentifikacija"
+
+msgid "Blog"
+msgstr "Blog"
+
+msgid "Configure your self-hosted project management platform in just a few steps."
+msgstr "Postavite svoju platformu za upravljanje projektima u samo nekoliko koraka."
+
+msgid "Created on"
+msgstr "Stvoreno"
+
+msgid "DMS"
+msgstr "DMS"
+
+msgid "Database"
+msgstr "Baza podataka"
+
+msgid "Database, mail, and you're ready to go."
+msgstr "Baza podataka, e-pošta i spremni ste."
+
+msgid "Do you want to move the assignee along with the task?"
+msgstr "Želite li premjestiti i izvršitelja zajedno sa zadatkom?"
+
+msgid "Docs and Downloads"
+msgstr "Dokumentacija i preuzimanja"
+
+msgid "Due Date:"
+msgstr "Rok:"
+
+msgid "Due by:"
+msgstr "Rok do:"
+
+msgid "English"
+msgstr "Engleski"
+
+msgid "Enter Skills"
+msgstr "Unesite vještine"
+
+msgid "Enter a title."
+msgstr "Unesite naslov."
+
+msgid "Enter a valid link."
+msgstr "Unesite valjanu poveznicu."
+
+msgid "Environment"
+msgstr "Okruženje"
+
+msgid "Est Hrs:"
+msgstr "Proc. sati:"
+
+msgid "Estimation"
+msgstr "Procjena"
+
+msgid "Filesystem"
+msgstr "Datotečni sustav"
+
+msgid "French"
+msgstr "Francuski"
+
+msgid "From Email"
+msgstr "E-pošta pošiljatelja"
+
+msgid "Full control over your project data."
+msgstr "Potpuna kontrola nad podacima vaših projekata."
+
+msgid "German"
+msgstr "Njemački"
+
+msgid "Go to Homepage"
+msgstr "Idi na početnu stranicu"
+
+msgid "Help and Bug Reports"
+msgstr "Pomoć i prijave grešaka"
+
+msgid "Help me configure it"
+msgstr "Pomozi mi s konfiguracijom"
+
+msgid "Host"
+msgstr "Host"
+
+msgid "I don't / can't use URL rewriting"
+msgstr "Ne želim / ne mogu koristiti prepisivanje URL-ova"
+
+msgid "It's doesn't matter whether your business is Education or Health Services or Construction, you can define your own Task Type and add Tasks under them"
+msgstr "Nije važno bavite li se obrazovanjem, zdravstvom ili gradnjom — možete definirati vlastite vrste zadataka i dodavati zadatke pod njima"
+
+msgid "Manage Filter"
+msgstr "Upravljanje filtrima"
+
+msgid "New Tab"
+msgstr "Nova kartica"
+
+msgid "New tab"
+msgstr "Nova kartica"
+
+msgid "No Auth (Relay)"
+msgstr "Bez autentifikacije (posrednik)"
+
+msgid "No Label Found"
+msgstr "Oznaka nije pronađena"
+
+msgid "No filter found."
+msgstr "Filtar nije pronađen."
+
+msgid "No tasks available."
+msgstr "Nema dostupnih zadataka."
+
+msgid "Notify Email"
+msgstr "E-pošta za obavijesti"
+
+msgid "OneDrive"
+msgstr "OneDrive"
+
+msgid "Open In..."
+msgstr "Otvori u..."
+
+msgid "Orangescrum."
+msgstr "Orangescrum."
+
+msgid "Orangescrum. All rights reserved."
+msgstr "Orangescrum. Sva prava pridržana."
+
+msgid "Overall Progress:"
+msgstr "Ukupni napredak:"
+
+msgid "Overdue by:"
+msgstr "Zakašnjenje:"
+
+msgid "Personalize your Orangescrum account by setting up your Profile details and Timezone."
+msgstr "Prilagodite svoj Orangescrum račun postavljanjem podataka profila i vremenske zone."
+
+msgid "Port"
+msgstr "Port"
+
+msgid "Portuguese"
+msgstr "Portugalski"
+
+msgid "Project Name:"
+msgstr "Naziv projekta:"
+
+msgid "Project Overview -"
+msgstr "Pregled projekta -"
+
+msgid "Quick Setup"
+msgstr "Brzo postavljanje"
+
+msgid "SMTP Configuration"
+msgstr "SMTP konfiguracija"
+
+msgid "SMTP Type"
+msgstr "Vrsta SMTP-a"
+
+msgid "Same Tab"
+msgstr "Ista kartica"
+
+msgid "Same tab"
+msgstr "Ista kartica"
+
+msgid "Set to \"Yes\", to get all the Task related Emails from all your assigned projects from Orangescrum."
+msgstr "Postavite na \"Da\" kako biste primali sve e-poruke o zadacima iz svih dodijeljenih projekata iz Orangescruma."
+
+msgid "Setup"
+msgstr "Postavljanje"
+
+msgid "Slack"
+msgstr "Slack"
+
+msgid "Spanish"
+msgstr "Španjolski"
+
+msgid "Start Date:"
+msgstr "Početni datum:"
+
+msgid "Step 1 of 5"
+msgstr "Korak 1 od 5"
+
+msgid "Step 5 of 5"
+msgstr "Korak 5 od 5"
+
+msgid "Strawberry (🍓)"
+msgstr "Jagoda (🍓)"
+
+msgid "Task can't start. Waiting on these task to be completed."
+msgstr "Zadatak ne može početi. Čeka se završetak ovih zadataka."
+
+msgid "The Desktop Notification works on heigher versions of most of the browsers.\n                   Firefox 22 and above, Chrome 32 and above, Safari 6 on Mac OSX 10.8+"
+msgstr "Obavijesti na radnoj površini rade na novijim verzijama većine preglednika.\n                   Firefox 22 i noviji, Chrome 32 i noviji, Safari 6 na Mac OSX 10.8+"
+
+msgid "The Email Notification is set to \"No\" by default, to get email those email only when selected when task is posted."
+msgstr "Obavijesti e-poštom prema zadanim su postavkama isključene; e-poruku primate samo kad ste odabrani pri objavi zadatka."
+
+msgid "The Timezone settings help you to keep stay up-to-date while working with a virtual or remote team."
+msgstr "Postavke vremenske zone pomažu vam da ostanete ažurni tijekom rada s virtualnim ili udaljenim timom."
+
+msgid "Time Entry ("
+msgstr "Unos vremena ("
+
+msgid "Try Again"
+msgstr "Pokušaj ponovno"
+
+msgid "Turn the desktop notification On or Off in the \""
+msgstr "Uključite ili isključite obavijesti na radnoj površini u \""
+
+msgid "URL rewriting is not properly configured on your server."
+msgstr "Prepisivanje URL-ova nije ispravno konfigurirano na vašem poslužitelju."
+
+msgid "Use TLS"
+msgstr "Koristi TLS"
+
+msgid "Username or Email"
+msgstr "Korisničko ime ili e-pošta"
+
+msgid "We're having trouble connecting to the database at the moment. This is usually a temporary issue. Please try again in a few minutes."
+msgstr "Trenutačno imamo poteškoća s povezivanjem na bazu podataka. To je obično privremeno. Pokušajte ponovno za nekoliko minuta."
+
+msgid "What you can do"
+msgstr "Što možete učiniti"
+
+msgid "You can assign/remove projects from your team members any time on manage users section."
+msgstr "Projekte možete dodijeliti ili ukloniti članovima tima u bilo kojem trenutku u odjeljku za upravljanje korisnicima."
+
+msgid "You can enable or disable Google Chrome Desktop Notification on the \"Notification\" page."
+msgstr "Obavijesti na radnoj površini u Google Chromeu možete uključiti ili isključiti na stranici \"Obavijesti\"."
+
+msgid "You can remove the default Task Type by unchecking the checkbox and save the changes."
+msgstr "Zadanu vrstu zadatka možete ukloniti poništavanjem kvačice i spremanjem promjena."
+
+msgid "You'll see a pop-up when a new task or reply arrives so you can keep track of your Tasks even when you're not looking at Orangescrum."
+msgstr "Vidjet ćete skočni prozor kad stigne novi zadatak ili odgovor, tako da možete pratiti svoje zadatke i kad ne gledate u Orangescrum."
+
+msgid "Your Data, Your Server"
+msgstr "Vaši podaci, vaš poslužitelj"
+
+msgid "Your cache is NOT working. Please check the settings in config/app.php"
+msgstr "Vaš predmemorijski sustav NE radi. Provjerite postavke u config/app.php"
+
+msgid "Your logs directory is NOT writable."
+msgstr "U vašu mapu zapisa nije moguće pisati."
+
+msgid "Your logs directory is writable."
+msgstr "U vašu mapu zapisa moguće je pisati."
+
+msgid "Your tmp directory is NOT writable."
+msgstr "U vašu privremenu mapu nije moguće pisati."
+
+msgid "Your tmp directory is writable."
+msgstr "U vašu privremenu mapu moguće je pisati."
+
+msgid "Your version of PHP does NOT have the intl extension loaded."
+msgstr "Vaša verzija PHP-a NEMA učitano intl proširenje."
+
+msgid "Your version of PHP does NOT have the mbstring extension loaded."
+msgstr "Vaša verzija PHP-a NEMA učitano mbstring proširenje."
+
+msgid "Your version of PHP does NOT have the openssl or mcrypt extension loaded."
+msgstr "Vaša verzija PHP-a NEMA učitano openssl ili mcrypt proširenje."
+
+msgid "Your version of PHP has the intl extension loaded."
+msgstr "Vaša verzija PHP-a ima učitano intl proširenje."
+
+msgid "Your version of PHP has the mbstring extension loaded."
+msgstr "Vaša verzija PHP-a ima učitano mbstring proširenje."
+
+msgid "Your version of PHP has the mcrypt extension loaded."
+msgstr "Vaša verzija PHP-a ima učitano mcrypt proširenje."
+
+msgid "Your version of PHP has the openssl extension loaded."
+msgstr "Vaša verzija PHP-a ima učitano openssl proširenje."
+
+msgid "is being used for core caching. To change the config edit config/app.php"
+msgstr "se koristi za osnovno predmemoriranje. Za promjenu uredite config/app.php"
+
+msgid "how you can start managing your projects as easy as eating a doughnut!"
+msgstr "kako možete početi upravljati projektima jednostavno kao što jedete krafnu!"
+
+msgid "able to connect to the database."
+msgstr "uspješno povezan s bazom podataka."
+
+msgid "loaded."
+msgstr "učitano."
+
+msgid "• Check your internet connection"
+msgstr "• Provjerite svoju internetsku vezu"
+
+msgid "• Contact support if the issue persists"
+msgstr "• Obratite se podršci ako se problem nastavi"
+
+msgid "Activity Log"
+msgstr "Zapis aktivnosti"
+
+msgid "Choose how you'd like to proceed:"
+msgstr "Odaberite kako želite nastaviti:"
+
+msgid "Clean reinstall"
+msgstr "Čista ponovna instalacija"
+
+msgid "Clean reinstall selected"
+msgstr "Odabrana čista ponovna instalacija"
+
+msgid "Complete Installation?"
+msgstr "Dovršiti instalaciju?"
+
+msgid "Database Configuration"
+msgstr "Konfiguracija baze podataka"
+
+msgid "Database Name"
+msgstr "Naziv baze podataka"
+
+msgid "Great! You're almost there. Are you ready to complete the installation?"
+msgstr "Odlično! Gotovo ste pri kraju. Spremni ste dovršiti instalaciju?"
+
+msgid "Please do not refresh the page while installation is being processed."
+msgstr "Ne osvježavajte stranicu dok instalacija traje."
+
+msgid "Ready to Install"
+msgstr "Spremno za instalaciju"
+
+msgid "Step 3 of 5"
+msgstr "Korak 3 od 5"
+
+msgid "Step 4 of 5"
+msgstr "Korak 4 od 5"
+
+msgid "This database already contains data."
+msgstr "Ova baza podataka već sadrži podatke."
+
+msgid "This will create all database tables and seed initial data. This action cannot be undone."
+msgstr "Time će se stvoriti sve tablice baze podataka i uvesti početni podaci. Ova se radnja ne može poništiti."
+
+msgid "Yes, Install"
+msgstr "Da, instaliraj"
+
+msgid "Yes, Let's Finish Installation"
+msgstr "Da, dovršimo instalaciju"
+
+msgid "permanently deletes all tables and data, then installs fresh."
+msgstr "trajno briše sve tablice i podatke, a zatim instalira iznova."
+
+msgid "preserves your existing data and applies any schema updates."
+msgstr "zadržava vaše postojeće podatke i primjenjuje promjene sheme."
+
+msgid "will permanently delete every table and all data in this database, then install a fresh copy."
+msgstr "trajno će izbrisati sve tablice i podatke u ovoj bazi, a zatim instalirati novu kopiju."
+
+msgid "(owner)"
+msgstr "(vlasnik)"
+
+msgid "Clicking"
+msgstr "Klikom na"

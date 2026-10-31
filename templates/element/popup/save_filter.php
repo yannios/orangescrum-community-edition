@@ -4,7 +4,7 @@
         <div class="modal-header">
             <button type="button" class="close close-icon" onclick="closePopup();"><i class="material-icons">&#xE14C;</i></button>
             <h4 id="filter_label"><?php echo __('Save Filter');?></h4>
-            <a href="<?php echo HTTP_ROOT.'dashboard#searchFilters';?>" class="btn btn-default" style="border:1px solid #ddd; float:right; margin:0 10px 0 0;padding:5px 10px;">Manage Filter</a>
+            <a href="<?php echo HTTP_ROOT.'dashboard#searchFilters';?>" class="btn btn-default" style="border:1px solid #ddd; float:right; margin:0 10px 0 0;padding:5px 10px;"><?= __('Manage Filter') ?></a>
 
         </div>
         <div class="modal-body popup-container">

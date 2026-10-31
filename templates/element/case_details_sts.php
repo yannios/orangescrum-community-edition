@@ -169,7 +169,7 @@ if(is_active == 1 && (csLgndRep == 1 || csLgndRep == 2 || csLgndRep == 4) && ((S
 		<div class="progress-bar progress-bar-info" style="width: <%= progress %>% <%if(parseInt(custom_status_id)){%>;background-color:#<%=bg_sts_colr%><%}%>"></div>
 		<div class="cb"></div>
 	</div>	
-	<div id="tskprgrs" class="cmn_h_det_arrow tsk_prgrss drop_percnt fr <?php if($this->Format->isAllowed('Change Other Details of Task',$roleAccess)){ ?><% if(csLgndRep != 5 && csLgndRep != 3 && user_can_change ==1 && !parseInt(custom_status_id)){ %>dropdown option-toggle<% } %> <?php } ?>">
+	<div id="tskprgrs" class="cmn_h_det_arrow tsk_prgrss drop_percnt fr <?php if($this->Format->isAllowed('Change Other Details of Task',$roleAccess)){ ?><% if(csLgndRep != 5 && csLgndRep != 3 && user_can_change ==1 && !parseInt(custom_status_id)){ %><?= __('dropdown option-toggle') ?><% } %> <?php } ?>">
 		<div class="opt1" id="opt19">
 			<div class="text-right task_prog_percent" id="completed_task<%= csAtId %>" <% if(user_can_change == 1){ %>onclick="open_more_opt('<%= prgid %>',<%= '\''+csAtId+'\'' %>);" <% } %>>
 				<span><%= progress %>%</span>

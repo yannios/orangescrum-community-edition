@@ -373,7 +373,7 @@ $taskDetailView = $taskDetailView ?? 'tab';
 							<div class="cb"></div>
 						</h5>
 						<div class="quick_option_detail hover_option_detail mtop15 mbtm15">
-							<div class="task_detail_option_head task-detail-head-extr <% if(taskTyp.name == 'Story'){%>tsk-detail-story<%}%>">
+							<div class="task_detail_option_head task-detail-head-extr <% if(taskTyp.name == 'Story'){%><?= __('tsk-detail-story') ?><%}%>">
 								<div class="d-flex">
 									<div class="d-flex-column width-25-per">
 										<div class="detail_fld_label">
@@ -788,10 +788,10 @@ $taskDetailView = $taskDetailView ?? 'tab';
 											<?php echo __('Features'); ?>
 										<% } else if(csTypRep == original_feature_id) { %>
 											<span class="story_icon"></span>
-											Stories
+											<?= __('Stories') ?>
 										<% } else { %>
 											<span class="subtask_icon"></span>
-											Subtasks
+											<?= __('Subtasks') ?>
 										<% } %>
 									</a>
 								</li>								<% } %>
@@ -799,21 +799,21 @@ $taskDetailView = $taskDetailView ?? 'tab';
 									<li class="item_li upper" id="tab-storyTask" data-active="<%= is_inactive_case %>" data-tab="tab-storyTask" data-case_uid="<%= csUniqId %>" onclick="show_hide_tab(this)">
 										<a href="javascript:void(0)" class="link_item">
 											<span class="story_icon"></span>
-											Stories
+											<?= __('Stories') ?>
 										</a>
 									</li>
 
 									<li class="item_li upper" id="tab-task" data-active="<%= is_inactive_case %>" data-tab="tab-task" data-case_uid="<%= csUniqId %>" onclick="show_hide_tab(this)">
 										<a href="javascript:void(0)" class="link_item">
 											<span class="subtask_icon"></span>
-											Tasks
+											<?= __('Tasks') ?>
 										</a>
 									</li>
 								<% } %>
 								<% if( isFeatureTask(csTypRep ,original_feature_id)  &&  isEpicTask(csTypRep ,original_epic_id, actual_dt_created)){ %>
-								<li class="item_li upper" id="tab-timelog" data-tab="tab-timeLog" data-active="<%= is_inactive_case %>"  data-case_uid="<%= csUniqId %>" onclick="show_hide_tab(this)"><a href="javascript:void(0)" class="link_item"><span class="timelog_icon"></span>Time Logs</a></li>
+								<li class="item_li upper" id="tab-timelog" data-tab="tab-timeLog" data-active="<%= is_inactive_case %>"  data-case_uid="<%= csUniqId %>" onclick="show_hide_tab(this)"><a href="javascript:void(0)" class="link_item"><span class="timelog_icon"></span><?= __('Time Logs') ?></a></li>
 								<% } %>
-								<li class="item_li upper" id="tab-files" data-active="<%= is_inactive_case %>"  data-tab="tab-files" data-case_uid="<%= csUniqId %>" onclick="fetchFilesTskDtl(this);show_hide_tab(this);"><a href="javascript:void(0)" class="link_item"><span class="files_icon"></span>Files</a></li>
+								<li class="item_li upper" id="tab-files" data-active="<%= is_inactive_case %>"  data-tab="tab-files" data-case_uid="<%= csUniqId %>" onclick="fetchFilesTskDtl(this);show_hide_tab(this);"><a href="javascript:void(0)" class="link_item"><span class="files_icon"></span><?= __('Files') ?></a></li>
 							<?php if ($taskDetailView === 'tab'): ?>
 							<?php endif; ?>
 								<?php
@@ -1094,9 +1094,9 @@ $taskDetailView = $taskDetailView ?? 'tab';
 			<div class="row mt-20">
 				<div class="col-md-12" style="margin-top:8px;">
 					<ul class="details_item_tab">
-						<li class="item_li lower active" id="tab-activity" data-active="<%= is_inactive_case %>" data-tab="tab-activity" data-case_uid="<%= csUniqId %>" onclick="fetchActivityTsk(this);show_hide_lower_tab(this)"><a href="javascript:void(0)" class="link_item"><span class="activity_icon"></span>Activity Log</a></li>
+						<li class="item_li lower active" id="tab-activity" data-active="<%= is_inactive_case %>" data-tab="tab-activity" data-case_uid="<%= csUniqId %>" onclick="fetchActivityTsk(this);show_hide_lower_tab(this)"><a href="javascript:void(0)" class="link_item"><span class="activity_icon"></span><?= __('Activity Log') ?></a></li>
 						<% if( isFeatureTask(csTypRep ,original_feature_id)  &&  isEpicTask(csTypRep ,original_epic_id, actual_dt_created)){ %>
-						<li class="item_li lower" id="tab-checkList" data-active="<%= is_inactive_case %>" data-tab="tab-checkList" data-case_uid="<%= csUniqId %>" onclick="fetchChckLists(this);show_hide_lower_tab(this)"><a href="javascript:void(0)" class="link_item"><span class="checklist_icon"></span>Checklist<div class="counter_badge" id="checkList_count"><%= allCheckedChecklist %> / <%= allCheckList %></div></a></li>
+						<li class="item_li lower" id="tab-checkList" data-active="<%= is_inactive_case %>" data-tab="tab-checkList" data-case_uid="<%= csUniqId %>" onclick="fetchChckLists(this);show_hide_lower_tab(this)"><a href="javascript:void(0)" class="link_item"><span class="checklist_icon"></span><?= __('Checklist') ?><div class="counter_badge" id="checkList_count"><%= allCheckedChecklist %> / <%= allCheckList %></div></a></li>
 						<li class="item_li lower" id="tab-taskLink" data-active="<%= is_inactive_case %>" data-tab="tab-taskLink" data-id="<%= csid %>" data-case_uid="<%= csUniqId %>" onclick="fetchAllTAskLinks(this);show_hide_lower_tab(this)"><a href="javascript:void(0)" class="link_item"><span class="tasklink_icon"></span><?php echo __('Task Links'); ?></a></li>
 						<% } %>
 					</ul>
@@ -1164,7 +1164,7 @@ $taskDetailView = $taskDetailView ?? 'tab';
 							</div>
 							<div class="mt-15">
 								<button id="show_more_bun" class="btn btn_cmn_efect cmn_bg btn-info cmn_size" style="display:none;" onclick="showMoreActivityTsk('<%= csUniqId %>');"> <?php echo __('Show more'); ?></button>
-								<button id="show_less_bun" class="btn btn_cmn_efect cmn_bg btn-info cmn_size" data-uid="<%= csUniqId %>" style="display:none;"onclick="showLessActivity(this);">Show less</button>
+								<button id="show_less_bun" class="btn btn_cmn_efect cmn_bg btn-info cmn_size" data-uid="<%= csUniqId %>" style="display:none;"onclick="showLessActivity(this);"><?= __('Show less') ?></button>
 							</div>
 							<%
 							}
@@ -1214,7 +1214,7 @@ $taskDetailView = $taskDetailView ?? 'tab';
 				</div>
 				<div class="mt-15">
 					<button id="show_more_bun" class="btn btn_cmn_efect cmn_bg btn-info cmn_size" style="display:none;" onclick="showMoreActivityTsk('<%= csUniqId %>');"> <?php echo __('Show more'); ?></button>
-					<button id="show_less_bun" class="btn btn_cmn_efect cmn_bg btn-info cmn_size" data-uid="<%= csUniqId %>" style="display:none;"onclick="showLessActivity(this);">Show less</button>
+					<button id="show_less_bun" class="btn btn_cmn_efect cmn_bg btn-info cmn_size" data-uid="<%= csUniqId %>" style="display:none;"onclick="showLessActivity(this);"><?= __('Show less') ?></button>
 				</div>
 				<% } } %>
 
@@ -1503,7 +1503,7 @@ $taskDetailView = $taskDetailView ?? 'tab';
 				<div class="cmn_sec_head mtop10" id="peopleSec">
 						<div class="sec_ttl tog" id="tour_detail_people" data-cmnt_id="peopleSec">
 							<span class="label_icon people_icon"></span>
-							<h5>People</h5>
+							<h5><?= __('People') ?></h5>
 							<div class="icon_collapse" ></div>
 						</div>
 						<div id="itemcard2" class="toggle_card_item"style="cursor: default;">

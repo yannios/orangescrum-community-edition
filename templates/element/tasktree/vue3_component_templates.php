@@ -12,7 +12,7 @@
                     class="expand-button"
                 >
                     <v-icon size="10px" :style="{ transform: isExpanded ? 'rotate(90deg)' : 'rotate(0deg)', transition: 'transform 0.2s' }">
-                        mdi-chevron-right
+                        <?= __('mdi-chevron-right') ?>
                     </v-icon>
                 </v-btn>
                 <div v-else style="width: 24px; height: 24px; display: inline-block;"></div>
@@ -22,7 +22,7 @@
             <div class="col-actions">
                 <div class="dropdown" v-if="item.type_id !== 13 && item.type_id !== 15">
                     <a class="dropdown-toggle action-menu-toggle" href="javascript:void(0);" @click.stop="toggleActionMenu">
-                        <v-icon size="small">mdi-dots-vertical</v-icon>
+                        <v-icon size="small"><?= __('mdi-dots-vertical') ?></v-icon>
                     </a>
                     <ul class="dropdown-menu action-menu" :class="{ show: showActionMenu }" @click.stop>
                         <?php if ($this->Format->isAllowed('Edit Task', $roleAccess) || $this->Format->isAllowed('Edit All Task', $roleAccess)) { ?>

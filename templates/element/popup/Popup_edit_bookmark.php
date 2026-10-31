@@ -13,18 +13,18 @@
                     <div class="form-group label-floating">
                         <label class="control-label" for="label_nm"><?php echo __('Enter Link');?></label><br><br>
                         <input type="text" value="" class="form-control" name="link" id="edit_bookmark_link"/>
-                        <div id="bookmark_elink_msg" style="display:none; color:red;font-size:10px;">Enter a valid link.</div>
+                        <div id="bookmark_elink_msg" style="display:none; color:red;font-size:10px;"><?= __('Enter a valid link.') ?></div>
                     </div>
                     <div class="form-group label-floating">
                         <label class="control-label" for="label_nm"><?php echo __('Title');?></label><br><br>
                         <input type="text" value="" class="form-control" style="margin-bottom: 28px !important;" name="title" id="edit_bookmark_title"/>
-                        <div id="bookmark_elabel_msg" style="display:none; color:red;font-size:10px;">Enter a title.</div>
+                        <div id="bookmark_elabel_msg" style="display:none; color:red;font-size:10px;"><?= __('Enter a title.') ?></div>
                     </div>
                     <div class="form-group label-floating">
-                        <label for="pages">Open In...</label><br>
+                        <label for="pages"><?= __('Open In...') ?></label><br>
                         <select name="pages" class="select2" id="bookmark_pages">
-                            <option value=0>Same tab</option>
-                            <option value=1>New tab</option>
+                            <option value=0><?= __('Same tab') ?></option>
+                            <option value=1><?= __('New tab') ?></option>
                         </select>
                     </div>
                 </div>

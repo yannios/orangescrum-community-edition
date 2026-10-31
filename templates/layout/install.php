@@ -103,24 +103,24 @@
                         style="height: 40px; width: auto;" />
                 </a>
 
-                <h1 class="brand-h1">Setup<br><span>Orangescrum</span></h1>
+                <h1 class="brand-h1"><?= __('Setup') ?><br><span><?= __('Orangescrum') ?></span></h1>
                 <p class="brand-p">
-                    Configure your self-hosted project management platform in just a few steps.
+                    <?= __('Configure your self-hosted project management platform in just a few steps.') ?>
                 </p>
 
                 <div class="feature-list">
                     <div class="feature-item">
                         <div class="check-icon"><span style="color:#22c55e; font-size:18px;">&#10003;</span></div>
                         <div>
-                            <strong style="display: block; font-size: 15px;">Quick Setup</strong>
-                            <span style="color: rgba(255,255,255,0.6); font-size: 13px;">Database, mail, and you're ready to go.</span>
+                            <strong style="display: block; font-size: 15px;"><?= __('Quick Setup') ?></strong>
+                            <span style="color: rgba(255,255,255,0.6); font-size: 13px;"><?= __('Database, mail, and you\'re ready to go.') ?></span>
                         </div>
                     </div>
                     <div class="feature-item">
                         <div class="check-icon"><span style="color:#22c55e; font-size:18px;">&#10003;</span></div>
                         <div>
-                            <strong style="display: block; font-size: 15px;">Your Data, Your Server</strong>
-                            <span style="color: rgba(255,255,255,0.6); font-size: 13px;">Full control over your project data.</span>
+                            <strong style="display: block; font-size: 15px;"><?= __('Your Data, Your Server') ?></strong>
+                            <span style="color: rgba(255,255,255,0.6); font-size: 13px;"><?= __('Full control over your project data.') ?></span>
                         </div>
                     </div>
                 </div>

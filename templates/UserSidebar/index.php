@@ -408,8 +408,8 @@ $fixSubmenuof = array('tasks', 'reports', 'time log', 'resource_mgmt');
                     </div>
                     <div class="cb"></div>
                     <div class="btn_cntr">
-                        <button id="cancel_left_menu" class="btn btn-secondary">Cancel</button>
-                        <button class="btn btn-primary" id="save_left_menu" type="submit">Save</button>
+                        <button id="cancel_left_menu" class="btn btn-secondary"><?= __('Cancel') ?></button>
+                        <button class="btn btn-primary" id="save_left_menu" type="submit"><?= __('Save') ?></button>
                     </div>
                 </div>
             </div>

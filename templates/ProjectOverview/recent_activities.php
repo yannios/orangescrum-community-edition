@@ -95,7 +95,7 @@
                     <div class="line_bar small gray"></div>
                 </li>
             </ul>
-            <div class="data_not_avail">No Data Available</div>
+            <div class="data_not_avail"><?= __('No Data Available') ?></div>
         </div>
     <?php } else { ?>
         <?php if ($this->Format->isAllowed('Create Task', $roleAccess)) { ?>

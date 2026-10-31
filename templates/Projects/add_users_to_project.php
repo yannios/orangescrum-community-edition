@@ -267,7 +267,7 @@ function asign_existing_users(obj){
                 asgnd_usr_arr.push($(this).val());
             });
             var usr = checked_cnt > 1 ? _("users have"):_("user has");
-            $('#asgnd_usr_cnt').html("<b>"+checked_cnt+"</b> "+usr+" "+_("been assigned")+".");
+            $('#asgnd_usr_cnt').html("<b><?= __('"+checked_cnt+"') ?></b> "+usr+" "+_("been assigned")+".");
             $('.act_btttn').show();
             /*$('span[rel=tooltip]').tipsy({
             gravity:'s',
@@ -300,7 +300,7 @@ function invite_asign_users(obj){
     $('#sel_Typ').val(3);
 
     $("#txt_email").focus();
-    $('.auto_tab_fld').html('<input type="hidden" name="data[User][pid]" class="form-control" value="'+$('#Pjid').val()+'"/><input style="width: 352px;" type"text" readonly="readonly" class="form-control" value="'+$('#Pjname').val()+'"/><a href="javascript:void(0);" onclick="changeOnInvite();" style="font-size:11px;font-weight:bold;color:#5F9AC2;">'+_('Change project')+'</a>');
+    $('.auto_tab_fld').html('<input type="hidden" name="data[User][pid]" class="form-control" value="'+$('#Pjid').val()+'"/><input style="width: 352px;" type"text" readonly="readonly" class="form-control" value="'+$('#Pjname').val()+'"/><a href="javascript:void(0);" onclick="changeOnInvite();" style="font-size:11px;font-weight:bold;color:#5F9AC2;"><?= __('\'+_(\'Change project\')+\'') ?></a>');
     $('.cancel_on_invite').hide();
     $('#select_role').select2();
 }

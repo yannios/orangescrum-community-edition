@@ -247,9 +247,9 @@
         $.post("<?php echo HTTP_ROOT ;?>projects/getConditionOptions",{value:val, pid:$(".workflow_project").val()},function(res){
             if(res.status == 'success'){
                 if(res.result){
-                    str = "<option value=''>"+_('Select Value')+"</option>";
+                    str = "<option value=''><?= __('"+_(\'Select Value\')+"') ?></option>";
                     $.each(res.result, function (key, data) {
-                        str += "<option value='"+key+"'>"+data+"</option>";
+                        str += "<option value='"+key+"'><?= __('"+data+"') ?></option>";
                     });
                     $('.workflow_cond-val').html(str);
                     <?php if(isset($workflowdetail['value']) && !empty($workflowdetail['value'])){ ?>
@@ -287,18 +287,18 @@
                 if(res.result){
                     str = "";
                     $.each(res.result, function (key, data) {
-                        str += "<option value='"+key+"'>"+data+"</option>";
+                        str += "<option value='"+key+"'><?= __('"+data+"') ?></option>";
                     });
                     if(fields == 'assign'){
-                        $('.workflow_action_user').html("<option value=''>"+_('Select User')+"</option>"+str);
+                        $('.workflow_action_user').html("<option value=''><?= __('"+_(\'Select User\')+"') ?></option>"+str);
                         $('.action_user_wrapper').show();
                         <?php if(isset($workflowdetail['workflow_action_user']) && !empty($workflowdetail['workflow_action_user'])){ ?>
                         $('.workflow_action_user').val('<?php echo $workflowdetail['workflow_action_user'];?>');
                         <?php } ?>
 
                     }else if(fields == 'email'){
-                        $('.workflow_action_to').html("<option value=''>"+_('Select to email')+"</option>"+str);
-                        $('.workflow_action_cc').html("<option value=''>"+_('Select cc email')+"</option>"+str);
+                        $('.workflow_action_to').html("<option value=''><?= __('"+_(\'Select to email\')+"') ?></option>"+str);
+                        $('.workflow_action_cc').html("<option value=''><?= __('"+_(\'Select cc email\')+"') ?></option>"+str);
 
                         <?php if(isset($workflowdetail['workflow_action_to']) && !empty($workflowdetail['workflow_action_to'])){ ?>
                         $('.workflow_action_to').val('<?php echo $workflowdetail['workflow_action_to'];?>');

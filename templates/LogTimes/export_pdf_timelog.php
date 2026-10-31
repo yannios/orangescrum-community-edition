@@ -209,7 +209,7 @@
                                 <?php if (in_array('billable', $checkedFields)) { ?>
                                     <td class="text-center">
                                         <?php if ($v['LogTime']['is_billable']) { ?>
-                                            <span class="material-icons tick_mark">Yes</span>
+                                            <span class="material-icons tick_mark"><?= __('Yes') ?></span>
                                         <?php } else { ?>
                                             <span class="material-icons cross_mark">No</span>
                                         <?php } ?>

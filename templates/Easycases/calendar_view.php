@@ -125,7 +125,7 @@ $random_bgclr = $t_clr[array_rand($t_clr,1)];
                 var addition = '';
                 var prj_typ = $('#projFil').val();
                 if(prj_typ == 'all')
-                    addition = "<div style='float:left' class='ellipsis-view_cal'> <b>("+event.projectSortName+")</b> #"+event.case_no+": </div>"+event.title;
+                    addition = "<div style='float:left' class='ellipsis-view_cal'> <b><?= __('("+event.projectSortName+")') ?></b> <?= __('#"+event.case_no+":') ?> </div>"+event.title;
                 else
                     addition = " #"+event.case_no+": "+event.title;
 
@@ -133,7 +133,7 @@ $random_bgclr = $t_clr[array_rand($t_clr,1)];
                     element.find(".fc-event-title").before("<div style='float:left'><img rel='tooltip' src='"+HTTP_ROOT+"users/image_thumb/?type=photos&file="+event.photo+"&sizex=26&sizey=26&quality=100' class='round_profile_img' height='26' width='26' title='Assigned to: "+event.name+"'/></div>");
                 }else{
                     var first_letter_uname = event.name.charAt(0);
-                    element.find(".fc-event-title").before("<div style='float:left'><span class='cmn_profile_holder "+event.profile_bg_colr+"' title='Assigned to: "+event.name+"'>"+first_letter_uname+"</span></div>");
+                    element.find(".fc-event-title").before("<div style='float:left'><span class='cmn_profile_holder "+event.profile_bg_colr+"' title='Assigned to: "+event.name+"'><?= __('"+first_letter_uname+"') ?></span></div>");
                 }
                 element.find('.fc-event-time').css('display','none');
                 addition = addition.replace(/\\'/g, "'");

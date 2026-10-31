@@ -4,7 +4,7 @@
             <tbody>
             <tr>
                 <th style="width:50%; border-top:none;">
-                    <a href="javascript:void(0)" onclick="ajaxSorting( <%= '\'name\', ' + caseCount + ', this' %> );">Name
+                    <a href="javascript:void(0)" onclick="ajaxSorting( <%= '\'name\', ' + caseCount + ', this' %> );"><?= __('Name') ?>
                         <span class="sorting_arw"><% if(typeof orderBy != 'undefined' && orderBy == "name") { %>
 								<% if(orderByType == "ASC"){ %>
 								<i class="material-icons tsk_asc">&#xE5CE;</i>

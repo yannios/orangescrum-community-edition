@@ -13,7 +13,7 @@ if(timelog_filter_msg == '' || timelog_filter_msg == null){
 $('.timelog_filter_msg').hide();
 }else{
 $('.timelog_filter_msg').show();
-$('.timelog_filter_msg').html('<span class="tg_msg_pos">'+timelog_filter_msg+'</span> <span class="ico-close timelog_filter_msg_close" rel="tooltip" title="<?php echo __('Reset All');?>"><i class="material-icons">&#xE8BA;</i></span>');
+$('.timelog_filter_msg').html('<span class="tg_msg_pos"><?= __('\'+timelog_filter_msg+\'') ?></span> <span class="ico-close timelog_filter_msg_close" rel="tooltip" title="<?php echo __('Reset All');?>"><i class="material-icons">&#xE8BA;</i></span>');
 } %>
 <% } %>
 <div class="sec_title d-flex tog" data-cmnt_id ="tmelg_sec">

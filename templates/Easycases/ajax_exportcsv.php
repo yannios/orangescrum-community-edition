@@ -73,7 +73,7 @@ echo $this->Form->create(null , array('name' => 'taskcsvForm', 'id' => 'taskcsvF
     <div class="row time_range_fld  padlft-non padrht-non"  id="tr_cst_rng" style="<?php if (count($cst_rng) == 2) { ?>display: show;<?php } else { ?>display:none;<?php } ?>">
         <div class="col-lg-6 ">
             <div class="form-group  label-floating">
-                <label class="control-label" for="cst_frm">From</label>
+                <label class="control-label" for="cst_frm"><?= __('From') ?></label>
                 <input type="text" id="cst_frm" name="data[Easycase][from]" value="<?php if (count($cst_rng) == 2) echo $cst_rng['0']; ?>" class="form-control" placeholder="" />
             </div>
         </div>

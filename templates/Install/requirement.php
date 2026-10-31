@@ -1,8 +1,8 @@
 <?php $this->assign('title', 'System Requirements'); ?>
 
 <div class="form-header">
-    <h2>System Requirements</h2>
-    <p class="install-step-label">Step 1 of 5</p>
+    <h2><?= __('System Requirements') ?></h2>
+    <p class="install-step-label"><?= __('Step 1 of 5') ?></p>
 </div>
 
 <?= $this->Flash->render() ?>
@@ -10,7 +10,7 @@
 <?= $this->Form->create(null, ['id' => 'setup']) ?>
 
 <div class="form-group field_wrapper">
-    <label>App URL</label>
+    <label><?= __('App URL') ?></label>
     <?= $this->Form->control('App.fullBaseUrl', [
         'type' => 'text',
         'label' => false,
@@ -19,7 +19,7 @@
         'disabled' => true,
         'class' => 'form-control'
     ]) ?>
-    <small style="color:green;">Please make sure the App URL is correct. If not, update <code>App.fullBaseUrl</code> in <code>config/app.php</code>.</small>
+    <small style="color:green;"><?= __('Please make sure the App URL is correct. If not, update') ?> <code><?= __('App.fullBaseUrl') ?></code> in <code><?= __('config/app.php') ?></code>.</small>
 </div>
 
 <ul style="list-style:none; padding:0; margin:20px 0;">

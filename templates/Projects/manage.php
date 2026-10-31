@@ -391,7 +391,7 @@
                     <div class="cmn_bdr_shadow no-data-box extra nodata-foud-program-box">
                         <div>
                             <!-- <p class="head">No Projects Found</p> -->
-                            <p class="sub-head">No Projects Found</p>
+                            <p class="sub-head"><?= __('No Projects Found') ?></p>
                         </div> <img style="max-height: 100px;" src="<?php echo HTTP_ROOT;?>img/no-data/no-project.png" /> <br><br> <?php if ($this->Format->isAllowed('Create Project', $roleAccess)) { ?><span class="m-left"><a class="btn btn_cmn_efect cmn_bg btn-info cmn_size" href="javascript:void(0)" onClick="newProject('', '', undefined, false, undefined, undefined, '<?php echo $program_id ?? ''; ?>')"><?php echo __('Create New Project'); ?><div class="ripple-container"></div></a></span><?php } ?>
                     </div>
                 </v-col>

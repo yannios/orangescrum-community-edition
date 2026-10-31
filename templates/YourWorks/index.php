@@ -219,7 +219,7 @@
                                 <v-row no-gutters>
                                     <v-col>
                                         <v-list two-line subheader dense flat>
-                                            <v-subheader v-if="tab.title=='Todo'">Today</v-subheader>
+                                            <v-subheader v-if="tab.title=='Todo'"><?= __('Today') ?></v-subheader>
                                             <template v-if="tasksLoading">
                                                 <v-skeleton-loader type="list-item-two-line" v-for="ii in 3" :key="'ske'+ii"></v-skeleton-loader>
                                             </template>
@@ -259,7 +259,7 @@
                                             </template>
                                         </v-list>
                                         <v-list two-line subheader dense flat v-if="tab.title=='Todo' && taskCount < 10">
-                                            <v-subheader>Upcoming</v-subheader>
+                                            <v-subheader><?= __('Upcoming') ?></v-subheader>
                                             <template v-if="tasksLoading">
                                                 <v-skeleton-loader type="list-item-two-line" v-for="ii in 3" :key="'ske'+ii"></v-skeleton-loader>
                                             </template>

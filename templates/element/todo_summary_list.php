@@ -9,7 +9,7 @@
             <p><%= projectDetails.name %></p>
             <p><span class="task_no">#<%= caseDetails.case_no %>:</span> <%= caseDetails.title %></p>
         </div>
-        <p><small>Created on <%= caseDetails.case_created_date %></small><small>Overdue by:</small><span class="due_tag"><%= caseDetails.due_date %></span></p>
+        <p><small><?= __('Created on') ?> <%= caseDetails.case_created_date %></small><small><?= __('Overdue by:') ?></small><span class="due_tag"><%= caseDetails.due_date %></span></p>
     </div>
     <% } %>
     <% }else{ %>
@@ -17,7 +17,7 @@
             <figure>
                 <img src="<%= HTTP_ROOT %>img/tools/No-details-found.svg" width="120" height="120">
             </figure>
-            <div class="colr_red mtop15">No tasks available.</div>
+            <div class="colr_red mtop15"><?= __('No tasks available.') ?></div>
         </div>
     <% } %>
 </div>
@@ -32,7 +32,7 @@
                 <p><%= projectDetails.name %></p>
                 <p><span class="task_no">#<%= caseDetails.case_no %>:</span>  <%= caseDetails.title %></p>
             </div>
-            <p><small>Created on <%= caseDetails.case_created_date %></small><% if (caseDetails.due_date) { %><small>Due by:</small><span class="due_tag"><%= caseDetails.due_date %></span><% } %></p>
+            <p><small><?= __('Created on') ?> <%= caseDetails.case_created_date %></small><% if (caseDetails.due_date) { %><small><?= __('Due by:') ?></small><span class="due_tag"><%= caseDetails.due_date %></span><% } %></p>
         </div>
         <% } %>
     <% }else{ %>
@@ -40,7 +40,7 @@
             <figure>
                 <img src="<%= HTTP_ROOT %>img/tools/No-details-found.svg" width="120" height="120">
             </figure>
-            <div class="colr_red mtop15">No tasks available.</div>
+            <div class="colr_red mtop15"><?= __('No tasks available.') ?></div>
         </div>
     <% } %>
 </div>

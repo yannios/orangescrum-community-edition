@@ -135,7 +135,7 @@
                     <p class="text-muted"><?php echo __('Please double-check(specifically text showing in red color) the below points before importing your Tasks');?></p>
                     <ul>
                         <li><?php echo __('Blank Title');?></li>
-                        <li><?php echo __('Invalid Due Date');?> (<?php echo __('should be');?> <b>MM</b>/<b>DD</b>/<b>YYYY</b>)</li>
+                        <li><?php echo __('Invalid Due Date');?> (<?php echo __('should be');?> <b>MM</b>/<b>DD</b>/<b><?= __('YYYY') ?></b>)</li>
                         <li><?php echo __('Invalid or Misspelled Status');?></li>
                         <li><?php echo __('Invalid or Misspelled Type');?></li>
                         <li><?php echo __('Unknown Assigned To Email ID (User must be associated with the project)');?></li>

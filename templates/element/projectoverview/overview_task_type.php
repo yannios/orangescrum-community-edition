@@ -28,7 +28,7 @@
                 },
                 tooltip: {
                     formatter: function() {
-                        return '<b>' + this.point.name + '</b>: ' + this.y;
+                        return '<b><?= __('\' + this.point.name + \'') ?></b>: ' + this.y;
                     }
                 },
                 series: [{

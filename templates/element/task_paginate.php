@@ -137,11 +137,11 @@
         if(page != 1) {
                 var pageprev = page-1; %>
             <li class="button_act" onClick="casePaging(<%= '\'' + pageprev + '\'' %>)">
-                <a href="javascript:void(0)"><i class="material-icons">&#xE314;</i>Prev</a>
+                <a href="javascript:void(0)"><i class="material-icons">&#xE314;</i><?= __('Prev') ?></a>
             </li>
             <% 	} else { %>
             <li class="disabled button_prev">
-                <a href="javascript:void(0)"><i class="material-icons">&#xE314;</i>Prev</a>
+                <a href="javascript:void(0)"><i class="material-icons">&#xE314;</i><?= __('Prev') ?></a>
             </li>
             <% 	}
         for(var i = k; i <= numofpages; i++) {
@@ -155,11 +155,11 @@
         if((caseCount - (page_limit * page)) > 0) {
                 var pagenext = page+1; %>
             <li class="button_act" onClick="casePaging(<%= '\'' + pagenext + '\'' %>)">
-                <a href="javascript:void(0)">Next<i class="material-icons">&#xE315;</i></a>
+                <a href="javascript:void(0)"><?= __('Next') ?><i class="material-icons">&#xE315;</i></a>
             </li>
             <% 	} else { %>
             <li class="disabled button_prev">
-                <a href="javascript:void(0)">Next<i class="material-icons">&#xE315;</i></a>
+                <a href="javascript:void(0)"><?= __('Next') ?><i class="material-icons">&#xE315;</i></a>
             </li>
             <% 	}
         if(data2) { %>

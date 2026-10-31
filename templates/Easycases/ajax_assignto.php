@@ -4,7 +4,7 @@
     <div class="checkbox">
         <label>
             <input type="checkbox" id="unassgn" class="assignto0" <?php $last = [];
-            if(in_array('unassigned', $last?:[])){ echo "checked"; } ?>onclick="checkboxAsns('unassgn','check');filterRequest('assignto');" <?php if($_COOKIE['ASSIGNTO'] ?? null == "unassigned" || in_array("unassigned", $last?:[])){ echo "checked"; } ?> /> Unassigned
+            if(in_array('unassigned', $last?:[])){ echo "checked"; } ?>onclick="checkboxAsns('unassgn','check');filterRequest('assignto');" <?php if($_COOKIE['ASSIGNTO'] ?? null == "unassigned" || in_array("unassigned", $last?:[])){ echo "checked"; } ?> /> <?= __('Unassigned') ?>
         </label>
         <input type="hidden" name="Asnids_0" id="Asnids_0" value="0" readonly="true">
     </div>

@@ -8,7 +8,7 @@
         <img src="<?php echo HTTP_ROOT;?>img/tools/No-details-found.svg" width="120"
              height="120">
     </figure>
-    <div class="colr_red mtop15">No Label Found</div>
+    <div class="colr_red mtop15"><?= __('No Label Found') ?></div>
 </div>
 <% }else{ %>
 <div class="nodetail_found">
@@ -16,7 +16,7 @@
         <img src="<?php echo HTTP_ROOT;?>img/tools/No-details-found.svg" width="120"
              height="120">
     </figure>
-    <div class="colr_red mtop15">No Label Found</div>
+    <div class="colr_red mtop15"><?= __('No Label Found') ?></div>
 </div>
 <div class="cb"></div>
 <% } %>
