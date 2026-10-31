@@ -3447,3 +3447,5706 @@ msgstr "projekt za prikaz svih zakašnjelih zadataka"
 
 msgid "for completed projects"
 msgstr "za dovršene projekte"
+
+msgid "Orangescrum Open Source Community Edition"
+msgstr "Orangescrum Community Edition otvorenog koda"
+
+msgid "This installation and the software it runs."
+msgstr "Ova instalacija i softver koji pokreće."
+
+msgid "Edition"
+msgstr "Izdanje"
+
+msgid "Version"
+msgstr "Verzija"
+
+msgid "Installed on"
+msgstr "Instalirano na"
+
+msgid "Copyright"
+msgstr "Autorska prava"
+
+msgid "Licence"
+msgstr "Licenca"
+
+msgid "The Community Edition is free software. No commercial licence key is required to install or run it, and there are no user, project or storage limits."
+msgstr "Community Edition je besplatan softver. Za instalaciju i rad nije potreban komercijalni licencni ključ, a nema ograničenja broja korisnika, projekata ni pohrane."
+
+msgid "SPDX identifier"
+msgstr "SPDX identifikator"
+
+msgid "Source code"
+msgstr "Izvorni kod"
+
+msgid "Your rights and obligations"
+msgstr "Vaša prava i obveze"
+
+msgid "This edition is free software under the AGPL v3. If you modify Orangescrum and let others use it over a network, the licence requires you to publish the corresponding source of your modified version to those users."
+msgstr "Ovo izdanje je besplatan softver pod licencom AGPL v3. Ako izmijenite Orangescrum i omogućite drugima da ga koriste preko mreže, licenca zahtijeva da tim korisnicima objavite pripadajući izvorni kod svoje izmijenjene verzije."
+
+msgid "A commercial licence"
+msgstr "Komercijalna licenca"
+
+msgid "No warranty — see the full licence text for terms."
+msgstr "Bez jamstva — uvjete pogledajte u cijelom tekstu licence."
+
+msgid "Third-party software"
+msgstr "Softver trećih strana"
+
+msgid "This product bundles open-source components, each under its own licence."
+msgstr "Ovaj proizvod uključuje komponente otvorenog koda, svaka pod vlastitom licencom."
+
+msgid "Bundled packages"
+msgstr "Uključeni paketi"
+
+msgid "Notices generated"
+msgstr "Napomene generirane"
+
+msgid "View third-party notices"
+msgstr "Prikaži napomene trećih strana"
+
+msgid "Project Est.:"
+msgstr "Proc. projekta:"
+
+msgid "Task Est.:"
+msgstr "Proc. zadatka:"
+
+msgid "Add checklist"
+msgstr "Dodaj popis provjere"
+
+msgid "Add Checklist"
+msgstr "Dodaj popis provjere"
+
+msgid "No checklist available."
+msgstr "Nema dostupnog popisa provjere."
+
+msgid "Link from Cloud Storage"
+msgstr "Poveznica iz cloud pohrane"
+
+msgid "Drop files here or "
+msgstr "Ispustite datoteke ovdje ili "
+
+msgid "Max size"
+msgstr "Maks. veličina"
+
+msgid "Mb"
+msgstr "MB"
+
+msgid "Choose who gets an email about this comment"
+msgstr "Odaberite kome se šalje e-pošta o ovom komentaru"
+
+msgid "Notify via Email"
+msgstr "Obavijesti e-poštom"
+
+msgid "Do not show this comment to the client"
+msgstr "Ne prikazuj ovaj komentar klijentu"
+
+msgid "Post comment"
+msgstr "Objavi komentar"
+
+msgid "View remaining"
+msgstr "Prikaži preostalo"
+
+msgid "View latest 10"
+msgstr "Prikaži zadnjih 10"
+
+msgid "View oldest thread on top"
+msgstr "Prikaži najstariju temu na vrhu"
+
+msgid "Older"
+msgstr "Starije"
+
+msgid "View newest thread on top"
+msgstr "Prikaži najnoviju temu na vrhu"
+
+msgid "Newer"
+msgstr "Novije"
+
+msgid "No activity found"
+msgstr "Nema pronađenih aktivnosti"
+
+msgid "Show less"
+msgstr "Prikaži manje"
+
+msgid "Reset Filter"
+msgstr "Poništi filtar"
+
+msgid "Size"
+msgstr "Veličina"
+
+msgid "Link from DMS"
+msgstr "Poveznica iz DMS-a"
+
+msgid "No Files found"
+msgstr "Nema pronađenih datoteka"
+
+msgid "Linking Tasks"
+msgstr "Povezivanje zadataka"
+
+msgid "No linking available."
+msgstr "Povezivanje nije dostupno."
+
+msgid "Tasks Links"
+msgstr "Poveznice zadataka"
+
+msgid "Add New Linking"
+msgstr "Dodaj novo povezivanje"
+
+msgid "Remove Link"
+msgstr "Ukloni poveznicu"
+
+msgid "No Linked Task found"
+msgstr "Nema pronađenih povezanih zadataka"
+
+msgid "Clear search"
+msgstr "Očisti pretragu"
+
+msgid "Switch to the new task views"
+msgstr "Prijeđite na nove prikaze zadataka"
+
+msgid "New view"
+msgstr "Novi prikaz"
+
+msgid "Basic Detail"
+msgstr "Osnovni podaci"
+
+msgid "Choose at least one task"
+msgstr "Odaberite barem jedan zadatak"
+
+msgid "Assign epic(s) to user"
+msgstr "Dodijeli epove korisniku"
+
+msgid "Assign feature(s) to user"
+msgstr "Dodijeli značajke korisniku"
+
+msgid "Quick Task"
+msgstr "Brzi zadatak"
+
+msgid "Me"
+msgstr "Ja"
+
+msgid "Est. Hour"
+msgstr "Proc. sati"
+
+msgid "Save & Continue"
+msgstr "Spremi i nastavi"
+
+msgid "Save & Start Timer"
+msgstr "Spremi i pokreni brojač vremena"
+
+msgid "Critical Path Task"
+msgstr "Zadatak kritičnog puta"
+
+msgid "You can add time as 1.5(that mean 1 hour and 30 minutes) and press enter to save"
+msgstr "Vrijeme možete unijeti kao 1.5 (to znači 1 sat i 30 minuta) i pritisnuti Enter za spremanje"
+
+msgid "No tasks for me"
+msgstr "Nema zadataka za mene"
+
+msgid "No tasks as overdue"
+msgstr "Nema zakašnjelih zadataka"
+
+msgid "No tasks delegated"
+msgstr "Nema delegiranih zadataka"
+
+msgid "No high priority tasks"
+msgstr "Nema zadataka visokog prioriteta"
+
+msgid "No favourite tasks"
+msgstr "Nema omiljenih zadataka"
+
+msgid "Add New Reminder"
+msgstr "Dodaj novi podsjetnik"
+
+msgid "Message"
+msgstr "Poruka"
+
+msgid "Notify Users"
+msgstr "Obavijesti korisnike"
+
+msgid "No Reminders found"
+msgstr "Nema pronađenih podsjetnika"
+
+msgid "Tasks Count"
+msgstr "Broj zadataka"
+
+msgid "Filter Items"
+msgstr "Stavke filtra"
+
+msgid "Save Filter"
+msgstr "Spremi filtar"
+
+msgid "No filter has been created"
+msgstr "Nije stvoren nijedan filtar"
+
+msgid "Reload Subtask"
+msgstr "Osvježi podzadatak"
+
+msgid "No subtask available."
+msgstr "Nema dostupnih podzadataka."
+
+msgid "Stories"
+msgstr "Priče"
+
+msgid "Features"
+msgstr "Značajke"
+
+msgid "Reload Stories"
+msgstr "Osvježi priče"
+
+msgid "Reload Tasks"
+msgstr "Osvježi zadatke"
+
+msgid "Reload Features"
+msgstr "Osvježi značajke"
+
+msgid "Create Story"
+msgstr "Stvori priču"
+
+msgid "Feature"
+msgstr "Značajka"
+
+msgid "Add New Story"
+msgstr "Dodaj novu priču"
+
+msgid "Add New Task"
+msgstr "Dodaj novi zadatak"
+
+msgid "Add New Feature"
+msgstr "Dodaj novu značajku"
+
+msgid "Add New Subtask"
+msgstr "Dodaj novi podzadatak"
+
+msgid "Delete Task"
+msgstr "Izbriši zadatak"
+
+msgid "Try new Task Groups Page"
+msgstr "Isprobajte novu stranicu grupa zadataka"
+
+msgid "Try new Task Groups Page (beta)"
+msgstr "Isprobajte novu stranicu grupa zadataka (beta)"
+
+msgid "Group By (applies to parent tasks only)"
+msgstr "Grupiraj po (odnosi se samo na nadređene zadatke)"
+
+msgid "Now"
+msgstr "Sada"
+
+msgid "Reset All"
+msgstr "Poništi sve"
+
+msgid "Add time entry"
+msgstr "Dodaj unos vremena"
+
+msgid "Est. Hr:"
+msgstr "Proc. sati:"
+
+msgid "Spent. Hr:"
+msgstr "Utrošeni sati:"
+
+msgid "Billable. Hr:"
+msgstr "Naplativo. Sati:"
+
+msgid "Non Billable. Hr:"
+msgstr "Nenaplativo. Sati:"
+
+msgid "Logged Hrs"
+msgstr "Zabilježeni sati"
+
+msgid "You are not authorized to modify"
+msgstr "Nemate ovlasti mijenjati"
+
+msgid "Close Task"
+msgstr "Zatvori zadatak"
+
+msgid "This is the filter drop-down, by choosing this you can move to any filter type"
+msgstr "Ovo je padajući izbornik filtra; odabirom se možete prebaciti na bilo koju vrstu filtra"
+
+msgid "From"
+msgstr "Od"
+
+msgid "Total closed tasks compared to total tasks in a given project"
+msgstr "Ukupno zatvorenih zadataka u odnosu na sve zadatke u projektu"
+
+msgid "Low Priority"
+msgstr "Nizak prioritet"
+
+msgid "Manage Filters"
+msgstr "Upravljanje filtrima"
+
+msgid "Active Task Groups"
+msgstr "Aktivne grupe zadataka"
+
+msgid "Completed Task Groups"
+msgstr "Dovršene grupe zadataka"
+
+msgid "Update Filter"
+msgstr "Ažuriraj filtar"
+
+msgid "Export as PDF"
+msgstr "Izvezi kao PDF"
+
+msgid "Archived Date"
+msgstr "Datum arhiviranja"
+
+msgid "Archived By"
+msgstr "Arhivirao"
+
+msgid "No task found"
+msgstr "Zadatak nije pronađen"
+
+msgid "No tasks available"
+msgstr "Nema dostupnih zadataka"
+
+msgid "Task Management"
+msgstr "Upravljanje zadacima"
+
+msgid "Create and assign tasks to collaborate & initiate project execution"
+msgstr "Stvarajte i dodjeljujte zadatke za suradnju i pokretanje projekta"
+
+msgid "Time Tracking"
+msgstr "Praćenje vremena"
+
+msgid "Log spent hours against your tasks & let all project members know of the progress"
+msgstr "Bilježite utrošene sate uz zadatke i obavijestite sve članove projekta o napretku"
+
+msgid "Invoice"
+msgstr "Račun"
+
+msgid "Generate professional invoices from your unbilled times for your Clients"
+msgstr "Izradite profesionalne račune iz nenaplaćenog vremena za svoje klijente"
+
+msgid "Got It"
+msgstr "Razumijem"
+
+msgid "Edit Task Title"
+msgstr "Uredi naslov zadatka"
+
+msgid "Last updated"
+msgstr "Zadnje ažurirano"
+
+msgid "Clients can not see this task"
+msgstr "Klijenti ne mogu vidjeti ovaj zadatak"
+
+msgid "Est.Hour(s)"
+msgstr "Proc. sati"
+
+msgid "Spent Hour(s)"
+msgstr "Utrošeni sati"
+
+msgid "Descriptions"
+msgstr "Opisi"
+
+msgid "Expand description"
+msgstr "Proširi opis"
+
+msgid "1 Attachment"
+msgstr "1 privitak"
+
+msgid "No Attachments"
+msgstr "Nema privitaka"
+
+msgid "Collapse Description"
+msgstr "Sažmi opis"
+
+msgid "Time log"
+msgstr "Zapis vremena"
+
+msgid "Hours Spent and % Completed"
+msgstr "Utrošeni sati i % dovršenosti"
+
+msgid "Attachments, Google Drive, Dropbox"
+msgstr "Privitci, Google Drive, Dropbox"
+
+msgid "More Options"
+msgstr "Više opcija"
+
+msgid "Less"
+msgstr "Manje"
+
+msgid "People"
+msgstr "Osobe"
+
+msgid "People Involved"
+msgstr "Uključene osobe"
+
+msgid "Last Commented"
+msgstr "Zadnji komentar"
+
+msgid "Resolved Date"
+msgstr "Datum rješavanja"
+
+msgid "Label in this Task"
+msgstr "Oznaka u ovom zadatku"
+
+msgid "File in this Task"
+msgstr "Datoteka u ovom zadatku"
+
+msgid "No Files in this Task"
+msgstr "Nema datoteka u ovom zadatku"
+
+msgid "Display All"
+msgstr "Prikaži sve"
+
+msgid "Post Task"
+msgstr "Objavi zadatak"
+
+msgid "Task Group Title"
+msgstr "Naslov grupe zadataka"
+
+msgid "Convert to Task"
+msgstr "Pretvori u zadatak"
+
+msgid "Export resource utilization to csv file"
+msgstr "Izvezi iskorištenost resursa u CSV datoteku"
+
+msgid "Hide options"
+msgstr "Sakrij opcije"
+
+msgid "Search Projects"
+msgstr "Pretraži projekte"
+
+msgid "Type to select User"
+msgstr "Upišite za odabir korisnika"
+
+msgid "Kanban Status"
+msgstr "Kanban status"
+
+msgid "Task Group View"
+msgstr "Prikaz grupe zadataka"
+
+msgid "Task Group and Task"
+msgstr "Grupa zadataka i zadatak"
+
+msgid "Add Task"
+msgstr "Dodaj zadatak"
+
+msgid "These tasks are waiting on this task."
+msgstr "Ovi zadaci čekaju na ovaj zadatak."
+
+msgid "Est Hr"
+msgstr "Proc. sati"
+
+msgid "Spent Hr"
+msgstr "Utrošeni sati"
+
+msgid " has been approved successfully"
+msgstr " je uspješno odobreno"
+
+msgid " have been approved successfully"
+msgstr " su uspješno odobrena"
+
+msgid " tasks ?"
+msgstr " zadataka?"
+
+msgid "'Action' cannot be left blank!"
+msgstr "'Radnja' ne može ostati prazno!"
+
+msgid "'Action' is already exists!"
+msgstr "'Radnja' već postoji!"
+
+msgid "'Action' must starts with an Alphabet or Number!"
+msgstr "'Radnja' mora započeti slovom ili brojem!"
+
+msgid "'Description' cannot be left blank!"
+msgstr "'Opis' ne može ostati prazno!"
+
+msgid "'End date' cannot be left blank!"
+msgstr "'Završni datum' ne može ostati prazno!"
+
+msgid "'End Date' cannot be left blank!"
+msgstr "'Završni datum' ne može ostati prazno!"
+
+msgid "'Label Name' cannot be left blank!"
+msgstr "'Naziv oznake' ne može ostati prazno!"
+
+msgid "'Module' cannot be left blank!"
+msgstr "'Modul' ne može ostati prazno!"
+
+msgid "'Module' is already exists!"
+msgstr "'Modul' već postoji!"
+
+msgid "'Module' must starts with an Alphabet or Number!"
+msgstr "'Modul' mora započeti slovom ili brojem!"
+
+msgid "'Name' cannot be left blank!"
+msgstr "'Naziv' ne može ostati prazno!"
+
+msgid "'Name' must not contain Special characters!"
+msgstr "'Naziv' ne smije sadržavati posebne znakove!"
+
+msgid "'Organization Name' cannot be left blank!"
+msgstr "'Naziv organizacije' ne može ostati prazno!"
+
+msgid "'Organization Type' cannot be left blank!"
+msgstr "'Vrsta organizacije' ne može ostati prazno!"
+
+msgid "'Parent Organization' cannot be left blank!"
+msgstr "'Nadređena organizacija' ne može ostati prazno!"
+
+msgid "'Priority' cannot be left blank!"
+msgstr "'Prioritet' ne može ostati prazno!"
+
+msgid "'Program Name' cannot be left blank!"
+msgstr "'Naziv programa' ne može ostati prazno!"
+
+msgid "'Program Owner' cannot be left blank!"
+msgstr "'Vlasnik programa' ne može ostati prazno!"
+
+msgid "'Project Name' cannot be left blank!"
+msgstr "'Naziv projekta' ne može ostati prazno!"
+
+msgid "'Project Name' is already exists!"
+msgstr "'Naziv projekta' već postoji!"
+
+msgid "'Project plan' cannot be left blank!"
+msgstr "'Plan projekta' ne može ostati prazno!"
+
+msgid "'Project Short Name' cannot be left blank!"
+msgstr "'Kratki naziv projekta' ne može ostati prazno!"
+
+msgid "'Project Status' must not contain special characters!"
+msgstr "'Status projekta' ne smije sadržavati posebne znakove!"
+
+msgid "'Project Type' must not contain special characters!"
+msgstr "'Vrsta projekta' ne smije sadržavati posebne znakove!"
+
+msgid "'Project' cannot be left blank!"
+msgstr "'Projekt' ne može ostati prazno!"
+
+msgid "'Role Group Name' cannot be left blank!"
+msgstr "'Naziv grupe uloga' ne može ostati prazno!"
+
+msgid "'Role Group Name' is already exists!"
+msgstr "'Naziv grupe uloga' već postoji!"
+
+msgid "'Role Group Name' must starts with an Alphabet or Number!"
+msgstr "'Naziv grupe uloga' mora započeti slovom ili brojem!"
+
+msgid "'Role Group Short Name' cannot be left blank!"
+msgstr "'Kratki naziv grupe uloga' ne može ostati prazno!"
+
+msgid "'Role Group Short Name' is already exists!"
+msgstr "'Kratki naziv grupe uloga' već postoji!"
+
+msgid "'Role Group Short Name' must be alphanumeric!"
+msgstr "'Kratki naziv grupe uloga' mora biti alfanumeričko!"
+
+msgid "'Role Name' cannot be left blank!"
+msgstr "'Naziv uloge' ne može ostati prazno!"
+
+msgid "'Role Name' is already exists!"
+msgstr "'Naziv uloge' već postoji!"
+
+msgid "'Role Name' must starts with an Alphabet or Number!"
+msgstr "'Naziv uloge' mora započeti slovom ili brojem!"
+
+msgid "'Role Short Name' cannot be left blank!"
+msgstr "'Kratki naziv uloge' ne može ostati prazno!"
+
+msgid "'Role Short Name' is already exists!"
+msgstr "'Kratki naziv uloge' već postoji!"
+
+msgid "'Short Name' cannot be left blank!"
+msgstr "'Kratki naziv' ne može ostati prazno!"
+
+msgid "'Short Name' must be alphanumeric!"
+msgstr "'Kratki naziv' mora biti alfanumeričko!"
+
+msgid "'Short Name' must not contain special characters!"
+msgstr "'Kratki naziv' ne smije sadržavati posebne znakove!"
+
+msgid "'Start Date' cannot be left blank!"
+msgstr "'Početni datum' ne može ostati prazno!"
+
+msgid "'Start date' cannot be left blank!"
+msgstr "'Početni datum' ne može ostati prazno!"
+
+msgid "'Team Name' cannot be left blank!"
+msgstr "'Naziv tima' ne može ostati prazno!"
+
+msgid "A quick Activities trail of all the actions performed within the task like comments, edit, time logs, modified, status change with real time date and time stamp."
+msgstr "Brzi pregled svih radnji izvršenih na zadatku: komentari, izmjene, zapisi vremena, promjene statusa, sa stvarnim datumom i vremenom."
+
+msgid "Active Sprint"
+msgstr "Aktivni sprint"
+
+msgid "Actual Story Points Remaining"
+msgstr "Preostali stvarni bodovi priče"
+
+msgid "Add a task here and hit enter"
+msgstr "Dodajte zadatak ovdje i pritisnite Enter"
+
+msgid "Add New Project Custom Field"
+msgstr "Dodaj novo prilagođeno polje projekta"
+
+msgid "Add tasks to template"
+msgstr "Dodaj zadatke u predložak"
+
+msgid "Add Team Users"
+msgstr "Dodaj članove tima"
+
+msgid "Ah... you are inviting the company Owner!"
+msgstr "Ah... pozivate vlasnika tvrtke!"
+
+msgid "Ah... you are inviting yourself!"
+msgstr "Ah... pozivate sami sebe!"
+
+msgid "All data already loaded"
+msgstr "Svi podaci su već učitani"
+
+msgid "All fields are required."
+msgstr "Sva polja su obavezna."
+
+msgid "All subtasks belonging to the parent task(s) will be moved, are you sure you want to continue?"
+msgstr "Svi podzadaci nadređenih zadataka bit će premješteni. Sigurno želite nastaviti?"
+
+msgid "All subtasks of the selected parent tasks status"
+msgstr "Status svih podzadataka odabranih nadređenih zadataka"
+
+msgid "All subtasks of this parent task #"
+msgstr "Svi podzadaci ovog nadređenog zadatka #"
+
+msgid "All subtasks of this parent task will be closed, are you sure you want to continue?"
+msgstr "Svi podzadaci ovog nadređenog zadatka bit će zatvoreni. Sigurno želite nastaviti?"
+
+msgid "All subtasks of this parent task will be deleted, are you sure you want to continue?"
+msgstr "Svi podzadaci ovog nadređenog zadatka bit će izbrisani. Sigurno želite nastaviti?"
+
+msgid "All subtasks of this task will be closed, are you sure you want to continue?"
+msgstr "Svi podzadaci ovog zadatka bit će zatvoreni. Sigurno želite nastaviti?"
+
+msgid "All task moved successfully."
+msgstr "Svi zadaci su uspješno premješteni."
+
+msgid "All tasks are moved to"
+msgstr "Svi zadaci su premješteni u"
+
+msgid "All tasks has been closed."
+msgstr "Svi zadaci su zatvoreni."
+
+msgid "All Team Members"
+msgstr "Svi članovi tima"
+
+msgid "All the closed epic(s) will be archived."
+msgstr "Svi zatvoreni epovi bit će arhivirani."
+
+msgid "All the closed feature(s) will be archived."
+msgstr "Sve zatvorene značajke bit će arhivirane."
+
+msgid "All the closed task(s) will be archived."
+msgstr "Svi zatvoreni zadaci bit će arhivirani."
+
+msgid "All the selected epic(s) and its subtasks including closed epics(s) will be archived."
+msgstr "Svi odabrani epovi i njihovi podzadaci, uključujući zatvorene, bit će arhivirani."
+
+msgid "All the selected epics will be approved with the status"
+msgstr "Svi odabrani epovi bit će odobreni sa statusom"
+
+msgid "All the selected features(s) and its sub-features including closed features(s) will be archived."
+msgstr "Sve odabrane značajke i njihove pod-značajke, uključujući zatvorene, bit će arhivirane."
+
+msgid "All the selected task(s) and its subtasks including closed task(s) will be archived."
+msgstr "Svi odabrani zadaci i njihovi podzadaci, uključujući zatvorene, bit će arhivirani."
+
+msgid "All the selected tasks will be assigned to"
+msgstr "Svi odabrani zadaci bit će dodijeljeni"
+
+msgid "All the task under this sprint will move to the Backlog."
+msgstr "Svi zadaci iz ovog sprinta premjestit će se u zaostatak."
+
+msgid "All the Tasks, Files associated with"
+msgstr "Svi zadaci i datoteke povezani s"
+
+msgid "Alphanumeric only allowed !"
+msgstr "Dopušteni su samo alfanumerički znakovi!"
+
+msgid "Already in this project."
+msgstr "Već je u ovom projektu."
+
+msgid "An error occurred while deleting the label."
+msgstr "Došlo je do greške pri brisanju oznake."
+
+msgid "An error occurred while deleting the task group."
+msgstr "Došlo je do greške pri brisanju grupe zadataka."
+
+msgid "An error occurred while deleting the task type."
+msgstr "Došlo je do greške pri brisanju vrste zadatka."
+
+msgid "An error occurred while removing the label."
+msgstr "Došlo je do greške pri uklanjanju oznake."
+
+msgid "An error occurred while saving task types."
+msgstr "Došlo je do greške pri spremanju vrsta zadataka."
+
+msgid "An error occurred while saving the label."
+msgstr "Došlo je do greške pri spremanju oznake."
+
+msgid "An error occurred while saving the task group."
+msgstr "Došlo je do greške pri spremanju grupe zadataka."
+
+msgid "An error occurred while saving."
+msgstr "Došlo je do greške pri spremanju."
+
+msgid "An error occurred while updating labels."
+msgstr "Došlo je do greške pri ažuriranju oznaka."
+
+msgid "An error occurred while updating the task type."
+msgstr "Došlo je do greške pri ažuriranju vrste zadatka."
+
+msgid "Any changes to their profile will be reflected in all accounts."
+msgstr "Sve promjene njihovog profila odrazit će se na sve račune."
+
+msgid "Approve Selected "
+msgstr "Odobri odabrano "
+
+msgid "archived successfully."
+msgstr "uspješno arhivirano."
+
+msgid "Are sure you want to stop the recurring task?"
+msgstr "Sigurno želite zaustaviti ponavljajući zadatak?"
+
+msgid "Are you sure to cancel leave?"
+msgstr "Sigurno želite otkazati odsustvo?"
+
+msgid "Are you sure to delete project"
+msgstr "Sigurno želite izbrisati projekt"
+
+msgid "Are you sure to delete the checklist item?"
+msgstr "Sigurno želite izbrisati stavku popisa provjere?"
+
+msgid "Are you sure to delete the reminder?"
+msgstr "Sigurno želite izbrisati podsjetnik?"
+
+msgid "Are you sure to disable this template?"
+msgstr "Sigurno želite onemogućiti ovaj predložak?"
+
+msgid "Are you sure to enable this template?"
+msgstr "Sigurno želite omogućiti ovaj predložak?"
+
+msgid "Are you sure to remove this label?"
+msgstr "Sigurno želite ukloniti ovu oznaku?"
+
+msgid "Are you sure want to delete the file ?"
+msgstr "Sigurno želite izbrisati datoteku?"
+
+msgid "Are you sure you want to"
+msgstr "Sigurno želite"
+
+msgid "Are you sure you want to 'Delete' this Approver?"
+msgstr "Sigurno želite 'izbrisati' ovog odobravatelja?"
+
+msgid "Are you sure you want to archive the epic #"
+msgstr "Sigurno želite arhivirati ep #"
+
+msgid "Are you sure you want to archive the feature #"
+msgstr "Sigurno želite arhivirati značajku #"
+
+msgid "Are you sure you want to archive the file"
+msgstr "Sigurno želite arhivirati datoteku"
+
+msgid "Are you sure you want to archive the task #"
+msgstr "Sigurno želite arhivirati zadatak #"
+
+msgid "Are you sure you want to cancel Daily Catch-Up alert for this project?"
+msgstr "Sigurno želite otkazati dnevni pregled za ovaj projekt?"
+
+msgid "Are you sure you want to continue?"
+msgstr "Sigurno želite nastaviti?"
+
+msgid "Are you sure you want to convert to parent task?"
+msgstr "Sigurno želite pretvoriti u nadređeni zadatak?"
+
+msgid "Are you sure you want to convert to task?"
+msgstr "Sigurno želite pretvoriti u zadatak?"
+
+msgid "Are you sure you want to delete "
+msgstr "Sigurno želite izbrisati "
+
+msgid "Are you sure you want to delete all selected tasks"
+msgstr "Sigurno želite izbrisati sve odabrane zadatke"
+
+msgid "Are you sure you want to delete all the tasks and the task group?"
+msgstr "Sigurno želite izbrisati sve zadatke i grupu zadataka?"
+
+msgid "Are you sure you want to delete all weekly time log of task#"
+msgstr "Sigurno želite izbrisati sve tjedne zapise vremena zadatka #"
+
+msgid "Are you sure you want to delete all weekly time log of this task?"
+msgstr "Sigurno želite izbrisati sve tjedne zapise vremena ovog zadatka?"
+
+msgid "Are you sure you want to delete assigned project"
+msgstr "Sigurno želite izbrisati dodijeljeni projekt"
+
+msgid "Are you sure you want to delete custom filter"
+msgstr "Sigurno želite izbrisati prilagođeni filtar"
+
+msgid "Are you sure you want to delete role group"
+msgstr "Sigurno želite izbrisati grupu uloga"
+
+msgid "Are you sure you want to delete sprint"
+msgstr "Sigurno želite izbrisati sprint"
+
+msgid "Are you sure you want to delete task group"
+msgstr "Sigurno želite izbrisati grupu zadataka"
+
+msgid "Are you sure you want to delete the epic ?"
+msgstr "Sigurno želite izbrisati ep?"
+
+msgid "Are you sure you want to delete the feature ?"
+msgstr "Sigurno želite izbrisati značajku?"
+
+msgid "Are you sure you want to delete the note?"
+msgstr "Sigurno želite izbrisati napomenu?"
+
+msgid "Are you sure you want to delete the task ?"
+msgstr "Sigurno želite izbrisati zadatak?"
+
+msgid "Are you sure you want to delete the user"
+msgstr "Sigurno želite izbrisati korisnika"
+
+msgid "Are you sure you want to delete the workflow?"
+msgstr "Sigurno želite izbrisati tijek rada?"
+
+msgid "Are you sure you want to delete this filter ?"
+msgstr "Sigurno želite izbrisati ovaj filtar?"
+
+msgid "Are you sure you want to delete this filter item ?"
+msgstr "Sigurno želite izbrisati ovu stavku filtra?"
+
+msgid "Are you sure you want to delete this invoice ?"
+msgstr "Sigurno želite izbrisati ovaj račun?"
+
+msgid "Are you sure you want to delete this role?"
+msgstr "Sigurno želite izbrisati ovu ulogu?"
+
+msgid "Are you sure you want to delete this rule?"
+msgstr "Sigurno želite izbrisati ovo pravilo?"
+
+msgid "Are you sure you want to delete this task"
+msgstr "Sigurno želite izbrisati ovaj zadatak"
+
+msgid "Are you sure you want to delete this task group?"
+msgstr "Sigurno želite izbrisati ovu grupu zadataka?"
+
+msgid "Are you sure you want to delete this template?"
+msgstr "Sigurno želite izbrisati ovaj predložak?"
+
+msgid "Are you sure you want to delete this time log ?"
+msgstr "Sigurno želite izbrisati ovaj zapis vremena?"
+
+msgid "Are you sure you want to delete time log of task#"
+msgstr "Sigurno želite izbrisati zapis vremena zadatka #"
+
+msgid "Are you sure you want to move all the selected task to"
+msgstr "Sigurno želite premjestiti sve odabrane zadatke u"
+
+msgid "Are you sure you want to move task #"
+msgstr "Sigurno želite premjestiti zadatak #"
+
+msgid "Are you sure you want to proceed?"
+msgstr "Sigurno želite nastaviti?"
+
+msgid "Are you sure you want to remove"
+msgstr "Sigurno želite ukloniti"
+
+msgid "Are you sure you want to remove #"
+msgstr "Sigurno želite ukloniti #"
+
+msgid "Are you sure you want to remove link?"
+msgstr "Sigurno želite ukloniti poveznicu?"
+
+msgid "Are you sure you want to remove selected tasks from Task Group?"
+msgstr "Sigurno želite ukloniti odabrane zadatke iz grupe zadataka?"
+
+msgid "Are you sure you want to remove task #"
+msgstr "Sigurno želite ukloniti zadatak #"
+
+msgid "Are you sure you want to remove this dependency?"
+msgstr "Sigurno želite ukloniti ovu zavisnost?"
+
+msgid "Are you sure you want to remove this message?"
+msgstr "Sigurno želite ukloniti ovu poruku?"
+
+msgid "Are you sure you want to remove?"
+msgstr "Sigurno želite ukloniti?"
+
+msgid "Are you sure you want to Resend Invitation email to"
+msgstr "Sigurno želite ponovno poslati pozivnicu na"
+
+msgid "Are you sure you want to reset all options? This will clear all option fields."
+msgstr "Sigurno želite poništiti sve opcije? Time ćete obrisati sva polja opcija."
+
+msgid "Are you sure you want to restore task #"
+msgstr "Sigurno želite vratiti zadatak #"
+
+msgid "Are you sure you want to restore?"
+msgstr "Sigurno želite vratiti?"
+
+msgid "Are you sure, You want to delete this file?"
+msgstr "Sigurno želite izbrisati ovu datoteku?"
+
+msgid "Assign selected epic(s)"
+msgstr "Dodijeli odabrane epove"
+
+msgid "Assign selected feature(s)"
+msgstr "Dodijeli odabrane značajke"
+
+msgid "Assign selected task(s)"
+msgstr "Dodijeli odabrane zadatke"
+
+msgid "At least one filter item is required."
+msgstr "Potrebna je barem jedna stavka filtra."
+
+msgid "Average"
+msgstr "Prosjek"
+
+msgid "Backlog by status"
+msgstr "Zaostatak po statusu"
+
+msgid "been assigned"
+msgstr "dodijeljeno"
+
+msgid "been assigned."
+msgstr "dodijeljeno."
+
+msgid "Below are the tasks of"
+msgstr "U nastavku su zadaci od"
+
+msgid "Bug Owner is mandatory."
+msgstr "Vlasnik greške je obavezan."
+
+msgid "Bug reply saved successfully."
+msgstr "Odgovor na grešku uspješno spremljen."
+
+msgid "Bug updated successfully."
+msgstr "Greška uspješno ažurirana."
+
+msgid "but not yet verified"
+msgstr "ali još nije potvrđeno"
+
+msgid "Calculating critical path..."
+msgstr "Izračun kritičnog puta..."
+
+msgid "Can not add duplicate Owner"
+msgstr "Nije moguće dodati dvostrukog vlasnika"
+
+msgid "Can not add duplicate user "
+msgstr "Nije moguće dodati dvostrukog korisnika "
+
+msgid "Can not change field type here."
+msgstr "Ovdje nije moguće promijeniti vrstu polja."
+
+msgid "Can not reorder closed map status"
+msgstr "Nije moguće promijeniti redoslijed zatvorenog statusa"
+
+msgid "Cannot add dependency"
+msgstr "Nije moguće dodati zavisnost"
+
+msgid "Change project"
+msgstr "Promijeni projekt"
+
+msgid "Chart"
+msgstr "Grafikon"
+
+msgid "Check atleast one task type."
+msgstr "Odaberite barem jednu vrstu zadatka."
+
+msgid "Checklist can not be blank"
+msgstr "Popis provjere ne može biti prazan"
+
+msgid "Checklists copied successfully."
+msgstr "Popisi provjere uspješno kopirani."
+
+msgid "Child tasks can not be linked with parent task."
+msgstr "Podređeni zadaci ne mogu se povezati s nadređenim zadatkom."
+
+msgid "Choose a day to send the notification"
+msgstr "Odaberite dan za slanje obavijesti"
+
+msgid "Choose task to assign to milestone."
+msgstr "Odaberite zadatak za dodjelu miljokazu."
+
+msgid "Choose task to remove from task group."
+msgstr "Odaberite zadatak za uklanjanje iz grupe zadataka."
+
+msgid "Circular dependency detected"
+msgstr "Otkrivena kružna zavisnost"
+
+msgid "Clients"
+msgstr "Klijenti"
+
+msgid "Completion Rate"
+msgstr "Stopa dovršenosti"
+
+msgid "Confirm Password cannot be  blank!"
+msgstr "Potvrda lozinke ne može ostati prazno!"
+
+msgid "Confirmation mail has been sent"
+msgstr "Potvrdna e-pošta je poslana"
+
+msgid "Contact for Help"
+msgstr "Kontakt za pomoć"
+
+msgid "Copy Task To Project"
+msgstr "Kopiraj zadatak u projekt"
+
+msgid "Could not save label. Please try again."
+msgstr "Oznaku nije bilo moguće spremiti. Pokušajte ponovno."
+
+msgid "Create New Organization"
+msgstr "Stvori novu organizaciju"
+
+msgid "Critical path calculated successfully!"
+msgstr "Kritični put uspješno izračunat!"
+
+msgid "Currency cannot be updated for a client. Please update currency for a client in manage customer section."
+msgstr "Valutu nije moguće ažurirati za klijenta. Ažurirajte valutu u odjeljku za upravljanje kupcima."
+
+msgid "Custom field added successfully."
+msgstr "Prilagođeno polje uspješno dodano."
+
+msgid "Custom field name already taken. Please try another."
+msgstr "Naziv prilagođenog polja je već zauzet. Pokušajte s drugim."
+
+msgid "Custom field updated successfully."
+msgstr "Prilagođeno polje uspješno ažurirano."
+
+msgid "Custom filter name already exists.."
+msgstr "Naziv prilagođenog filtra već postoji.."
+
+msgid "Custom filter saved sucessfully.."
+msgstr "Prilagođeni filtar uspješno spremljen.."
+
+msgid "Customer added successfully."
+msgstr "Kupac uspješno dodan."
+
+msgid "Customer unique code -"
+msgstr "Jedinstveni kod kupca -"
+
+msgid "Customer updated successfully."
+msgstr "Kupac uspješno ažuriran."
+
+msgid "Date range cannot exceed 365 days"
+msgstr "Raspon datuma ne može biti duži od 365 dana"
+
+msgid "Day View"
+msgstr "Prikaz dana"
+
+msgid "Decreasing"
+msgstr "Opadajuće"
+
+msgid "Default Task group"
+msgstr "Zadana grupa zadataka"
+
+msgid "Dependency added successfully"
+msgstr "Zavisnost uspješno dodana"
+
+msgid "Description updated successfully!"
+msgstr "Opis uspješno ažuriran!"
+
+msgid "Detail"
+msgstr "Detalji"
+
+msgid "Discount amount can not be greater than total amount"
+msgstr "Iznos popusta ne može biti veći od ukupnog iznosa"
+
+msgid "Display Less"
+msgstr "Prikaži manje"
+
+msgid "Display More"
+msgstr "Prikaži više"
+
+msgid "Displaying"
+msgstr "Prikazano"
+
+msgid "Displaying all epics"
+msgstr "Prikazani svi epovi"
+
+msgid "Displaying all features"
+msgstr "Prikazane sve značajke"
+
+msgid "Do you want to delete only task group:"
+msgstr "Želite li izbrisati samo grupu zadataka:"
+
+msgid "Do you want to delete task group"
+msgstr "Želite li izbrisati grupu zadataka"
+
+msgid "Down"
+msgstr "Dolje"
+
+msgid "Dropdown fields must have at least one option."
+msgstr "Padajuća polja moraju imati barem jednu opciju."
+
+msgid "Due date change reason already added. Please add another reason."
+msgstr "Razlog promjene roka je već dodan. Dodajte drugi razlog."
+
+msgid "Due date change reason can not be added"
+msgstr "Razlog promjene roka nije moguće dodati"
+
+msgid "Due to some network problem your file is not uploaded.Please try again after sometime."
+msgstr "Zbog problema s mrežom datoteka nije učitana. Pokušajte ponovno kasnije."
+
+msgid "E-mail can not be blank!"
+msgstr "E-pošta ne može biti prazna!"
+
+msgid "Easy to find all the files shared in the task"
+msgstr "Lako pronađite sve datoteke podijeljene u zadatku"
+
+msgid "Edit Action"
+msgstr "Uredi radnju"
+
+msgid "Edit Custom Field"
+msgstr "Uredi prilagođeno polje"
+
+msgid "Edit Customer"
+msgstr "Uredi kupca"
+
+msgid "Edit Epic"
+msgstr "Uredi ep"
+
+msgid "Edit Module"
+msgstr "Uredi modul"
+
+msgid "Edit Program"
+msgstr "Uredi program"
+
+msgid "Edit Reason"
+msgstr "Uredi razlog"
+
+msgid "Edit Role"
+msgstr "Uredi ulogu"
+
+msgid "Edit Sprint"
+msgstr "Uredi sprint"
+
+msgid "Edit Task"
+msgstr "Uredi zadatak"
+
+msgid "Edit Task Template"
+msgstr "Uredi predložak zadatka"
+
+msgid "Edit Team Users"
+msgstr "Uredi članove tima"
+
+msgid "Edit, Delete, Resolve, Close or Download your task."
+msgstr "Uredite, izbrišite, riješite, zatvorite ili preuzmite svoj zadatak."
+
+msgid "Editor not initialized. Please try again."
+msgstr "Uređivač nije inicijaliziran. Pokušajte ponovno."
+
+msgid "Email address changed to"
+msgstr "E-pošta promijenjena na"
+
+msgid "email addresses not valid!"
+msgstr "adrese e-pošte nisu ispravne!"
+
+msgid "Email cannot be left blank!"
+msgstr "E-pošta ne može ostati prazna!"
+
+msgid "Email couldn't be sent to the user!"
+msgstr "E-poštu nije bilo moguće poslati korisniku!"
+
+msgid "Email not sent due to some problem."
+msgstr "E-pošta nije poslana zbog problema."
+
+msgid "Email sent successfully."
+msgstr "E-pošta uspješno poslana."
+
+msgid "End date cannot be before start date"
+msgstr "Završni datum ne može biti prije početnog"
+
+msgid "End date must be after start date"
+msgstr "Završni datum mora biti nakon početnog"
+
+msgid "Enter the title"
+msgstr "Unesite naslov"
+
+msgid "Entered stirng is not a valid email"
+msgstr "Uneseni tekst nije ispravna e-pošta"
+
+msgid "Entered string is not a valid email"
+msgstr "Uneseni tekst nije ispravna e-pošta"
+
+msgid "Equals"
+msgstr "Jednako"
+
+msgid "Error checking dependencies. Please try again."
+msgstr "Greška pri provjeri zavisnosti. Pokušajte ponovno."
+
+msgid "Error exporting data"
+msgstr "Greška pri izvozu podataka"
+
+msgid "Error in"
+msgstr "Greška u"
+
+msgid "Error in adding Custom field."
+msgstr "Greška pri dodavanju prilagođenog polja."
+
+msgid "Error in adding the reason."
+msgstr "Greška pri dodavanju razloga."
+
+msgid "Error in addition of defect reply."
+msgstr "Greška pri dodavanju odgovora na grešku."
+
+msgid "Error in addition of new bug."
+msgstr "Greška pri dodavanju nove greške."
+
+msgid "Error in deletion of custom field."
+msgstr "Greška pri brisanju prilagođenog polja."
+
+msgid "Error in deletion of project status."
+msgstr "Greška pri brisanju statusa projekta."
+
+msgid "Error in deletion of project type."
+msgstr "Greška pri brisanju vrste projekta."
+
+msgid "Error in deletion of reason."
+msgstr "Greška pri brisanju razloga."
+
+msgid "Error in deletion of task type."
+msgstr "Greška pri brisanju vrste zadatka."
+
+msgid "Error in downloading task"
+msgstr "Greška pri preuzimanju zadatka"
+
+msgid "Error in moving task to sprint"
+msgstr "Greška pri premještanju zadatka u sprint"
+
+msgid "Error in moving task to task group"
+msgstr "Greška pri premještanju zadatka u grupu zadataka"
+
+msgid "Error in moving task to task group."
+msgstr "Greška pri premještanju zadatka u grupu zadataka."
+
+msgid "Error in post to support!"
+msgstr "Greška pri slanju podršci!"
+
+msgid "Error in saving task status."
+msgstr "Greška pri spremanju statusa zadatka."
+
+msgid "Error in sending invitation link!"
+msgstr "Greška pri slanju poveznice pozivnice!"
+
+msgid "Error in task"
+msgstr "Greška u zadatku"
+
+msgid "Error loading all data"
+msgstr "Greška pri učitavanju svih podataka"
+
+msgid "Error loading data for selected date range"
+msgstr "Greška pri učitavanju podataka za odabrani raspon datuma"
+
+msgid "Error loading filter options"
+msgstr "Greška pri učitavanju opcija filtra"
+
+msgid "Error loading more data"
+msgstr "Greška pri učitavanju dodatnih podataka"
+
+msgid "Error loading resource summary"
+msgstr "Greška pri učitavanju sažetka resursa"
+
+msgid "Error loading task details"
+msgstr "Greška pri učitavanju detalja zadatka"
+
+msgid "Error saving project template"
+msgstr "Greška pri spremanju predloška projekta"
+
+msgid "Error saving rule name. Please try again"
+msgstr "Greška pri spremanju naziva pravila. Pokušajte ponovno"
+
+msgid "Error saving workflow details. Please try again."
+msgstr "Greška pri spremanju podataka tijeka rada. Pokušajte ponovno."
+
+msgid "Error uploading file."
+msgstr "Greška pri učitavanju datoteke."
+
+msgid "Error uploading file. File size cannot be more then"
+msgstr "Greška pri učitavanju datoteke. Veličina datoteke ne može biti veća od"
+
+msgid "Error validating dependency. Please try again."
+msgstr "Greška pri provjeri zavisnosti. Pokušajte ponovno."
+
+msgid "Est. Hr(s)"
+msgstr "Proc. sati"
+
+msgid "Estimated hour(s) can not be 0."
+msgstr "Procijenjeni sati ne mogu biti 0."
+
+msgid "Estimated hour(s) can not be blank."
+msgstr "Procijenjeni sati ne mogu ostati prazni."
+
+msgid "Estimation hour can not be more than 18 hour."
+msgstr "Procijenjeni sati ne mogu biti veći od 18 sati."
+
+msgid "Export started. Download will begin shortly."
+msgstr "Izvoz je započeo. Preuzimanje će uskoro početi."
+
+msgid "Export Timelog to pdf file"
+msgstr "Izvezi evidenciju vremena u PDF datoteku"
+
+msgid "Failed to add dependency. Please try again."
+msgstr "Dodavanje zavisnosti nije uspjelo. Pokušajte ponovno."
+
+msgid "failed to be marked as paid."
+msgstr "nije uspjelo označavanje kao plaćeno."
+
+msgid "failed to be marked as unpaid."
+msgstr "nije uspjelo označavanje kao neplaćeno."
+
+msgid "Failed to change the Sprint to"
+msgstr "Promjena sprinta nije uspjela u"
+
+msgid "Failed to change the Task Group to"
+msgstr "Promjena grupe zadataka nije uspjela u"
+
+msgid "Failed to delete checklist. Please try once again."
+msgstr "Brisanje popisa provjere nije uspjelo. Pokušajte ponovno."
+
+msgid "Failed to delete epic #"
+msgstr "Brisanje epa # nije uspjelo"
+
+msgid "Failed to delete feature #"
+msgstr "Brisanje značajke # nije uspjelo"
+
+msgid "Failed to delete program. Please try again."
+msgstr "Brisanje programa nije uspjelo. Pokušajte ponovno."
+
+msgid "Failed to delete reminder. Please try once again."
+msgstr "Brisanje podsjetnika nije uspjelo. Pokušajte ponovno."
+
+msgid "Failed to delete task"
+msgstr "Brisanje zadatka nije uspjelo"
+
+msgid "Failed to delete task #"
+msgstr "Brisanje zadatka # nije uspjelo"
+
+msgid "Failed to delete task group."
+msgstr "Brisanje grupe zadataka nije uspjelo."
+
+msgid "Failed to delete the label."
+msgstr "Brisanje oznake nije uspjelo."
+
+msgid "Failed to delete the task type."
+msgstr "Brisanje vrste zadatka nije uspjelo."
+
+msgid "Failed to process task type."
+msgstr "Obrada vrste zadatka nije uspjela."
+
+msgid "Failed to remove"
+msgstr "Uklanjanje nije uspjelo"
+
+msgid "Failed to remove dependency. Please try again."
+msgstr "Uklanjanje zavisnosti nije uspjelo. Pokušajte ponovno."
+
+msgid "Failed to remove file from database."
+msgstr "Uklanjanje datoteke iz baze nije uspjelo."
+
+msgid "Failed to remove label from task."
+msgstr "Uklanjanje oznake sa zadatka nije uspjelo."
+
+msgid "Failed to remove label."
+msgstr "Uklanjanje oznake nije uspjelo."
+
+msgid "Failed to remove user"
+msgstr "Uklanjanje korisnika nije uspjelo"
+
+msgid "Failed to save members."
+msgstr "Spremanje članova nije uspjelo."
+
+msgid "Failed to save program"
+msgstr "Spremanje programa nije uspjelo"
+
+msgid "Failed to save task group."
+msgstr "Spremanje grupe zadataka nije uspjelo."
+
+msgid "Failed to save task types."
+msgstr "Spremanje vrsta zadataka nije uspjelo."
+
+msgid "Failed to update description. Please try once more!"
+msgstr "Ažuriranje opisa nije uspjelo. Pokušajte još jednom!"
+
+msgid "Failed to update labels."
+msgstr "Ažuriranje oznaka nije uspjelo."
+
+msgid "Failed to update program"
+msgstr "Ažuriranje programa nije uspjelo"
+
+msgid "Failed to update task title. Please try once more!"
+msgstr "Ažuriranje naslova zadatka nije uspjelo. Pokušajte još jednom!"
+
+msgid "Failed to update task type status."
+msgstr "Ažuriranje statusa vrste zadatka nije uspjelo."
+
+msgid "Failed to update workflow. Please try again."
+msgstr "Ažuriranje tijeka rada nije uspjelo. Pokušajte ponovno."
+
+msgid "feature moved successfully."
+msgstr "značajka uspješno premještena."
+
+msgid "Feedback"
+msgstr "Mišljenje"
+
+msgid "Feedback posted successfully."
+msgstr "Mišljenje uspješno poslano."
+
+msgid "Field Name cannot be blank."
+msgstr "Naziv polja ne može biti prazan."
+
+msgid "Field Name must not contain special characters."
+msgstr "Naziv polja ne smije sadržavati posebne znakove."
+
+msgid "Field Name must not exceed 40 characters."
+msgstr "Naziv polja ne smije premašiti 40 znakova."
+
+msgid "Field type is currently unavailable."
+msgstr "Vrsta polja trenutačno nije dostupna."
+
+msgid "File has been removed."
+msgstr "Datoteka je uklonjena."
+
+msgid "File has been restored."
+msgstr "Datoteka je vraćena."
+
+msgid "File is removed."
+msgstr "Datoteka je uklonjena."
+
+msgid "File size exceeds 2MB."
+msgstr "Veličina datoteke premašuje 2 MB."
+
+msgid "file type is not allowed!"
+msgstr "vrsta datoteke nije dopuštena!"
+
+msgid "Files In This Task"
+msgstr "Datoteke u ovom zadatku"
+
+msgid "Filter not available"
+msgstr "Filtar nije dostupan"
+
+msgid "First Name cannot be left blank!"
+msgstr "Ime ne može ostati prazno!"
+
+msgid "for all users and all dates"
+msgstr "za sve korisnike i sve datume"
+
+msgid "For required dropdown fields, at least one option must be added."
+msgstr "Za obavezna padajuća polja mora se dodati barem jedna opcija."
+
+msgid "From date cannot be blank."
+msgstr "Datum Od ne može biti prazan."
+
+msgid "From Date cannot be left blank!"
+msgstr "Polje Od datuma ne može ostati prazno!"
+
+msgid "From Date cannot exceed To Date!"
+msgstr "Datum Od ne može biti nakon datuma Do!"
+
+msgid "Gantt details saved successfully!"
+msgstr "Detalji Ganttovog dijagrama uspješno spremljeni!"
+
+msgid "Go through all the comments shared by team members or clients."
+msgstr "Pregledajte sve komentare koje su podijelili članovi tima ili klijenti."
+
+msgid "has no extension"
+msgstr "nema nastavak"
+
+msgid "has no extension!"
+msgstr "nema nastavak!"
+
+msgid "has no extension, please upload files with extension"
+msgstr "nema nastavak, učitajte datoteke s nastavkom"
+
+msgid "Here is your invoice! We appreciate your prompt payment."
+msgstr "Evo vašeg računa! Zahvaljujemo na pravovremenom plaćanju."
+
+msgid "Hide Detail"
+msgstr "Sakrij detalje"
+
+msgid "Hour cannot  exceed 24 hours."
+msgstr "Broj sati ne može premašiti 24 sata."
+
+msgid "Hour field cannot left blank."
+msgstr "Polje za sate ne može ostati prazno."
+
+msgid "Hours field cannot be blank"
+msgstr "Polje za sate ne može biti prazno"
+
+msgid "HTML/script tags are not allowed"
+msgstr "HTML/script oznake nisu dopuštene"
+
+msgid "Ideal Story Points Remaining"
+msgstr "Preostali idealni bodovi priče"
+
+msgid "If you reload this page, your previous action will be repeated"
+msgstr "Ako ponovno učitate ovu stranicu, prethodna radnja bit će ponovljena"
+
+msgid "Import tasks to"
+msgstr "Uvezi zadatke u"
+
+msgid "Including"
+msgstr "Uključujući"
+
+msgid "Increasing"
+msgstr "Rastuće"
+
+msgid "Indent"
+msgstr "Uvuci"
+
+msgid "Invalid contact number!"
+msgstr "Neispravan kontakt broj!"
+
+msgid "Invalid E-Mail!"
+msgstr "Neispravna e-pošta!"
+
+msgid "Invalid edit operation."
+msgstr "Neispravna radnja uređivanja."
+
+msgid "Invalid email"
+msgstr "Neispravna e-pošta"
+
+msgid "Invalid email address!"
+msgstr "Neispravna adresa e-pošte!"
+
+msgid "Invalid file format, please upload correct file."
+msgstr "Neispravan format datoteke, učitajte ispravnu datoteku."
+
+msgid "Invalid phone number!"
+msgstr "Neispravan broj telefona!"
+
+msgid "Invalid project plan name."
+msgstr "Neispravan naziv plana projekta."
+
+msgid "Invalid project template name. HTML tags are not allowed."
+msgstr "Neispravan naziv predloška projekta. HTML oznake nisu dopuštene."
+
+msgid "Invalid template name."
+msgstr "Neispravan naziv predloška."
+
+msgid "Invalid time"
+msgstr "Neispravno vrijeme"
+
+msgid "Invitaton link send successfully to email"
+msgstr "Poveznica pozivnice uspješno poslana na e-poštu"
+
+msgid "Invoice deleted successfully."
+msgstr "Račun uspješno izbrisan."
+
+msgid "Invoice from"
+msgstr "Račun od"
+
+msgid "Invoice not deleted."
+msgstr "Račun nije izbrisan."
+
+msgid "Invoice setting updated successfully."
+msgstr "Postavka računa uspješno ažurirana."
+
+msgid "Invoice settings added successfully."
+msgstr "Postavke računa uspješno dodane."
+
+msgid "Invoice settings deleted successfully."
+msgstr "Postavke računa uspješno izbrisane."
+
+msgid "Invoice settings updated successfully."
+msgstr "Postavke računa uspješno ažurirane."
+
+msgid "is a disabled user, So cann't be added to a project"
+msgstr "je onemogućen korisnik i ne može se dodati u projekt"
+
+msgid "is already exists!"
+msgstr "već postoji!"
+
+msgid "Know the Task belongs to which Project, Task Group, Task Type, Priority and what is the estimated vs. actual hour spent"
+msgstr "Znajte kojem projektu, grupi zadataka i vrsti zadatak pripada, koji je prioritet te procijenjeni i stvarni utrošeni sati"
+
+msgid "Know who is currently assigned and involved in this task."
+msgstr "Znajte kome je zadatak trenutačno dodijeljen i koga uključuje."
+
+msgid "Label added successfully."
+msgstr "Oznaka uspješno dodana."
+
+msgid "Label already added. Please add another label."
+msgstr "Oznaka je već dodana. Dodajte drugu oznaku."
+
+msgid "Label already exists!. Please enter another label."
+msgstr "Oznaka već postoji! Unesite drugu oznaku."
+
+msgid "Label can not be added"
+msgstr "Oznaku nije moguće dodati"
+
+msgid "Label can not be deleted"
+msgstr "Oznaku nije moguće izbrisati"
+
+msgid "Label removed successfully."
+msgstr "Oznaka uspješno uklonjena."
+
+msgid "Label Title is required."
+msgstr "Naziv oznake je obavezan."
+
+msgid "Last Name cannot be left blank!"
+msgstr "Prezime ne može ostati prazno!"
+
+msgid "Last Sprint:"
+msgstr "Zadnji sprint:"
+
+msgid "Last Update"
+msgstr "Zadnje ažuriranje"
+
+msgid "Leave application could not be saved. Please try again"
+msgstr "Zahtjev za odsustvo nije bilo moguće spremiti. Pokušajte ponovno"
+
+msgid "Leave cancelled successfully"
+msgstr "Odsustvo uspješno otkazano"
+
+msgid "Leave could not be cancelled. Please try again"
+msgstr "Odsustvo nije bilo moguće otkazati. Pokušajte ponovno"
+
+msgid "Link added successfully."
+msgstr "Poveznica uspješno dodana."
+
+msgid "Link Removed successfully."
+msgstr "Poveznica uspješno uklonjena."
+
+msgid "Loading all resources may take longer and could impact performance. Are you sure you want to continue?"
+msgstr "Učitavanje svih resursa može potrajati i usporiti rad aplikacije. Sigurno želite nastaviti?"
+
+msgid "Loading tasks..."
+msgstr "Učitavanje zadataka..."
+
+msgid "Logo exceeds the maximum upload size 2MB"
+msgstr "Logotip premašuje maksimalnu veličinu za učitavanje od 2 MB"
+
+msgid "Manage tasks for project plan"
+msgstr "Upravljanje zadacima plana projekta"
+
+msgid "Mark your task progress based on the work you have done so far."
+msgstr "Označite napredak zadatka prema dosad obavljenom poslu."
+
+msgid "marked as paid successfully."
+msgstr "uspješno označeno kao plaćeno."
+
+msgid "marked as unpaid successfully."
+msgstr "uspješno označeno kao neplaćeno."
+
+msgid "Max fields reached."
+msgstr "Dostignut maksimalan broj polja."
+
+msgid "Maximum limit of 2 mb reached"
+msgstr "Dostignuto maksimalno ograničenje od 2 MB"
+
+msgid "Medium Priority"
+msgstr "Srednji prioritet"
+
+msgid "Mention List"
+msgstr "Popis spominjanja"
+
+msgid "Menu Move Cancelled!"
+msgstr "Premještanje izbornika otkazano!"
+
+msgid "Menu Successfully Moved!"
+msgstr "Izbornik uspješno premješten!"
+
+msgid "Menu Successfully Reset!"
+msgstr "Izbornik uspješno vraćen na zadano!"
+
+msgid "Message can not be blank!"
+msgstr "Poruka ne može biti prazna!"
+
+msgid "Message cann't be left blank"
+msgstr "Poruka ne može ostati prazna"
+
+msgid "Minute can not be greater then 59"
+msgstr "Minute ne mogu biti veće od 59"
+
+msgid "Minute can not exceed 2 digit"
+msgstr "Minute ne mogu imati više od 2 znamenke"
+
+msgid "Minutes field cannot be blank"
+msgstr "Polje za minute ne može biti prazno"
+
+msgid "Month View"
+msgstr "Mjesečni prikaz"
+
+msgid "More"
+msgstr "Više"
+
+msgid "More options"
+msgstr "Više opcija"
+
+msgid "Move All Task"
+msgstr "Premjesti sve zadatke"
+
+msgid "Move Backward"
+msgstr "Premjesti unatrag"
+
+msgid "Move Forward"
+msgstr "Premjesti unaprijed"
+
+msgid "Name already exists. Please enter another name."
+msgstr "Naziv već postoji. Unesite drugi naziv."
+
+msgid "Name can not be blank!"
+msgstr "Naziv ne može biti prazan!"
+
+msgid "Name cannot be left blank!"
+msgstr "Naziv ne može ostati prazan!"
+
+msgid "Network error. Please try again!"
+msgstr "Mrežna greška. Pokušajte ponovno!"
+
+msgid "Network error. Unable to fetch project users!"
+msgstr "Mrežna greška. Nije moguće dohvatiti korisnike projekta!"
+
+msgid "Network error. Unable to fetch projects!"
+msgstr "Mrežna greška. Nije moguće dohvatiti projekte!"
+
+msgid "Network error. Unable to fetch roles!"
+msgstr "Mrežna greška. Nije moguće dohvatiti uloge!"
+
+msgid "Network error. Unable to fetch skills!"
+msgstr "Mrežna greška. Nije moguće dohvatiti vještine!"
+
+msgid "Network error. Unable to fetch users!"
+msgstr "Mrežna greška. Nije moguće dohvatiti korisnike!"
+
+msgid "New bug added successfully."
+msgstr "Nova greška uspješno dodana."
+
+msgid "New Invoice"
+msgstr "Novi račun"
+
+msgid "New Notification"
+msgstr "Nova obavijest"
+
+msgid "New Task Created"
+msgstr "Novi zadatak stvoren"
+
+msgid "New Task Group"
+msgstr "Nova grupa zadataka"
+
+msgid "No data found"
+msgstr "Nema pronađenih podataka"
+
+msgid "No data selected."
+msgstr "Nema odabranih podataka."
+
+msgid "No file selected!"
+msgstr "Nije odabrana datoteka!"
+
+msgid "No projects found"
+msgstr "Projekti nisu pronađeni"
+
+msgid "No task is selected to delete"
+msgstr "Nije odabran zadatak za brisanje"
+
+msgid "No task selected!"
+msgstr "Nije odabran zadatak!"
+
+msgid "No task selected. Please select at least one task."
+msgstr "Nije odabran zadatak. Odaberite barem jedan zadatak."
+
+msgid "No upcoming due dates."
+msgstr "Nema nadolazećih rokova."
+
+msgid "Not allowed to do timelog for closed task.Ask admin for the access to do log"
+msgstr "Nije dopušteno bilježenje vremena na zatvorenom zadatku. Zatražite pristup od administratora"
+
+msgid "Note can not be left blank"
+msgstr "Napomena ne može ostati prazna"
+
+msgid "Nothing to post!"
+msgstr "Nema što objaviti!"
+
+msgid "Number of occurrences can not be left blank"
+msgstr "Broj ponavljanja ne može ostati prazan"
+
+msgid "Old Password cannot be left blank!"
+msgstr "Stara lozinka ne može ostati prazna!"
+
+msgid "Only upto 3rd level of relation allowed!"
+msgstr "Dopušteno je najviše do 3. razine povezivanja!"
+
+msgid "Oops! File upload is in Progress"
+msgstr "Ups! Učitavanje datoteke je u tijeku"
+
+msgid "Oops! Invalid day(s)."
+msgstr "Ups! Neispravan dan/dani."
+
+msgid "Oops! Invitation already sent to"
+msgstr "Ups! Pozivnica je već poslana na"
+
+msgid "Oops! Missing input parameters."
+msgstr "Ups! Nedostaju ulazni parametri."
+
+msgid "Oops! Some thing went wrong. Please try again later"
+msgstr "Ups! Nešto je pošlo po zlu. Pokušajte ponovno kasnije"
+
+msgid "Oops! There is no task group to move the task."
+msgstr "Ups! Nema grupe zadataka u koju bi se zadatak premjestio."
+
+msgid "Oops! there is some problem in the network. Please try again."
+msgstr "Ups! Došlo je do mrežnog problema. Pokušajte ponovno."
+
+msgid "Oops! there is some problem updating the status. Please try again."
+msgstr "Ups! Došlo je do problema pri ažuriranju statusa. Pokušajte ponovno."
+
+msgid "Oops! This user belongs to more than one company accounts."
+msgstr "Ups! Ovaj korisnik pripada u više računa tvrtki."
+
+msgid "Oops! We are experiencing some issue in our database to store the checklist. We will be back shortly."
+msgstr "Ups! Imamo problem s bazom pri spremanju popisa provjere. Brzo se vraćamo."
+
+msgid "Oops! We are experiencing some issue in our database to store the reminder. We will be back shortly."
+msgstr "Ups! Imamo problem s bazom pri spremanju podsjetnika. Brzo se vraćamo."
+
+msgid "Oops! We are experiencing some issue in our database to store the Subtask. We will be back shortly."
+msgstr "Ups! Imamo problem s bazom pri spremanju podzadatka. Brzo se vraćamo."
+
+msgid "Oops! we have experienced some problem. Please try again!"
+msgstr "Ups! Naišli smo na problem. Pokušajte ponovno!"
+
+msgid "Oops! You are in"
+msgstr "Ups! Nalazite se u"
+
+msgid "Oops! you have not entered hours!"
+msgstr "Ups! Niste unijeli sate!"
+
+msgid "Oops! you have not select a project!"
+msgstr "Ups! Niste odabrali projekt!"
+
+msgid "Oops! you have not select a task!"
+msgstr "Ups! Niste odabrali zadatak!"
+
+msgid "OR, remove any of the attached file."
+msgstr "ILI uklonite neku od priloženih datoteka."
+
+msgid "Organization added successfully"
+msgstr "Organizacija uspješno dodana"
+
+msgid "Organization updated successfully"
+msgstr "Organizacija uspješno ažurirana"
+
+msgid "Outdent"
+msgstr "Izvuci"
+
+msgid "Parent task can not be moved without subtask. Task #"
+msgstr "Nadređeni zadatak nije moguće premjestiti bez podzadatka. Zadatak #"
+
+msgid "Password cannot be  blank!"
+msgstr "Lozinka ne može ostati prazno!"
+
+msgid "Password should be between 8-30 characters!"
+msgstr "Lozinka mora imati između 8 i 30 znakova!"
+
+msgid "Passwords do not match!"
+msgstr "Lozinke se ne podudaraju!"
+
+msgid "Plan Details"
+msgstr "Detalji plana"
+
+msgid "Please check"
+msgstr "Provjerite"
+
+msgid "Please check at least one module!"
+msgstr "Odaberite barem jedan modul!"
+
+msgid "Please check atleast one action to save"
+msgstr "Odaberite barem jednu radnju za spremanje"
+
+msgid "Please check atleast one epic to archive"
+msgstr "Odaberite barem jedan ep za arhiviranje"
+
+msgid "Please check atleast one feature to archive"
+msgstr "Odaberite barem jednu značajku za arhiviranje"
+
+msgid "Please check atleast one task to archive"
+msgstr "Odaberite barem jedan zadatak za arhiviranje"
+
+msgid "Please check atleast one task to assign"
+msgstr "Odaberite barem jedan zadatak za dodjelu"
+
+msgid "Please check atleast one task to copy"
+msgstr "Odaberite barem jedan zadatak za kopiranje"
+
+msgid "Please check atleast one task to create a plan"
+msgstr "Odaberite barem jedan zadatak za izradu plana"
+
+msgid "Please check atleast one task to delete"
+msgstr "Odaberite barem jedan zadatak za brisanje"
+
+msgid "Please check atleast one task to move"
+msgstr "Odaberite barem jedan zadatak za premještanje"
+
+msgid "Please check atleast one task to move to epic"
+msgstr "Odaberite barem jedan zadatak za premještanje u ep"
+
+msgid "Please choose a user to send team utilization report."
+msgstr "Odaberite korisnika kojem se šalje izvješće o iskorištenosti tima."
+
+msgid "Please choose atleast one user."
+msgstr "Odaberite barem jednog korisnika."
+
+msgid "Please contact the user to modify their information."
+msgstr "Obratite se korisniku za izmjenu njegovih podataka."
+
+msgid "Please drop into a valid Status"
+msgstr "Ispustite na valjani status"
+
+msgid "Please enter a rule name"
+msgstr "Unesite naziv pravila"
+
+msgid "Please enter a task title"
+msgstr "Unesite naslov zadatka"
+
+msgid "Please enter a valid E-mail!"
+msgstr "Unesite ispravnu e-poštu!"
+
+msgid "Please enter a valid Email Id."
+msgstr "Unesite ispravnu adresu e-pošte."
+
+msgid "Please enter a valid URL."
+msgstr "Unesite ispravan URL."
+
+msgid "Please enter customer's unique code. Allowed length is between 4-10"
+msgstr "Unesite jedinstveni kod kupca. Dopuštena duljina je 4 do 10 znakova"
+
+msgid "Please enter date & time."
+msgstr "Unesite datum i vrijeme."
+
+msgid "Please Enter Epic Title."
+msgstr "Unesite naslov epa."
+
+msgid "Please enter feedback"
+msgstr "Unesite mišljenje"
+
+msgid "Please enter message."
+msgstr "Unesite poruku."
+
+msgid "Please enter previously day(s)."
+msgstr "Unesite prethodni dan/dane."
+
+msgid "Please enter proper email address."
+msgstr "Unesite ispravnu adresu e-pošte."
+
+msgid "Please enter proper phone number."
+msgstr "Unesite ispravan broj telefona."
+
+msgid "Please enter some comments here."
+msgstr "Unesite ovdje neki komentar."
+
+msgid "Please Enter Status Name"
+msgstr "Unesite naziv statusa"
+
+msgid "Please enter task group."
+msgstr "Unesite grupu zadataka."
+
+msgid "Please Enter task title!"
+msgstr "Unesite naslov zadatka!"
+
+msgid "Please Enter Task Title."
+msgstr "Unesite naslov zadatka."
+
+msgid "Please Enter the workflow actions"
+msgstr "Unesite radnje tijeka rada"
+
+msgid "Please Enter the workflow conditions"
+msgstr "Unesite uvjete tijeka rada"
+
+msgid "Please Enter the workflow name"
+msgstr "Unesite naziv tijeka rada"
+
+msgid "Please Enter the workflow name and select project"
+msgstr "Unesite naziv tijeka rada i odaberite projekt"
+
+msgid "Please enter valid contact number."
+msgstr "Unesite valjani kontakt broj."
+
+msgid "Please enter valid website url."
+msgstr "Unesite valjani URL web-stranice."
+
+msgid "Please fill out all required fields"
+msgstr "Ispunite sva obavezna polja"
+
+msgid "Please login to"
+msgstr "Prijavite se na"
+
+msgid "Please original estimate dev hours should be with 24 hours"
+msgstr "Izvorna procjena razvojnih sati mora biti unutar 24 sata"
+
+msgid "Please original estimate qa hours should be with 24 hours"
+msgstr "Izvorna procjena QA sati mora biti unutar 24 sata"
+
+msgid "Please provide a project plan name."
+msgstr "Unesite naziv plana projekta."
+
+msgid "Please provide a project plan title."
+msgstr "Unesite naslov plana projekta."
+
+msgid "Please provide project data-placement description."
+msgstr "Unesite opis rasporeda podataka projekta."
+
+msgid "Please remaing estimate dev hours should be with 24 hours"
+msgstr "Preostala procjena razvojnih sati mora biti unutar 24 sata"
+
+msgid "Please remaing estimate qa hours should be with 24 hours"
+msgstr "Preostala procjena QA sati mora biti unutar 24 sata"
+
+msgid "Please save the changes before leaving."
+msgstr "Spremite promjene prije odlaska."
+
+msgid "Please select a dependency type"
+msgstr "Odaberite vrstu zavisnosti"
+
+msgid "Please select a dependency type."
+msgstr "Odaberite vrstu zavisnosti."
+
+msgid "Please select a field type."
+msgstr "Odaberite vrstu polja."
+
+msgid "Please select a label to task."
+msgstr "Odaberite oznaku za zadatak."
+
+msgid "Please select a parent task."
+msgstr "Odaberite nadređeni zadatak."
+
+msgid "Please select a project to add tasks."
+msgstr "Odaberite projekt za dodavanje zadataka."
+
+msgid "Please select a project to calculate critical path."
+msgstr "Odaberite projekt za izračun kritičnog puta."
+
+msgid "Please select a project to view task groups."
+msgstr "Odaberite projekt za pregled grupa zadataka."
+
+msgid "Please select a project."
+msgstr "Odaberite projekt."
+
+msgid "Please select a relate to link."
+msgstr "Odaberite poveznicu na koji se odnosi."
+
+msgid "Please select a role group!"
+msgstr "Odaberite grupu uloga!"
+
+msgid "Please select a Sprint"
+msgstr "Odaberite sprint"
+
+msgid "Please select a Task Group"
+msgstr "Odaberite grupu zadataka"
+
+msgid "Please select a task to copy checklist items"
+msgstr "Odaberite zadatak za kopiranje stavki popisa provjere"
+
+msgid "Please select a task to link."
+msgstr "Odaberite zadatak za povezivanje."
+
+msgid "Please select a task to start timer."
+msgstr "Odaberite zadatak za pokretanje brojača vremena."
+
+msgid "Please select a timelog to change billable status"
+msgstr "Odaberite zapis vremena za promjenu statusa naplativosti"
+
+msgid "Please select a user!"
+msgstr "Odaberite korisnika!"
+
+msgid "Please select a workflow before saving."
+msgstr "Odaberite tijek rada prije spremanja."
+
+msgid "Please select an approver to submit."
+msgstr "Odaberite odobravatelja za slanje."
+
+msgid "Please select an invoice or create new invoice."
+msgstr "Odaberite račun ili stvorite novi."
+
+msgid "Please select an user to assign this task!"
+msgstr "Odaberite korisnika kojem se zadatak dodjeljuje!"
+
+msgid "Please select atleast one field"
+msgstr "Odaberite barem jedno polje"
+
+msgid "Please select atleast one field."
+msgstr "Odaberite barem jedno polje."
+
+msgid "Please select both start and end dates"
+msgstr "Odaberite i početni i završni datum"
+
+msgid "Please select hour."
+msgstr "Odaberite sat."
+
+msgid "Please select minute."
+msgstr "Odaberite minute."
+
+msgid "Please select project."
+msgstr "Odaberite projekt."
+
+msgid "Please select sprint."
+msgstr "Odaberite sprint."
+
+msgid "Please select the project you want to add the task group."
+msgstr "Odaberite projekt u koji želite dodati grupu zadataka."
+
+msgid "Please select the project you want to add the task."
+msgstr "Odaberite projekt u koji želite dodati zadatak."
+
+msgid "Please select users."
+msgstr "Odaberite korisnike."
+
+msgid "Please try again with a larger image."
+msgstr "Pokušajte ponovno s većom slikom."
+
+msgid "Please try again!"
+msgstr "Pokušajte ponovno!"
+
+msgid "Please try again."
+msgstr "Pokušajte ponovno."
+
+msgid "Please upload files with extension"
+msgstr "Učitajte datoteke s nastavkom"
+
+msgid "Please upload files with extension."
+msgstr "Učitajte datoteke s nastavkom."
+
+msgid "Please use the custom date picker to change dates"
+msgstr "Za promjenu datuma koristite prilagođeni odabir datuma"
+
+msgid "Post your comments, update Task Status, add your time log, attach files, assign to the next team member and notify key project personnel."
+msgstr "Objavite komentare, ažurirajte status zadatka, dodajte zapis vremena, priložite datoteke, dodijelite sljedećem članu tima i obavijestite ključne osobe na projektu."
+
+msgid "Predicted Next:"
+msgstr "Predviđeno sljedeće:"
+
+msgid "Program added successfully"
+msgstr "Program uspješno dodan"
+
+msgid "Program updated successfully"
+msgstr "Program uspješno ažuriran"
+
+msgid "Project assigned successfully"
+msgstr "Projekt uspješno dodijeljen"
+
+msgid "Project can not be changed!"
+msgstr "Projekt nije moguće promijeniti!"
+
+msgid "Project field cannot be blank"
+msgstr "Polje projekta ne može biti prazno"
+
+msgid "Project plan can't be added."
+msgstr "Plan projekta nije moguće dodati."
+
+msgid "Project plan can't be updated."
+msgstr "Plan projekta nije moguće ažurirati."
+
+msgid "Project plan created successfully."
+msgstr "Plan projekta uspješno stvoren."
+
+msgid "Project plan is already added to this project!"
+msgstr "Plan projekta je već dodan ovom projektu!"
+
+msgid "Project plan tasks updated successfully."
+msgstr "Zadaci plana projekta uspješno ažurirani."
+
+msgid "Project Short Name -"
+msgstr "Kratki naziv projekta -"
+
+msgid "Project status"
+msgstr "Status projekta"
+
+msgid "Project status added successfully."
+msgstr "Status projekta uspješno dodan."
+
+msgid "Project Status already esists!. Please enter another name."
+msgstr "Status projekta već postoji! Unesite drugi naziv."
+
+msgid "Project Status can not be added"
+msgstr "Status projekta nije moguće dodati"
+
+msgid "Project Status Successfully Added"
+msgstr "Status projekta uspješno dodan"
+
+msgid "Project status updated successfully."
+msgstr "Status projekta uspješno ažuriran."
+
+msgid "Project template name can't be blank."
+msgstr "Naziv predloška projekta ne može biti prazan."
+
+msgid "Project template updated successfully."
+msgstr "Predložak projekta uspješno ažuriran."
+
+msgid "Project type"
+msgstr "Vrsta projekta"
+
+msgid "Project type added successfully."
+msgstr "Vrsta projekta uspješno dodana."
+
+msgid "Project Type already esists!. Please enter another name."
+msgstr "Vrsta projekta već postoji! Unesite drugi naziv."
+
+msgid "Project Type can not be added"
+msgstr "Vrstu projekta nije moguće dodati"
+
+msgid "Project Type Successfully Added"
+msgstr "Vrsta projekta uspješno dodana"
+
+msgid "Project type updated successfully."
+msgstr "Vrsta projekta uspješno ažurirana."
+
+msgid "Project updated successfully!"
+msgstr "Projekt uspješno ažuriran!"
+
+msgid "Project(s)"
+msgstr "Projekt(i)"
+
+msgid "Projects can not be edited !"
+msgstr "Projekte nije moguće uređivati!"
+
+msgid "Quick view of Start, End, Created Date and when your team last worked on the task."
+msgstr "Brzi pregled početnog, završnog i datuma stvaranja te kad je tim zadnji put radio na zadatku."
+
+msgid "Re-ordered successfully"
+msgstr "Uspješno preuredeno"
+
+msgid "Reason field cannot be left blank."
+msgstr "Polje razloga ne može ostati prazno."
+
+msgid "Reccurrence End date can not be less than reccurrence start date"
+msgstr "Završni datum ponavljanja ne može biti prije početnog"
+
+msgid "Recurring Task cannot stop. Please try again later."
+msgstr "Ponavljajući zadatak nije moguće zaustaviti. Pokušajte ponovno kasnije."
+
+msgid "Recurring task stopped successfully."
+msgstr "Ponavljajući zadatak uspješno zaustavljen."
+
+msgid "Remove Failed"
+msgstr "Uklanjanje nije uspjelo"
+
+msgid "Remove Signle Sign On setting failed. Please try once more!"
+msgstr "Uklanjanje postavke jedinstvene prijave nije uspjelo. Pokušajte još jednom!"
+
+msgid "Removed Failed"
+msgstr "Uklanjanje nije uspjelo"
+
+msgid "Repeat"
+msgstr "Ponovi"
+
+msgid "Resource on Leave"
+msgstr "Resurs na odsustvu"
+
+msgid "Role could not be updated."
+msgstr "Ulogu nije bilo moguće ažurirati."
+
+msgid "Role Deleted Successfully"
+msgstr "Uloga uspješno izbrisana"
+
+msgid "Role Group Deleted Successfully"
+msgstr "Grupa uloga uspješno izbrisana"
+
+msgid "Role permission saved successfully."
+msgstr "Ovlasti uloge uspješno spremljene."
+
+msgid "SAML configuration verified successfully."
+msgstr "SAML konfiguracija uspješno provjerena."
+
+msgid "Saved the estimation hour"
+msgstr "Procijenjeni sati spremljeni"
+
+msgid "Search Defect"
+msgstr "Pretraži greške"
+
+msgid "Search Files"
+msgstr "Pretraži datoteke"
+
+msgid "Search Task Groups"
+msgstr "Pretraži grupe zadataka"
+
+msgid "Search timezone…"
+msgstr "Pretraži vremensku zonu…"
+
+msgid "Search Users"
+msgstr "Pretraži korisnike"
+
+msgid "Select a task."
+msgstr "Odaberite zadatak."
+
+msgid "Select a type"
+msgstr "Odaberite vrstu"
+
+msgid "Select a valid project status!"
+msgstr "Odaberite valjani status projekta!"
+
+msgid "Select Currency"
+msgstr "Odaberite valutu"
+
+msgid "Select Parent Task"
+msgstr "Odaberite nadređeni zadatak"
+
+msgid "Select Sprint"
+msgstr "Odaberite sprint"
+
+msgid "Select Team"
+msgstr "Odaberite tim"
+
+msgid "Select The Task To Log Time"
+msgstr "Odaberite zadatak za bilježenje vremena"
+
+msgid "Short Name already exists. Please enter another short name."
+msgstr "Kratki naziv već postoji. Unesite drugi kratki naziv."
+
+msgid "Short Name cannot be left blank!"
+msgstr "Kratki naziv ne može ostati prazan!"
+
+msgid "Should not end with a number or space!"
+msgstr "Ne smije završavati brojem ili razmakom!"
+
+msgid "Show All"
+msgstr "Prikaži sve"
+
+msgid "Show Detail"
+msgstr "Prikaži detalje"
+
+msgid "Shows the total time spent by different resources with total billable and non-billable hours. Start your timer or log time with Time Entry"
+msgstr "Prikazuje ukupno vrijeme različitih resursa s ukupnim naplativim i nenaplativim satima. Pokrenite brojač ili zabilježite vrijeme unosom vremena"
+
+msgid "Simple"
+msgstr "Jednostavno"
+
+msgid "Skill already added. Please add another Skill."
+msgstr "Vještina je već dodana. Dodajte drugu vještinu."
+
+msgid "Skill can not be added"
+msgstr "Vještinu nije moguće dodati"
+
+msgid "Something went wrong! Please try again later."
+msgstr "Nešto je pošlo po zlu! Pokušajte ponovno kasnije."
+
+msgid "Something went wrong."
+msgstr "Nešto je pošlo po zlu."
+
+msgid "Sorry"
+msgstr "Isprike"
+
+msgid "Sorry! You are exceeding your user limit."
+msgstr "Isprike! Premašujete ograničenje broja korisnika."
+
+msgid "Sorry! you are not a part of the project. Only users associated with a project can view the task detail."
+msgstr "Isprike! Niste dio ovog projekta. Detalje zadatka mogu vidjeti samo korisnici povezani s projektom."
+
+msgid "Sorry! you can not enter more than 365 occurrences."
+msgstr "Isprike! Ne možete unijeti više od 365 ponavljanja."
+
+msgid "Sorry, File con not be deleted."
+msgstr "Isprike, datoteku nije moguće izbrisati."
+
+msgid "Sorry, project limit exceeded. Please upgrade"
+msgstr "Isprike, prekoračeno je ograničenje projekata. Nadogradite"
+
+msgid "Sorry, Something is wrong try after sometimes."
+msgstr "Isprike, nešto nije u redu. Pokušajte kasnije."
+
+msgid "Special characters are not allowed for 'Project Short Name'!"
+msgstr "Posebni znakovi nisu dopušteni za 'Kratki naziv projekta'!"
+
+msgid "Sprint can not be started without task. So add some task to the sprint"
+msgstr "Sprint nije moguće pokrenuti bez zadataka. Dodajte zadatke u sprint"
+
+msgid "Sprint reordered successfully"
+msgstr "Sprint uspješno preureden"
+
+msgid "Stable"
+msgstr "Stabilno"
+
+msgid "Start & End Date"
+msgstr "Početni i završni datum"
+
+msgid "Start date and due date field can not be blanked"
+msgstr "Polja početnog datuma i roka ne mogu ostati prazna"
+
+msgid "Start date should not be greater than End date!"
+msgstr "Početni datum ne smije biti nakon završnog!"
+
+msgid "Start time and End time can not same."
+msgstr "Početno i završno vrijeme ne mogu biti isti."
+
+msgid "Status added successfully."
+msgstr "Status uspješno dodan."
+
+msgid "Status changed successfully"
+msgstr "Status uspješno promijenjen"
+
+msgid "Status changed successfully."
+msgstr "Status uspješno promijenjen."
+
+msgid "Status of "
+msgstr "Status "
+
+msgid "Status of task #"
+msgstr "Status zadatka #"
+
+msgid "Status of tasks are changed to new."
+msgstr "Statusi zadataka promijenjeni su u novi."
+
+msgid "Status updated successfully."
+msgstr "Status uspješno ažuriran."
+
+msgid "Storage limit exceeded!"
+msgstr "Prekoračeno ograničenje pohrane!"
+
+msgid "Storage usage exceeds by"
+msgstr "Iskorištenost pohrane premašena za"
+
+msgid "Subtask added successfully."
+msgstr "Podzadatak uspješno dodan."
+
+msgid "Subtask can not be added in a close task"
+msgstr "Podzadatak se ne može dodati u zatvoreni zadatak"
+
+msgid "Successfully changed the Sprint to"
+msgstr "Sprint uspješno promijenjen u"
+
+msgid "Successfully changed the Task Group to"
+msgstr "Grupa zadataka uspješno promijenjena u"
+
+msgid "Successfully removed"
+msgstr "Uspješno uklonjeno"
+
+msgid "Task Actions"
+msgstr "Radnje zadatka"
+
+msgid "Task already have Sub Sub Task ! So it cannot be changed to Sub Task"
+msgstr "Zadatak već ima pod-podzadatke! Zato se ne može promijeniti u podzadatak"
+
+msgid "Task and all its sub tasks will be deleted permanently, are you sure?"
+msgstr "Zadatak i svi njegovi podzadaci bit će trajno izbrisani. Sigurno želite?"
+
+msgid "Task Archived"
+msgstr "Zadatak arhiviran"
+
+msgid "Task can not be a Task Group!"
+msgstr "Zadatak ne može biti grupa zadataka!"
+
+msgid "Task can not be deleted while timer is on"
+msgstr "Zadatak nije moguće izbrisati dok brojač vremena radi"
+
+msgid "Task copied successfully"
+msgstr "Zadatak uspješno kopiran"
+
+msgid "Task Deleted"
+msgstr "Zadatak izbrisan"
+
+msgid "Task Due date can not be greater than reccurrence end date"
+msgstr "Rok zadatka ne može biti nakon završetka ponavljanja"
+
+msgid "Task Due date can not be greater than reccurrence start date"
+msgstr "Rok zadatka ne može biti nakon početka ponavljanja"
+
+msgid "Task Group can not be a project!"
+msgstr "Grupa zadataka ne može biti projekt!"
+
+msgid "Task Group can not be a task!"
+msgstr "Grupa zadataka ne može biti zadatak!"
+
+msgid "Task group reorder successfully."
+msgstr "Grupa zadataka uspješno preuredena."
+
+msgid "Task Groups can not be edited !"
+msgstr "Grupe zadataka nije moguće uređivati!"
+
+msgid "Task Information"
+msgstr "Podaci o zadatku"
+
+msgid "Task information not available"
+msgstr "Podaci o zadatku nisu dostupni"
+
+msgid "Task is closed."
+msgstr "Zadatak je zatvoren."
+
+msgid "Task is resolved."
+msgstr "Zadatak je riješen."
+
+msgid "Task is started."
+msgstr "Zadatak je pokrenut."
+
+msgid "Task Label can not be added"
+msgstr "Oznaku zadatka nije moguće dodati"
+
+msgid "Task Link Copied successfully."
+msgstr "Poveznica zadatka uspješno kopirana."
+
+msgid "Task moved successfully."
+msgstr "Zadatak uspješno premješten."
+
+msgid "Task posted successfully."
+msgstr "Zadatak uspješno objavljen."
+
+msgid "Task Reminder"
+msgstr "Podsjetnik zadatka"
+
+msgid "Task removed successfully"
+msgstr "Zadatak uspješno uklonjen"
+
+msgid "Task removed successfully."
+msgstr "Zadatak uspješno uklonjen."
+
+msgid "Task reordering is possible within a single project. You are seeing all project"
+msgstr "Promjena redoslijeda zadataka moguća je unutar jednog projekta. Prikazujete sve projekte"
+
+msgid "Task Start date can not be greater than Due date"
+msgstr "Početni datum zadatka ne može biti nakon roka"
+
+msgid "Task status change is possible within a single project. You are seeing all project"
+msgstr "Promjena statusa zadatka moguća je unutar jednog projekta. Prikazujete sve projekte"
+
+msgid "Task status is changed to new."
+msgstr "Status zadatka promijenjen je u novi."
+
+msgid "Task type added successfully."
+msgstr "Vrsta zadatka uspješno dodana."
+
+msgid "Task Type can not be added"
+msgstr "Vrstu zadatka nije moguće dodati"
+
+msgid "Task Type Successfully Added"
+msgstr "Vrsta zadatka uspješno dodana"
+
+msgid "Task Updated"
+msgstr "Zadatak ažuriran"
+
+msgid "Task will be deleted permanently, are you sure?"
+msgstr "Zadatak će biti trajno izbrisan. Sigurno želite?"
+
+msgid "Task(s) have been removed."
+msgstr "Zadaci su uklonjeni."
+
+msgid "Task(s) have been restored."
+msgstr "Zadaci su vraćeni."
+
+msgid "Tasks are assigned to"
+msgstr "Zadaci su dodijeljeni"
+
+msgid "Tasks are closed."
+msgstr "Zadaci su zatvoreni."
+
+msgid "Tasks are copied to"
+msgstr "Zadaci su kopirani u"
+
+msgid "Tasks are moved to"
+msgstr "Zadaci su premješteni u"
+
+msgid "Tasks are not deleted successfully!"
+msgstr "Zadaci nisu uspješno izbrisani!"
+
+msgid "Tasks are resolved."
+msgstr "Zadaci su riješeni."
+
+msgid "Tasks are started."
+msgstr "Zadaci su pokrenuti."
+
+msgid "Tasks Deleted  successfully!"
+msgstr "Zadaci uspješno izbrisani!"
+
+msgid "Tasks from diffrent project can not be linked."
+msgstr "Zadaci iz različitih projekata ne mogu se povezati."
+
+msgid "Tasks has been added to"
+msgstr "Zadaci su dodani u"
+
+msgid "Tasks saved successfully!"
+msgstr "Zadaci uspješno spremljeni!"
+
+msgid "Team added successfully."
+msgstr "Tim uspješno dodan."
+
+msgid "Team could not be added."
+msgstr "Tim nije bilo moguće dodati."
+
+msgid "Team Members Involved"
+msgstr "Uključeni članovi tima"
+
+msgid "Team updated successfully."
+msgstr "Tim uspješno ažuriran."
+
+msgid "Template updated successfully."
+msgstr "Predložak uspješno ažuriran."
+
+msgid "Thanks for your business!"
+msgstr "Hvala na povjerenju!"
+
+msgid "Thanks for your feedback. We will get back to you as soon as possible."
+msgstr "Hvala na mišljenju. Odgovorit ćemo vam što prije."
+
+msgid "The fields marked as * are mandatory."
+msgstr "Polja označena zvjezdicom (*) su obavezna."
+
+msgid "The image you tried to upload is too small. It needs to be at least 100 pixels wide."
+msgstr "Slika koju ste pokušali učitati premala je. Mora biti široka najmanje 100 piksela."
+
+msgid "The Role could not be changed. Please try again."
+msgstr "Ulogu nije bilo moguće promijeniti. Pokušajte ponovno."
+
+msgid "The Role has been changed successfully"
+msgstr "Uloga je uspješno promijenjena"
+
+msgid "The Role Permissions could not be set"
+msgstr "Ovlasti uloge nije bilo moguće postaviti"
+
+msgid "The scope of the sprint will be changed, do you still want to proceed?"
+msgstr "Opseg sprinta će se promijeniti. Želite li ipak nastaviti?"
+
+msgid "The task is already Closed and can not be edited !"
+msgstr "Zadatak je već zatvoren i ne može se uređivati!"
+
+msgid "The task is already Closed and can not be moved !"
+msgstr "Zadatak je već zatvoren i ne može se premjestiti!"
+
+msgid "The task is already Closed and new task can not be added !"
+msgstr "Zadatak je već zatvoren i novi se zadatak ne može dodati!"
+
+msgid "The time format should be in hh:mm and take at max of 23:59 hours"
+msgstr "Format vremena mora biti hh:mm i najviše 23:59 sati"
+
+msgid "The timer is expired."
+msgstr "Brojač vremena je istekao."
+
+msgid "There are"
+msgstr "Ima"
+
+msgid "There are no checklists present inside the choosen task."
+msgstr "U odabranom zadatku nema popisa provjere."
+
+msgid "There are no matching projects to report on"
+msgstr "Nema odgovarajućih projekata za izvješće"
+
+msgid "There was an error processing the request"
+msgstr "Došlo je do greške pri obradi zahtjeva"
+
+msgid "This dependency already exists"
+msgstr "Ova zavisnost već postoji"
+
+msgid "This field can not be blank."
+msgstr "Ovo polje ne može biti prazno."
+
+msgid "This is a recurring task would you like to proceed?"
+msgstr "Ovo je ponavljajući zadatak. Želite li nastaviti?"
+
+msgid "This is a unique system generated number for each task."
+msgstr "Ovo je jedinstveni broj zadatka koji generira sustav."
+
+msgid "This is an error! Please refresh the page"
+msgstr "Došlo je do greške! Osvježite stranicu"
+
+msgid "This Project plan already exists."
+msgstr "Ovaj plan projekta već postoji."
+
+msgid "This Project template already exists."
+msgstr "Ovaj predložak projekta već postoji."
+
+msgid "This sprint cant be reopened at the moment! Complete your currently active sprint."
+msgstr "Ovaj sprint trenutačno nije moguće ponovno otvoriti! Dovršite aktivni sprint."
+
+msgid "This task is already selected."
+msgstr "Ovaj zadatak je već odabran."
+
+msgid "This task is the children of the following parent(s)."
+msgstr "Ovaj zadatak je podređen sljedećim nadređenim zadacima."
+
+msgid "This task is the parent of the following task(s)."
+msgstr "Ovaj zadatak je nadređen sljedećim zadacima."
+
+msgid "This Template already exists."
+msgstr "Ovaj predložak već postoji."
+
+msgid "This week submitted successfully to the selected approver."
+msgstr "Ovaj tjedan uspješno poslan odabranom odobravatelju."
+
+msgid "Time log deleted successfully for task#"
+msgstr "Zapis vremena uspješno izbrisan za zadatak #"
+
+msgid "Time Log updated successfully"
+msgstr "Zapis vremena uspješno ažuriran"
+
+msgid "Time Logged successfully"
+msgstr "Vrijeme uspješno zabilježeno"
+
+msgid "Time sheet data saved successfully."
+msgstr "Podaci evidencije vremena uspješno spremljeni."
+
+msgid "Timelog updated successfully."
+msgstr "Zapis vremena uspješno ažuriran."
+
+msgid "Timer functionality is updated. So the old timer data can not be saved due to overlap condition. Please start a new timer."
+msgstr "Funkcija brojača vremena je ažurirana, pa se stari podaci ne mogu spremiti zbog preklapanja. Pokrenite novi brojač."
+
+msgid "Timer functionality is updated. So the old timer data is saved. Please start a new timer."
+msgstr "Funkcija brojača vremena je ažurirana i stari podaci su spremljeni. Pokrenite novi brojač."
+
+msgid "Timer is already running."
+msgstr "Brojač vremena već radi."
+
+msgid "Title can not be left blank."
+msgstr "Naslov ne može ostati prazan."
+
+msgid "Title cannot be left blank!"
+msgstr "Naslov ne može ostati prazan!"
+
+msgid "To date cannot be blank."
+msgstr "Datum Do ne može biti prazan."
+
+msgid "To Date cannot be left blank!"
+msgstr "Polje Do datuma ne može ostati prazno!"
+
+msgid "Total hour"
+msgstr "Ukupno sati"
+
+msgid "Total hour(s) selected"
+msgstr "Ukupno odabranih sati"
+
+msgid "Total Sprints"
+msgstr "Ukupno sprintova"
+
+msgid "Total Work:"
+msgstr "Ukupno posla:"
+
+msgid "Unable to copy task #"
+msgstr "Nije moguće kopirati zadatak #"
+
+msgid "Unable to copy the task"
+msgstr "Nije moguće kopirati zadatak"
+
+msgid "Unable to move task #"
+msgstr "Nije moguće premjestiti zadatak #"
+
+msgid "Unable to open leave submission form"
+msgstr "Nije moguće otvoriti obrazac za odsustvo"
+
+msgid "Unable to open task creation form"
+msgstr "Nije moguće otvoriti obrazac za stvaranje zadatka"
+
+msgid "Unable to open task details"
+msgstr "Nije moguće otvoriti detalje zadatka"
+
+msgid "Unable to submit leave. Missing required information."
+msgstr "Nije moguće poslati zahtjev za odsustvo. Nedostaju obavezni podaci."
+
+msgid "Up"
+msgstr "Gore"
+
+msgid "Update Note"
+msgstr "Ažuriraj napomenu"
+
+msgid "Update Project Template"
+msgstr "Ažuriraj predložak projekta"
+
+msgid "Update Reminder"
+msgstr "Ažuriraj podsjetnik"
+
+msgid "Update Status"
+msgstr "Ažuriraj status"
+
+msgid "Update Status Workflow"
+msgstr "Ažuriraj statusni tijek rada"
+
+msgid "Update Team"
+msgstr "Ažuriraj tim"
+
+msgid "Update your task status here."
+msgstr "Ovdje ažurirajte status zadatka."
+
+msgid "Upgrade to"
+msgstr "Nadogradi na"
+
+msgid "Upgrade your account to get more storage."
+msgstr "Nadogradite račun za više prostora za pohranu."
+
+msgid "User field can not be blank"
+msgstr "Polje korisnika ne može biti prazno"
+
+msgid "User has been assigned to the selected teams."
+msgstr "Korisnik je dodijeljen odabranim timovima."
+
+msgid "User removed successfully."
+msgstr "Korisnik uspješno uklonjen."
+
+msgid "User(s) added successfully"
+msgstr "Korisnici uspješno dodani"
+
+msgid "Users are disabled users.They are not allowed to add into a project."
+msgstr "Ovi korisnici su onemogućeni i ne mogu se dodati u projekt."
+
+msgid "Velocity Trend"
+msgstr "Trend brzine"
+
+msgid "Week View"
+msgstr "Tjedni prikaz"
+
+msgid "Weekly time log deleted successfully for task#"
+msgstr "Tjedni zapis vremena uspješno izbrisan za zadatak #"
+
+msgid "Weekly time log deleted successfully."
+msgstr "Tjedni zapis vremena uspješno izbrisan."
+
+msgid "Would you like to delete this file?"
+msgstr "Želite li izbrisati ovu datoteku?"
+
+msgid "You are not authorized to"
+msgstr "Nemate ovlasti za"
+
+msgid "You are not authorized to add subtask"
+msgstr "Nemate ovlasti za dodavanje podzadatka"
+
+msgid "You are not authorized to close feature"
+msgstr "Nemate ovlasti zatvoriti značajku"
+
+msgid "You are not authorized to close task"
+msgstr "Nemate ovlasti zatvoriti zadatak"
+
+msgid "You are not authorized to modify."
+msgstr "Nemate ovlasti mijenjati."
+
+msgid "You are viewing"
+msgstr "Pregledavate"
+
+msgid "You aren't permitted to perform this action"
+msgstr "Nije vam dopušteno izvršiti ovu radnju"
+
+msgid "You can not enter end date less than start date !"
+msgstr "Završni datum ne može biti prije početnog!"
+
+msgid "You can not select more than 3 tabs."
+msgstr "Ne možete odabrati više od 3 kartice."
+
+msgid "You can schedule only for 15 days."
+msgstr "Možete zakazivati samo 15 dana unaprijed."
+
+msgid "You can use this feature only after 10mins."
+msgstr "Ovu funkciju možete koristiti tek nakon 10 minuta."
+
+msgid "You cannot set the time for more than 24hours."
+msgstr "Ne možete postaviti vrijeme duže od 24 sata."
+
+msgid "You didn't check!"
+msgstr "Niste označili!"
+
+msgid "You have reached the maximum active Custom field limit."
+msgstr "Dostignuli ste maksimalan broj aktivnih prilagođenih polja."
+
+msgid "You have reached the maximum allowed time limit of 24hours. Please save or cancel the time log."
+msgstr "Dostignuli ste maksimalno dopušteno vrijeme od 24 sata. Spremite ili otkažite zapis vremena."
+
+msgid "You were viewing"
+msgstr "Pregledavali ste"
+
+msgid "Your epic has been posted."
+msgstr "Vaš ep je objavljen."
+
+msgid "Your epic has been updated."
+msgstr "Vaš ep je ažuriran."
+
+msgid "Your feature has been posted."
+msgstr "Vaša značajka je objavljena."
+
+msgid "Your feature has been updated."
+msgstr "Vaša značajka je ažurirana."
+
+msgid "Your reason added successfully."
+msgstr "Vaš razlog je uspješno dodan."
+
+msgid "Your reason updated successfully."
+msgstr "Vaš razlog je uspješno ažuriran."
+
+msgid "Your reply edited successfully."
+msgstr "Vaš odgovor je uspješno uređen."
+
+msgid "No projects found."
+msgstr "Projekti nisu pronađeni."
+
+msgid "Task Groups"
+msgstr "Grupe zadataka"
+
+msgid "All Task Groups"
+msgstr "Sve grupe zadataka"
+
+msgid "Loading Task Group..."
+msgstr "Učitavanje grupe zadataka..."
+
+msgid "Current Due Date"
+msgstr "Trenutačni rok"
+
+msgid "Difference from Original date"
+msgstr "Razlika u odnosu na izvorni datum"
+
+msgid "Initial Sync in progress"
+msgstr "Početna sinkronizacija u tijeku"
+
+msgid "Syncing"
+msgstr "Sinkronizacija"
+
+msgid "All Attachments"
+msgstr "Svi privitci"
+
+msgid "Activity Details"
+msgstr "Detalji aktivnosti"
+
+msgid "Created On"
+msgstr "Stvoreno"
+
+msgid "Need help"
+msgstr "Treba vam pomoć"
+
+msgid "Still not clear"
+msgstr "Još uvijek nije jasno"
+
+msgid "If you get stuck or need help with anything we are here for you. Just"
+msgstr "Ako zapnete ili vam treba pomoć, tu smo za vas. Samo"
+
+msgid "Ok, got it"
+msgstr "U redu, razumijem"
+
+msgid "Invoice Settings"
+msgstr "Postavke računa"
+
+msgid "Add New Customer"
+msgstr "Dodaj novog kupca"
+
+msgid "Move task to task group/sprint"
+msgstr "Premjesti zadatak u grupu zadataka/sprint"
+
+msgid "Create Your Own Company"
+msgstr "Stvorite svoju tvrtku"
+
+msgid "Introduction"
+msgstr "Uvod"
+
+msgid "Request Cancellation"
+msgstr "Zatraži otkazivanje"
+
+msgid "Please send us an email from your registered email id to"
+msgstr "Pošaljite nam e-poštu sa svoje registrirane adrese na"
+
+msgid "and we will take care of it within 24hours"
+msgstr "i pobrinut ćemo se za to u roku od 24 sata"
+
+msgid "Congratulations!"
+msgstr "Čestitamo!"
+
+msgid "Select your  preferred language"
+msgstr "Odaberite željeni jezik"
+
+msgid "You can also update the language from the"
+msgstr "Jezik možete promijeniti i u"
+
+msgid "Alert!"
+msgstr "Upozorenje!"
+
+msgid "Timer is running for this task. Do you want to save the current timelog ?"
+msgstr "Brojač vremena radi za ovaj zadatak. Želite li spremiti trenutačni zapis?"
+
+msgid "Following checklists are open and will be closed along with task."
+msgstr "Sljedeći popisi provjere su otvoreni i bit će zatvoreni zajedno sa zadatkom."
+
+msgid "We are pleased to announce the release of "
+msgstr "Sa zadovoljstvom objavljujemo izdanje "
+
+msgid "User Role Management"
+msgstr "Upravljanje ulogama korisnika"
+
+msgid "You can now manage the roles & privileges, click"
+msgstr "Sada možete upravljati ulogama i ovlastima, kliknite"
+
+msgid "Connect to Google Calendar"
+msgstr "Poveži s Google kalendarom"
+
+msgid "Create New Module"
+msgstr "Stvori novi modul"
+
+msgid "Create New Action"
+msgstr "Stvori novu radnju"
+
+msgid "Loading users..."
+msgstr "Učitavanje korisnika..."
+
+msgid "Project Role"
+msgstr "Uloga na projektu"
+
+msgid "Contact us 24/7 via email at"
+msgstr "Kontaktirajte nas 0-24 e-poštom na"
+
+msgid "Or By filling the form below"
+msgstr "Ili ispunjavanjem obrasca u nastavku"
+
+msgid "Overall Rating"
+msgstr "Ukupna ocjena"
+
+msgid "Enter Your Feedback Here"
+msgstr "Unesite svoje mišljenje ovdje"
+
+msgid "Choose an existing task"
+msgstr "Odaberite postojeći zadatak"
+
+msgid "Cancel Subscription Information"
+msgstr "Podaci o otkazivanju pretplate"
+
+msgid "Please check the below user(s) list and Save to add them to this Project"
+msgstr "Pregledajte popis korisnika u nastavku i spremite ih za dodjelu ovom projektu"
+
+msgid "Loading users"
+msgstr "Učitavanje korisnika"
+
+msgid "Remove Tasks"
+msgstr "Ukloni zadatke"
+
+msgid "Loading tasks"
+msgstr "Učitavanje zadataka"
+
+msgid "Update Description"
+msgstr "Ažuriraj opis"
+
+msgid "Quick Task Group"
+msgstr "Brza grupa zadataka"
+
+msgid "Move Task Group Down"
+msgstr "Premjesti grupu zadataka niže"
+
+msgid "Move Task Group Up"
+msgstr "Premjesti grupu zadataka više"
+
+msgid "Billability"
+msgstr "Naplativost"
+
+msgid "Unbillable"
+msgstr "Nenaplativo"
+
+msgid "Business Unit"
+msgstr "Poslovna jedinica"
+
+msgid "Filter Your Task"
+msgstr "Filtriraj svoje zadatke"
+
+msgid "Active Filters"
+msgstr "Aktivni filtri"
+
+msgid "Common Task Filters"
+msgstr "Uobičajeni filtri zadataka"
+
+msgid "All Tasks"
+msgstr "Svi zadaci"
+
+msgid "Assigned to me"
+msgstr "Dodijeljeno meni"
+
+msgid "Favourites"
+msgstr "Omiljeno"
+
+msgid "High Priority"
+msgstr "Visok prioritet"
+
+msgid "All Opened"
+msgstr "Svi otvoreni"
+
+msgid "All Closed"
+msgstr "Svi zatvoreni"
+
+msgid "Saved Filters"
+msgstr "Spremljeni filtri"
+
+msgid "Common Filters"
+msgstr "Uobičajeni filtri"
+
+msgid "Commented By"
+msgstr "Komentirao"
+
+msgid "Task Group/Sprint"
+msgstr "Grupa zadataka/Sprint"
+
+msgid "All Dates"
+msgstr "Svi datumi"
+
+msgid "Grant Moderator"
+msgstr "Dodijeli moderatorska prava"
+
+msgid "Are you sure you want to revoke client access from"
+msgstr "Sigurno želite oduzeti pristup klijenta"
+
+msgid "Are you sure you want to revoke Admin privilege from"
+msgstr "Sigurno želite oduzeti administratorska prava"
+
+msgid "Are you sure you want to grant Admin privilege to"
+msgstr "Sigurno želite dodijeliti administratorska prava"
+
+msgid "Edit Profile"
+msgstr "Uredi profil"
+
+msgid "Search role…"
+msgstr "Pretraži ulogu…"
+
+msgid "No matches"
+msgstr "Nema rezultata"
+
+msgid "Search project…"
+msgstr "Pretraži projekt…"
+
+msgid "Admin/Client"
+msgstr "Administrator/klijent"
+
+msgid "No clients found"
+msgstr "Nema pronađenih klijenata"
+
+msgid "No users found"
+msgstr "Korisnici nisu pronađeni"
+
+msgid "Recent"
+msgstr "Nedavno"
+
+msgid "Grid View"
+msgstr "Prikaz mreže"
+
+msgid "You received this message because you are an Orangescrum customer."
+msgstr "Ovu poruku primili ste jer ste korisnik Orangescruma."
+
+msgid "If you would prefer not to receive these emails, you can"
+msgstr "Ako ne želite primati ove e-poruke, možete"
+
+msgid "Assign Tasks"
+msgstr "Dodijeli zadatke"
+
+msgid "Remove favourite"
+msgstr "Ukloni iz omiljenih"
+
+msgid "Set favourite"
+msgstr "Dodaj u omiljene"
+
+msgid "Back to Parent"
+msgstr "Natrag na nadređeni"
+
+msgid "Favorite"
+msgstr "Omiljeno"
+
+msgid "Copy Task Link"
+msgstr "Kopiraj poveznicu zadatka"
+
+msgid "Task Links"
+msgstr "Poveznice zadataka"
+
+msgid "Edit Title"
+msgstr "Uredi naslov"
+
+msgid "Enter task title"
+msgstr "Unesite naslov zadatka"
+
+msgid "Backlog"
+msgstr "Zaostatak"
+
+msgid "Completed Sprint"
+msgstr "Dovršeni sprint"
+
+msgid "ASSIGN TO"
+msgstr "DODIJELI"
+
+msgid "DUE DATE"
+msgstr "ROK"
+
+msgid "EST.HOURS"
+msgstr "PROC. SATI"
+
+msgid "PRIORITY"
+msgstr "PRIORITET"
+
+msgid "TYPE"
+msgstr "VRSTA"
+
+msgid "Edit Description"
+msgstr "Uredi opis"
+
+msgid "Set estimated hours"
+msgstr "Postavi procijenjene sate"
+
+msgid "You can add time as 1.5 (1 hour 30 minutes) and press enter to save"
+msgstr "Vrijeme možete unijeti kao 1.5 (1 sat i 30 minuta) i pritisnuti Enter za spremanje"
+
+msgid "Set start date"
+msgstr "Postavi početni datum"
+
+msgid "Set due date"
+msgstr "Postavi rok"
+
+msgid "Time Balance Remaining:"
+msgstr "Preostali saldo vremena:"
+
+msgid "Labels"
+msgstr "Oznake"
+
+msgid "Add label"
+msgstr "Dodaj oznaku"
+
+msgid "Add New Label"
+msgstr "Dodaj novu oznaku"
+
+msgid "Add wiki"
+msgstr "Dodaj wiki"
+
+msgid "Remove wiki"
+msgstr "Ukloni wiki"
+
+msgid "Task Configuration"
+msgstr "Konfiguracija zadataka"
+
+msgid "Assign To Individual "
+msgstr "Dodijeli pojedincu "
+
+msgid "Uploaded files"
+msgstr "Učitane datoteke"
+
+msgid "Enter Description"
+msgstr "Unesite opis"
+
+msgid "Drop files here or"
+msgstr "Ispustite datoteke ovdje ili"
+
+msgid "You can enter time as 1.5  (that  mean 1 hour and 30 minutes)"
+msgstr "Vrijeme možete unijeti kao 1.5 (to znači 1 sat i 30 minuta)"
+
+msgid "Recurring"
+msgstr "Ponavljajuće"
+
+msgid "Update recurring status"
+msgstr "Ažuriraj status ponavljanja"
+
+msgid "Select Start time and End time, it will calculate spent hours automatically"
+msgstr "Odaberite početno i završno vrijeme, utrošeni sati izračunat će se automatski"
+
+msgid "Relate to"
+msgstr "Odnosi se na"
+
+msgid "Linking Task"
+msgstr "Povezivanje zadatka"
+
+msgid "Select Label"
+msgstr "Odaberite oznaku"
+
+msgid "ALL"
+msgstr "SVE"
+
+msgid "Do not show the task to the client"
+msgstr "Ne prikazuj zadatak klijentu"
+
+msgid "Add Reason"
+msgstr "Dodaj razlog"
+
+msgid "Specify your reason"
+msgstr "Unesite svoj razlog"
+
+msgid "Identity"
+msgstr "Identitet"
+
+msgid "Membership"
+msgstr "Članstvo"
+
+msgid "Select Role"
+msgstr "Odaberite ulogu"
+
+msgid "Reporting Manager"
+msgstr "Voditelj izvještavanja"
+
+msgid "Select Reporting Manager"
+msgstr "Odaberite voditelja izvještavanja"
+
+msgid "Avatar"
+msgstr "Avatar"
+
+msgid "Choose Profile Image"
+msgstr "Odaberite profilnu sliku"
+
+msgid "Delete task with children"
+msgstr "Izbriši zadatak s podređenima"
+
+msgid "Decide what should happen to the children before this task is deleted."
+msgstr "Odlučite što će se dogoditi s podređenim zadacima prije brisanja ovog zadatka."
+
+msgid "Move children to another parent first"
+msgstr "Najprije premjestite podređene drugom nadređenom"
+
+msgid "Re-parents the children to a task you pick, then deletes this one. Children keep all their data."
+msgstr "Podređene zadatke prebacuje pod zadatak koji odaberete, a zatim briše ovaj zadatak. Podređeni zadržavaju sve podatke."
+
+msgid "Select a new parent…"
+msgstr "Odaberite novog nadređenog…"
+
+msgid "Delete this task — children become standalone"
+msgstr "Izbriši ovaj zadatak — podređeni postaju samostalni"
+
+msgid "Deletes only this task. The children survive as standalone items without a parent."
+msgstr "Briše samo ovaj zadatak. Podređeni ostaju kao samostalne stavke bez nadređenog."
+
+msgid "Delete this task"
+msgstr "Izbriši ovaj zadatak"
+
+msgid "Move & Delete"
+msgstr "Premjesti i izbriši"
+
+msgid "Log time"
+msgstr "Zabilježi vrijeme"
+
+msgid "Select task to log time"
+msgstr "Odaberite zadatak za bilježenje vremena"
+
+msgid "Skip Time Duration"
+msgstr "Preskoči trajanje"
+
+msgid "Add line-item"
+msgstr "Dodaj stavku"
+
+msgid "Please select a task"
+msgstr "Odaberite zadatak"
+
+msgid "Please set start & end time in each line item"
+msgstr "Postavite početno i završno vrijeme u svakoj stavci"
+
+msgid "Please select user"
+msgstr "Odaberite korisnika"
+
+msgid "Break time can not exceed the total spent hours."
+msgstr "Vrijeme pauze ne može premašiti ukupno utrošene sate."
+
+msgid "Break time can not same as the total spent hours."
+msgstr "Vrijeme pauze ne može biti jednako ukupno utrošenim satima."
+
+msgid "Oops! Start and End Time can not be same."
+msgstr "Ups! Početno i završno vrijeme ne mogu biti isti."
+
+msgid "Duplicate data found"
+msgstr "Pronađeni su dvostruki podaci"
+
+msgid "Time Log value overlapping for following users"
+msgstr "Preklapanje zapisa vremena za sljedeće korisnike"
+
+msgid "Time Entry Updated Successfully."
+msgstr "Unos vremena uspješno ažuriran."
+
+msgid "Start time can not be left blank"
+msgstr "Početno vrijeme ne može ostati prazno"
+
+msgid "End time can not be left blank"
+msgstr "Završno vrijeme ne može ostati prazno"
+
+msgid "Specify Street"
+msgstr "Unesite ulicu"
+
+msgid "Specify city"
+msgstr "Unesite grad"
+
+msgid "Specify state"
+msgstr "Unesite županiju"
+
+msgid "Specify country"
+msgstr "Unesite državu"
+
+msgid "Specify postal code"
+msgstr "Unesite poštanski broj"
+
+msgid "Specify phone number"
+msgstr "Unesite broj telefona"
+
+msgid "Make Inactive"
+msgstr "Postavi kao neaktivno"
+
+msgid "- Select Priority -"
+msgstr "- Odaberite prioritet -"
+
+msgid "Project Methodology"
+msgstr "Metodologija projekta"
+
+msgid "Simple Project"
+msgstr "Jednostavan projekt"
+
+msgid "Choose a workflow for task"
+msgstr "Odaberite tijek rada za zadatak"
+
+msgid "Start date"
+msgstr "Početni datum"
+
+msgid "End date"
+msgstr "Završni datum"
+
+msgid "Select all users (admins + members)"
+msgstr "Odaberite sve korisnike (administratore + članove)"
+
+msgid "You"
+msgstr "Vi"
+
+msgid "Email ID"
+msgstr "E-pošta"
+
+msgid "Use comma separators for multiple email id"
+msgstr "Za više adresa e-pošte koristite zarez kao razdjelnik"
+
+msgid "- Select Status -"
+msgstr "- Odaberite status -"
+
+msgid "- Select Type -"
+msgstr "- Odaberite vrstu -"
+
+msgid "Use comma to separate multiple email ids"
+msgstr "Za više adresa e-pošte koristite zarez"
+
+msgid "Project to be assigned"
+msgstr "Projekt za dodjelu"
+
+msgid "User Password"
+msgstr "Korisnička lozinka"
+
+msgid "You can choose to send this user an invitation email which allows them to set their own password, or you can set their password yourself below. The same password is applied to every email above when adding multiple users."
+msgstr "Ovom korisniku možete poslati pozivnicu e-poštom kako bi sam postavio lozinku ili mu lozinku možete postaviti sami u nastavku. Ista lozinka primjenjuje se na sve navedene adrese pri dodavanju više korisnika."
+
+msgid "Send user invite email"
+msgstr "Pošalji e-poštu s pozivnicom"
+
+msgid "Set a password used to log-in to the application. This must be at least 8 characters long."
+msgstr "Postavite lozinku za prijavu u aplikaciju. Mora imati najmanje 8 znakova."
+
+msgid "Enter password"
+msgstr "Unesite lozinku"
+
+msgid "Re-enter password"
+msgstr "Ponovno unesite lozinku"
+
+msgid "Generate strong password"
+msgstr "Generiraj jaku lozinku"
+
+msgid "Generated password (save this before submitting):"
+msgstr "Generirana lozinka (spremite je prije slanja):"
+
+msgid "Is Client to CRMLeaf"
+msgstr "Je klijent u CRMLeafu"
+
+msgid "Is Agent"
+msgstr "Je agent"
+
+msgid "Assign & Continue"
+msgstr "Dodijeli i nastavi"
+
+msgid "Set Reminder"
+msgstr "Postavi podsjetnik"
+
+msgid "Date & Time"
+msgstr "Datum i vrijeme"
+
+msgid "Enter Message"
+msgstr "Unesite poruku"
+
+msgid "Please check the below project(s) list and Save to add them to this User"
+msgstr "Pregledajte popis projekata u nastavku i spremite ih za dodjelu ovom korisniku"
+
+msgid "Search project"
+msgstr "Pretraži projekt"
+
+msgid "Assign User(s) to"
+msgstr "Dodijeli korisnike na"
+
+msgid "Response goes here"
+msgstr "Odgovor ide ovdje"
+
+msgid "Create New Bookmark"
+msgstr "Stvori novu zabilješku"
+
+msgid "Enter Link"
+msgstr "Unesite poveznicu"
+
+msgid "Create New Status Workflow"
+msgstr "Stvori novi statusni tijek rada"
+
+msgid "Status Workflow Name"
+msgstr "Naziv statusnog tijeka rada"
+
+msgid "Add Change Reason to Task"
+msgstr "Dodaj razlog promjene zadatku"
+
+msgid "Change Reason"
+msgstr "Razlog promjene"
+
+msgid "Update Bookmark"
+msgstr "Ažuriraj zabilješku"
+
+msgid "Edit Label"
+msgstr "Uredi oznaku"
+
+msgid "Specify Label Name"
+msgstr "Unesite naziv oznake"
+
+msgid "Select your profile image"
+msgstr "Odaberite profilnu sliku"
+
+msgid "Drag and set the box on the area you want to crop"
+msgstr "Povucite i postavite okvir na dio koji želite obrezati"
+
+msgid "Confirm"
+msgstr "Potvrdi"
+
+msgid "Update Project Status"
+msgstr "Ažuriraj status projekta"
+
+msgid "Specify project status name"
+msgstr "Unesite naziv statusa projekta"
+
+msgid "Update Project Type"
+msgstr "Ažuriraj vrstu projekta"
+
+msgid "Specify project type name"
+msgstr "Unesite naziv vrste projekta"
+
+msgid "Update Task Type"
+msgstr "Ažuriraj vrstu zadatka"
+
+msgid "Specify task type name"
+msgstr "Unesite naziv vrste zadatka"
+
+msgid "Give a short name for task type"
+msgstr "Unesite kratki naziv za vrstu zadatka"
+
+msgid "New Project Status"
+msgstr "Novi status projekta"
+
+msgid "New Project Type"
+msgstr "Nova vrsta projekta"
+
+msgid "Add Label"
+msgstr "Dodaj oznaku"
+
+msgid "Export Project Details"
+msgstr "Izvezi podatke projekta"
+
+msgid "Project Short Name"
+msgstr "Kratki naziv projekta"
+
+msgid "Project Priority"
+msgstr "Prioritet projekta"
+
+msgid "Project End Date"
+msgstr "Završni datum projekta"
+
+msgid "Project Est. Hrs"
+msgstr "Proc. sati projekta"
+
+msgid "Project Spent Hrs"
+msgstr "Utrošeni sati projekta"
+
+msgid "Number of Tasks"
+msgstr "Broj zadataka"
+
+msgid "Project Last Activity "
+msgstr "Zadnja aktivnost projekta "
+
+msgid "Upcoming due dates of this task"
+msgstr "Nadolazeći rokovi ovog zadatka"
+
+msgid "Stop Recurring"
+msgstr "Zaustavi ponavljanje"
+
+msgid "Remove User(s) from"
+msgstr "Ukloni korisnike iz"
+
+msgid "Search User"
+msgstr "Pretraži korisnika"
+
+msgid "Export Tasks to csv file"
+msgstr "Izvezi zadatke u CSV datoteku"
+
+msgid "Sprint/Task Group"
+msgstr "Sprint/grupa zadataka"
+
+msgid "Parent"
+msgstr "Nadređeni"
+
+msgid "Spent Hour"
+msgstr "Utrošeni sati"
+
+msgid "Epic"
+msgstr "Ep"
+
+msgid "Linked Task"
+msgstr "Povezani zadatak"
+
+msgid "Please select date format"
+msgstr "Odaberite format datuma"
+
+msgid "YYYY/MM/DD"
+msgstr "GGGG/MM/DD"
+
+msgid "YY/MM/DD"
+msgstr "GG/MM/DD"
+
+msgid "DD/MM/YYYY"
+msgstr "DD/MM/GGGG"
+
+msgid "DD/MM/YY"
+msgstr "DD/MM/GG"
+
+msgid "Export Timelog to csv file"
+msgstr "Izvezi evidenciju vremena u CSV datoteku"
+
+msgid "Break(hours)"
+msgstr "Pauza (sati)"
+
+msgid "Export User Details"
+msgstr "Izvezi podatke korisnika"
+
+msgid "Submit Leave"
+msgstr "Pošalji zahtjev za odsustvo"
+
+msgid "Recurrence Pattern"
+msgstr "Uzorak ponavljanja"
+
+msgid "Yearly"
+msgstr "Godišnje"
+
+msgid "Every"
+msgstr "Svaki"
+
+msgid "Every weekday"
+msgstr "Svaki radni dan"
+
+msgid "Recur every"
+msgstr "Ponavljaj svakih"
+
+msgid "Second"
+msgstr "Drugi"
+
+msgid "Third"
+msgstr "Treći"
+
+msgid "Forth"
+msgstr "Četvrti"
+
+msgid "January"
+msgstr "Siječanj"
+
+msgid "February"
+msgstr "Veljača"
+
+msgid "March"
+msgstr "Ožujak"
+
+msgid "April"
+msgstr "Travanj"
+
+msgid "May"
+msgstr "Svibanj"
+
+msgid "June"
+msgstr "Lipanj"
+
+msgid "July"
+msgstr "Srpanj"
+
+msgid "August"
+msgstr "Kolovoz"
+
+msgid "September"
+msgstr "Rujan"
+
+msgid "October"
+msgstr "Listopad"
+
+msgid "November"
+msgstr "Studeni"
+
+msgid "December"
+msgstr "Prosinac"
+
+msgid "Range of Recurrence"
+msgstr "Raspon ponavljanja"
+
+msgid "Starts"
+msgstr "Počinje"
+
+msgid "No end date"
+msgstr "Bez završnog datuma"
+
+msgid "End after"
+msgstr "Završava nakon"
+
+msgid "End by"
+msgstr "Završava do"
+
+msgid "Update the current filter"
+msgstr "Ažuriraj trenutačni filtar"
+
+msgid "Create new filter"
+msgstr "Novi filtar"
+
+msgid "Filter name"
+msgstr "Naziv filtra"
+
+msgid "Please enter a filter name"
+msgstr "Unesite naziv filtra"
+
+msgid "Split the estimation hour of task"
+msgstr "Podijeli procijenjene sate zadatka"
+
+msgid "Failed to load tasks. Please try again."
+msgstr "Učitavanje zadataka nije uspjelo. Pokušajte ponovno."
+
+msgid "Open"
+msgstr "Otvoreno"
+
+msgid "No due date"
+msgstr "Bez roka"
+
+msgid "Are you sure you want to delete this task?"
+msgstr "Sigurno želite izbrisati ovaj zadatak?"
+
+msgid "Unknown"
+msgstr "Nepoznato"
+
+msgid "Reset your password"
+msgstr "Ponovno postavite svoju lozinku"
+
+msgid "Dear"
+msgstr "Dragi"
+
+msgid "Reset password"
+msgstr "Ponovno postavi lozinku"
+
+msgid "This link expires in a short time for your security. If you have trouble, please write to"
+msgstr "Ova poveznica uskoro istječe radi vaše sigurnosti. Ako imate poteškoća, pišite na"
+
+msgid "Reset My Password"
+msgstr "Ponovno postavi moju lozinku"
+
+msgid "Link valid for"
+msgstr "Poveznica vrijedi"
+
+msgid "If the button above doesn't work, you can copy and paste this link into your browser:"
+msgstr "Ako gumb iznad ne radi, kopirajte ovu poveznicu u preglednik:"
+
+msgid "If you did not request this password reset, please ignore this email."
+msgstr "Ako niste zatražili ponovno postavljanje lozinke, zanemarite ovu e-poruku."
+
+msgid "Click the button below to set up your account and start collaborating."
+msgstr "Kliknite gumb u nastavku za postavljanje računa i početak suradnje."
+
+msgid "If you have any questions, please write to"
+msgstr "Ako imate pitanja, pišite na"
+
+msgid "New task"
+msgstr "Novi zadatak"
+
+msgid "New comment on a task"
+msgstr "Novi komentar na zadatku"
+
+msgid "Task closed"
+msgstr "Zadatak zatvoren"
+
+msgid "Task resolved"
+msgstr "Zadatak riješen"
+
+msgid "Task in progress"
+msgstr "Zadatak u tijeku"
+
+msgid "Task started"
+msgstr "Zadatak pokrenut"
+
+msgid "Task assigned"
+msgstr "Zadatak dodijeljen"
+
+msgid "Task update"
+msgstr "Ažuriranje zadatka"
+
+msgid "Just REPLY to this Email the same will be added under the Task"
+msgstr "Samo odgovorite na ovu e-poruku i odgovor će biti dodan uz zadatak"
+
+msgid "Do not remove this original message"
+msgstr "Ne uklanjajte ovu izvornu poruku"
+
+msgid "View task"
+msgstr "Prikaži zadatak"
+
+msgid "This email notification is sent by"
+msgstr "Ovu obavijest e-poštom šalje"
+
+msgid "Don't want these emails?"
+msgstr "Ne želite ove e-poruke?"
+
+msgid "To unsubscribe, please contact your account administrator to turn off Email notification for you in the project level"
+msgstr "Za odjavu se obratite administratoru računa da vam isključi obavijesti e-poštom na razini projekta"
+
+msgid "Open project"
+msgstr "Otvori projekt"
+
+msgid "Go to Projects"
+msgstr "Idi na projekte"
+
+msgid "Added to a project"
+msgstr "Dodano u projekt"
+
+msgid "Added by"
+msgstr "Dodao"
+
+msgid "Your account on"
+msgstr "Vaš račun na"
+
+msgid "has been activated. You can now sign in and start using the platform."
+msgstr "je aktiviran. Sada se možete prijaviti i početi koristiti platformu."
+
+msgid "Account"
+msgstr "Račun"
+
+msgid "Login to Your Account"
+msgstr "Prijavite se na svoj račun"
+
+msgid "If you have any questions or need assistance, please don't hesitate to contact our support team at"
+msgstr "Ako imate pitanja ili vam treba pomoć, slobodno kontaktirajte naš tim podrške na"
+
+msgid "Workflow update"
+msgstr "Ažuriranje tijeka rada"
+
+msgid "Hi"
+msgstr "Bok"
+
+msgid "Thank you for registering with Orangescrum! Your account has been successfully created."
+msgstr "Hvala na registraciji u Orangescrum! Vaš račun je uspješno stvoren."
+
+msgid "Your Company:"
+msgstr "Vaša tvrtka:"
+
+msgid "You can now log in to your account and start managing your projects, tasks, and team collaboration."
+msgstr "Sada se možete prijaviti na svoj račun i početi upravljati projektima, zadacima i suradnjom tima."
+
+msgid "Login to Your Account:"
+msgstr "Prijavite se na svoj račun:"
+
+msgid "Regards"
+msgstr "Srdačan pozdrav"
+
+msgid "Is this a bug?"
+msgstr "Je li ovo greška?"
+
+msgid "Report it on GitHub"
+msgstr "Prijavite na GitHubu"
+
+msgid "No task(s) available"
+msgstr "Nema dostupnih zadataka"
+
+msgid "Name your group"
+msgstr "Nazovite svoju grupu"
+
+msgid "Describe your group"
+msgstr "Opišite svoju grupu"
+
+msgid "Project cannot be left blank"
+msgstr "Projekt ne može ostati prazan"
+
+msgid "Task group name cannot be left blank"
+msgstr "Naziv grupe zadataka ne može ostati prazan"
+
+msgid "Task group name"
+msgstr "Naziv grupe zadataka"
+
+msgid "Start Date cannot be left blank"
+msgstr "Početni datum ne može ostati prazan"
+
+msgid "Start Date cannot exceed End Date"
+msgstr "Početni datum ne može biti nakon završnog"
+
+msgid "No Task Group(s) available"
+msgstr "Nema dostupnih grupa zadataka"
+
+msgid "Move Task"
+msgstr "Premjesti zadatak"
+
+msgid "First open-source release"
+msgstr "Prvo izdanje otvorenog koda"
+
+msgid "Open-source edition: free to install and run, with the full source available."
+msgstr "Izdanje otvorenog koda: besplatno za instalaciju i rad, s dostupnim cijelim izvornim kodom."
+
+msgid "Removed the proprietary plugins (Label Customizer, Two-Factor Auth, Cloud Storage) and the Scrum/Epic/Feature module so the edition ships clean under the AGPL."
+msgstr "Uklonjeni su vlasnički dodaci (Label Customizer, Two-Factor Auth, Cloud Storage) i modul Scrum/Epic/Feature kako bi izdanje bilo čisto pod licencom AGPL."
+
+msgid "Replaced commercially licensed front-end libraries with MIT/OFL equivalents — charts render with Chart.js, the image lightbox uses Magnific Popup, and only open-licensed fonts are bundled."
+msgstr "Komercijalno licencirane front-end biblioteke zamijenjene su ekvivalentima pod MIT/OFL licencom — grafikoni se crtaju s Chart.js, pregled slika koristi Magnific Popup, a uključena su samo otvoreno licencirana slova."
+
+msgid "Bundled third-party licence notices are viewable from the About page."
+msgstr "Licence uključenih proizvođača trećih strana dostupne su na stranici O nama."
+
+msgid "Product updates and release notes for the Orangescrum Open Source Community Edition."
+msgstr "Ažuriranja i napomene o izdanjima za Orangescrum Open Source Community Edition."
+
+msgid "Start Time, End Time and Break Time will be treated as time log for the individual task. This is converted to Hours in the backend."
+msgstr "Početno vrijeme, završno vrijeme i vrijeme pauze tretiraju se kao zapis vremena pojedinog zadatka i pretvaraju se u sate u pozadini."
+
+msgid "Is Billable is treated as whether the Time Log is billable one or not. The input will be either 0 or 1."
+msgstr "Naplativo označava je li zapis vremena naplativ. Unos je 0 ili 1."
+
+msgid "Reminder updated successfully."
+msgstr "Podsjetnik uspješno ažuriran."
+
+msgid "Reminder added successfully."
+msgstr "Podsjetnik uspješno dodan."
+
+msgid "Checklist updated successfully."
+msgstr "Popis provjere uspješno ažuriran."
+
+msgid "Checklist added successfully."
+msgstr "Popis provjere uspješno dodan."
+
+msgid "Task #"
+msgstr "Zadatak #"
+
+msgid "All migrations are up to date."
+msgstr "Sve migracije su ažurne."
+
+msgid "An unexpected error occurred."
+msgstr "Došlo je do neočekivane greške."
+
+msgid "Access denied."
+msgstr "Pristup odbijen."
+
+msgid "Cannot connect to the database server."
+msgstr "Nije moguće povezati se s poslužiteljem baze podataka."
+
+msgid "Connection attempt failed."
+msgstr "Pokušaj povezivanja nije uspio."
+
+msgid "Task assigned successfully."
+msgstr "Zadatak uspješno dodijeljen."
+
+msgid "Please enter customer name."
+msgstr "Unesite naziv kupca."
+
+msgid "Please enter email address."
+msgstr "Unesite adresu e-pošte."
+
+msgid "Please select currency."
+msgstr "Odaberite valutu."
+
+msgid "Added successfully"
+msgstr "Uspješno dodano"
+
+msgid "Approved"
+msgstr "Odobreno"
+
+msgid "- Select Industry -"
+msgstr "- Odaberite djelatnost -"
+
+msgid "- Select program-"
+msgstr "- Odaberite program -"
+
+msgid "- Select Project Manager -"
+msgstr "- Odaberite voditelja projekta -"
+
+msgid "- Select Customer -"
+msgstr "- Odaberite kupca -"
+
+msgid "An error occurred. Please try again."
+msgstr "Došlo je do greške. Pokušajte ponovno."
+
+msgid "Company updated successfully"
+msgstr "Tvrtka uspješno ažurirana"
+
+msgid "All Project Manager"
+msgstr "Svi voditelji projekata"
+
+msgid "Booked Hours"
+msgstr "Evidentirani sati"
+
+msgid "Available"
+msgstr "Dostupno"
+
+msgid "Auth token is invalid!"
+msgstr "Neispravan autorizacijski token!"
+
+msgid " \\n\\nAre you sure you want to continue?"
+msgstr " \\n\\nSigurno želite nastaviti?"
+
+msgid "A task can't be scheduled on a past date."
+msgstr "Zadatak se ne može zakazati na prošli datum."
+
+msgid "API Access Token"
+msgstr "API pristupni token"
+
+msgid "Add Program"
+msgstr "Dodaj program"
+
+msgid "Add another status"
+msgstr "Dodaj još jedan status"
+
+msgid "Add new Users"
+msgstr "Dodaj nove korisnike"
+
+msgid "Added story point"
+msgstr "Dodan bod priče"
+
+msgid "All Program Owner"
+msgstr "Svi vlasnici programa"
+
+msgid "All Project"
+msgstr "Svi projekti"
+
+msgid "All {0} entries are selected."
+msgstr "Odabrano je svih {0} zapisa."
+
+msgid "All {0} entries on this page are selected. {1} more match the filter and are not."
+msgstr "Odabrano je svih {0} zapisa na ovoj stranici. Još {1} odgovara filtru, ali nisu odabrani."
+
+msgid "Allocate"
+msgstr "Dodijeli"
+
+msgid "Allocated Date"
+msgstr "Datum dodjele"
+
+msgid "Already Booked"
+msgstr "Već evidentirano"
+
+msgid "An error occurred during database creation: "
+msgstr "Došlo je do greške pri stvaranju baze podataka: "
+
+msgid "Are you sure you want to delete # {0}?"
+msgstr "Sigurno želite izbrisati # {0}?"
+
+msgid "Billable type successfully changed to billable"
+msgstr "Vrsta naplativosti uspješno promijenjena u naplativo"
+
+msgid "Billable type successfully changed to non-billable"
+msgstr "Vrsta naplativosti uspješno promijenjena u nenaplativo"
+
+msgid "CLOSED"
+msgstr "ZATVORENO"
+
+msgid "Cannot create database."
+msgstr "Nije moguće stvoriti bazu podataka."
+
+msgid "Cannot deactivate this task type. It is set as default in project(s): "
+msgstr "Ovu vrstu zadatka nije moguće deaktivirati. Postavljena je kao zadana u projektima: "
+
+msgid "Cannot deactivate this task type. It is used in {0} task(s)."
+msgstr "Ovu vrstu zadatka nije moguće deaktivirati. Koristi se u {0} zadataka."
+
+msgid "Cannot remove password. You must have Google OAuth enabled first."
+msgstr "Nije moguće ukloniti lozinku. Najprije morate omogućiti Google OAuth."
+
+msgid "Changed task title to"
+msgstr "Naslov zadatka promijenjen u"
+
+msgid "Changed the status of this Task"
+msgstr "Promijenjen status ovog zadatka"
+
+msgid "Check your host, port, username, and password settings."
+msgstr "Provjerite postavke hosta, porta, korisničkog imena i lozinke."
+
+msgid "Choose Options"
+msgstr "Odaberite opcije"
+
+msgid "Choose a default task type"
+msgstr "Odaberite zadanu vrstu zadatka"
+
+msgid "Cost report cannot be generated."
+msgstr "Izvješće o troškovima nije moguće generirati."
+
+msgid "Could not erase the existing database."
+msgstr "Postojeću bazu podataka nije bilo moguće obrisati."
+
+msgid "Could not mark migration: "
+msgstr "Migraciju nije bilo moguće označiti: "
+
+msgid "Create New project"
+msgstr "Stvori novi projekt"
+
+msgid "Creating a status workflow is not available in this edition."
+msgstr "Stvaranje statusnog tijeka rada nije dostupno u ovom izdanju."
+
+msgid "Creating database tables for fresh installation..."
+msgstr "Stvaranje tablica baze podataka za novu instalaciju..."
+
+msgid "Critical Path"
+msgstr "Kritični put"
+
+msgid "Cust Currency"
+msgstr "Valuta kupca"
+
+msgid "Customer code already exist. Please enter another code"
+msgstr "Kod kupca već postoji. Unesite drugi kod"
+
+msgid "DELETED"
+msgstr "IZBRISANO"
+
+msgid "Daily Catch-Up has been cancelled successfully."
+msgstr "Dnevni pregled uspješno otkazan."
+
+msgid "Daily Catch-Up has been saved successfully."
+msgstr "Dnevni pregled uspješno spremljen."
+
+msgid "Database configuration saved successfully."
+msgstr "Konfiguracija baze podataka uspješno spremljena."
+
+msgid "Database connection successful."
+msgstr "Veza s bazom podataka uspješna."
+
+msgid "Database created successfully."
+msgstr "Baza podataka uspješno stvorena."
+
+msgid "Database driver not found."
+msgstr "Upravljački program baze podataka nije pronađen."
+
+msgid "Database tables created successfully."
+msgstr "Tablice baze podataka uspješno stvorene."
+
+msgid "Database upgraded successfully."
+msgstr "Baza podataka uspješno nadograđena."
+
+msgid "Default Views cannot be set."
+msgstr "Zadani prikazi nije moguće postaviti."
+
+msgid "Default Views set successfully."
+msgstr "Zadani prikazi uspješno postavljeni."
+
+msgid "Default Workflow"
+msgstr "Zadani tijek rada"
+
+msgid "Description added successfully."
+msgstr "Opis uspješno dodan."
+
+msgid "Disabled GENERATED ALWAYS constraints."
+msgstr "Onemogućena GENERATED ALWAYS ograničenja."
+
+msgid "Due Date changed to"
+msgstr "Rok promijenjen u"
+
+msgid "Due date can't less then start date."
+msgstr "Rok ne može biti prije početnog datuma."
+
+msgid "Due date on"
+msgstr "Rok dana"
+
+msgid "Duplicate workflow name found!"
+msgstr "Pronađen dvostruki naziv tijeka rada!"
+
+msgid "Email Templates"
+msgstr "Predlošci e-pošte"
+
+msgid "Email already exist. Please enter another email"
+msgstr "E-pošta već postoji. Unesite drugu adresu"
+
+msgid "Email cannot be left blank"
+msgstr "E-pošta ne može ostati prazna"
+
+msgid "Email configuration is restricted to administrators."
+msgstr "Konfiguracija e-pošte dopuštena je samo administratorima."
+
+msgid "Email server is not reachable. Please contact your administrator."
+msgstr "Poslužitelj e-pošte nije dostupan. Obratite se administratoru."
+
+msgid "Epic Tree View"
+msgstr "Prikaz stabla epova"
+
+msgid "Epics"
+msgstr "Epovi"
+
+msgid "Error in addition of project status"
+msgstr "Greška pri dodavanju statusa projekta"
+
+msgid "Error in addition of project type."
+msgstr "Greška pri dodavanju vrste projekta."
+
+msgid "Error in addition of task type."
+msgstr "Greška pri dodavanju vrste zadatka."
+
+msgid "Error in addition of your reason"
+msgstr "Greška pri dodavanju razloga"
+
+msgid "Error in saving of Labels."
+msgstr "Greška pri spremanju oznaka."
+
+msgid "Error in saving of task type."
+msgstr "Greška pri spremanju vrste zadatka."
+
+msgid "Estimated Hour(s) changed to"
+msgstr "Procijenjeni sati promijenjeni u"
+
+msgid "Existing schema erased for clean reinstall."
+msgstr "Postojeća shema obrisana za čistu ponovnu instalaciju."
+
+msgid "Failed to add checklist. Please try again."
+msgstr "Dodavanje popisa provjere nije uspjelo. Pokušajte ponovno."
+
+msgid "Failed to add reminder. Please try again."
+msgstr "Dodavanje podsjetnika nije uspjelo. Pokušajte ponovno."
+
+msgid "Failed to cancel Daily Catch-Up."
+msgstr "Otkazivanje dnevnog pregleda nije uspjelo."
+
+msgid "Failed to connect to the database server."
+msgstr "Povezivanje s poslužiteljem baze podataka nije uspjelo."
+
+msgid "Failed to create SMTP configuration file: "
+msgstr "Stvaranje SMTP konfiguracijske datoteke nije uspjelo: "
+
+msgid "Failed to create custom statuses"
+msgstr "Stvaranje prilagođenih statusa nije uspjelo"
+
+msgid "Failed to create database tables: "
+msgstr "Stvaranje tablica baze podataka nije uspjelo: "
+
+msgid "Failed to create database."
+msgstr "Stvaranje baze podataka nije uspjelo."
+
+msgid "Failed to disable primary key constraints: "
+msgstr "Onemogućavanje ograničenja primarnog ključa nije uspjelo: "
+
+msgid "Failed to erase existing schema: "
+msgstr "Brisanje postojeće sheme nije uspjelo: "
+
+msgid "Failed to fix primary key sequences: "
+msgstr "Ispravljanje sekvenci primarnog ključa nije uspjelo: "
+
+msgid "Failed to get Database information: "
+msgstr "Dohvaćanje podataka o bazi nije uspjelo: "
+
+msgid "Failed to import stored procedures: "
+msgstr "Uvoz pohranjenih procedura nije uspio: "
+
+msgid "Failed to insert initial data: "
+msgstr "Umetanje početnih podataka nije uspjelo: "
+
+msgid "Failed to re-enable primary key constraints: "
+msgstr "Ponovno omogućavanje ograničenja primarnog ključa nije uspjelo: "
+
+msgid "Failed to remove password. Please try again."
+msgstr "Uklanjanje lozinke nije uspjelo. Pokušajte ponovno."
+
+msgid "Failed to run upgrade migrations: "
+msgstr "Pokretanje migracija nadogradnje nije uspjelo: "
+
+msgid "Failed to save of Daily Catch-Up."
+msgstr "Spremanje dnevnog pregleda nije uspjelo."
+
+msgid "Failed to save password."
+msgstr "Spremanje lozinke nije uspjelo."
+
+msgid "Failed to save project status"
+msgstr "Spremanje statusa projekta nije uspjelo"
+
+msgid "Failed to save project type."
+msgstr "Spremanje vrste projekta nije uspjelo."
+
+msgid "Failed to save reason"
+msgstr "Spremanje razloga nije uspjelo"
+
+msgid "Failed to update app_local.php file."
+msgstr "Ažuriranje datoteke app_local.php nije uspjelo."
+
+msgid "Failed to update checklist. Please try again."
+msgstr "Ažuriranje popisa provjere nije uspjelo. Pokušajte ponovno."
+
+msgid "Failed to update notifications"
+msgstr "Ažuriranje obavijesti nije uspjelo"
+
+msgid "Failed to update record."
+msgstr "Ažuriranje zapisa nije uspjelo."
+
+msgid "Failed to update reminder. Please try again."
+msgstr "Ažuriranje podsjetnika nije uspjelo. Pokušajte ponovno."
+
+msgid "Failed to update task record."
+msgstr "Ažuriranje zapisa zadatka nije uspjelo."
+
+msgid "Filter can not delete. Please try again later"
+msgstr "Filtar nije moguće izbrisati. Pokušajte ponovno kasnije"
+
+msgid "Filter can not update. Please try again later"
+msgstr "Filtar nije moguće ažurirati. Pokušajte ponovno kasnije"
+
+msgid "Filter deleted successfully"
+msgstr "Filtar uspješno izbrisan"
+
+msgid "Filter name already exists."
+msgstr "Naziv filtra već postoji."
+
+msgid "Filter saved successfully."
+msgstr "Filtar uspješno spremljen."
+
+msgid "Filter updated successfully"
+msgstr "Filtar uspješno ažuriran"
+
+msgid "Filter updated successfully."
+msgstr "Filtar uspješno ažuriran."
+
+msgid "Fixing primary key sequences..."
+msgstr "Ispravljanje sekvenci primarnog ključa..."
+
+msgid "Generate Access Token"
+msgstr "Generiraj pristupni token"
+
+msgid "Give the view a name of up to {0} characters."
+msgstr "Nazovite prikaz s najviše {0} znakova."
+
+msgid "Granted admin privilege"
+msgstr "Dodijeljena administratorska prava"
+
+msgid "Granted client privilege"
+msgstr "Dodijeljena klijentska prava"
+
+msgid "Great! The database exists and is ready for installation."
+msgstr "Odlično! Baza podataka postoji i spremna je za instalaciju."
+
+msgid "Group By"
+msgstr "Grupiraj po"
+
+msgid "Holidays"
+msgstr "Praznici"
+
+msgid "If an account exists with this email address, we"
+msgstr "Ako račun s ovom adresom e-pošte postoji, poslat ćemo"
+
+msgid "Image Not existed"
+msgstr "Slika ne postoji"
+
+msgid "In-Review"
+msgstr "U pregledu"
+
+msgid "Incorrect password."
+msgstr "Neispravna lozinka."
+
+msgid "Initial data inserted successfully."
+msgstr "Početni podaci uspješno umetnuti."
+
+msgid "Installation"
+msgstr "Instalacija"
+
+msgid "Installation completed successfully."
+msgstr "Instalacija uspješno dovršena."
+
+msgid "Installation failed. Please try again."
+msgstr "Instalacija nije uspjela. Pokušajte ponovno."
+
+msgid "Installing may overwrite existing data."
+msgstr "Instalacija može prepisati postojeće podatke."
+
+msgid "Invalid Case id"
+msgstr "Neispravan ID zadatka"
+
+msgid "Invalid Sprint."
+msgstr "Neispravan sprint."
+
+msgid "Invalid checklist."
+msgstr "Neispravan popis provjere."
+
+msgid "Invalid company name"
+msgstr "Neispravan naziv tvrtke"
+
+msgid "Invalid input"
+msgstr "Neispravan unos"
+
+msgid "Invalid invitation link."
+msgstr "Neispravna poveznica pozivnice."
+
+msgid "Invalid invitation token."
+msgstr "Neispravan token pozivnice."
+
+msgid "Invalid operation is not allowed."
+msgstr "Neispravna radnja nije dopuštena."
+
+msgid "Invalid or expired invitation link."
+msgstr "Neispravna ili istekla poveznica pozivnice."
+
+msgid "Invalid parameter supplied."
+msgstr "Predan je neispravan parametar."
+
+msgid "Invalid parameters supplied."
+msgstr "Predani su neispravni parametri."
+
+msgid "Invalid password."
+msgstr "Neispravna lozinka."
+
+msgid "Invalid reminder."
+msgstr "Neispravan podsjetnik."
+
+msgid "Invalid status. Please try once again."
+msgstr "Neispravan status. Pokušajte ponovno."
+
+msgid "Invalid user."
+msgstr "Neispravan korisnik."
+
+msgid "Invitation Failed. Please try again!"
+msgstr "Pozivnica nije poslana. Pokušajte ponovno!"
+
+msgid "Invitation accepted! Please log in to continue."
+msgstr "Pozivnica prihvaćena! Prijavite se za nastavak."
+
+msgid "Labels saved successfully."
+msgstr "Oznake uspješno spremljene."
+
+msgid "Last Activity Date"
+msgstr "Datum zadnje aktivnosti"
+
+msgid "Late"
+msgstr "Kasni"
+
+msgid "Linked Tasks"
+msgstr "Povezani zadaci"
+
+msgid "Load More Task"
+msgstr "Učitaj još zadataka"
+
+msgid "Marked as migrated: "
+msgstr "Označeno kao migrirano: "
+
+msgid "Marking existing V2 migrations as complete..."
+msgstr "Označavanje postojećih V2 migracija kao dovršenih..."
+
+msgid "Migration failed: "
+msgstr "Migracija nije uspjela: "
+
+msgid "Milestone not found."
+msgstr "Miljokaz nije pronađen."
+
+msgid "Month"
+msgstr "Mjesec"
+
+msgid "NEW"
+msgstr "NOVO"
+
+msgid "Name cannot be left blank"
+msgstr "Naziv ne može ostati prazan"
+
+msgid "Need to use Orangescrum without these obligations, or want the Enterprise edition? {0} is available from {1}."
+msgstr "Trebate Orangescrum bez ovih obveza ili želite Enterprise izdanje? {0} je dostupno od {1}."
+
+msgid "New migrations completed successfully."
+msgstr "Nove migracije uspješno dovršene."
+
+msgid "New password cannot be left blank!"
+msgstr "Nova lozinka ne može ostati prazna!"
+
+msgid "No Features found"
+msgstr "Nema pronađenih značajki"
+
+msgid "No High Priority Task have been created"
+msgstr "Nije stvoren nijedan zadatak visokog prioriteta"
+
+msgid "No Overdue Task"
+msgstr "Nema zakašnjelih zadataka"
+
+msgid "No Stories found"
+msgstr "Nema pronađenih priča"
+
+msgid "No Sub-Tasks found"
+msgstr "Nema pronađenih podzadataka"
+
+msgid "No Task Group found."
+msgstr "Grupa zadataka nije pronađena."
+
+msgid "No Task Status found."
+msgstr "Status zadatka nije pronađen."
+
+msgid "No Task delegeted"
+msgstr "Nema delegiranih zadataka"
+
+msgid "No Task favourite"
+msgstr "Nema omiljenih zadataka"
+
+msgid "No Task for me"
+msgstr "Nema zadataka za mene"
+
+msgid "No Task found with the selected id"
+msgstr "Zadatak s odabranim ID-om nije pronađen"
+
+msgid "No Task has been created."
+msgstr "Nije stvoren nijedan zadatak."
+
+msgid "No files found"
+msgstr "Nema pronađenih datoteka"
+
+msgid "No files have been archived yet."
+msgstr "Još nema arhiviranih datoteka."
+
+msgid "No files have been shared or uploaded."
+msgstr "Nema podijeljenih ni učitanih datoteka."
+
+msgid "No matched record found with this id"
+msgstr "Nema zapisa s ovim ID-om"
+
+msgid "No parent present or parent has limited access."
+msgstr "Nadređeni ne postoji ili ima ograničen pristup."
+
+msgid "No project was specified."
+msgstr "Projekt nije naveden."
+
+msgid "No projects have a budget."
+msgstr "Nijedan projekt nema proračun."
+
+msgid "No task activities."
+msgstr "Nema aktivnosti zadatka."
+
+msgid "No task found."
+msgstr "Zadatak nije pronađen."
+
+msgid "No task group."
+msgstr "Nema grupe zadataka."
+
+msgid "No task selected."
+msgstr "Nije odabran zadatak."
+
+msgid "No tasks have been archived yet."
+msgstr "Još nema arhiviranih zadataka."
+
+msgid "No user selected, please select at least one user."
+msgstr "Nije odabran nijedan korisnik; odaberite barem jednog."
+
+msgid "Not Assigned"
+msgstr "Nedodijeljeno"
+
+msgid "Not able to save in database"
+msgstr "Nije moguće spremiti u bazu podataka"
+
+msgid "Not allowed to add timelog more than task estimated hours."
+msgstr "Nije dopušteno bilježenje više sati od procijenjenih za zadatak."
+
+msgid "Not authenticated."
+msgstr "Niste autentificirani."
+
+msgid "Note cannot be blank."
+msgstr "Napomena ne može biti prazna."
+
+msgid "Note deleted successfully."
+msgstr "Napomena uspješno izbrisana."
+
+msgid "Note posted successfully."
+msgstr "Napomena uspješno objavljena."
+
+msgid "Nothing to restore."
+msgstr "Nema što vratiti."
+
+msgid "Notifications changed successfully"
+msgstr "Obavijesti uspješno promijenjene"
+
+msgid "Old password cannot be left blank!"
+msgstr "Stara lozinka ne može ostati prazna!"
+
+msgid "Old password do not match"
+msgstr "Stara lozinka se ne podudara"
+
+msgid "On Leave"
+msgstr "Na odsustvu"
+
+msgid "Oops!"
+msgstr "Ups!"
+
+msgid "Oops! Email address already exists."
+msgstr "Ups! Adresa e-pošte već postoji."
+
+msgid "Oops! Error occured in restoration of Task Group"
+msgstr "Ups! Došlo je do greške pri vraćanju grupe zadataka"
+
+msgid "Oops! Error occurred in completion of Task Group"
+msgstr "Ups! Došlo je do greške pri dovršavanju grupe zadataka"
+
+msgid "Oops! Error occurred in importing task"
+msgstr "Ups! Došlo je do greške pri uvozu zadataka"
+
+msgid "Oops! Invalid file format! The formats supported are gif, jpg, jpeg & png."
+msgstr "Ups! Neispravan format datoteke! Podržani formati su gif, jpg, jpeg i png."
+
+msgid "Oops! No project found with the given id."
+msgstr "Ups! Projekt s tim ID-om nije pronađen."
+
+msgid "Oops! Project could not deleted."
+msgstr "Ups! Projekt nije bilo moguće izbrisati."
+
+msgid "Oops! Some thing went wrong"
+msgstr "Ups! Nešto je pošlo po zlu"
+
+msgid "Oops! Something went wrong"
+msgstr "Ups! Nešto je pošlo po zlu"
+
+msgid "Oops! Something went wrong.."
+msgstr "Ups! Nešto je pošlo po zlu.."
+
+msgid "Oops! Sprint / Task Group Title already exists"
+msgstr "Ups! Naslov sprinta / grupe zadataka već postoji"
+
+msgid "Oops! Sprint Title already exists"
+msgstr "Ups! Naslov sprinta već postoji"
+
+msgid "Oops! Status "
+msgstr "Ups! Status "
+
+msgid "Oops! Task Group Title already exists"
+msgstr "Ups! Naslov grupe zadataka već postoji"
+
+msgid "Oops! Workflow"
+msgstr "Ups! Tijek rada"
+
+msgid "Oops! can add more than one close mapping status in a workflow"
+msgstr "Ups! U tijeku rada može se dodati samo jedan status zatvaranja"
+
+msgid "Oops! can not update progress percentage to close mapping status in this workflow"
+msgstr "Ups! Nije moguće ažurirati postotak napretka za status zatvaranja u ovom tijeku rada"
+
+msgid "Oops! something went worng."
+msgstr "Ups! Nešto je pošlo po zlu."
+
+msgid "Opened"
+msgstr "Otvoreno"
+
+msgid "Overload hours"
+msgstr "Sati preopterećenja"
+
+msgid "Page {0} of {1}"
+msgstr "Stranica {0} od {1}"
+
+msgid "Password Has been Updated. Use your email and password to login."
+msgstr "Lozinka je ažurirana. Prijavite se svojom e-poštom i lozinkom."
+
+msgid "Password changed successfully."
+msgstr "Lozinka uspješno promijenjena."
+
+msgid "Password confirmation is required."
+msgstr "Potvrda lozinke je obavezna."
+
+msgid "Password is required."
+msgstr "Lozinka je obavezna."
+
+msgid "Password must be at least {0} characters long."
+msgstr "Lozinka mora sadržavati najmanje {0} znakova."
+
+msgid "Password must be between 6-15 characters."
+msgstr "Lozinka mora imati između 6 i 15 znakova."
+
+msgid "Password removed successfully. You can now only login using Google OAuth."
+msgstr "Lozinka uspješno uklonjena. Od sada se možete prijavljivati samo putem Google OAuth-a."
+
+msgid "Password reset token corrupted, Please retry."
+msgstr "Token za ponovno postavljanje lozinke je oštećen. Pokušajte ponovno."
+
+msgid "Password set successfully. You can now use it to login."
+msgstr "Lozinka uspješno postavljena. Sada je možete koristiti za prijavu."
+
+msgid "Permission denied"
+msgstr "Pristup odbijen"
+
+msgid "Planned Vs Actual"
+msgstr "Planirano prema stvarnom"
+
+msgid "Please check if the database exists and the name is correct."
+msgstr "Provjerite postoji li baza podataka i je li naziv ispravan."
+
+msgid "Please check your database configuration and settings."
+msgstr "Provjerite konfiguraciju i postavke baze podataka."
+
+msgid "Please check your email!"
+msgstr "Provjerite svoju e-poštu!"
+
+msgid "Please check your host and port settings."
+msgstr "Provjerite postavke hosta i porta."
+
+msgid "Please check your host settings and ensure the server address is correct."
+msgstr "Provjerite postavke hosta i ispravnost adrese poslužitelja."
+
+msgid "Please check your mail to reset your password"
+msgstr "Provjerite svoju e-poštu za ponovno postavljanje lozinke"
+
+msgid "Please check your username and password."
+msgstr "Provjerite svoje korisničko ime i lozinku."
+
+msgid "Please choose a different name for your database."
+msgstr "Odaberite drugi naziv za svoju bazu podataka."
+
+msgid "Please contact your account owner."
+msgstr "Obratite se vlasniku svog računa."
+
+msgid "Please contact your administrator to request access for time logging."
+msgstr "Obratite se administratoru za pristup bilježenju vremena."
+
+msgid "Please contact your database administrator for assistance."
+msgstr "Obratite se svom administratoru baze podataka za pomoć."
+
+msgid "Please ensure the database user can drop the public schema, then try again."
+msgstr "Provjerite može li korisnik baze podataka obrisati javnu shemu, pa pokušajte ponovno."
+
+msgid "Please free up space and try again."
+msgstr "Oslobodite prostor i pokušajte ponovno."
+
+msgid "Please proceed with caution."
+msgstr "Nastavite s oprezom."
+
+msgid "Please provide at least one email address."
+msgstr "Navedite barem jednu adresu e-pošte."
+
+msgid "Please select a time log to change the billable type"
+msgstr "Odaberite zapis vremena za promjenu vrste naplativosti"
+
+msgid "Please select start and end time"
+msgstr "Odaberite početno i završno vrijeme"
+
+msgid "Please try again later or check your network settings."
+msgstr "Pokušajte ponovno kasnije ili provjerite mrežne postavke."
+
+msgid "Please try again or check your configuration."
+msgstr "Pokušajte ponovno ili provjerite konfiguraciju."
+
+msgid "Please try again or check your server status."
+msgstr "Pokušajte ponovno ili provjerite stanje poslužitelja."
+
+msgid "Please try once again."
+msgstr "Pokušajte još jednom."
+
+msgid "Please verify and upload again."
+msgstr "Provjerite i učitajte ponovno."
+
+msgid "Please verify your database configuration and ensure the required driver is installed."
+msgstr "Provjerite konfiguraciju baze podataka i je li potreban upravljački program instaliran."
+
+msgid "Please verify your database configuration."
+msgstr "Provjerite konfiguraciju baze podataka."
+
+msgid "Please, try again."
+msgstr "Molimo, pokušajte ponovno."
+
+msgid "Plugin migration skipped: "
+msgstr "Migracija dodataka preskočena: "
+
+msgid "Plugin migrations completed: "
+msgstr "Migracije dodataka dovršene: "
+
+msgid "Plugin seed skipped: "
+msgstr "Početni podaci dodataka preskočeni: "
+
+msgid "Plugin seeds completed: "
+msgstr "Početni podaci dodataka dovršeni: "
+
+msgid "Plugin upgrade migration skipped: "
+msgstr "Migracija nadogradnje dodataka preskočena: "
+
+msgid "Plugin upgrade migrations completed: "
+msgstr "Migracije nadogradnje dodataka dovršene: "
+
+msgid "Preparing database for seed data insertion..."
+msgstr "Priprema baze podataka za unos početnih podataka..."
+
+msgid "Primary key constraints disabled successfully."
+msgstr "Ograničenja primarnog ključa uspješno onemogućena."
+
+msgid "Primary key constraints re-enabled and sequences fixed successfully."
+msgstr "Ograničenja primarnog ključa ponovno omogućena, a sekvence ispravljene."
+
+msgid "Priority changed to"
+msgstr "Prioritet promijenjen u"
+
+msgid "Profile photo removed successfully"
+msgstr "Profilna fotografija uspješno uklonjena"
+
+msgid "Profile photo size cannot excceed 1mb"
+msgstr "Veličina profilne fotografije ne može premašiti 1 MB"
+
+msgid "Profile updated successfully"
+msgstr "Profil uspješno ažuriran"
+
+msgid "Profile updated successfully. Sign in with {0} from now on."
+msgstr "Profil uspješno ažuriran. Od sada se prijavljujete putem {0}."
+
+msgid "Progress %"
+msgstr "Napredak %"
+
+msgid "Proirity to"
+msgstr "Prioritet u"
+
+msgid "Project Budget"
+msgstr "Proračun projekta"
+
+msgid "Project Estimated Hours"
+msgstr "Procijenjeni sati projekta"
+
+msgid "Project Spent Hours"
+msgstr "Utrošeni sati projekta"
+
+msgid "Project Template"
+msgstr "Predložak projekta"
+
+msgid "Project Workflow"
+msgstr "Tijek rada projekta"
+
+msgid "Project could not updated"
+msgstr "Projekt nije bilo moguće ažurirati"
+
+msgid "Project couldn't saved"
+msgstr "Projekt nije bilo moguće spremiti"
+
+msgid "Project created successfully."
+msgstr "Projekt uspješno stvoren."
+
+msgid "Project deleted successfully"
+msgstr "Projekt uspješno izbrisan"
+
+msgid "Project note added on"
+msgstr "Napomena projekta dodana"
+
+msgid "Project note updated on"
+msgstr "Napomena projekta ažurirana"
+
+msgid "Quarter"
+msgstr "Kvartal"
+
+msgid "REPLIED"
+msgstr "ODGOVORENO"
+
+msgid "RESOLVED"
+msgstr "RIJEŠENO"
+
+msgid "Re-generate Access Token"
+msgstr "Ponovno generiraj pristupni token"
+
+msgid "Re-type password cannot be left blank!"
+msgstr "Ponovljena lozinka ne može ostati prazna!"
+
+msgid "Re-type password do not match!"
+msgstr "Ponovljene lozinke se ne podudaraju!"
+
+msgid "Rejected"
+msgstr "Odbijeno"
+
+msgid "Removed a file"
+msgstr "Uklonjena datoteka"
+
+msgid "Removed a file from this Task"
+msgstr "Uklonjena datoteka iz ovog zadatka"
+
+msgid "Removed a file from this task"
+msgstr "Uklonjena datoteka iz ovog zadatka"
+
+msgid "Removed as favorite task"
+msgstr "Uklonjeno iz omiljenih zadataka"
+
+msgid "Removed favorite task"
+msgstr "Uklonjen omiljeni zadatak"
+
+msgid "Reports changed successfully"
+msgstr "Izvješća uspješno promijenjena"
+
+msgid "Reset all primary key sequences to correct values."
+msgstr "Sve sekvence primarnog ključa vraćene na ispravne vrijednosti."
+
+msgid "Revoked admin privilege"
+msgstr "Oduzeta administratorska prava"
+
+msgid "Revoked client privilege"
+msgstr "Oduzeta klijentska prava"
+
+msgid "Role updated"
+msgstr "Uloga ažurirana"
+
+msgid "Running V2 to V3 upgrade migrations..."
+msgstr "Pokretanje migracija nadogradnje s V2 na V3..."
+
+msgid "Running migration: "
+msgstr "Pokretanje migracije: "
+
+msgid "SMTP configuration file created successfully."
+msgstr "SMTP konfiguracijska datoteka uspješno stvorena."
+
+msgid "STARTED"
+msgstr "ZAPOČETO"
+
+msgid "Saved views are unavailable right now. Please try again later."
+msgstr "Spremljeni prikazi trenutačno nisu dostupni. Pokušajte ponovno kasnije."
+
+msgid "Schedule it"
+msgstr "Zakaži"
+
+msgid "Select Customer"
+msgstr "Odaberite kupca"
+
+msgid "Select Industry"
+msgstr "Odaberite djelatnost"
+
+msgid "Select Program"
+msgstr "Odaberite program"
+
+msgid "Select Project Manager"
+msgstr "Odaberite voditelja projekta"
+
+msgid "Select Status"
+msgstr "Odaberite status"
+
+msgid "Select Type"
+msgstr "Odaberite vrstu"
+
+msgid "Select the {0} entries on this page"
+msgstr "Odaberite {0} zapisa na ovoj stranici"
+
+msgid "Selected task is not a sub task"
+msgstr "Odabrani zadatak nije podzadatak"
+
+msgid "Set as favorite task"
+msgstr "Dodaj u omiljene zadatke"
+
+msgid "Set favorite task"
+msgstr "Dodaj u omiljene zadatke"
+
+msgid "Setting updated successfully."
+msgstr "Postavka uspješno ažurirana."
+
+msgid "Showing {0}–{1} of {2}"
+msgstr "Prikazano {0}–{1} od {2}"
+
+msgid "Some inputs can not be left empty"
+msgstr "Neka polja ne mogu ostati prazna"
+
+msgid "Something went wrong"
+msgstr "Nešto je pošlo po zlu"
+
+msgid "Sorry! File downloading is not allowed."
+msgstr "Isprike! Preuzimanje datoteka nije dopušteno."
+
+msgid "Sorry! We are not able to post this Sprint. Try again."
+msgstr "Isprike! Nije moguće objaviti ovaj sprint. Pokušajte ponovno."
+
+msgid "Sorry! We are not able to post this Task Group. Try again."
+msgstr "Isprike! Nije moguće objaviti ovu grupu zadataka. Pokušajte ponovno."
+
+msgid "Sorry! We are not able to post this {0}. Try again."
+msgstr "Isprike! Nije moguće objaviti {0}. Pokušajte ponovno."
+
+msgid "Sorry! You do not have active project. Please create a project."
+msgstr "Isprike! Nemate aktivan projekt. Stvorite projekt."
+
+msgid "Sorry! You do not have permission to access this page."
+msgstr "Isprike! Nemate ovlasti za pristup ovoj stranici."
+
+msgid "Sorry, Project information not available."
+msgstr "Isprike, podaci o projektu nisu dostupni."
+
+msgid "Sorry, {0} already imported"
+msgstr "Isprike, {0} je već uvezeno"
+
+msgid "Specify Customer"
+msgstr "Unesite kupca"
+
+msgid "Specify client"
+msgstr "Unesite klijenta"
+
+msgid "Specify customer"
+msgstr "Unesite kupca"
+
+msgid "Sprint added successfully."
+msgstr "Sprint uspješno dodan."
+
+msgid "Sprint updated successfully."
+msgstr "Sprint uspješno ažuriran."
+
+msgid "Sprint/TaskGroup"
+msgstr "Sprint/grupa zadataka"
+
+msgid "Start date cannot exceed End date"
+msgstr "Početni datum ne može biti nakon završnog"
+
+msgid "Starting upgrade process..."
+msgstr "Pokretanje postupka nadogradnje..."
+
+msgid "Status added successfully"
+msgstr "Status uspješno dodan"
+
+msgid "Status can not be deleted, because it is associated with a task."
+msgstr "Status nije moguće izbrisati jer je povezan sa zadatkom."
+
+msgid "Status changed"
+msgstr "Status promijenjen"
+
+msgid "Status deleted successfully."
+msgstr "Status uspješno izbrisan."
+
+msgid "Stored procedures imported successfully."
+msgstr "Pohranjene procedure uspješno uvezene."
+
+msgid "Sub task converted to task successfully"
+msgstr "Podzadatak uspješno pretvoren u zadatak"
+
+msgid "System Requirements"
+msgstr "Sistemski zahtjevi"
+
+msgid "Task Group added successfully."
+msgstr "Grupa zadataka uspješno dodana."
+
+msgid "Task Group has been completed."
+msgstr "Grupa zadataka je dovršena."
+
+msgid "Task Group has been restored."
+msgstr "Grupa zadataka je vraćena."
+
+msgid "Task Group successfully converted to task."
+msgstr "Grupa zadataka uspješno pretvorena u zadatak."
+
+msgid "Task Group updated successfully."
+msgstr "Grupa zadataka uspješno ažurirana."
+
+msgid "Task List"
+msgstr "Popis zadataka"
+
+msgid "Task Progress changed to"
+msgstr "Napredak zadatka promijenjen u"
+
+msgid "Task Status Name"
+msgstr "Naziv statusa zadatka"
+
+msgid "Task Type changed to"
+msgstr "Vrsta zadatka promijenjena u"
+
+msgid "Task details not found."
+msgstr "Detalji zadatka nisu pronađeni."
+
+msgid "Task not found"
+msgstr "Zadatak nije pronađen"
+
+msgid "Task not found."
+msgstr "Zadatak nije pronađen."
+
+msgid "Task successfully posted."
+msgstr "Zadatak uspješno objavljen."
+
+msgid "Task type saved successfully."
+msgstr "Vrsta zadatka uspješno spremljena."
+
+msgid "Task type to"
+msgstr "Vrsta zadatka u"
+
+msgid "Tasks assigned successfully"
+msgstr "Zadaci uspješno dodijeljeni"
+
+msgid "Tasks not found!"
+msgstr "Zadaci nisu pronađeni!"
+
+msgid "Tasks unassigned"
+msgstr "Zadaci nedodijeljeni"
+
+msgid "That project could not be found."
+msgstr "Taj projekt nije bilo moguće pronaći."
+
+msgid "That view could not be deleted."
+msgstr "Taj prikaz nije bilo moguće izbrisati."
+
+msgid "That view could not be renamed."
+msgstr "Taj prikaz nije bilo moguće preimenovati."
+
+msgid "That view could not be saved."
+msgstr "Taj prikaz nije bilo moguće spremiti."
+
+msgid "That view no longer exists."
+msgstr "Taj prikaz više ne postoji."
+
+msgid "The company type could not be deleted."
+msgstr "Vrstu tvrtke nije bilo moguće izbrisati."
+
+msgid "The company type could not be saved."
+msgstr "Vrstu tvrtke nije bilo moguće spremiti."
+
+msgid "The company type has been deleted."
+msgstr "Vrsta tvrtke je izbrisana."
+
+msgid "The company type has been saved."
+msgstr "Vrsta tvrtke je spremljena."
+
+msgid "The database already contains tables."
+msgstr "Baza podataka već sadrži tablice."
+
+msgid "The database already exists."
+msgstr "Baza podataka već postoji."
+
+msgid "The database server connection was lost."
+msgstr "Veza s poslužiteljem baze podataka je izgubljena."
+
+msgid "The database server is not responding."
+msgstr "Poslužitelj baze podataka ne odgovara."
+
+msgid "The reset link works only once."
+msgstr "Poveznica za ponovno postavljanje radi samo jednom."
+
+msgid "The role has been updated."
+msgstr "Uloga je ažurirana."
+
+msgid "The server is out of disk space."
+msgstr "Poslužitelju je ponestalo prostora na disku."
+
+msgid "The server may not be running or is unreachable."
+msgstr "Poslužitelj možda ne radi ili nije dostupan."
+
+msgid "Theme settings could not be saved."
+msgstr "Postavke teme nije bilo moguće spremiti."
+
+msgid "Theme settings have been saved."
+msgstr "Postavke teme su spremljene."
+
+msgid "This sprint can not be started."
+msgstr "Ovaj sprint nije moguće pokrenuti."
+
+msgid "This task is due on {0}; schedule it on or before its due date."
+msgstr "Rok ovog zadatka je {0}; zakažite ga na taj datum ili prije."
+
+msgid "Those tasks are not archived."
+msgstr "Ti zadaci nisu arhivirani."
+
+msgid "Title Changed"
+msgstr "Naslov promijenjen"
+
+msgid "Today at"
+msgstr "Danas u"
+
+msgid "Total Billable Hours"
+msgstr "Ukupno naplativih sati"
+
+msgid "Total Budget"
+msgstr "Ukupni proračun"
+
+msgid "Total Cost"
+msgstr "Ukupni trošak"
+
+msgid "Total Hour : "
+msgstr "Ukupno sati: "
+
+msgid "Total Hours"
+msgstr "Ukupno sati"
+
+msgid "Total Non-Billable Hours"
+msgstr "Ukupno nenaplativih sati"
+
+msgid "Truncated migration-seeded tables before running seeders."
+msgstr "Skraćene tablice s početnim podacima prije pokretanja punjenja."
+
+msgid "Try using a unique name to avoid conflicts."
+msgstr "Upotrijebite jedinstven naziv kako biste izbjegli sukobe."
+
+msgid "Unable to Delete Project"
+msgstr "Nije moguće izbrisati projekt"
+
+msgid "Unable to convert Task #"
+msgstr "Nije moguće pretvoriti zadatak #"
+
+msgid "Unable to convert Task to sub task "
+msgstr "Nije moguće pretvoriti zadatak u podzadatak "
+
+msgid "Unable to delete Sprint. Please try again."
+msgstr "Brisanje sprinta nije uspjelo. Pokušajte ponovno."
+
+msgid "Unable to delete the note. Please try again."
+msgstr "Brisanje napomene nije uspjelo. Pokušajte ponovno."
+
+msgid "Unable to mark as Complete"
+msgstr "Nije moguće označiti kao dovršeno"
+
+msgid "Unable to mark as Not Complete"
+msgstr "Nije moguće označiti kao nedovršeno"
+
+msgid "Unable to post the note. Please try again."
+msgstr "Objava napomene nije uspjela. Pokušajte ponovno."
+
+msgid "Unable to update status"
+msgstr "Nije moguće ažurirati status"
+
+msgid "Unknown database."
+msgstr "Nepoznata baza podataka."
+
+msgid "Unknown email template"
+msgstr "Nepoznat predložak e-pošte"
+
+msgid "Unknown host."
+msgstr "Nepoznat host."
+
+msgid "Unsupported status"
+msgstr "Nepodržan status"
+
+msgid "Updated due date to"
+msgstr "Rok ažuriran na"
+
+msgid "Updated estimated hour(s) to"
+msgstr "Procijenjeni sati ažurirani na"
+
+msgid "Updated story point"
+msgstr "Bod priče ažuriran"
+
+msgid "Updated task progress to"
+msgstr "Napredak zadatka ažuriran na"
+
+msgid "Updated the status of this task"
+msgstr "Ažuriran status ovog zadatka"
+
+msgid "Upgrade failed. Please check logs and try again."
+msgstr "Nadogradnja nije uspjela. Provjerite zapise i pokušajte ponovno."
+
+msgid "Upgrade process completed successfully."
+msgstr "Postupak nadogradnje uspješno dovršen."
+
+msgid "Use Change Password to update your own password."
+msgstr "Za promjenu vlastite lozinke upotrijebite Promjenu lozinke."
+
+msgid "User deleted successfully"
+msgstr "Korisnik uspješno izbrisan"
+
+msgid "User disabled successfully"
+msgstr "Korisnik uspješno onemogućen"
+
+msgid "User enabled successfully"
+msgstr "Korisnik uspješno omogućen"
+
+msgid "User not found in company"
+msgstr "Korisnik nije pronađen u tvrtki"
+
+msgid "User not found in this company."
+msgstr "Korisnik nije pronađen u ovoj tvrtki."
+
+msgid "V2 database detected. Performing V2 to V3 upgrade..."
+msgstr "Otkrivena V2 baza podataka. Provodi se nadogradnja s V2 na V3..."
+
+msgid "V2 to V3 upgrade completed successfully."
+msgstr "Nadogradnja s V2 na V3 uspješno dovršena."
+
+msgid "V3 database detected. Running any pending migrations..."
+msgstr "Otkrivena V3 baza podataka. Pokreću se preostale migracije..."
+
+msgid "We are sorry! This operation is not completed."
+msgstr "Žao nam je! Ova radnja nije dovršena."
+
+msgid "We could not send the reset email. Please try again, or contact your administrator."
+msgstr "Nismo mogli poslati e-poštu za ponovno postavljanje. Pokušajte ponovno ili se obratite administratoru."
+
+msgid "We could not send the reset email. The mail server did not accept it - please contact your administrator."
+msgstr "Nismo mogli poslati e-poštu za ponovno postavljanje jer je poslužitelj e-pošte nije prihvatio. Obratite se administratoru."
+
+msgid "We could not send the reset email. The mail server is not reachable - please contact your administrator."
+msgstr "Nismo mogli poslati e-poštu za ponovno postavljanje jer poslužitelj e-pošte nije dostupan. Obratite se administratoru."
+
+msgid "We received a password reset request for your {0} account. Click the button below to set a new password."
+msgstr "Zaprimili smo zahtjev za ponovno postavljanje lozinke za vaš račun {0}. Kliknite gumb u nastavku za postavljanje nove lozinke."
+
+msgid "We received a request to reset the password for your {0} account. Click the button below to choose a new password. If you did not make this request you can safely ignore this email."
+msgstr "Zaprimili smo zahtjev za ponovno postavljanje lozinke za vaš račun {0}. Kliknite gumb u nastavku za odabir nove lozinke. Ako niste poslali ovaj zahtjev, slobodno zanemarite ovu e-poruku."
+
+msgid "Week"
+msgstr "Tjedan"
+
+msgid "Welcome to Orangescrum!"
+msgstr "Dobro došli u Orangescrum!"
+
+msgid "Welcome to {0} - your account is active"
+msgstr "Dobro došli u {0} — vaš račun je aktivan"
+
+msgid "Workflow added successfully"
+msgstr "Tijek rada uspješno dodan"
+
+msgid "Workflow created successfully"
+msgstr "Tijek rada uspješno stvoren"
+
+msgid "Workflow deleted successfully"
+msgstr "Tijek rada uspješno izbrisan"
+
+msgid "Workflow updated successfully"
+msgstr "Tijek rada uspješno ažuriran"
+
+msgid "Wrong assignment of parent task"
+msgstr "Pogrešna dodjela nadređenog zadatka"
+
+msgid "You already have a view called "
+msgstr "Već imate prikaz pod nazivom "
+
+msgid "You are not allowed to delete this milestone."
+msgstr "Nije vam dopušteno izbrisati ovaj miljokaz."
+
+msgid "You are not allowed to log time for closed tasks."
+msgstr "Nije vam dopušteno bilježiti vrijeme na zatvorenim zadacima."
+
+msgid "You are not allowed to reset passwords."
+msgstr "Nije vam dopušteno ponovno postavljati lozinke."
+
+msgid "You are not authorized to do this action."
+msgstr "Nemate ovlasti za ovu radnju."
+
+msgid "You are successfully added in the favourite task"
+msgstr "Uspješno ste dodani u omiljene zadatke"
+
+msgid "You are successfully removed the favourite task"
+msgstr "Uspješno ste uklonjeni iz omiljenih zadataka"
+
+msgid "You can save up to {0} views on a page. Delete one first."
+msgstr "Na jednoj stranici možete spremiti najviše {0} prikaza. Najprije izbrišite jedan."
+
+msgid "You do not have a password set."
+msgstr "Nemate postavljenu lozinku."
+
+msgid "You do not have access to that project."
+msgstr "Nemate pristup tom projektu."
+
+msgid "You do not have access to this company. Please login from your company subdomain."
+msgstr "Nemate pristup ovoj tvrtki. Prijavite se preko poddomene svoje tvrtke."
+
+msgid "You do not have permission to access this page"
+msgstr "Nemate ovlasti za pristup ovoj stranici"
+
+msgid "You do not have permission to access this page."
+msgstr "Nemate ovlasti za pristup ovoj stranici."
+
+msgid "You do not have permission to add users."
+msgstr "Nemate ovlasti za dodavanje korisnika."
+
+msgid "You do not have permission to complete projects"
+msgstr "Nemate ovlasti za dovršavanje projekata"
+
+msgid "You do not have permission to create a database."
+msgstr "Nemate ovlasti za stvaranje baze podataka."
+
+msgid "You do not have permission to create projects"
+msgstr "Nemate ovlasti za stvaranje projekata"
+
+msgid "You do not have permission to delete projects"
+msgstr "Nemate ovlasti za brisanje projekata"
+
+msgid "You do not have permission to reopen projects"
+msgstr "Nemate ovlasti za ponovno otvaranje projekata"
+
+msgid "You have been added to "
+msgstr "Dodani ste u "
+
+msgid "You have been added to the project"
+msgstr "Dodani ste u projekt"
+
+msgid "You have been granted Admin Privileges."
+msgstr "Dodijeljena su vam administratorska prava."
+
+msgid "You have been granted Client Privilege."
+msgstr "Dodijeljena su vam klijentska prava."
+
+msgid "You have been invited to join the {0} workspace."
+msgstr "Pozvani ste da se pridružite radnom prostoru {0}."
+
+msgid "You have been mentioned"
+msgstr "Spomenuti ste"
+
+msgid "You have error in uploading file due to  invalid file name"
+msgstr "Greška pri učitavanju datoteke zbog neispravnog naziva"
+
+msgid "You have error in uploading file due to allowed upload size is exceeded."
+msgstr "Greška pri učitavanju datoteke jer je premašena dopuštena veličina."
+
+msgid "You have error in uploading file due to invalid file extension."
+msgstr "Greška pri učitavanju datoteke zbog neispravnog nastavka."
+
+msgid "You have error in uploading file to S3 bucket from the editor"
+msgstr "Greška pri učitavanju datoteke u S3 spremište iz uređivača"
+
+msgid "You're invited to {0}"
+msgstr "Pozvani ste u {0}"
+
+msgid "Your account has been deactivated."
+msgstr "Vaš račun je deaktiviran."
+
+msgid "Your account has been disabled. Please contact your administrator to regain access."
+msgstr "Vaš račun je onemogućen. Obratite se administratoru za ponovni pristup."
+
+msgid "Your admin or owner has not allowed you to update certain task fields. Contact your admin or owner for enhanced permissions."
+msgstr "Vaš administrator ili vlasnik nije vam dopustio ažuriranje pojedinih polja zadatka. Obratite se administratoru ili vlasniku za dodatne ovlasti."
+
+msgid "Your admin privilege has been revoked."
+msgstr "Oduzeta su vam administratorska prava."
+
+msgid "Your client privilege has been revoked."
+msgstr "Oduzeta su vam klijentska prava."
+
+msgid "from this project"
+msgstr "iz ovog projekta"
+
+msgid "from this project."
+msgstr "iz ovog projekta."
+
+msgid "from this project?"
+msgstr "iz ovog projekta?"
+
+msgid "from this project ?"
+msgstr "iz ovog projekta?"
+
+msgid "from this milestone?"
+msgstr "iz ovog miljokaza?"
+
+msgid "from following reasons?"
+msgstr "iz sljedećih razloga?"
+
+msgid "is a subtask of parent #"
+msgstr "je podzadatak nadređenog #"
+
+msgid "is already in selected Sprint"
+msgstr "je već u odabranom sprintu"
+
+msgid "is already in selected Task Group"
+msgstr "je već u odabranoj grupi zadataka"
+
+msgid "is archived."
+msgstr "je arhivirano."
+
+msgid "is deleted."
+msgstr "je izbrisano."
+
+msgid "is removed."
+msgstr "je uklonjeno."
+
+msgid "is completed"
+msgstr "je dovršeno"
+
+msgid "has deleted successfully."
+msgstr "je uspješno izbrisano."
+
+msgid "has been restored."
+msgstr "je vraćeno."
+
+msgid "has been assigned  to"
+msgstr "je dodijeljeno"
+
+msgid "has"
+msgstr "je"
+
+msgid "and the existing assignee will be unassigned."
+msgstr "i postojeći izvršitelj bit će uklonjen."
+
+msgid "are you sure you want to continue?"
+msgstr "sigurno želite nastaviti?"
+
+msgid "and all its child epics?"
+msgstr "i sve njegove podređene epove?"
+
+msgid "and all its child features?"
+msgstr "i sve njegove podređene značajke?"
+
+msgid "and all its subtasks?"
+msgstr "i sve njegove podzadatke?"
+
+msgid "along with tasks?"
+msgstr "zajedno sa zadacima?"
+
+msgid "already exists!"
+msgstr "već postoji!"
+
+msgid "as client"
+msgstr "kao klijent"
+
+msgid "as completed ?"
+msgstr "kao dovršeno?"
+
+msgid "as not complete ?"
+msgstr "kao nedovršeno?"
+
+msgid "at any time."
+msgstr "u bilo kojem trenutku."
+
+msgid "by Me"
+msgstr "od mene"
+
+msgid "changed to"
+msgstr "promijenjeno u"
+
+msgid "changed to new"
+msgstr "promijenjeno u novo"
+
+msgid "copied  to"
+msgstr "kopirano u"
+
+msgid "copied from"
+msgstr "kopirano iz"
+
+msgid "custom field?"
+msgstr "prilagođeno polje?"
+
+msgid "days ago"
+msgstr "prije dana"
+
+msgid "days to go"
+msgstr "dana do kraja"
+
+msgid "due date on"
+msgstr "rok dana"
+
+msgid "edit"
+msgstr "uredi"
+
+msgid "estimated hour(s) on"
+msgstr "procijenjeni sati dana"
+
+msgid "for help"
+msgstr "za pomoć"
+
+msgid "for the tasks of task#"
+msgstr "za zadatke zadatka #"
+
+msgid "has invited you to join the {0} workspace."
+msgstr "pozvao vas je da se pridružite radnom prostoru {0}."
+
+msgid "have been mentioned"
+msgstr "spomenuti ste"
+
+msgid "help desk"
+msgstr "podrška"
+
+msgid "here"
+msgstr "ovdje"
+
+msgid "high"
+msgstr "visok"
+
+msgid "in a comment"
+msgstr "u komentaru"
+
+msgid "in a task description"
+msgstr "u opisu zadatka"
+
+msgid "in this sprint"
+msgstr "u ovom sprintu"
+
+msgid "just now"
+msgstr "upravo sada"
+
+msgid "label ?"
+msgstr "oznaka?"
+
+msgid "linked to this"
+msgstr "povezano s ovim"
+
+msgid "logged time for you on "
+msgstr "zabilježio vrijeme za vas dana "
+
+msgid "marked as complete"
+msgstr "označeno kao dovršeno"
+
+msgid "moderator privilege successfully"
+msgstr "moderatorska prava uspješno"
+
+msgid "moderator to"
+msgstr "moderatora za"
+
+msgid "month(s)"
+msgstr "mjesec(i)"
+
+msgid "more filters"
+msgstr "više filtara"
+
+msgid "move up or down"
+msgstr "pomaknite gore ili dolje"
+
+msgid "moved  to"
+msgstr "premješteno u"
+
+msgid "occurrences"
+msgstr "ponavljanja"
+
+msgid "of every"
+msgstr "svakih"
+
+msgid "optional"
+msgstr "neobavezno"
+
+msgid "out of"
+msgstr "od"
+
+msgid "page later"
+msgstr "stranica kasnije"
+
+msgid "plan to project"
+msgstr "plan u projekt"
+
+msgid "please upload files with extension"
+msgstr "učitajte datoteke s nastavkom"
+
+msgid "posted a new Task"
+msgstr "objavio je novi zadatak"
+
+msgid "program?"
+msgstr "program?"
+
+msgid "proirity to"
+msgstr "prioritet u"
+
+msgid "project plan"
+msgstr "plan projekta"
+
+msgid "project status?"
+msgstr "status projekta?"
+
+msgid "project template"
+msgstr "predložak projekta"
+
+msgid "project type?"
+msgstr "vrsta projekta?"
+
+msgid "project. Please choose a project first."
+msgstr "projekt. Najprije odaberite projekt."
+
+msgid "project. Please choose a project."
+msgstr "projekt. Odaberite projekt."
+
+msgid "project. Please go to tasks & choose a project first."
+msgstr "projekt. Idite na zadatke i najprije odaberite projekt."
+
+msgid "removed from"
+msgstr "uklonjeno iz"
+
+msgid "responded on the Task"
+msgstr "odgovorio je na zadatak"
+
+msgid "saved successfully"
+msgstr "uspješno spremljeno"
+
+msgid "send us a line"
+msgstr "pošaljite nam poruku"
+
+msgid "someone from our help desk will be in touch"
+msgstr "javiti će vam se netko iz naše podrške"
+
+msgid "started"
+msgstr "započeto"
+
+msgid "tags are not allowed."
+msgstr "oznake nisu dopuštene."
+
+msgid "task from it's corresponding task group"
+msgstr "zadatak iz pripadajuće grupe zadataka"
+
+msgid "task progress on"
+msgstr "napredak zadatka dana"
+
+msgid "task progress on "
+msgstr "napredak zadatka dana "
+
+msgid "task type ?"
+msgstr "vrsta zadatka?"
+
+msgid "task type to"
+msgstr "vrsta zadatka u"
+
+msgid "task will be moved back to the sprint you're reopening."
+msgstr "zadatak će se vratiti u sprint koji ponovno otvarate."
+
+msgid "the Task"
+msgstr "zadatak"
+
+msgid "thread"
+msgstr "tema"
+
+msgid "threads"
+msgstr "teme"
+
+msgid "to moderator"
+msgstr "u moderatora"
+
+msgid "updated"
+msgstr "ažurirano"
+
+msgid "updated successfully"
+msgstr "uspješno ažurirano"
+
+msgid "updated successfully."
+msgstr "uspješno ažurirano."
+
+msgid "updated."
+msgstr "ažurirano."
+
+msgid "user has"
+msgstr "korisnik je"
+
+msgid "user(s) assigned successfully"
+msgstr "korisnici uspješno dodijeljeni"
+
+msgid "user(s) removed successfully"
+msgstr "korisnici uspješno uklonjeni"
+
+msgid "users have"
+msgstr "korisnici su"
