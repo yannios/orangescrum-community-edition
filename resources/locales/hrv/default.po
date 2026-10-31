@@ -2697,3 +2697,753 @@ msgstr "mjesečno"
 
 msgid "click here"
 msgstr "kliknite ovdje"
+
+msgid "Total Completed Project"
+msgstr "Ukupno dovršenih projekata"
+
+msgid "Total Projects"
+msgstr "Ukupno projekata"
+
+msgid "Total Closed Task"
+msgstr "Ukupno zatvorenih zadataka"
+
+msgid "Resources"
+msgstr "Resursi"
+
+msgid "Active Resources"
+msgstr "Aktivni resursi"
+
+msgid "Total Resources"
+msgstr "Ukupno resursa"
+
+msgid "Time Spent"
+msgstr "Utrošeno vrijeme"
+
+msgid "Total Logged Hours"
+msgstr "Ukupno zabilježenih sati"
+
+msgid "Total Estimated Hours"
+msgstr "Ukupno procijenjenih sati"
+
+msgid "Project Summary"
+msgstr "Sažetak projekta"
+
+msgid "Remaining Days"
+msgstr "Preostali dani"
+
+msgid "Remaining Hours"
+msgstr "Preostali sati"
+
+msgid "Project Overall Progress"
+msgstr "Ukupni napredak projekta"
+
+msgid "Milestone Summary"
+msgstr "Sažetak miljokaza"
+
+msgid "Milestone Overall Progress"
+msgstr "Ukupni napredak miljokaza"
+
+msgid "Total Milestones"
+msgstr "Ukupno miljokaza"
+
+msgid "Budget & Cost Report"
+msgstr "Izvješće o proračunu i troškovima"
+
+msgid "Fixed Budget"
+msgstr "Fiksni proračun"
+
+msgid "Hourly Rate"
+msgstr "Satna cijena"
+
+msgid "Manager"
+msgstr "Voditelj"
+
+msgid "Cost to Client"
+msgstr "Trošak za klijenta"
+
+msgid "Cost to Company"
+msgstr "Trošak za tvrtku"
+
+msgid "Profit"
+msgstr "Dobit"
+
+msgid "Budget vs Cost"
+msgstr "Proračun prema trošku"
+
+msgid "Budget and cost are shown as per the currency set in the My Company page."
+msgstr "Proračun i troškovi prikazani su u valuti postavljenoj na stranici Moja tvrtka."
+
+msgid "You can change this under Company Settings."
+msgstr "To možete promijeniti u Postavkama tvrtke."
+
+msgid "Total values may vary according to the current exchange rate."
+msgstr "Ukupne vrijednosti mogu se razlikovati ovisno o trenutnom tečaju."
+
+msgid "No User(s) assigned"
+msgstr "Nema dodijeljenih korisnika"
+
+msgid "Assign"
+msgstr "Dodijeli"
+
+msgid "Do you want to copy the closed tasks"
+msgstr "Želite li kopirati zatvorene zadatke"
+
+msgid "Please select a project"
+msgstr "Odaberite projekt"
+
+msgid "No Projects assigned yet"
+msgstr "Još nema dodijeljenih projekata"
+
+msgid "Project Description be left blank"
+msgstr "Opis projekta ne može ostati prazan"
+
+msgid "No Epics Created."
+msgstr "Nema stvorenih epova."
+
+msgid "Any time"
+msgstr "Bilo kada"
+
+msgid "Past hour"
+msgstr "Zadnji sat"
+
+msgid "Past 24 hours"
+msgstr "Zadnja 24 sata"
+
+msgid "Past week"
+msgstr "Zadnji tjedan"
+
+msgid "Past month"
+msgstr "Zadnji mjesec"
+
+msgid "Past year"
+msgstr "Zadnja godina"
+
+msgid "Updates"
+msgstr "Ažuriranja"
+
+msgid "Without Comment"
+msgstr "Bez komentara"
+
+msgid "With Comment"
+msgstr "S komentarom"
+
+msgid "From Date cannot exceed To Date"
+msgstr "Datum Od ne može biti nakon datuma Do"
+
+msgid "From Date cannot be left blank"
+msgstr "Polje Od datuma ne može ostati prazno"
+
+msgid "End Date cannot be left blank"
+msgstr "Završni datum ne može ostati prazan"
+
+msgid "No Features Created."
+msgstr "Nema stvorenih značajki."
+
+msgid "Parent Task"
+msgstr "Nadređeni zadatak"
+
+msgid "No Parent Task found"
+msgstr "Nema pronađenog nadređenog zadatka"
+
+msgid "Create a Parent task first to convert this task to a Subtask"
+msgstr "Najprije stvorite nadređeni zadatak da biste ovaj pretvorili u podzadatak"
+
+msgid "No Label Created."
+msgstr "Nema stvorenih oznaka."
+
+msgid "Only Selected Tasks"
+msgstr "Samo odabrani zadaci"
+
+msgid "All Open Tasks In Project"
+msgstr "Svi otvoreni zadaci u projektu"
+
+msgid "Move"
+msgstr "Premjesti"
+
+msgid "Search Results"
+msgstr "Rezultati pretrage"
+
+msgid "No Task Found"
+msgstr "Zadatak nije pronađen"
+
+msgid "No result found"
+msgstr "Nema rezultata"
+
+msgid "No Skills Created."
+msgstr "Nema stvorenih vještina."
+
+msgid "Welcome to Orangescrum"
+msgstr "Dobro došli u Orangescrum"
+
+msgid "Let’s Make Your Project Collaboration Simpler"
+msgstr "Učinimo suradnju na vašim projektima jednostavnijom"
+
+msgid "This is your Quick Navigation menu, from Kanban View to Calendar View and more"
+msgstr "Ovo je vaš izbornik za brzu navigaciju, od Kanban prikaza do kalendara i više"
+
+msgid "This is the place where you can view all your logged time details"
+msgstr "Ovdje možete pregledati sve pojedinosti o svom zabilježenom vremenu"
+
+msgid "From here, you can view & generate Invoices"
+msgstr "Ovdje možete pregledavati i izrađivati račune"
+
+msgid "Here you can create new Project(s) and manage the existing ones"
+msgstr "Ovdje možete stvarati nove projekte i upravljati postojećima"
+
+msgid "Here you can invite or add new User(s) and manage the existing ones"
+msgstr "Ovdje možete pozivati ili dodavati nove korisnike i upravljati postojećima"
+
+msgid "This button helps you create Task(s) in a click"
+msgstr "Ovaj gumb omogućuje stvaranje zadataka jednim klikom"
+
+msgid "This section helps you perform all Task actions"
+msgstr "Ovaj odjeljak služi za izvođenje svih radnji sa zadacima"
+
+msgid "Give a buzz to our helpdesk. Orangescrum experts will walk you through"
+msgstr "Obratite se našoj podršci. Orangescrum stručnjaci provest će vas kroz sve"
+
+msgid "You are seeing your time logs only."
+msgstr "Vidite samo svoje zapise vremena."
+
+msgid "To view others time log please contact your account Owner/Admin"
+msgstr "Za pregled tuđih zapisa vremena obratite se vlasniku ili administratoru računa"
+
+msgid "My Task"
+msgstr "Moj zadatak"
+
+msgid "Delegated"
+msgstr "Delegirano"
+
+msgid "UPCOMING TASKS"
+msgstr "NADOLAZEĆI ZADACI"
+
+msgid "Late by"
+msgstr "Kasni"
+
+msgid "No tasks"
+msgstr "Nema zadataka"
+
+msgid "OVERDUE TASKS"
+msgstr "ZAKAŠNJELI ZADACI"
+
+msgid "Loading Tasks"
+msgstr "Učitavanje zadataka"
+
+msgid "Latest 5 Comments"
+msgstr "Zadnjih 5 komentara"
+
+msgid "View More"
+msgstr "Prikaži više"
+
+msgid "Polling management system(PMS)"
+msgstr "Sustav upravljanja anketama (PMS)"
+
+msgid "Add New User To Project"
+msgstr "Dodaj novog korisnika u projekt"
+
+msgid "Project Launch Date"
+msgstr "Datum pokretanja projekta"
+
+msgid "View All Overdue"
+msgstr "Prikaži sve zakašnjele"
+
+msgid "Project Cost Report"
+msgstr "Izvješće o troškovima projekta"
+
+msgid "Last 30 days"
+msgstr "Zadnjih 30 dana"
+
+msgid "Resource Cost Report"
+msgstr "Izvješće o troškovima resursa"
+
+msgid "Add Project Description"
+msgstr "Dodaj opis projekta"
+
+msgid "Update Project Description"
+msgstr "Ažuriraj opis projekta"
+
+msgid "Add Note"
+msgstr "Dodaj napomenu"
+
+msgid "Save Note"
+msgstr "Spremi napomenu"
+
+msgid "Wiki"
+msgstr "Wiki"
+
+msgid "Add Wiki"
+msgstr "Dodaj wiki"
+
+msgid "Remove Wiki"
+msgstr "Ukloni wiki"
+
+msgid "Displaying all tasks"
+msgstr "Prikazani svi zadaci"
+
+msgid "Search Tasks"
+msgstr "Pretraži zadatke"
+
+msgid "All Task"
+msgstr "Svi zadaci"
+
+msgid "Project Details"
+msgstr "Detalji projekta"
+
+msgid "Download Task"
+msgstr "Preuzmi zadatak"
+
+msgid "Mail send successfully"
+msgstr "E-pošta uspješno poslana"
+
+msgid "The compressed files are ready to be downloaded"
+msgstr "Komprimirane datoteke spremne su za preuzimanje"
+
+msgid "No Data Available"
+msgstr "Nema dostupnih podataka"
+
+msgid "Updated by"
+msgstr "Ažurirao"
+
+msgid "Edit Note"
+msgstr "Uredi napomenu"
+
+msgid "Delete Note"
+msgstr "Izbriši napomenu"
+
+msgid "In-Progress"
+msgstr "U tijeku"
+
+msgid "Billable Hours"
+msgstr "Naplativi sati"
+
+msgid "Non-Billable Hours"
+msgstr "Nenaplativi sati"
+
+msgid "Export To CSV)"
+msgstr "Izvezi u CSV)"
+
+msgid "Cost Approved"
+msgstr "Odobreni trošak"
+
+msgid "Cost To Client"
+msgstr "Trošak za klijenta"
+
+msgid "Cost To Company"
+msgstr "Trošak za tvrtku"
+
+msgid "Client Name"
+msgstr "Naziv klijenta"
+
+msgid "Cost approved"
+msgstr "Odobreni trošak"
+
+msgid "Cost to client"
+msgstr "Trošak za klijenta"
+
+msgid "Cost to company"
+msgstr "Trošak za tvrtku"
+
+msgid "No Recent Activities"
+msgstr "Nema nedavnih aktivnosti"
+
+msgid "Resource Name"
+msgstr "Naziv resursa"
+
+msgid "Billable hours"
+msgstr "Naplativi sati"
+
+msgid "Hourly Rate For Company"
+msgstr "Satna cijena za tvrtku"
+
+msgid "Hourly Rate For Client"
+msgstr "Satna cijena za klijenta"
+
+msgid "Non-billable"
+msgstr "Nenaplativo"
+
+msgid "Upcoming"
+msgstr "Nadolazeće"
+
+msgid "No overdue task"
+msgstr "Nema zadataka s prekoračenim rokom"
+
+msgid "No upcoming task"
+msgstr "Nema nadolazećih zadataka"
+
+msgid "Import"
+msgstr "Uvoz"
+
+msgid "Task Name"
+msgstr "Naziv zadatka"
+
+msgid "Late by Date"
+msgstr "Kasni po datumu"
+
+msgid "Menu Options"
+msgstr "Opcije izbornika"
+
+msgid "Menu Color"
+msgstr "Boja izbornika"
+
+msgid "Menu Collapsed"
+msgstr "Izbornik sažet"
+
+msgid "Navbar Options"
+msgstr "Opcije navigacijske trake"
+
+msgid "Navbar Color"
+msgstr "Boja navigacijske trake"
+
+msgid "Kanban View"
+msgstr "Kanban prikaz"
+
+msgid "Total Users"
+msgstr "Ukupno korisnika"
+
+msgid "Active Users"
+msgstr "Aktivni korisnici"
+
+msgid "Pending Invites"
+msgstr "Pozivnice na čekanju"
+
+msgid "Disabled Users"
+msgstr "Onemogućeni korisnici"
+
+msgid "Logged-In Users"
+msgstr "Prijavljeni korisnici"
+
+msgid "Users who logged in within the last 24 hours."
+msgstr "Korisnici koji su se prijavili u zadnja 24 sata."
+
+msgid "Advanced Dashboard"
+msgstr "Napredna nadzorna ploča"
+
+msgid "Hrs. Spent this week"
+msgstr "Utrošeni sati ovaj tjedan"
+
+msgid "Add Project"
+msgstr "Dodaj projekt"
+
+msgid "Export"
+msgstr "Izvoz"
+
+msgid "Card View"
+msgstr "Prikaz kartica"
+
+msgid "Project Wikis"
+msgstr "Wikiji projekta"
+
+msgid "Non Project Wikis"
+msgstr "Wikiji izvan projekata"
+
+msgid "Assigned to Me"
+msgstr "Dodijeljeno meni"
+
+msgid "Ldap Settings"
+msgstr "LDAP postavke"
+
+msgid "Import/Export"
+msgstr "Uvoz/Izvoz"
+
+msgid "Team Task Reports"
+msgstr "Izvješća o zadacima tima"
+
+msgid "Hours Spent"
+msgstr "Utrošeni sati"
+
+msgid "Task Reports"
+msgstr "Izvješća zadataka"
+
+msgid "Gantt chart"
+msgstr "Ganttov dijagram"
+
+msgid "Select Month"
+msgstr "Odaberite mjesec"
+
+msgid "Select Year"
+msgstr "Odaberite godinu"
+
+msgid "All Reports"
+msgstr "Sva izvješća"
+
+msgid "Task Cycle Report"
+msgstr "Izvješće o ciklusu zadataka"
+
+msgid "Product Releases"
+msgstr "Izdanja proizvoda"
+
+msgid "Default"
+msgstr "Zadano"
+
+msgid "Royal Amethyst"
+msgstr "Royal Amethyst"
+
+msgid "Blush Petals"
+msgstr "Blush Petals"
+
+msgid "Crystal Lagoon"
+msgstr "Crystal Lagoon"
+
+msgid "Golden Ember"
+msgstr "Golden Ember"
+
+msgid "Emerald Tide"
+msgstr "Emerald Tide"
+
+msgid "Sky Serenity"
+msgstr "Sky Serenity"
+
+msgid "Velvet Orchid"
+msgstr "Velvet Orchid"
+
+msgid "Find Project"
+msgstr "Pronađi projekt"
+
+msgid "Search..."
+msgstr "Pretraži..."
+
+msgid "Help Desk"
+msgstr "Podrška"
+
+msgid "Contact Support"
+msgstr "Obratite se podršci"
+
+msgid "Request a Demo"
+msgstr "Zatražite demonstraciju"
+
+msgid "Theme"
+msgstr "Tema"
+
+msgid "Choose Theme"
+msgstr "Odaberite temu"
+
+msgid "Switch Company"
+msgstr "Promijeni tvrtku"
+
+msgid "Orangescrum Info"
+msgstr "Podaci o Orangescrumu"
+
+msgid "Product Updates"
+msgstr "Ažuriranja proizvoda"
+
+msgid "Go Back"
+msgstr "Natrag"
+
+msgid "New Bug"
+msgstr "Nova greška"
+
+msgid "No bugs have been added on this project."
+msgstr "Na ovom projektu nisu dodane greške."
+
+msgid "All your project(s) bugs will appear here."
+msgstr "Ovdje će se prikazati sve greške projekta."
+
+msgid "New Bug Severity"
+msgstr "Nova razina ozbiljnosti"
+
+msgid "No severities have been added on this project."
+msgstr "Na ovom projektu nisu dodane razine ozbiljnosti."
+
+msgid "All your severities will appear here."
+msgstr "Ovdje će se prikazati sve razine ozbiljnosti."
+
+msgid "New Bug Category"
+msgstr "Nova kategorija greške"
+
+msgid "No categories have been added on this project."
+msgstr "Na ovom projektu nisu dodane kategorije."
+
+msgid "All your categories will appear here."
+msgstr "Ovdje će se prikazati sve kategorije."
+
+msgid "New Issue type"
+msgstr "Nova vrsta problema"
+
+msgid "No Issue Types have been added on this project."
+msgstr "Na ovom projektu nisu dodane vrste problema."
+
+msgid "All your issue types will appear here."
+msgstr "Ovdje će se prikazati sve vrste problema."
+
+msgid "New Activity Type"
+msgstr "Nova vrsta aktivnosti"
+
+msgid "No Activity Types have been added on this project."
+msgstr "Na ovom projektu nisu dodane vrste aktivnosti."
+
+msgid "All your activity types will appear here."
+msgstr "Ovdje će se prikazati sve vrste aktivnosti."
+
+msgid "New Bug Phase"
+msgstr "Nova faza greške"
+
+msgid "No phases have been added on this project."
+msgstr "Na ovom projektu nisu dodane faze."
+
+msgid "All your phases will appear here."
+msgstr "Ovdje će se prikazati sve faze."
+
+msgid "New Root Cause"
+msgstr "Novi korijenski uzrok"
+
+msgid "No Root Cause have been added on this project."
+msgstr "Na ovom projektu nisu dodani korijenski uzroci."
+
+msgid "All your root causes will appear here."
+msgstr "Ovdje će se prikazati svi korijenski uzroci."
+
+msgid "New Fix Version"
+msgstr "Nova verzija ispravka"
+
+msgid "No Fix Versions have been added on this project."
+msgstr "Na ovom projektu nisu dodane verzije ispravka."
+
+msgid "All your fix versions will appear here."
+msgstr "Ovdje će se prikazati sve verzije ispravka."
+
+msgid "New Affect Version"
+msgstr "Nova zahvaćena verzija"
+
+msgid "No Affect Versions have been added on this project."
+msgstr "Na ovom projektu nisu dodane zahvaćene verzije."
+
+msgid "All your affect versions will appear here."
+msgstr "Ovdje će se prikazati sve zahvaćene verzije."
+
+msgid "New Bug Origin"
+msgstr "Novi izvor greške"
+
+msgid "No origins have been added on this project."
+msgstr "Na ovom projektu nisu dodani izvori."
+
+msgid "All your bug origins will appear here."
+msgstr "Ovdje će se prikazati svi izvori grešaka."
+
+msgid "New Bug Resolution"
+msgstr "Novo rješenje greške"
+
+msgid "No resolutions have been added on this project."
+msgstr "Na ovom projektu nisu dodana rješenja."
+
+msgid "All your bug resolutions will appear here."
+msgstr "Ovdje će se prikazati sva rješenja grešaka."
+
+msgid "You have not been assigned to a project. Please add a project and assign yourself to it."
+msgstr "Niste dodijeljeni nijednom projektu. Dodajte projekt i dodijelite sebe na njega."
+
+msgid "You have not been assigned to a project. Please contact your admin to add you to a project."
+msgstr "Niste dodijeljeni nijednom projektu. Obratite se administratoru da vas doda u projekt."
+
+msgid "Create and manage epics for your project"
+msgstr "Stvarajte i upravljajte epovima svog projekta"
+
+msgid "Create and manage features for your project"
+msgstr "Stvarajte i upravljajte značajkama svog projekta"
+
+msgid "Create and assign tasks to your team"
+msgstr "Stvarajte zadatke i dodjeljujte ih svom timu"
+
+msgid "Time Log Reports"
+msgstr "Izvješća o zapisima vremena"
+
+msgid "Total Records"
+msgstr "Ukupno zapisa"
+
+msgid "Billable Hrs"
+msgstr "Naplativi sati"
+
+msgid "Non-Billable Hrs"
+msgstr "Nenaplativi sati"
+
+msgid "Total Hrs"
+msgstr "Ukupno sati"
+
+msgid "Export Date"
+msgstr "Datum izvoza"
+
+msgid "Time log pages"
+msgstr "Stranice evidencije vremena"
+
+msgid "Previous"
+msgstr "Prethodno"
+
+msgid "Time Logs"
+msgstr "Zapisi vremena"
+
+msgid "Download as PDF"
+msgstr "Preuzmi kao PDF"
+
+msgid "No Time Logs found"
+msgstr "Nema pronađenih zapisa vremena"
+
+msgid "Hours are logged against a task. Open a task and add the time there, and every entry across all of your projects is listed here."
+msgstr "Sati se evidentiraju uz zadatak. Otvorite zadatak i dodajte vrijeme tamo; svi unosi iz svih vaših projekata prikazani su ovdje."
+
+msgid "Mark billable"
+msgstr "Označi kao naplativo"
+
+msgid "Mark non-billable"
+msgstr "Označi kao nenaplativo"
+
+msgid "Rows per page"
+msgstr "Redaka po stranici"
+
+msgid "Timer"
+msgstr "Brojač vremena"
+
+msgid "Select entry"
+msgstr "Odaberi unos"
+
+msgid "Recorded with the timer"
+msgstr "Zabilježeno brojačem vremena"
+
+msgid "Entered by hand"
+msgstr "Ručno uneseno"
+
+msgid "Edit this entry"
+msgstr "Uredi ovaj unos"
+
+msgid "Delete this entry"
+msgstr "Izbriši ovaj unos"
+
+msgid "1 entry selected"
+msgstr "odabran 1 zapis"
+
+msgid "entries selected"
+msgstr "odabranih zapisa"
+
+msgid "Are you sure to delete the timelog?"
+msgstr "Sigurno želite izbrisati zapis vremena?"
+
+msgid "Recent Projects"
+msgstr "Nedavni projekti"
+
+msgid "Open Tasks"
+msgstr "Otvoreni zadaci"
+
+msgid "Closed Tasks"
+msgstr "Zatvoreni zadaci"
+
+msgid "No Tasks"
+msgstr "Nema zadataka"
+
+msgid "Displaying all"
+msgstr "Prikazano sve"
+
+msgid "Oops! We are not able to send email. Please try later"
+msgstr "Ups! Nije moguće poslati e-poštu. Pokušajte kasnije"
+
+msgid "Save my changes"
+msgstr "Spremi moje promjene"
+
+msgid "Select Task To Copy Cheklists Of The Chosen Task"
+msgstr "Odaberite zadatak čije popise provjere želite kopirati"
+
+msgid "You can not see"
+msgstr "Ne možete vidjeti"
+
+msgid "project to view all overdue task"
+msgstr "projekt za prikaz svih zakašnjelih zadataka"
+
+msgid "for completed projects"
+msgstr "za dovršene projekte"
